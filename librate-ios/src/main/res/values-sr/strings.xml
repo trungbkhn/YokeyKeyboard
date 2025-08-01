@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Фивестарслибрари</string>
+    <string name="app_namee">ЗОМЈ тастатура</string>
+    <string name="title_dialog">ОЦЕНИ ОВУ АПЛИКАЦИЈУ</string>
+    <string name="content">Колико волиш нашу апликацију?</string>
+    <string name="rate_now">Тренутно стопа</string>
+    <string name="feedback">Повратна информација</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Додирните 5 звездице да бисте је оценили у продавници Плаи.</string>
+    <string name="enjoying_zomj_keyboard">Уживајући у тастатури зомј?</string>
+    <string name="later">Касније</string>
+    <string name="please_rate_5_start" translatable="false">Молимо оцените 5 звездица</string>
+</resources>

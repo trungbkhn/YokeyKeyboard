@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">පහක හිම</string>
+    <string name="app_namee">Zomj යතුරු පුවරුව</string>
+    <string name="title_dialog">මෙම යෙදුම ශ්රේණිගත කරන්න</string>
+    <string name="content">ඔබ අපගේ යෙදුමට කොපමණ ආදරය කරනවාද?</string>
+    <string name="rate_now">දැන් අනුපාතය</string>
+    <string name="feedback">ප්රතිපෝෂණය</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">සෙල්ලම් වෙළඳසැල මත එය ඇගයීමට තරු 5 තට්ටු කරන්න.</string>
+    <string name="enjoying_zomj_keyboard">ZOMJ යතුරු පුවරුව භුක්ති විඳින්න?</string>
+    <string name="later">පසුව</string>
+    <string name="please_rate_5_start" translatable="false">කරුණාකර තරු 5 ක් ශ්රේණිගත කරන්න</string>
+</resources>

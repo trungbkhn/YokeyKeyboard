@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">I-FiveStarslibrary</string>
+    <string name="app_namee">Ikhibhodi ye-ZomJ</string>
+    <string name="title_dialog">Linganisa lolu hlelo lokusebenza</string>
+    <string name="content">Uluthanda kangakanani uhlelo lwethu lokusebenza?</string>
+    <string name="rate_now">Ukukala manje</string>
+    <string name="feedback">Impendulo</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Thepha inkanyezi engu-5 ukuyilinganisa esitolo sokudlala.</string>
+    <string name="enjoying_zomj_keyboard">Ukujabulela ikhibhodi ye-ZomJ?</string>
+    <string name="later">Ukuhamba kwesikhathi</string>
+    <string name="please_rate_5_start" translatable="false">Sicela ukukala izinkanyezi ezi-5</string>
+</resources>

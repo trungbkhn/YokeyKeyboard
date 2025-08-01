@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarsl Library</string>
+    <string name="app_namee">Bàn phím ZOMJ</string>
+    <string name="title_dialog">ĐÁNH GIÁ ỨNG DỤNG NÀY</string>
+    <string name="content">Bạn yêu thích ứng dụng của chúng tôi bao nhiêu?</string>
+    <string name="rate_now">Đánh giá</string>
+    <string name="feedback">Phản hồi</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Nhấn 5 sao để đánh giá ứng dụng trên cửa hàng trò chơi</string>
+    <string name="enjoying_zomj_keyboard">Yêu thích bàn phím ZOMJ?</string>
+    <string name="later">Lần sau</string>
+    <string name="please_rate_5_start" translatable="false">Vui lòng đánh giá 5 sao</string>
+</resources>

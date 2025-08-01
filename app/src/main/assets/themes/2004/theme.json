@@ -1,0 +1,86 @@
+{
+  "id": "2004",
+  "typeKey": "2004",
+  "name_keyboard": "Green",
+  "type_keyboard": "gradient",
+  "font": "fonts/segoeui.TTF",
+  "background": {
+    "background_color": "0xC5D955",
+    "background_image": "bg_keyboard.webp",
+    "start_color": "0xCCDB4B",
+    "finish_color": "0x5DBAD7",
+    "degree": 90
+  },
+  "key": {
+    "text": {
+      "normal": "btn_key_text.png",
+      "pressed": "btn_key_text_pressed.png",
+      "text_color": "0xFFFFFF",
+      "text_color_pressed": "0xFFFFFF"
+    },
+    "number": {
+      "normal": "btn_key_number.png",
+      "pressed": "btn_key_number_pressed.png",
+      "text_color": "0xFFFFFF",
+      "text_color_pressed": "0xFFFFFF"
+    },
+    "special": {
+      "normal": "btn_key_special.png",
+      "pressed": "btn_key_special.png",
+      "text_color": "0xFFFFFF",
+      "text_color_pressed": "0xFFFFFF"
+    },
+    "led": {
+      "alpha": 55.0,
+      "colors": "-8176972;-189155;-217019",
+      "cross": 50.0,
+      "radius": 1.0,
+      "range": 50.0,
+      "speed": 40.0,
+      "stroke_width": 100.0,
+      "style": "style_fill",
+      "style_led": 1
+    }
+  },
+  "backgroundKey": {
+    "shift": "btn_key_shift.png",
+    "enter": "btn_key_text.png",
+    "delete": "btn_key_text.png",
+    "symbol": "btn_key_text.png",
+    "language": "btn_key_text.png",
+    "comma": "",
+    "period": ""
+  },
+  "popup": {
+    "preview": {
+      "subkey_color": "0xFFFFFFFF",
+      "text_color": "0xFF4F5052",
+      "bg_image": "btn_key_text.png",
+      "width": "70dp",
+      "height": "70dp"
+    },
+    "min_keyboard": {
+      "bg_image": "btn_key_text.png",
+      "text_color": "0xFFFFFF",
+      "text_color_selected": "0xFF222222"
+    }
+  },
+  "menu_bar": {
+    "divider_color": "0xFF4E4F52",
+    "content_divider_color": "0xFF4E4F52",
+    "icon_color": "0xFFFFFF",
+    "icon_color_selected": "0xFF414244",
+    "icon_background_color_selected": "0xFFA8AAAF",
+    "text_color": "0xFFE8E8E8",
+    "text_color_highlighted": "0xFF51B7A0",
+    "content_text_Color": "0xFFE8E8E8",
+    "menu": {
+      "bg_color": "0xFF4A4B4D",
+      "bg_color_selected": "0xFF4A4B4D",
+      "text_color": "0xFFE0E0E0",
+      "text_color_selected": "0xFFE0E0E0"
+    }
+
+  },
+  "color_symbol": "0xFFFFFF"
+}

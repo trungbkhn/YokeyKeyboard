@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tag_banner_main" translatable="false">banner_main</string>
+    <string name="tag_native_select_theme" translatable="false">onboard</string>
+    <string name="tag_native_detail_item" translatable="false">detail_item</string>
+    <string name="tag_native_active_keyboard" translatable="false">active_keyboard</string>
+    <string name="tag_native_detail_theme" translatable="false">detail_theme</string>
+    <string name="tag_native_detail_sticker" translatable="false">detail_sticker</string>
+    <string name="tag_native_detail_font" translatable="false">detail_font</string>
+    <string name="tag_native_try_keyboard" translatable="false">try_keyboard</string>
+    <string name="tag_native_language_kb" translatable="false">language_kb</string>
+    <string name="tag_native_language" translatable="false">language</string>
+    <string name="tag_native_exit_app" translatable="false">exit_app</string>
+    <string name="tag_native_setting" translatable="false">setting</string>
+
+    <string name="tag_inter_exit_create_theme" translatable="false">exit_create_them</string>
+    <string name="tag_inter_item_sticker" translatable="false">item_sticker</string>
+    <string name="tag_inter_item_font" translatable="false">item_font</string>
+    <string name="tag_inter_item_theme" translatable="false">item_theme</string>
+    <string name="tag_inter_create_theme" translatable="false">create_theme</string>
+    <string name="tag_inter_language" translatable="false">language</string>
+
+
+
+
+
+</resources>

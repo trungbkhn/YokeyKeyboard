@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="66dp"
+    android:layout_height="66dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginBottom="15dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="33dp"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/imgPopularButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imgPopularButtonChoose"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg_select_popular"
+            android:visibility="gone" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imgUsingPopular"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="40dp"
+        android:src="@drawable/icon_using"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary</string>
+    <string name="app_namee">Zomj teklatu</string>
+    <string name="title_dialog">Baloratu aplikazio hau</string>
+    <string name="content">Zenbat maite duzu gure aplikazioa?</string>
+    <string name="rate_now">Baloratu orain</string>
+    <string name="feedback">Fedick</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Punteatu 5 izar erreproduzitzeko dendan baloratzeko.</string>
+    <string name="enjoying_zomj_keyboard">Zomj teklatuaz gozatzea?</string>
+    <string name="later">Geroago</string>
+    <string name="please_rate_5_start" translatable="false">Mesedez, balora 5 izar</string>
+</resources>

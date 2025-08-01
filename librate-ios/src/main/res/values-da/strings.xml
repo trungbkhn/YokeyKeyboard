@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary</string>
+    <string name="app_namee">Zomj tastatur</string>
+    <string name="title_dialog">BEDØM DENNE APP</string>
+    <string name="content">Hvor meget elsker du vores app?</string>
+    <string name="rate_now">Vurder nu</string>
+    <string name="feedback">Feedback.</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Tryk på 5 stjerne for at bedømme den på Play Store.</string>
+    <string name="enjoying_zomj_keyboard">Nyder Zomj-tastaturet?</string>
+    <string name="later">Senere</string>
+    <string name="please_rate_5_start" translatable="false">Vurder venligst 5 stjerner</string>
+</resources>

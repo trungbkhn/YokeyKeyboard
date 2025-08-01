@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Done</string>
+    <string name="error_load_data_billing">Er is om de een of andere reden een fout opgetreden bij het laden van de abonnementsgegevens. Probeer het opnieuw</string>
+    <string name="retry">Opnieuw proberen</string>
+
+    <string name="activate_zomj_keyboard">Activeer ZOMJ -toetsenbord</string>
+    <string name="step_1_activate">Stap 1. Activeer</string>
+    <string name="step_2_select">Stap 2. Selecteer</string>
+    <string name="activate_zomj_keyboard_to_enable_more_themes_and_emojis">*Activeer ZOMJ -toetsenbord om meer thema\'s en emoji\'s in te schakelen</string>
+    <string name="download_this_theme_to_apply">Downloaden dit thema om toe te passen</string>
+    <string name="download_this_font_to_apply">Downloaden dit lettertype om toe te passen</string>
+    <string name="download">Downloaden</string>
+
+    <string name="remove_all_ads">Verwijder alle advertenties</string>
+    <string name="get">Krijgen</string>
+    <string name="download_this_sticker_to_use">Download deze sticker te gebruiken</string>
+    <string name="this_is_actually_amazing_keyboad">Dit is eigenlijk een geweldig toetsenbord!</string>
+    <string name="you_might_also_like">Je zou kunnen zoals</string>
+    <string name="try_your_new_theme">Probeer je nieuwe thema</string>
+    <string name="please_enter_content">Voer inhoud in</string>
+    <string name="get_sticker">Krijg sticker</string>
+    <string name="illuminate_your_experience_with_our_zomj_keyboard">Illumineer uw ervaring met ons ZOMJ -toetsenbord!</string>
+    <string name="our_zomj_stickers_add_dynamic_hues">Onze ZOMJ -stickers voegen dynamische tinten toe!</string>
+    <string name="continuee">Doorgaan</string>
+    <string name="pick_a_theme_you_like_and_get_started">Kies een thema dat je leuk vindt en experimenteer</string>
+    <string name="unique_theme">Uniek thema</string>
+    <string name="current_theme">Huidig ​​thema</string>
+    <string name="theme_led">Thema LED</string>
+    <string name="theme_color">Themakleur</string>
+    <string name="read_external_dictionary_error">Er was een fout</string>
+</resources>

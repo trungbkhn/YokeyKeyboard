@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary</string>
+    <string name="app_namee">Zomj klavye</string>
+    <string name="title_dialog">BU UYGULAMAYI OYLA</string>
+    <string name="content">Uygulamamızı ne kadar seviyorsunuz?</string>
+    <string name="rate_now">Şimdi oyla</string>
+    <string name="feedback">Geri bildirim</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Oyun mağazasında değerlendirmek için 5 yıldız apos;a dokunun.</string>
+    <string name="enjoying_zomj_keyboard">Zomj Klavye apos;nin tadını çıkarıyor musun?</string>
+    <string name="later">Daha sonra</string>
+    <string name="please_rate_5_start" translatable="false">Lütfen 5 Yıldız derecelendirin</string>
+</resources>

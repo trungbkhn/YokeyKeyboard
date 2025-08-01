@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        <com.github.ybq.android.spinkit.SpinKitView-->
+<!--            android:id="@+id/spinKitFeatured"-->
+<!--            style="@style/SpinKitView.Large.Circle"-->
+<!--            android:layout_width="70sp"-->
+<!--            android:layout_height="70sp"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_marginTop="60dp"-->
+<!--            app:SpinKit_Color="@color/color_select_tab_bar"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcFeatured"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:scrollbars="vertical" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

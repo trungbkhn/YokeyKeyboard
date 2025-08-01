@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestartlibrary</string>
+    <string name="app_namee">Zroj klaviaturasi</string>
+    <string name="title_dialog">Ushbu ilovani baholang</string>
+    <string name="content">Siz bizning ilovamizni qanchalik yaxshi koapos;rasiz?</string>
+    <string name="rate_now">Hozir stavka</string>
+    <string name="feedback">Fikr-mulohaza</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Play do apos;konida baholash uchun 5 yulduzga teging</string>
+    <string name="enjoying_zomj_keyboard">ZOJ klaviaturasidan zavqlanasizmi?</string>
+    <string name="later">Keyinchalik</string>
+    <string name="please_rate_5_start" translatable="false">Iltimos, 5 yulduzni baholang</string>
+</resources>

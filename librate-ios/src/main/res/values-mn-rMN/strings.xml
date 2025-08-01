@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarlibrary</string>
+    <string name="app_namee">Хаантай улс</string>
+    <string name="title_dialog">Энэ апп-ыг үнэлэх</string>
+    <string name="content">Та манай апп-ыг хэр их хайрладаг вэ?</string>
+    <string name="rate_now">Одоогийн хувьгага</string>
+    <string name="feedback">Найзаасаа</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Тоглуулах дэлгүүрт үүнийг үнэлэх 5 од дээр дарна уу.</string>
+    <string name="enjoying_zomj_keyboard">ZOMJ гарыг зугаатай өнгөрөөж байна уу?</string>
+    <string name="later">Сүүлд</string>
+    <string name="please_rate_5_start" translatable="false">5 одод үнэлнэ үү</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibəbat</string>
+    <string name="app_namee">Zomj klaviatura</string>
+    <string name="title_dialog">Bu proqramı qiymətləndirin</string>
+    <string name="content">Tətbiqimizi nə qədər sevirsiniz?</string>
+    <string name="rate_now">İndi qiymət verin</string>
+    <string name="feedback">Rəy</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Oyun mağazasında qiymətləndirmək üçün 5 ulduz vurun.</string>
+    <string name="enjoying_zomj_keyboard">Zomj klaviaturasından zövq alırsınız?</string>
+    <string name="later">Sonradan</string>
+    <string name="please_rate_5_start" translatable="false">Zəhmət olmasa 5 ulduzu qiymətləndirin</string>
+</resources>

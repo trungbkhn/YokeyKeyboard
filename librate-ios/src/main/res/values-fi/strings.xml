@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary</string>
+    <string name="app_namee">Zomj-näppäimistö</string>
+    <string name="title_dialog">ARVOSTELE TÄMÄ SOVELLUS</string>
+    <string name="content">Kuinka paljon rakastat sovellustamme?</string>
+    <string name="rate_now">Arvostele nyt</string>
+    <string name="feedback">Palaute</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Napauta 5 tähden, jotta voit arvioida se toistokaupassa.</string>
+    <string name="enjoying_zomj_keyboard">Nauttia Zomj-näppäimistöstä?</string>
+    <string name="later">Myöhemmin</string>
+    <string name="please_rate_5_start" translatable="false">Arvioi 5 tähteä</string>
+</resources>

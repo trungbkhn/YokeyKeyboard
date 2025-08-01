@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary</string>
+    <string name="app_namee">ZOMJ keyboard</string>
+    <string name="title_dialog">Tathmini programu hii</string>
+    <string name="content">Je! Unapenda kiasi gani programu yetu?</string>
+    <string name="rate_now">Kiwango cha sasa</string>
+    <string name="feedback">Maoni</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Gonga nyota 5 ili kuipima kwenye duka la kucheza.</string>
+    <string name="enjoying_zomj_keyboard">Kufurahia Kinanda ya ZOMJ?</string>
+    <string name="later">Baadae</string>
+    <string name="please_rate_5_start" translatable="false">Tafadhali kiwango cha nyota 5</string>
+</resources>

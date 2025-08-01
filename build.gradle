@@ -1,0 +1,47 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.9.21'
+    apply from: "dependencies.gradle"
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://android-sdk.is.com/' }
+    }
+    dependencies {
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$versions.hiltVersion"
+        classpath 'com.android.tools.build:gradle:8.5.1'
+        classpath "com.google.gms:google-services:$versions.googleServices"
+        classpath "com.google.firebase:firebase-crashlytics-gradle:$versions.firebaseCrashlyticGradle"
+        //Kotlin
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "https://jitpack.io"
+            credentials { username authToken }
+        }
+        maven {
+            url 'https://android-sdk.is.com/'
+
+        }
+        maven {
+            url  "https://giphy.bintray.com/giphy-sdk"
+        }
+        maven {
+            url 'https://unity3ddist.jfrog.io/artifactory/unity-mediation-mvn-prod-local/'
+        }
+        maven { url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

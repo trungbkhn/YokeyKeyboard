@@ -1,0 +1,129 @@
+{
+  "Language": [
+    {
+      "language": "Arabic",
+      "languageCode": "ar",
+      "country": "Nướcs Ả Rập"
+    },
+    {
+      "language": "বাংলা",
+      "languageCode": "bn",
+      "country": "Nướcs Bangla"
+    },
+    {
+      "language": "中国人",
+      "languageCode": "zh",
+      "country": "Nướcs Trung Quốc"
+    },
+    {
+      "language": "Dutch ",
+      "languageCode": "nl",
+      "country": "Nướcs Hà Lan"
+    },
+    {
+      "language": "English",
+      "languageCode": "en",
+      "country": "English"
+    },
+    {
+      "language": "Français",
+      "languageCode": "fr",
+      "country": "Nướcs Pháp"
+    },
+    {
+      "language": "German",
+      "languageCode": "de",
+      "country": "Nướcs Đức"
+    },
+    {
+      "language": "हिन्दी",
+      "languageCode": "hi",
+      "country": "Nướcs Hindi"
+    },
+    {
+      "language": "Bahasa Indonesia",
+      "languageCode": "in",
+      "country": "Nướcs Indonesia"
+    },
+    {
+      "language": "Irish",
+      "languageCode": "ga",
+      "country": "Nướcs Ireland"
+    },
+    {
+      "language": "Italiano ",
+      "languageCode": "it",
+      "country": "Nướcs Ý"
+    },
+    {
+      "language": "日本",
+      "languageCode": "ja",
+      "country": "Nướcs Nhật"
+    },
+    {
+      "language": "한국인",
+      "languageCode": "ko",
+      "country": "Nướcs Hàn Quốc"
+    },
+    {
+      "language": "Melayu",
+      "languageCode": "ms",
+      "country": "Nướcs Mã lai"
+    },
+    {
+      "language": "Persian",
+      "languageCode": "fa",
+      "country": "Nướcs Ba Tư"
+    },
+    {
+      "language": "Polski",
+      "languageCode": "pl",
+      "country": "Nướcs Ba Lan"
+    },
+    {
+      "language": "Português",
+      "languageCode": "pt",
+      "country": "Nướcs Bồ Đào Nha"
+    },
+    {
+      "language": "Română",
+      "languageCode": "ro",
+      "country": "Nướcs Rumani"
+    },
+    {
+      "language": "Русский",
+      "languageCode": "ru",
+      "country": "Nướcs Nga"
+    },
+    {
+      "language": "Español",
+      "languageCode": "es",
+      "country": "Nướcs Tây Ban Nha"
+    },
+    {
+      "language": "தமிழ்",
+      "languageCode": "ta",
+      "country": "Nướcs Tamil"
+    },
+    {
+      "language": "ไทย",
+      "languageCode": "th",
+      "country": "Nướcs Thái Lan"
+    },
+    {
+      "language": "Türk",
+      "languageCode": "tr",
+      "country": "Nướcs Thổ Nhĩ Kỳ"
+    },
+    {
+      "language": "Urdu",
+      "languageCode": "ur",
+      "country": "Nướcs Urdu"
+    },
+    {
+      "language": "Tiếng Việt",
+      "languageCode": "vi",
+      "country": "Việt Nam"
+    }
+  ]
+}

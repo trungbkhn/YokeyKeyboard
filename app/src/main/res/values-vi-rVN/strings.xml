@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="the_maximum_number_of_characters_has_been_reached">Số lượng ký tự đã đạt tối đa</string>
+    <string name="app_language">Ngôn ngữ ứng dụng</string>
+    <string name="txt_featured"> Featured    </string>
+    <string name="an_error_select_the_image">Có lỗi khi chọn hình ảnh! Vui lòng thử lại.</string>
+    <string name="change_size">  Thay đổi kích thước bàn phím  </string>
+    <string name="crop_image">   Cắt ảnh  </string>
+    <string name="crop">         Cắt       </string>
+    <string name="gallery">      Bộ sưu tập       </string>
+    <string name="store">        Cửa hàng </string>
+    <string name="app_name">Zomj</string>
+    <string name="premium_remove_ads_success">Bạn đã trở thành một cao cấp !!!</string>
+
+    <string name="pro_restore_failed">Không tìm thấy thông tin mua hàng!</string>
+    <string name="add">Thêm</string>
+    <string name="premium_billing_error">Mua hàng đã xảy ra lỗi! Vui lòng thử lại sau</string>
+    <string name="keyboard_layout_set">Bố cục</string>
+    <string name="zibil">Zibil</string>
+    <string name="setup_finish_action">Xong</string>
+    <string name="get_started">Bắt đầu</string>
+    <string name="no_support_this_language_keyboard"> Ngôn ngữ của bàn phím không được hỗ trợ </string>
+    <string name="langauge_detection">                Phát hiện ngôn ngữ  </string>
+    <string name="apply_theme">Áp dụng Chủ đề</string>
+    <string name="add_style">Thêm kiểu</string>
+    <string name="buy_theme">Mua Chủ đề</string>
+    <string name="no_support_number_keyboard">Không hỗ trợ cho bàn phím số</string>
+    <string name="apply_theme_done">Đã áp dụng</string>
+    <string name="custom_input_styles_title">Kiểu nhập tùy chỉnh</string>
+    <string name="custom_input_style_note_message">"Cần bật kiểu nhập tùy chỉnh của bạn trước khi bắt đầu sử dụng. Bạn có muốn bật ngay bây giờ không?"</string>
+    <string name="enable">Cho phép</string>
+    <string name="not_now">Không phải bây giờ</string>
+    <string name="apply_font_done">Đã áp dụng</string>
+
+    <string name="apply_font_success">Áp dụng font chữ thành công</string>
+
+    <string name="apply_sticker_done">Đã áp dụng</string>
+
+    <string name="apply_sticker_success">Áp dụng nhãn dán thành công</string>
+
+    <string name="apply_theme_fail">Áp dụng Theme thất bại</string>
+
+    <string name="apply_sticker_fail">Áp dụng nhãn dán thất bại</string>
+
+    <string name="link_json_file">Chủ đề / Themes_Round.json.</string>
+
+    <string name="link_json_top_file">chủ đề / themes_top.json.</string>
+
+    <string name="path_themes_file">Chủ đề / Themes_Round.json.</string>
+
+    <string name="text_rate_5_star_for_rgb_keyboard">Đánh giá ứng dụng</string>
+
+    <string name="text_policy_rgb_keyboard">Chính sách</string>
+
+    <string name="text_more">Nhiều hơn</string>
+
+    <string name="text_ledkey_for_life_beauty">Nhập văn bản trên bàn phím ZOMJ!</string>
+
+    <string name="app_name_emoji">Bàn phím Emojis mới 2021</string>
+
+    <string name="text_tab_themes">Chủ đề</string>
+
+    <string name="text_tab_fonts">Phhong</string>
+
+    <string name="text_tab_sticker">Nhãn dán</string>
+
+    <string name="text_tab_emoji">Emoji</string>
+
+    <string name="text_tab_setting">Cài đặt</string>
+
+    <string name="text_tab_more">Nhiều hơn</string>
+
+    <string name="hello_blank_fragment">Xin chào mảnh trống</string>
+
+    <string name="text_loading">Đang tải...</string>
+
+    <string name="txt_name_hot_theme">Hot</string>
+
+    <string name="txt_name_led_theme">Led</string>
+
+    <string name="txt_name_animated_theme">Hoạt ảnh</string>
+
+    <string name="txt_name_gradient_theme">Gradient</string>
+
+    <string name="txt_name_color_theme">Màu sắc</string>
+
+    <string name="txt_download_theme">Tải về chủ đề</string>
+
+    <string name="txt_get_theme">Lấy Chủ Đề</string>
+
+    <string name="txt_download_sticker">Tải xuống nhãn dán</string>
+
+    <string name="txt_add_sticker">Thêm nhãn dán</string>
+
+    <string name="txt_apply_font">Áp dụng font chữ</string>
+
+    <string name="txt_not_theme">Không phải chủ đề</string>
+
+    <string name="txt_wallpaper">Hình nền</string>
+
+    <string name="txt_MyTheme">Chủ đề của tôi</string>
+
+    <string name="txt_tiktok">Tiktok</string>
+
+    <string name="txt_animal">Animal</string>
+
+    <string name="text_check_internet">Vui lòng kiểm tra kết nối internet của bạn và thử lại để có được chủ đề!</string>
+
+    <string name="text_check_internet_sticker">Vui lòng kiểm tra kết nối internet của bạn và thử lại để có được nhãn dán!</string>
+
+    <string name="txt_splash">Bàn phím ZOMJ</string>
+
+    <string name="txt_text_policy">Tôi đồng ý với Điều khoản sử dụng và Chính sách bảo mật</string>
+
+    <string name="select">CHỌN</string>
+
+    <string name="select_all">CHỌN TẤT CẢ</string>
+
+    <string name="copy">Sao chép</string>
+
+    <string name="paste">DÁN</string>
+
+    <string name="cut">CẮT</string>
+
+    <string name="text_copied">Sao chép văn bản</string>
+
+    <string name="show_key_special">Hiển thị ký tự đặc biệt trên các phím</string>
+
+    <string name="ledkey">Ledkey</string>
+
+    <string name="custom">Tùy chỉnh</string>
+
+    <string name="help_and_feedbacks">Trợ giúp và phản hồi</string>
+
+    <string name="emoji_sticker_gif_and_symbol_keyboard">Emoji, nhãn dán, gif và bàn phím biểu tượng</string>
+
+    <string name="_15sp">15sp</string>
+
+    <string name="enter_something_for_test">Nhập một cái gì đó để kiểm tra</string>
+
+    <string name="fonts">Font</string>
+
+    <string name="tab_all">Tất cả</string>
+
+    <string name="tab_sans_serif">Sans serif</string>
+
+    <string name="tab_serif">Serif</string>
+
+    <string name="tab_display">Display</string>
+
+    <string name="tab_handwriting">Chữ viết tay</string>
+
+    <string name="tab_script">Script</string>
+
+    <string name="tab_tiktok">Tiktok</string>
+
+    <string name="tab_instagram">Instagram</string>
+
+    <string name="tab_other">Khác</string>
+
+    <string name="no_app">Không có ứng dụng nào để thực hiện nhiệm vụ bên ngoài được tìm thấy</string>
+
+    <string name="clipboard">Bảng tạm</string>
+
+    <string name="there_is_no_data_in_the_clipboard">Không có dữ liệu trong bảng tạm</string>
+
+    <string name="hidden">Ẩn giấu</string>
+
+    <string name="vibrate">Rung</string>
+
+    <string name="sound">Âm thanh</string>
+    <string name="pleaseTurnOnInternet">Vui lòng bật Internet</string>
+    <string name="automatic_ncorrection">Tự động sửa</string>
+
+    <string name="correction_off">Tắt tự động sửa</string>
+
+    <string name="suggestion_off">Tắt gợi ý</string>
+
+    <string name="silent">Im lặng</string>
+
+    <string name="mute">Tắt tiếng</string>
+    <string name="language_selection_title">Ngôn ngữ</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="vibrate_on_keypress">Rung khi nhấn phím</string>
+    <string name="show_n_suggestions">Hiển thị và gợi ý</string>
+    <string name="sound_on_keypress">Âm thanh khi nhấn phím</string>
+    <string name="popup_on_keypress">Bật lên khi nhấn phím</string>
+    <string name="prefs_show_suggestions">Hiển thị gợi ý sửa</string>
+    <string name="help_and_feedback">Trợ giúp và phản hồi</string>
+    <string name="select_language">Ngôn ngữ bàn phím</string>
+    <string name="more">Khác</string>
+    <string name="not_support_gif">Trường văn bản này không hỗ trợ gif!</string>
+    <string name="sticker">Nhãn dán</string>
+
+    <string name="add_sticker">Thêm nhãn dán</string>
+
+    <string name="not_support_sticker">Trường văn bản này không hỗ trợ nhãn dán!</string>
+
+    <string name="add_font">Thêm Font chữ</string>
+
+    <string name="not_support_font">Font chữ này không được hỗ trợ trong ngôn ngữ của bạn</string>
+
+    <string name="apply_themes_success">Áp dụng theme thành công</string>
+
+    <string name="let_s_get_started">Bắt đầu nào</string>
+    <string name="no_data">                           Không có dữ liệu </string>
+    <string name="thanks_for_choosing_zomj_keyboard_you_trust_is_very_important_to_us">Cảm ơn vì đã chọn Bàn phím ZOMJ, sự tin tưởng của bạn là rất quan trọng đối với chúng tôi</string>
+
+    <string name="choose_keyboard">Chọn Bàn phím</string>
+    <string name="english_ime_input_options">Tùy chọn nhập</string>
+    <string name="data_privacy">Quyền riêng tư dữ liệu</string>
+
+    <string name="zomj_keyboard">Bàn phím ZOMJ</string>
+
+    <string name="never_collects_personal_data">Không bao giờ thu thập dữ liệu cá nhân</string>
+
+    <string name="such_as_password_credit_card_number_etc">chẳng hạn như mật khẩu, số thẻ tín dụng, vv ...</string>
+
+    <string name="how_do_we_protect_personal_data">Làm thế nào để chúng ta bảo vệ dữ liệu cá nhân?</string>
+
+    <string name="accept">Chấp nhận</string>
+
+    <string name="customize">Tùy chỉnh</string>
+
+    <string name="background">Nền</string>
+
+    <string name="key">Phím</string>
+
+    <string name="effect">Hiệu ứng</string>
+
+    <string name="double_spacebar_insert_period">Đúp phím cách chèn dấu chấm</string>
+
+    <string name="automatic_correction">Tự động sửa</string>
+
+    <string name="auto_capitalization">Tự động viết hoa</string>
+
+    <string name="privacy_policy">Chính sách</string>
+
+    <string name="custom_input">Kiểu nhập tùy chỉnh</string>
+
+    <string name="themes">Chủ đề</string>
+
+    <string name="simple_button">Phím đơn giản</string>
+
+    <string name="popular_button">Phím phổ biến</string>
+
+    <string name="text_color">Màu văn bản</string>
+
+    <string name="toolbar_color">Màu thanh công cụ </string>
+
+    <string name="key_effect">Hiệu ứng phím</string>
+
+    <string name="You_need_to_enable_permissions_to_use_this_feature">Bạn cần bật quyền sử dụng tính năng này</string>
+
+    <string name="go_to_setting">Đi đến thiết lập</string>
+
+    <string name="go_back">Quay lại</string>
+
+    <string name="access_is_denied">Truy cập bị từ chối</string>
+
+    <string name="error_down_background">Lỗi tải nền</string>
+
+    <string name="_0">0.</string>
+
+    <string name="download_and_use_free_150_theme">Tải xuống và sử dụng 150+ chủ đề miễn phí</string>
+
+    <string name="unlock_all_themes">Mở khóa tất cả các chủ đề</string>
+
+    <string name="_199_month">$ 1.99 / tháng</string>
+
+    <string name="_1999_year">$ 19,99 / năm (tiết kiệm 2 tháng)</string>
+
+    <string name="_2999_uses">$ 29,99 / sử dụng vĩnh viễn</string>
+
+    <string name="try_3_days_free_1_99_mo_after_trial_ends">Hãy thử 3 ngày miễn phí. $ 1,99 / tháng sau khi dùng thử kết thúc</string>
+
+    <string name="continue1">tiếp tục</string>
+
+    <string name="already_pro">Đã pro?</string>
+
+    <string name="trial_will_automatically">Bản dùng thử sẽ tự động chuyển đổi thành đăng ký hàng tháng vào<font fgcolor='#000000'> Ngày 18 tháng 9 năm 2021 </font>trừ khi bị hủy ít nhất 24 giờ trước</string>
+
+    <string name="your_design_will_be_lost">Theme của bạn sẽ bị mất bạn có chắc chắn muốn thoát ra không?</string>
+
+    <string name="cancel_theme">Hủy bỏ</string>
+
+    <string name="yes_theme">Có</string>
+
+    <string name="premium_billing_not_avaiable">Dịch vụ mua hàng không có sẵn hoặc lỗi</string>
+
+    <string name="key_sound">Âm thanh phím</string>
+
+    <string name="set_name_keyboard">Đặt tên bàn phím</string>
+
+    <string name="zomj_themes">Chủ đề ZOMJ ...</string>
+
+    <string name="save_theme">Lưu</string>
+
+    <string name="enter_name_keyboard">Xin vui lòng, nhập tên bàn phím</string>
+    <string name="cancel">Huỷ</string>
+    <string name="theme_creation_failed">Tạo chủ đề thất bại</string>
+
+    <string name="theme_creation_success">Tạo chủ đề thành công</string>
+
+    <string name="themes_1">Chủ đề 1</string>
+
+    <string name="delete_themes">Xóa các theme</string>
+
+    <string name="are_you_sure_delete">Bạn có chắc chắn muốn xóa chủ đề này?</string>
+
+    <string name="no">Không</string>
+
+    <string name="premium_subscription_month">%1$s/tháng</string>
+
+    <string name="premium_subscription_year">%1$s/năm</string>
+
+    <string name="premium_subscription_permanently">%1$s/sử dụng vĩnh viễn</string>
+
+    <string name="best_offer">Giảm</string>
+
+    <string name="txt_tab_stickers">Nhãn dán</string>
+
+    <string name="txt_tab_emojis">Emoji</string>
+
+    <string name="txt_tab_trending">Thịnh hành</string>
+
+    <string name="txt_tab_top">Hàng đầu</string>
+
+    <string name="txt_tab_latest">Mới nhất</string>
+
+    <string name="txt_tab_cosplay">Hóa trang</string>
+
+    <string name="no_favorite_emoji_yet">Không có biểu tượng cảm xúc yêu thích nào</string>
+
+    <string name="no_recent_sticker_yet">Bạn chưa sử dụng bất kỳ nhãn dán nào</string>
+
+    <string name="phan_tram">%</string>
+
+    <string name="name_keyboard_exist">Tên bàn phím đã tồn tại</string>
+
+    <string name="premium_desp_download">Tải về tất cả miễn phí</string>
+
+    <string name="premium_desp_remove_ads">Loại bỏ các quảng cáo</string>
+
+    <string name="premium_desp_cancel">Hủy bỏ bất cứ lúc nào</string>
+
+    <string name="unlock_all_theme">Mở khóa tất cả các chủ đề</string>
+
+    <string name="unlock_pro_features">Mở khóa các tính năng Pro</string>
+
+    <string name="des_unlock_pro_features">Sử dụng tất cả các chức năng của tài khoản Pro</string>
+
+    <string name="unlock_all_style_custom_led">Mở khóa tất cả các phong cách LED tùy chỉnh</string>
+
+    <string name="des_unlock_all_style_custom_led">Tùy chỉnh mọi bàn phím LED</string>
+
+    <string name="des_remove_ads">Loại bỏ tất cả các quảng cáo khi bạn sử dụng ứng dụng</string>
+    <string name="use_system_languages">Sử dụng ngôn ngữ hệ thống</string>
+    <string name="active_input_method">Phương pháp đầu vào hoạt động</string>
+    <string name="detail_theme_error_remove_theme_current">Bạn không thể xóa chủ đề bạn đang sử dụng!</string>
+    <string name="pro_purchase_description">Bạn có thể hủy đăng ký bất kỳ lúc nào trong phần đăng ký trên Google Play. Khi hủy đăng ký, bạn sẽ mất quyền truy cập vào đăng ký vào cuối thời hạn thanh toán hiện tại.</string>
+    <string name="add_more_emojis_combos">thêm nhiều biểu tượng cảm xúc</string>
+    <string name="you_haven_t_created_a_theme_yet">Bạn chưa tạo chủ đề</string>
+    <string name="done">Xong</string>
+    <string name="error_load_data_billing">Vì lý do nào đó, tải thông tin đăng ký bị lỗi, vui lòng thử lại</string>
+    <string name="retry">Thử lại</string>
+
+    <string name="activate_zomj_keyboard">Kích hoạt bàn phím ZOMJ</string>
+    <string name="step_1_activate">Bước 1. Kích hoạt</string>
+    <string name="step_2_select">Bước 2. Chọn</string>
+    <string name="activate_zomj_keyboard_to_enable_more_themes_and_emojis">*Kích hoạt bàn phím ZOMJ để kích hoạt thêm các chủ đề và biểu tượng cảm xúc</string>
+    <string name="download_this_theme_to_apply">Tải xuống chủ đề này để áp dụng</string>
+    <string name="download_this_font_to_apply">Tải xuống phông chữ này để áp dụng</string>
+    <string name="download">Tải xuống</string>
+
+    <string name="remove_all_ads">Xóa tất cả các quảng cáo</string>
+    <string name="get">Lấy</string>
+    <string name="download_this_sticker_to_use">Tải xuống nhãn dán này để sử dụng</string>
+    <string name="this_is_actually_amazing_keyboad">Đây thực sự là bàn phím tuyệt vời!</string>
+    <string name="you_might_also_like">Bạn có thể rất thích</string>
+    <string name="try_your_new_theme">Hãy thử chủ đề mới của bạn</string>
+    <string name="please_enter_content">Vui lòng nhập nội dung</string>
+    <string name="get_sticker">Nhận nhãn dán</string>
+    <string name="illuminate_your_experience_with_our_zomj_keyboard">Trải nghiệm mới với bàn phím Zomj keyboard!</string>
+    <string name="our_zomj_stickers_add_dynamic_hues">Nhãn dán ZOMJ của chúng tôi thêm màu sắc động!</string>
+    <string name="continuee">Tiếp tục</string>
+    <string name="pick_a_theme_you_like_and_get_started">Chọn một chủ đề bạn thích và thử nghiệm</string>
+    <string name="unique_theme">Chủ đề độc đáo</string>
+    <string name="current_theme">Chủ đề hiện tại</string>
+    <string name="theme_led">Chủ đề LED</string>
+    <string name="theme_color">Chủ đề màu sắc</string>
+    <string name="read_external_dictionary_error">Lỗi được từ điển</string>
+</resources>

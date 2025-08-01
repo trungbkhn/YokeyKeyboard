@@ -1,0 +1,92 @@
+{
+  "id": "1008",
+  "name": "key8",
+  "version": "1",
+  "isLiveTheme": true,
+
+  "backgroundColor": "#F9FAF5",
+  "liveBackgroundColor": "#000000",
+  "isPremium": true,
+  "key" : {
+    "text": {
+      "normal": "btn_key_text.png",
+      "pressed": "btn_key_text_pressed.png",
+      "textColor": "#FFFFFF",
+      "textColorPressed": "#FFFFFF"
+    },
+    "number": {
+      "normal": "btn_key_text.png",
+      "pressed": "btn_key_text_pressed.png",
+      "textColor": "#FFFFFF",
+      "textColorPressed": "#FFFFFF"
+    },
+    "special": {
+      "normal": "ic_transparent.png",
+      "pressed": "ic_transparent.png",
+      "textColor": "#FFFFFF",
+      "textColorPressed": "#FFFFFF"
+    },
+
+    "backGroundKey": {
+      "shift": "btn_key_shift.png",
+      "shiftPressed": "btn_key_shift.png",
+      "delete": "btn_key_delete.png",
+      "deletePressed": "btn_key_delete.png",
+      "symbol": "btn_key_symbol.png",
+      "symbolPressed": "btn_key_symbol.png",
+      "enter": "btn_key_enter.png",
+      "enterPressed": "btn_key_enter.png",
+      "language":"btn_key_language.png",
+      "languagePressed":"btn_key_language.png"
+    }
+  },
+
+
+  "popup" : {
+
+  "preview" : {
+      "textColor": "#00FFFFFF",
+      "subkeyColor": "#00FFFFFF",
+      "backgroundImage": ""
+    },
+
+    "miniKeyboard" : {
+      "backgroundImage": "bg_key_longpress.png",
+      "textColor": "#5D5F2E",
+      "textColorSelected": "#5D5F2E"
+    }
+  },
+  "emoji": {
+    "categoryColor": "0x4CFFFFFF",
+    "categoryColorSelected": "0xFFFFFFFF"
+  },
+  "topbar": {
+    "dividerColor": "0x19FFFFFF",
+    "contentDividerColor": "0xFFFFFFFF",
+    "iconColor": "0xFFFFFFFF",
+    "iconColorSelected": "0xFF888888",
+    "delete-iconColorSelected": "0xFFFFFFFF",
+    "iconBackgroundColorSelected": "0xE6FFFFFF",
+    "textColor": "0xFFFFFFFF",
+    "textColorHighlighted": "0xFFFFFFFF",
+    "contentTextColor": "0xFFFFFFFF",
+    "backgroundColor": "0xFF6b8fa4",
+
+    "menu": {
+      "backgroundColor": "0x33FFFFFF",
+      "backgroundColorSelected": "0x33FFFFFF",
+      "textColor": "0xFFFFFFFF",
+      "textColorSelected": "0xFFFFFFFF"
+    },
+
+    "closeIconColor": "0xFFFFFFFF"
+  },
+  "icon": {
+    "iconDelete": "ic_transparent.png",
+    "iconLanguage": "ic_transparent.png",
+    "iconShift": "ic_transparent.png",
+    "iconSymbol": "",
+    "iconSpace": "btn_key_special.png",
+    "iconEnter": "ic_transparent.png"
+  }
+}

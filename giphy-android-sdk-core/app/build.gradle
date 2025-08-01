@@ -1,0 +1,112 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
+
+def sdkVersionCode = 2
+def sdkVersionName = "1.0.1"
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.3'
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode sdkVersionCode
+        versionName sdkVersionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    testOptions {
+        unitTests.returnDefaultValues= true
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    androidTestImplementation('com.squareup.okhttp3:okhttp:4.9.0')
+
+    implementation 'com.google.code.gson:gson:2.8.7'
+    implementation 'androidx.annotation:annotation:1.2.0'
+}
+
+//bintray {
+//    user = hasProperty('bintray_user') ? bintray_user : System.getenv('bintray_user')
+//    key = hasProperty('bintray_apikey') ? bintray_apikey : System.getenv('bintray_apikey')
+//    publications = ['GiphyPublication']
+//    pkg {
+//        repo = 'giphy-sdk'
+//        name = 'core'
+//        userOrg = 'giphy'
+//        licenses = ['MPLV2.0']
+//        vcsUrl = 'https://github.com/bintray/gradle-bintray-plugin.git'
+//        version {
+//            name = sdkVersionName
+//            desc = 'Giphy Core SDK'
+//            released  = new Date()
+//            vcsTag = sdkVersionName
+//        }
+//    }
+//}
+
+def pomConfig = {
+    licenses {
+        license {
+            name "Mozilla Public License Version 2.0"
+            url "https://www.mozilla.org/en-US/MPL/2.0/"
+            distribution "repo"
+        }
+    }
+    developers {
+        developer {
+            id "bogdantirca92"
+            name "Bogdan Tirca"
+            email "bogdan@giphy.com"
+        }
+    }
+
+    scm {
+        url "https://github.com/giphy/giphy-android-sdk-core"
+    }
+}
+
+publishing {
+    publications {
+        GiphyPublication(MavenPublication) {
+            groupId 'com.giphy.sdk'
+            artifactId 'core'
+            version sdkVersionName
+
+            artifact("$buildDir/outputs/aar/app-release.aar")
+
+            pom.withXml {
+                def root = asNode()
+                def dependenciesNode = root.appendNode('dependencies')
+                // Iterate over the compile dependencies (we don't want the test ones), adding a <dependency> node for each
+                configurations.compile.allDependencies.each {
+                    if(it.group) {
+                        def dependencyNode = dependenciesNode.appendNode('dependency')
+                        dependencyNode.appendNode('groupId', it.group)
+                        dependencyNode.appendNode('artifactId', it.name)
+                        dependencyNode.appendNode('version', it.version)
+                    }
+                }
+                root.appendNode('description', 'The Giphy Core SDK is a wrapper around Giphy API.')
+                root.appendNode('name', 'Giphy Core SDK')
+                root.appendNode('url', 'https://developers.giphy.com/docs/')
+                root.children().last() + pomConfig
+            }
+        }
+    }
+}

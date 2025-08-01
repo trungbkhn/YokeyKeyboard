@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingStart="10dp"
+        android:paddingBottom="10dp"
+        tools:ignore="RtlSymmetry">
+
+        <View
+            android:id="@+id/viewTop"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/viewTop">
+
+            <TextView
+                android:id="@+id/txt_content"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginEnd="10dp"
+                android:ellipsize="start"
+                android:maxLines="3"
+                android:paddingStart="30dp"
+                android:paddingEnd="5dp"
+                android:text="hello"
+                android:textColor="@color/black"
+                android:textDirection="ltr"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginEnd="60dp"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="start"
+                android:text="Hungry"
+                android:textColor="#555770"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@id/text_quantily_item"
+                app:layout_constraintTop_toBottomOf="@id/txt_content" />
+
+            <ImageView
+                android:id="@+id/imgFavourite"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:background="?actionBarItemBackground"
+                android:padding="5dp"
+                android:src="@drawable/icon_heart_empty"
+                app:layout_constraintBottom_toTopOf="@id/v_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_content" />
+
+            <TextView
+                android:id="@+id/count_favourite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="3dp"
+                android:gravity="center"
+                android:paddingBottom="1dp"
+                android:text="2000"
+                android:textColor="#A3A3A3"
+                android:textSize="12sp"
+                app:drawableStartCompat="@drawable/icon_heart_black"
+                app:layout_constraintStart_toEndOf="@id/text_quantily_item"
+                app:layout_constraintTop_toBottomOf="@id/txt_title" />
+
+            <View
+                android:id="@+id/v_line"
+                android:layout_width="0dp"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="#E8E8E8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/count_favourite" />
+
+            <com.tapbi.spark.yokey.ui.custom.view.CustomBgEmoji
+                android:id="@+id/text_quantily_item"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/circle_top1"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:paddingTop="2.5dp"
+                android:text="1"
+                android:textColor="#777777"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/v_line"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/view_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/items" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

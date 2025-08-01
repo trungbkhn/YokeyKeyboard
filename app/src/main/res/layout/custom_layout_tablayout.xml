@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="35dp">
+
+        <com.tapbi.spark.yokey.ui.custom.view.CustomTextViewGradient
+            android:id="@+id/txtNameTabLayout"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textSize="20sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/color_000000"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp" />
+
+        <com.tapbi.spark.yokey.ui.custom.view.CustomLineGradient
+            android:id="@+id/lineTablayout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/txtNameTabLayout"
+            app:layout_constraintEnd_toEndOf="@id/txtNameTabLayout"
+            android:layout_width="0dp"
+            android:layout_height="1dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,242 @@
+{
+  "Background": [
+    {
+      "id_category": "4000",
+      "id_theme": "4013",
+      "theme_name": "Ramen",
+      "preview": "file:///android_asset/themes/4013/preview.webp",
+      "category_name": "Background"
+    },
+    {
+      "id_category": "4000",
+      "id_theme": "4014",
+      "theme_name": "Gogh",
+      "preview": "file:///android_asset/themes/4014/preview.webp",
+      "category_name": "Background"
+    },
+    {
+      "id_category": "4000",
+      "id_theme": "4015",
+      "theme_name": "Wild bear",
+      "preview": "file:///android_asset/themes/4015/preview.webp",
+      "category_name": "Background"
+    },
+    {
+      "id_category": "4000",
+      "id_theme": "4016",
+      "theme_name": "Lucky cat",
+      "preview": "file:///android_asset/themes/4016/preview.webp",
+      "category_name": "Background"
+    },
+    {
+      "id_category": "4000",
+      "id_theme": "4017",
+      "theme_name": "Unicorn",
+      "preview": "file:///android_asset/themes/4017/preview.webp",
+      "category_name": "Background"
+    },
+    {
+      "id_category": "4000",
+      "id_theme": "4018",
+      "theme_name": "Astronaut",
+      "preview": "file:///android_asset/themes/4018/preview.webp",
+      "category_name": "Background"
+    },
+    {
+      "id_category": "4000",
+      "id_theme": "4019",
+      "theme_name": "Temple",
+      "preview": "file:///android_asset/themes/4019/preview.webp",
+      "category_name": "Background"
+    }
+  ],
+  "Color": [
+    {
+      "id_category": "3000",
+      "id_theme": "3016",
+      "theme_name": "Cobalt blue",
+      "preview": "file:///android_asset/themes/3016/preview.webp",
+      "category_name": "Color"
+    },
+    {
+      "id_category": "3000",
+      "id_theme": "3017",
+      "theme_name": "Grey",
+      "preview": "file:///android_asset/themes/3017/preview.webp",
+      "category_name": "Color"
+    },
+
+    {
+      "id_category": "3000",
+      "id_theme": "3018",
+      "theme_name": "blue",
+      "preview": "file:///android_asset/themes/3018/preview.webp",
+      "category_name": "Color"
+    },
+    {
+      "id_category": "3000",
+      "id_theme": "3019",
+      "theme_name": "Pink girl",
+      "preview": "file:///android_asset/themes/3019/preview.webp",
+      "category_name": "Color"
+    },
+    {
+      "id_category": "3000",
+      "id_theme": "3020",
+      "theme_name": " Mechanical",
+      "preview": "file:///android_asset/themes/3020/preview.webp",
+      "category_name": "Color"
+    },
+    {
+      "id_category": "3000",
+      "id_theme": "3021",
+      "theme_name": " Purple",
+      "preview": "file:///android_asset/themes/3021/preview.webp",
+      "category_name": "Color"
+    },
+    {
+      "id_category": "3000",
+      "id_theme": "3022",
+      "theme_name": " Electronics",
+      "preview": "file:///android_asset/themes/3022/preview.webp",
+      "category_name": "Color"
+    }
+  ],
+  "Featured": [
+    {
+      "id_category": "6000",
+      "id_theme": "6011",
+      "theme_name": "Colorful planet",
+      "preview": "file:///android_asset/themes/6011/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6012",
+      "theme_name": "Mischievous monster",
+      "preview": "file:///android_asset/themes/6012/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6013",
+      "theme_name": "Japan",
+      "preview": "file:///android_asset/themes/6013/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6014",
+      "theme_name": "Retro style",
+      "preview": "file:///android_asset/themes/6014/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6015",
+      "theme_name": "Breakfast",
+      "preview": "file:///android_asset/themes/6015/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6016",
+      "theme_name": "BTS",
+      "preview": "file:///android_asset/themes/6016/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6017",
+      "theme_name": "Blackpink",
+      "preview": "file:///android_asset/themes/6017/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6018",
+      "theme_name": "Retro",
+      "preview": "file:///android_asset/themes/6018/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6019",
+      "theme_name": "Shiba",
+      "preview": "file:///android_asset/themes/6019/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6020",
+      "theme_name": "Beach",
+      "preview": "file:///android_asset/themes/6020/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6021",
+      "theme_name": "Bake",
+      "preview": "file:///android_asset/themes/6021/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6022",
+      "theme_name": "Sunset",
+      "preview": "file:///android_asset/themes/6022/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6024",
+      "theme_name": "6024",
+      "preview": "file:///android_asset/themes/6024/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6025",
+      "theme_name": "Plants",
+      "preview": "file:///android_asset/themes/6025/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6026",
+      "theme_name": "Rainbow",
+      "preview": "file:///android_asset/themes/6026/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6027",
+      "theme_name": "Pixel game",
+      "preview": "file:///android_asset/themes/6027/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6028",
+      "theme_name": "Desert",
+      "preview": "file:///android_asset/themes/6028/preview.webp",
+      "category_name": "Featured"
+    },
+    {
+      "id_category": "6000",
+      "id_theme": "6029",
+      "theme_name": "Comic",
+      "preview": "file:///android_asset/themes/6029/preview.webp",
+      "category_name": "Featured"
+    }
+  ],
+  "Gradient": [
+    {
+      "id_category": "2000",
+      "id_theme": "2004",
+      "theme_name": "Green",
+      "preview": "file:///android_asset/themes/2004/preview.webp",
+      "category_name": "Color"
+    }
+  ]
+}

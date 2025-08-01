@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">फिव्हेस्टर्स्लीब्ररी</string>
+    <string name="app_namee">ZOMJ कीबोर्ड</string>
+    <string name="title_dialog">हा अॅप रेट करा</string>
+    <string name="content">आपण आमच्या अॅपवर किती प्रेम करता?</string>
+    <string name="rate_now">आता रेट करा</string>
+    <string name="feedback">अभिप्राय</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Play Store वर रेट करण्यासाठी 5 स्टार टॅप करा.</string>
+    <string name="enjoying_zomj_keyboard">झोमज कीबोर्डचा आनंद घेत आहे?</string>
+    <string name="later">नंतर</string>
+    <string name="please_rate_5_start" translatable="false">कृपया 5 तारे रेट करा</string>
+</resources>

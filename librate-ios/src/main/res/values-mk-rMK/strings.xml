@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary</string>
+    <string name="app_namee">ZOMJ тастатура</string>
+    <string name="title_dialog">ОЦЕНИ ЈА ОВАА АПЛИКАЦИЈА</string>
+    <string name="content">Колку ја сакаш нашата апликација?</string>
+    <string name="rate_now">Оцени сега</string>
+    <string name="feedback">Повратни информации</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Допрете 5 Star за да ја оцените на Play Store.</string>
+    <string name="enjoying_zomj_keyboard">Уживајќи во тастатурата на ZOMJ?</string>
+    <string name="later">Подоцна</string>
+    <string name="please_rate_5_start" translatable="false">Ве молиме ставете 5 ѕвезди</string>
+</resources>

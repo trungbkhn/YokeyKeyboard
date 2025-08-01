@@ -1,0 +1,87 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.tapbi.spark.yokey.ui.custom.view.MyNestedScrollView
+        android:layout_width="match_parent"
+        android:background="@color/color_ffffff"
+        tools:context="com.tapbi.spark.yokey.ui.main.customize.control_createtheme.KeyControlFragment"
+        android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtSimpleButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/simple_button"
+                android:textColor="@color/color_555770"
+                android:textSize="16sp"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rclSimpleButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:overScrollMode="never"
+                app:layout_constraintTop_toBottomOf="@id/txtSimpleButton" />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tablayoutTextColor"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/rclSimpleButton"
+                app:tabGravity="start"
+
+                app:tabIndicator="@drawable/custom_indicator_tablayout"
+                app:tabIndicatorColor="@color/color_555770"
+                app:tabIndicatorFullWidth="false"
+                app:tabIndicatorGravity="bottom"
+                app:tabIndicatorHeight="1dp"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@color/color_555770"
+                app:tabTextAppearance="@style/tab_text_color"
+                app:tabTextColor="@color/color_555770_40" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rclColor"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:overScrollMode="never"
+                app:layout_constraintTop_toBottomOf="@id/tablayoutTextColor" />
+
+            <TextView
+                android:id="@+id/txtPopularButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/popular_button"
+                android:textColor="@color/color_555770"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@id/rclColor" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rclPopularButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:overScrollMode="never"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtPopularButton" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.tapbi.spark.yokey.ui.custom.view.MyNestedScrollView>
+</layout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fivestarslibrary</string>
+
+    <string name="app_namee">Zomj-sleutelbord</string>
+
+    <string name="title_dialog">Beoordeel hierdie inligting</string>
+
+    <string name="content">Hoeveel hou jy van ons program?</string>
+
+    <string name="rate_now">Koers nou</string>
+
+    <string name="feedback">Terugvoer</string>
+
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Tik 5 ster om dit op die speelwinkel te gradeer.</string>
+
+    <string name="enjoying_zomj_keyboard">Geniet die ZOMJ-sleutelbord?</string>
+
+    <string name="later">Later</string>
+    <string name="please_rate_5_start" translatable="false">Beoordeel asseblief 5 sterre</string>
+</resources>

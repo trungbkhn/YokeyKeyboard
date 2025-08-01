@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/img_back_detail"
+        android:padding="3dp" />
+
+    <LinearLayout
+        android:layout_width= "match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3">
+
+                <ImageView
+                    android:id="@+id/img_left"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_for_view_copy_paste"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_left_new" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_for_view_copy_paste"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_up_new" />
+
+                    <TextView
+                        android:id="@+id/tv_select"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_for_view_copy_paste"
+                        android:gravity="center"
+                        android:text="@string/select"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/img_down"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_for_view_copy_paste"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_down_new" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img_right"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_for_view_copy_paste"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_right_new" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/img_home"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_for_view_copy_paste"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_cursor_start_new" />
+
+                <ImageView
+                    android:id="@+id/img_end"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_for_view_copy_paste"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_cursor_end_new" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_select_all"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_view_copy_paste"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:text="@string/select_all"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_copy"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_view_copy_paste"
+                android:gravity="center"
+                android:text="@string/copy"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_paste"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_view_copy_paste"
+                android:gravity="center"
+                android:text="@string/paste"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/img_delete"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_for_view_copy_paste"
+                android:scaleType="centerInside"
+                android:src="@drawable/icons_delete" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

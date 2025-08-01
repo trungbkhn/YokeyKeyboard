@@ -1,0 +1,20 @@
+{
+	"ads_rollback": [{
+	    "id":"com.google",
+		"icon": "ic_battery_saver",
+		"star":4.6,
+		"title": "Battery Saver and Clear Junk",
+		"description": "Application to help your phone clear temp file and optimal battery.",
+		"cover": "cover_battery_saver",
+		"action": 1
+	}, {
+	    "id":"com.google",
+		"icon": "ic_qr_code",
+		"star":4.6,
+		"title": "1Q: Barcode, QR scanner app",
+		"description": "Essential QR reader to get information everywhere",
+		"cover": "cover_qr_code",
+		"action": 1
+	}],
+	"ratio":1
+}

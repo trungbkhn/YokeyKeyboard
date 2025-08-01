@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="no_support_number_keyboard">Ikke understøttelse af numerisk tastatur</string>
+    <string name="the_maximum_number_of_characters_has_been_reached">Det maksimale antal tegn er nået</string>
+    <string name="no_support_this_language_keyboard"> Dette sprogtastatur understøttes i øjeblikket ikke  </string>
+    <string name="langauge_detection">                Detekce jazyka  </string>
+    <string name="app_language">App sprog</string>
+    <string name="not_support_gif">Denne editText understøtter ikke GIF!</string>
+    <string name="you_haven_t_created_a_theme_yet">Du har ikke oprettet temaer endnu</string>
+    <string name="an_error_select_the_image">Der er en fejl, når du vælger billedet! Prøv igen.</string>
+    <string name="txt_featured">Udvalgte </string>
+    <string name="change_size"> Skift størrelse  </string>
+    <string name="crop_image">  Crop-billede  </string>
+    <string name="crop">        Afgrøde         </string>
+    <string name="gallery">     Galleri       </string>
+    <string name="store">       butik </string>
+    <string name="english_ime_input_options" msgid="3909945612939668554">"Indstillinger for input"</string>
+    <string name="use_contacts_for_spellchecking_option_title" msgid="5374120998125353898">"Anvend kontaktnavne"</string>
+    <string name="use_contacts_for_spellchecking_option_summary" msgid="8754413382543307713">"Stavekontrollen bruger ord fra dine kontaktpersondata"</string>
+    <string name="vibrate_on_keypress" msgid="5258079494276955460">"Vibration ved tastetryk"</string>
+    <string name="sound_on_keypress" msgid="6093592297198243644">"Lyd ved tastetryk"</string>
+    <string name="popup_on_keypress" msgid="123894815723512944">"Pop op ved tastetryk"</string>
+    <string name="settings_screen_preferences" msgid="2696713156722014624">"Præferencer"</string>
+    <string name="settings_screen_accounts" msgid="2786418968536696670">"Konti og privatliv"</string>
+    <string name="settings_screen_appearance" msgid="7358046399111611615">"Udseende og layouts"</string>
+    <string name="settings_screen_gesture" msgid="8826372746901183556">"Glidende indtastning"</string>
+    <string name="settings_screen_correction" msgid="1616818407747682955">"Tekstkorrigering"</string>
+    <string name="settings_screen_advanced" msgid="7472408607625972994">"Avanceret"</string>
+    <string name="settings_screen_theme" msgid="2137262503543943871">"Tema"</string>
+    <string name="enable_split_keyboard" msgid="4177264923999493614">"Aktivér delt tastatur"</string>
+    <string name="cloud_sync_title" msgid="8579271074443847055">"Synkronisering af Google-tastatur"</string>
+    <string name="cloud_sync_summary" msgid="7684887161145650857">"Synkronisering er slået til"</string>
+    <string name="cloud_sync_summary_disabled" msgid="4553338970382825796">"Synkroniser din personlige ordbog på alle enheder"</string>
+    <string name="sync_now_title" msgid="3088838136743277721">"Synkroniser nu"</string>
+    <string name="clear_sync_data_title" msgid="8582001557037069154">"Slet data fra skyen"</string>
+    <string name="clear_sync_data_summary" msgid="993477139012576584">"Sletter dine synkroniserede data fra Google"</string>
+    <string name="clear_sync_data_confirmation" msgid="2811931135574727678">"Dine synkroniserede data slettes fra skyen. Er du sikker?"</string>
+    <string name="clear_sync_data_ok" msgid="613104067705915132">"Slet"</string>
+    <string name="cloud_sync_cancel" msgid="5877481252150919037">"Annuller"</string>
+    <string name="cloud_sync_opt_in_text" msgid="9176039655776298248">"Din personlige ordbog synkroniseres og sikkerhedskopieres til Googles servere. De statistiske oplysninger om ordfrekvens kan blive indsamlet med henblik på at forbedre vores produkter. Indsamlingen og brugen af alle oplysninger sker i overensstemmelse med "<a href="https://www.google.com/policies/privacy">"Googles privatlivspolitik"</a>"."</string>
+    <string name="add_account_to_enable_sync" msgid="7836932571852055265">"Føj en Google-konto til enheden for at aktivere denne funktion"</string>
+    <string name="cloud_sync_summary_disabled_work_profile" msgid="1381770407303129164">"Synkronisering er ikke tilgængelig på enheder med Google Apps for Business-konti"</string>
+    <string name="include_other_imes_in_language_switch_list" msgid="4533689960308565519">"Skift inputmetode"</string>
+    <string name="include_other_imes_in_language_switch_list_summary" msgid="840637129103317635">"Tasten til sprogskift gælder også for andre inputmetoder"</string>
+    <string name="show_language_switch_key" msgid="5915478828318774384">"Knap til sprogskift"</string>
+    <string name="show_language_switch_key_summary" msgid="7343403647474265713">"Vis, når der er aktiveret flere inputsprog"</string>
+    <string name="key_preview_popup_dismiss_delay" msgid="6213164897443068248">"Forsinkelse ved afvisning af taste-pop op"</string>
+    <string name="key_preview_popup_dismiss_no_delay" msgid="2096123151571458064">"Ingen forsinkelse"</string>
+    <string name="key_preview_popup_dismiss_default_delay" msgid="2166964333903906734">"Standard"</string>
+    <string name="abbreviation_unit_milliseconds" msgid="8700286094028323363">"<xliff:g id="MILLISECONDS">%s</xliff:g> ms"</string>
+    <string name="settings_system_default" msgid="6268225104743331821">"Systemstandard"</string>
+    <string name="use_contacts_dict" msgid="4435317977804180815">"Foreslå navne på kontakter"</string>
+    <string name="use_contacts_dict_summary" msgid="6599983334507879959">"Brug navne fra Kontaktpersoner til forslag og rettelser"</string>
+    <string name="use_personalized_dicts" msgid="5167396352105467626">"Tilpassede forslag"</string>
+    <string name="enable_metrics_logging" msgid="5506372337118822837">"Gør <xliff:g id="APPLICATION_NAME">%s</xliff:g> bedre"</string>
+    <string name="use_double_space_period" msgid="8781529969425082860">"To mellemrum for punktum"</string>
+    <string name="use_double_space_period_summary" msgid="6532892187247952799">"To tryk på mellemrumstasten indsætter et punktum og et mellemrum"</string>
+    <string name="auto_cap" msgid="1719746674854628252">"Skriv automatisk med stort"</string>
+    <string name="auto_cap_summary" msgid="7934452761022946874">"Skriv det første ord i hver sætning med stort"</string>
+    <string name="edit_personal_dictionary" msgid="3996910038952940420">"Personlig ordbog"</string>
+    <string name="configure_dictionaries_title" msgid="4238652338556902049">"Ekstra ordbøger"</string>
+    <string name="main_dictionary" msgid="4798763781818361168">"Hovedordbog"</string>
+    <string name="prefs_show_suggestions" msgid="8026799663445531637">"Vis rettelsesforslag"</string>
+    <string name="prefs_show_suggestions_summary" msgid="1583132279498502825">"Vis ordforslag under indtastning"</string>
+    <string name="prefs_block_potentially_offensive_title" msgid="5078480071057408934">"Bloker stødende ord"</string>
+    <string name="prefs_block_potentially_offensive_summary" msgid="2371835479734991364">"Foreslå ikke potentielt stødende ord"</string>
+    <string name="auto_correction" msgid="7630720885194996950">"Automatisk rettelse"</string>
+    <string name="auto_correction_summary" msgid="5625751551134658006">"Mellemrumstast og tegnsætning retter automatisk forkerte ord"</string>
+    <string name="auto_correction_threshold_mode_off" msgid="8470882665417944026">"Fra"</string>
+    <string name="auto_correction_threshold_mode_modest" msgid="8788366690620799097">"Moderat"</string>
+    <string name="auto_correction_threshold_mode_aggressive" msgid="7319007299148899623">"Middel"</string>
+    <string name="auto_correction_threshold_mode_very_aggressive" msgid="1853309024129480416">"Maksimal"</string>
+    <string name="bigram_prediction" msgid="1084449187723948550">"Forslag til næste ord"</string>
+    <string name="bigram_prediction_summary" msgid="3896362682751109677">"Brug det forrige ord til at give forslag"</string>
+    <string name="gesture_input" msgid="826951152254563827">"Aktivér glidende indtastning"</string>
+    <string name="gesture_input_summary" msgid="9180350639305731231">"Skriv et ord ved at trække fingeren rundt mellem bogstaverne"</string>
+    <string name="gesture_preview_trail" msgid="3802333369335722221">"Vis glidende trykspor"</string>
+    <string name="gesture_floating_preview_text" msgid="4443240334739381053">"Dynamiske ordeksempler"</string>
+    <string name="gesture_floating_preview_text_summary" msgid="4472696213996203533">"Se ordforslag ved glidende indtastning"</string>
+    <string name="gesture_space_aware" msgid="2078291600664682496">"Glidende mellemrum"</string>
+    <string name="gesture_space_aware_summary" msgid="4371385818348528538">"Tilføj mellemrum ved at glide til mellemrumstasten"</string>
+    <string name="voice_input" msgid="3583258583521397548">"Knap til indtaling"</string>
+    <string name="voice_input_disabled_summary" msgid="6323489602945135165">"Der er ingen aktiverede indtalingsmetoder. Kontrollér indstillingerne for sprog og indtastning."</string>
+    <string name="configure_input_method" msgid="373356270290742459">"Konfigurer inputmetoder"</string>
+    <string name="language_selection_title" msgid="3666971864764478269">"Sprog"</string>
+    <string name="help_and_feedback" msgid="5328219371839879161">"Hjælp og feedback"</string>
+    <string name="select_language" msgid="5709487854987078367">"Sprog"</string>
+    <string name="hint_add_to_dictionary" msgid="2645988432867033007">"Tryk igen for at gemme"</string>
+    <string name="hint_add_to_dictionary_without_word" msgid="6710206006427574423">"Tryk her for at gemme"</string>
+    <string name="has_dictionary" msgid="6071847973466625007">"Ordbog er tilgængelig"</string>
+    <string name="keyboard_layout" msgid="8451164783510487501">"Tastaturtema"</string>
+    <string name="switch_accounts" msgid="3321216593719006162">"Skift konto"</string>
+    <string name="no_accounts_selected" msgid="2073821619103904330">"Du har ikke valgt en konto"</string>
+    <string name="account_selected" msgid="2846876462199625974">"Du bruger i øjeblikket <xliff:g id="EMAIL_ADDRESS">%1$s</xliff:g>"</string>
+    <string name="account_select_ok" msgid="9141195141763227797">"OK"</string>
+    <string name="account_select_cancel" msgid="5181012062618504340">"Annuller"</string>
+    <string name="account_select_sign_out" msgid="3299651159390187933">"Log ud"</string>
+    <string name="account_select_title" msgid="6279711684772922649">"Vælg den konto, du vil bruge"</string>
+    <string name="subtype_en_GB" msgid="88170601942311355">"engelsk (Storbritannien)"</string>
+    <string name="subtype_en_US" msgid="6160452336634534239">"engelsk (USA)"</string>
+    <string name="subtype_es_US" msgid="5583145191430180200">"Spansk (USA)"</string>
+    <string name="subtype_hi_ZZ" msgid="8860448146262798623">"Hinglish"</string>
+    <string name="subtype_sr_ZZ" msgid="9059219552986034343">"Serbisk (latinsk)"</string>
+    <string name="subtype_with_layout_en_GB" msgid="1931018968641592304">"Engelsk (UK) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_en_US" msgid="8809311287529805422">"Engelsk (USA) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_es_US" msgid="510930471167541338">"Spansk (USA) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_hi_ZZ" msgid="6827402953860547044">"Hinglish (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_sr_ZZ" msgid="2859024772719772407">"Serbisk (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_generic_traditional" msgid="8584594350973800586">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (traditionelt)"</string>
+    <string name="subtype_generic_compact" msgid="3353673321203202922">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (kompakt)"</string>
+    <string name="subtype_no_language" msgid="7137390094240139495">"Intet sprog (Alfabet)"</string>
+    <string name="subtype_no_language_qwerty" msgid="244337630616742604">"Alfabet (QWERTY)"</string>
+    <string name="subtype_no_language_qwertz" msgid="443066912507547976">"Alfabet (QWERTZ)"</string>
+    <string name="subtype_no_language_azerty" msgid="8144348527575640087">"Alfabet (AZERTY)"</string>
+    <string name="subtype_no_language_dvorak" msgid="1564494667584718094">"Alfabet (Dvorak)"</string>
+    <string name="subtype_no_language_colemak" msgid="5837418400010302623">"Alfabet (Colemak)"</string>
+    <string name="subtype_no_language_pcqwerty" msgid="5354918232046200018">"Alfabet (PC)"</string>
+    <string name="subtype_emoji" msgid="7483586578074549196">"Emoji"</string>
+    <string name="keyboard_theme" msgid="4909551808526178852">"Tastaturtema"</string>
+    <string name="custom_input_styles_title" msgid="8429952441821251512">"Tilpasset inputtypografi"</string>
+    <string name="add_style" msgid="6163126614514489951">"Tilføj typografi"</string>
+    <string name="add" msgid="8299699805688017798">"Tilføj"</string>
+    <string name="remove" msgid="4486081658752944606">"Fjern"</string>
+    <string name="save" msgid="7646738597196767214">"Gem"</string>
+    <string name="subtype_locale" msgid="8576443440738143764">"Sprog"</string>
+    <string name="keyboard_layout_set" msgid="4309233698194565609">"Layout"</string>
+    <string name="custom_input_style_note_message" msgid="8826731320846363423">"Din tilpassede indtastningsmetode skal være aktiveret, før du begynder at bruge den. Vil du gøre det nu?"</string>
+    <string name="enable" msgid="5031294444630523247">"Aktivér"</string>
+    <string name="not_now" msgid="6172462888202790482">"Ikke nu"</string>
+    <string name="custom_input_style_already_exists" msgid="8008728952215449707">"Denne inputstil findes allerede: <xliff:g id="INPUT_STYLE_NAME">%s</xliff:g>"</string>
+    <string name="prefs_keypress_vibration_duration_settings" msgid="7918341459947439226">"Vibrationstid ved tastetryk"</string>
+    <string name="prefs_keypress_sound_volume_settings" msgid="6027007337036891623">"Lydstyrke ved tastetryk"</string>
+    <string name="prefs_key_longpress_timeout_settings" msgid="6102240298932897873">"Forsinket langt tastetryk"</string>
+    <string name="prefs_enable_emoji_alt_physical_key" msgid="5963640002335470112">"Emoji på fysisk tastatur"</string>
+    <string name="prefs_enable_emoji_alt_physical_key_summary" msgid="5259484820941627827">"Alt-tasten på det fysiske tastatur viser emojipaletten"</string>
+    <string name="button_default" msgid="3988017840431881491">"Standard"</string>
+    <string name="setup_welcome_title" msgid="6112821709832031715">"Velkommen til <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_welcome_additional_description" msgid="8150252008545768953">"med glidende indtastning"</string>
+    <string name="setup_start_action" msgid="8936036460897347708">"Kom godt i gang"</string>
+    <string name="setup_next_action" msgid="371821437915144603">"Næste trin"</string>
+    <string name="setup_steps_title" msgid="6400373034871816182">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> konfigureres"</string>
+    <string name="setup_step1_title" msgid="3147967630253462315">"Aktivér <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_step1_instruction" msgid="4295448056733329661">"Markér \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" i dine indstillinger for sprog og indtastning. Dermed får appen tilladelse til at køre på din enhed."</string>
+    <string name="setup_step1_finished_instruction" msgid="8701441895377434947">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> er allerede aktiveret i dine indstillinger for sprog og indtastning, så dette trin er gennemført. Fortsæt til næste."</string>
+    <string name="setup_step1_action" msgid="4366513534999901728">"Aktivér i Indstillinger"</string>
+    <string name="setup_step2_title" msgid="6860725447906690594">"Skift til <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_step2_instruction" msgid="9141481964870023336">"Dernæst skal du vælge \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" som din aktive sms-indtastningsmetode."</string>
+    <string name="setup_step2_action" msgid="1660330307159824337">"Skift indtastningsmetode"</string>
+    <string name="setup_step3_title" msgid="3154757183631490281">"Så er du klar."</string>
+    <string name="setup_step3_instruction" msgid="8025981829605426000">"Nu kan du skrive i alle dine favoritapps med <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+    <string name="setup_step3_action" msgid="600879797256942259">"Konfigurer flere sprog"</string>
+    <string name="setup_finish_action" msgid="276559243409465389">"Afslut"</string>
+    <string name="show_setup_wizard_icon" msgid="5008028590593710830">"Vis appikon"</string>
+    <string name="show_setup_wizard_icon_summary" msgid="4119998322536880213">"Vis appikon i starteren"</string>
+    <string name="app_name" msgid="6320102637491234792">"Dictionary Provider"</string>
+    <string name="dictionary_provider_name" msgid="3027315045397363079">"Dictionary Provider"</string>
+    <string name="dictionary_service_name" msgid="6237472350693511448">"Ordbogstjeneste"</string>
+    <string name="download_description" msgid="6014835283119198591">"Opdateringsoplysninger for ordbøger"</string>
+    <string name="dictionary_settings_title" msgid="8091417676045693313">"Ekstra ordbøger"</string>
+    <string name="dictionary_install_over_metered_network_prompt" msgid="3587517870006332980">"Ordbog er tilgængelig"</string>
+    <string name="dictionary_settings_summary" msgid="5305694987799824349">"Indstillinger for ordbøger"</string>
+    <string name="user_dictionaries" msgid="3582332055892252845">"Brugerordbøger"</string>
+    <string name="default_user_dict_pref_name" msgid="1625055720489280530">"Brugerordbog"</string>
+    <string name="dictionary_available" msgid="4728975345815214218">"Ordbog er tilgængelig"</string>
+    <string name="dictionary_downloading" msgid="2982650524622620983">"Downloader i øjeblikket"</string>
+    <string name="dictionary_installed" msgid="8081558343559342962">"Installeret"</string>
+    <string name="dictionary_disabled" msgid="8950383219564621762">"Installeret, deaktiveret"</string>
+    <string name="cannot_connect_to_dict_service" msgid="9216933695765732398">"Ingen ordbogstjeneste"</string>
+    <string name="no_dictionaries_available" msgid="8039920716566132611">"Ingen tilg. ordbøger"</string>
+    <string name="check_for_updates_now" msgid="8087688440916388581">"Opdater"</string>
+    <string name="last_update" msgid="730467549913588780">"Sidst opdateret"</string>
+    <string name="message_updating" msgid="4457761393932375219">"Søger efter opdateringer"</string>
+    <string name="message_loading" msgid="5638680861387748936">"Indlæser…"</string>
+    <string name="main_dict_description" msgid="3072821352793492143">"Hovedordbog"</string>
+    <string name="cancel" msgid="6830980399865683324">"Annuller"</string>
+    <string name="go_to_settings" msgid="3876892339342569259">"Indstillinger"</string>
+    <string name="install_dict" msgid="180852772562189365">"Installer"</string>
+    <string name="cancel_download_dict" msgid="7843340278507019303">"Annuller"</string>
+    <string name="delete_dict" msgid="756853268088330054">"Slet"</string>
+    <string name="should_download_over_metered_prompt" msgid="6737084685073734292">"Det valgte sprog på din mobilenhed har en tilgængelig ordbog.&lt;br/&gt; Vi anbefaler, at du &lt;b&gt;downloader&lt;/b&gt; ordbogen <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> for at forbedre din skriveoplevelse.&lt;br/&gt; &lt;br/&gt; Downloaden kan tage 1-2 minutter via 3G. Der opkræves muligvis et gebyr, hvis du ikke har et &lt;b&gt;ubegrænset dataabonnement&lt;/b&gt;.&lt;br/&gt; Hvis du ikke er sikker på, hvilket dataabonnement du har, anbefaler vi, at du finder en Wi-Fi-forbindelse for at starte automatisk download.&lt;br/&gt; &lt;br/&gt; Tip! Du kan downloade og fjerne ordbøger ved at gå til &lt;b&gt;Sprog og indtastning&lt;/b&gt; i menuen &lt;b&gt;Indstillinger&lt;/b&gt; på din mobilenhed."</string>
+    <string name="download_over_metered" msgid="1643065851159409546">"Download nu (<xliff:g id="SIZE_IN_MEGABYTES">%1$.1f</xliff:g> MB)"</string>
+    <string name="do_not_download_over_metered" msgid="2176209579313941583">"Download via Wi-Fi"</string>
+    <string name="dict_available_notification_title" msgid="4583842811218581658">"Der er en ordbog tilgængelig for <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g>"</string>
+    <string name="dict_available_notification_description" msgid="1075194169443163487">"Tryk for at gennemgå og downloade"</string>
+    <string name="toast_downloading_suggestions" msgid="6128155879830851739">"Downloader: Der vil snart være forslag klar på <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g>."</string>
+    <string name="version_text" msgid="2715354215568469385">"Version <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="user_dict_settings_add_menu_title" msgid="1254195365689387076">"Tilføj"</string>
+    <string name="user_dict_settings_add_dialog_title" msgid="4096700390211748168">"Føj til ordbog"</string>
+    <string name="user_dict_settings_add_screen_title" msgid="5818914331629278758">"Sætning"</string>
+    <string name="user_dict_settings_add_dialog_more_options" msgid="5671682004887093112">"Flere muligheder"</string>
+    <string name="user_dict_settings_add_dialog_less_options" msgid="2716586567241724126">"Færre muligh."</string>
+    <string name="user_dict_settings_add_dialog_confirm" msgid="4703129507388332950">"OK"</string>
+    <string name="user_dict_settings_add_word_option_name" msgid="6665558053408962865">"Ord:"</string>
+    <string name="user_dict_settings_add_shortcut_option_name" msgid="3094731590655523777">"Genvej:"</string>
+    <string name="user_dict_settings_add_locale_option_name" msgid="4738643440987277705">"Sprog:"</string>
+    <string name="user_dict_settings_add_word_hint" msgid="4902434148985906707">"Skriv et ord"</string>
+    <string name="user_dict_settings_add_shortcut_hint" msgid="2265453012555060178">"Valgfri genvej"</string>
+    <string name="user_dict_settings_edit_dialog_title" msgid="3765774633869590352">"Rediger ord"</string>
+    <string name="user_dict_settings_context_menu_edit_title" msgid="6812255903472456302">"Rediger"</string>
+    <string name="user_dict_settings_context_menu_delete_title" msgid="8142932447689461181">"Slet"</string>
+    <string name="user_dict_settings_empty_text" msgid="6889278304342592383">"Du har ikke nogen ord i brugerordbogen. Du kan tilføje et ord ved at trykke på knappen Tilføj (+)."</string>
+    <string name="user_dict_settings_all_languages" msgid="8276126583216298886">"For alle sprog"</string>
+    <string name="user_dict_settings_more_languages" msgid="7131268499685180461">"Flere sprog..."</string>
+    <string name="user_dict_settings_delete" msgid="110413335187193859">"Slet"</string>
+    <string name="user_dict_fast_scroll_alphabet" msgid="5431919401558285473">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+
+
+    <string name="premium_remove_ads_success">Du er blevet en præmie !!!</string>
+
+    <string name="pro_restore_failed">Ikke fundet information køb!</string>
+
+    <string name="premium_billing_error">Køb har fundet sted en fejl! Prøv igen senere</string>
+
+    <string name="zibil">zibil</string>
+
+    <string name="get_started">Kom igang</string>
+
+    <string name="apply_theme">Anvend tema</string>
+
+    <string name="buy_theme">Køb tema</string>
+
+    <string name="apply_theme_done">Anvendt tema</string>
+
+    <string name="apply_font_done">Anvendt skrifttype</string>
+
+    <string name="apply_font_success">Anvendt skrifttype succes</string>
+
+    <string name="apply_sticker_done">Applied Sticker</string>
+
+    <string name="apply_sticker_success">Anvendt klistermærke succes</string>
+
+    <string name="apply_theme_fail">Anvend tema mislykkedes</string>
+
+    <string name="apply_sticker_fail">Anvend klistermærke mislykkes</string>
+
+    <string name="link_json_file">temaer / temaer_round.json.</string>
+
+    <string name="link_json_top_file">temaer / temaer_top.json.</string>
+
+    <string name="path_themes_file">temaer / temaer_round.json.</string>
+
+    <string name="text_rate_5_star_for_rgb_keyboard">Bedøm app</string>
+
+    <string name="text_policy_rgb_keyboard">Politik</string>
+
+    <string name="text_more">Mere</string>
+
+    <string name="text_ledkey_for_life_beauty">Teksting på ZOMJ Keyboard!</string>
+
+    <string name="app_name_emoji">Nyt Emojis tastatur 2021</string>
+
+    <string name="text_tab_themes">Temaer</string>
+
+    <string name="text_tab_fonts">Skrifttyper</string>
+
+    <string name="text_tab_sticker">Klistermærke</string>
+
+    <string name="text_tab_emoji">Emoji</string>
+
+    <string name="text_tab_setting">Indstilling</string>
+
+    <string name="text_tab_more">Mere</string>
+
+    <string name="hello_blank_fragment">Hej blank fragment</string>
+
+    <string name="text_loading">Indlæser...</string>
+
+    <string name="txt_name_hot_theme">Hed</string>
+
+    <string name="txt_name_led_theme">Led</string>
+
+    <string name="txt_name_animated_theme">Animeret</string>
+
+    <string name="txt_name_gradient_theme">Gradient</string>
+
+    <string name="txt_name_color_theme">Farve</string>
+
+    <string name="txt_download_theme">Download Theme</string>
+
+    <string name="txt_get_theme">Få temaer</string>
+
+    <string name="txt_download_sticker">Download Sticker</string>
+
+    <string name="txt_add_sticker">Tilføj klistermærke</string>
+
+    <string name="txt_apply_font">Anvend skrifttype</string>
+
+    <string name="txt_not_theme">Ikke tema</string>
+
+    <string name="txt_wallpaper">Tapet</string>
+
+    <string name="txt_MyTheme">Mine temaer</string>
+
+    <string name="txt_tiktok">Tiktok</string>
+
+    <string name="txt_animal">Dyr</string>
+
+    <string name="text_check_internet">Tjek venligst din internetforbindelse og prøv igen for få temaer!</string>
+
+    <string name="text_check_internet_sticker">Tjek venligst din internetforbindelse og prøv igen for få klistermærke!</string>
+
+    <string name="txt_splash">Zomj tastatur</string>
+
+    <string name="txt_text_policy">Jeg accepterer vilkårene for brug og privatlivspolitik</string>
+
+    <string name="select">VÆLG</string>
+
+    <string name="select_all">VÆLG ALLE</string>
+
+    <string name="copy">KOPI</string>
+
+    <string name="paste">SÆT IND</string>
+
+    <string name="cut">SKÆRE</string>
+
+    <string name="text_copied">Tekst kopieret</string>
+
+    <string name="show_key_special">Vis særlige tegn på nøgler</string>
+
+    <string name="ledkey">LEDKEY</string>
+
+    <string name="custom">Brugerdefinerede</string>
+
+    <string name="help_and_feedbacks">Hjælp og feedback.</string>
+
+    <string name="emoji_sticker_gif_and_symbol_keyboard">Emoji, klistermærke, gif og symbol tastatur</string>
+
+    <string name="_15sp">15sp</string>
+
+    <string name="enter_something_for_test">Indtast noget til test</string>
+
+    <string name="fonts">Skrifttyper</string>
+
+    <string name="tab_all">Alle</string>
+
+    <string name="tab_sans_serif">Sans serif</string>
+
+    <string name="tab_serif">SERIF</string>
+
+    <string name="tab_display">Skærm</string>
+
+    <string name="tab_handwriting">Håndskrift</string>
+
+    <string name="tab_script">Manuskript</string>
+
+    <string name="tab_tiktok">Tiktok</string>
+
+    <string name="tab_instagram">Instagram</string>
+
+    <string name="tab_other">Andet</string>
+
+    <string name="no_app">Ingen app til at udføre ekstern opgave fundet</string>
+
+    <string name="clipboard">Clipboard</string>
+
+    <string name="there_is_no_data_in_the_clipboard">Der er ingen data i udklipsholderen</string>
+
+    <string name="hidden">Skjult</string>
+
+    <string name="vibrate">Vibrere</string>
+
+    <string name="sound">Lyd</string>
+
+    <string name="automatic_ncorrection">Automatisk rettelse</string>
+
+    <string name="correction_off">Korrektion af</string>
+
+    <string name="suggestion_off">Forslag af</string>
+
+    <string name="silent">Stille</string>
+
+    <string name="mute">Stum</string>
+
+    <string name="language">Sprog</string>
+
+    <string name="show_n_suggestions">Vise \ nsuggestions.</string>
+
+    <string name="more">Mere</string>
+
+    <string name="sticker">Klistermærke</string>
+
+    <string name="add_sticker">Tilføj klistermærke.</string>
+
+    <string name="not_support_sticker">Denne edittext ikke understøtter klistermærke!</string>
+
+    <string name="add_font">Tilføj skrifttype</string>
+
+    <string name="not_support_font">Denne skrifttype understøttes ikke på dit sprog</string>
+
+    <string name="apply_themes_success">Anvende temaer succes</string>
+
+    <string name="let_s_get_started">Lad os komme igang</string>
+
+    <string name="thanks_for_choosing_zomj_keyboard_you_trust_is_very_important_to_us">Tak for at vælge Zomj-tastaturet, du stoler på, er meget vigtigt for os</string>
+
+    <string name="choose_keyboard">Vælg tastatur</string>
+
+    <string name="data_privacy">Data Privacy</string>
+
+    <string name="zomj_keyboard">Zomj tastatur</string>
+
+    <string name="never_collects_personal_data">Indsamler aldrig personlige data</string>
+
+    <string name="such_as_password_credit_card_number_etc">såsom adgangskode, kreditkortnummer osv. ...</string>
+
+    <string name="how_do_we_protect_personal_data">Hvordan beskytter vi personlige data?</string>
+
+    <string name="accept">acceptere</string>
+
+    <string name="customize">Tilpas venligst</string>
+
+    <string name="background">Baggrund</string>
+
+    <string name="key">Nøgle</string>
+
+    <string name="effect">Effekt</string>
+
+    <string name="double_spacebar_insert_period">Double SPACEBAR Indsæt periode</string>
+
+    <string name="automatic_correction">Automatisk korrektion</string>
+
+    <string name="auto_capitalization">Automatisk brug af store bogstaver</string>
+
+    <string name="privacy_policy">Fortrolighedspolitik</string>
+
+    <string name="custom_input">Brugerdefineret input</string>
+
+    <string name="themes">Temaer</string>
+
+    <string name="simple_button">Simpel knap</string>
+
+    <string name="popular_button">Populær knap</string>
+
+    <string name="text_color">Tekstfarve.</string>
+
+    <string name="toolbar_color">Toolbar Color</string>
+
+    <string name="key_effect">Nøgleffekt</string>
+
+    <string name="You_need_to_enable_permissions_to_use_this_feature">Du skal aktivere tilladelser til at bruge denne funktion</string>
+
+    <string name="go_to_setting">Gå til indstilling</string>
+
+    <string name="go_back">Gå tilbage</string>
+
+    <string name="access_is_denied">Adgang nægtet</string>
+
+    <string name="error_down_background">Fejl ned baggrund</string>
+
+    <string name="_0">0</string>
+
+    <string name="download_and_use_free_150_theme">Download og brug gratis 150+ tema</string>
+
+    <string name="unlock_all_themes">Lås op alle temaer</string>
+
+    <string name="_199_month">$ 1,99 / måned</string>
+
+    <string name="_1999_year">$ 19.99 / år (spar 2 måneder)</string>
+
+    <string name="_2999_uses">$ 29.99 / bruger permanent</string>
+
+    <string name="try_3_days_free_1_99_mo_after_trial_ends">Prøv 3 dage gratis. $ 1,99 / mO After forsøg ender</string>
+
+    <string name="continue1">Blive ved</string>
+
+    <string name="already_pro">Allerede pro?</string>
+
+    <string name="trial_will_automatically">Trial konverterer automatisk til et månedligt abonnement på <font fgcolor='#000000'>Sep 18, 2021</font>
+       Medmindre det er annulleret mindst 24 timer før</string>
+
+    <string name="your_design_will_be_lost">Dit design vil gå tabt, er du sikker på, at du vil komme ud?</string>
+
+    <string name="cancel_theme">Afbestille</string>
+
+    <string name="yes_theme">Ja</string>
+
+    <string name="premium_billing_not_avaiable">Købstjeneste ikke tilgængelig eller fejl</string>
+
+    <string name="key_sound">Nøgle lyd</string>
+
+    <string name="set_name_keyboard">Indstil navn tastatur</string>
+
+    <string name="zomj_themes">Zomj temaer ...</string>
+
+    <string name="save_theme">Gemme</string>
+
+    <string name="enter_name_keyboard">Indtast venligst tastaturnavn</string>
+
+    <string name="theme_creation_failed">Temaoprettelse mislykkedes</string>
+
+    <string name="theme_creation_success">Tema Creation Successed.</string>
+
+    <string name="themes_1">Temaer 1</string>
+
+    <string name="delete_themes">Slet temaer</string>
+
+    <string name="are_you_sure_delete">Er du sikker på, at du vil slette dette tema?</string>
+
+    <string name="no">Ingen</string>
+
+    <string name="premium_subscription_month">%1$s/måned</string>
+
+    <string name="premium_subscription_year">%1$s/år</string>
+
+    <string name="premium_subscription_permanently">%1$s/bruges permanent</string>
+
+    <string name="best_offer">Salg</string>
+
+    <string name="txt_tab_stickers">Klistermærke</string>
+
+    <string name="txt_tab_emojis">Emoji</string>
+
+    <string name="txt_tab_trending">Trending</string>
+
+    <string name="txt_tab_top">Top</string>
+
+    <string name="txt_tab_latest">Seneste</string>
+
+    <string name="txt_tab_cosplay">Cosplay</string>
+
+    <string name="no_favorite_emoji_yet">Ingen favorit emoji endnu</string>
+
+    <string name="no_recent_sticker_yet">Du har ikke brugt nogen klistermærke endnu</string>
+
+    <string name="phan_tram">%</string>
+
+    <string name="name_keyboard_exist">Navnetastatur eksisterer allerede</string>
+
+    <string name="premium_desp_download">Download alle gratis</string>
+
+    <string name="premium_desp_remove_ads">Fjern annoncer</string>
+
+    <string name="premium_desp_cancel">Annullering når som helst</string>
+
+    <string name="unlock_all_theme">Lås op alle temaer</string>
+
+    <string name="unlock_pro_features">Unlock Pro-funktioner</string>
+
+    <string name="des_unlock_pro_features">Brug alle funktioner på PRO-kontoen</string>
+
+    <string name="unlock_all_style_custom_led">Lås op alle Style Custom LED</string>
+
+    <string name="des_unlock_all_style_custom_led">Tilpas hvert LED-tastatur</string>
+
+    <string name="des_remove_ads">Slippe af med alle annoncer, når du bruger app</string>
+    <string name="detail_theme_error_remove_theme_current">Du kan ikke slette det tema, du bruger!</string>
+    <string name="add_more_emojis_combos">Tilføj mere emojis</string>
+    <string name="done">Færdig</string>
+    <string name="error_load_data_billing">Fejl ved indlæsning af abonnementsoplysninger af en eller anden grund. Prøv venligst igen</string>
+    <string name="retry">Prøve igen</string><string name="activate_zomj_keyboard">Aktivér ZOMJ -tastatur</string>
+    <string name="step_1_activate">Trin 1. Aktivér</string>
+    <string name="step_2_select">Trin 2. Vælg</string>
+    <string name="activate_zomj_keyboard_to_enable_more_themes_and_emojis">*Aktivér ZOMJ -tastaturet for at muliggøre flere temaer og emojier</string>
+    <string name="download_this_theme_to_apply">Hent dette tema for at ansøge</string>
+    <string name="download_this_font_to_apply">Hent denne skrifttype for at ansøge</string>
+    <string name="download">Hent</string>
+
+    <string name="remove_all_ads">Fjern alle annoncer</string>
+    <string name="get">Få</string>
+    <string name="download_this_sticker_to_use">Hent dette klistermærke til brug</string>
+    <string name="this_is_actually_amazing_keyboad">Dette er faktisk fantastisk tastatur!</string>
+    <string name="you_might_also_like">Du kan muligvis lide</string>
+    <string name="try_your_new_theme">Prøv dit nye tema</string>
+    <string name="please_enter_content">Indtast venligst indhold</string>
+    <string name="get_sticker">Få klistermærke</string>
+    <string name="illuminate_your_experience_with_our_zomj_keyboard">Lys din oplevelse med vores ZOMJ -tastatur!</string>
+    <string name="our_zomj_stickers_add_dynamic_hues">Vores ZOMJ -klistermærker tilføjer dynamiske nuancer!</string>
+    <string name="continuee">Blive ved</string>
+    <string name="pick_a_theme_you_like_and_get_started">Vælg et tema, du kan lide, og eksperimentere</string>
+    <string name="unique_theme">Unikt tema</string>
+    <string name="current_theme">Nuværende tema</string>
+    <string name="theme_led">Tema ledet</string>
+    <string name="theme_color">Temafarve</string>
+    <string name="read_external_dictionary_error">Der opstod en fejl</string>
+
+
+</resources>

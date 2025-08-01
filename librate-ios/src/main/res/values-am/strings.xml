@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">አምስት ፎቅሪፊስ</string>
+
+    <string name="app_namee">ZOMJ ቁልፍ ሰሌዳ</string>
+
+    <string name="title_dialog">ይህንን መተግበሪያ ደረጃ ይስጡ</string>
+
+    <string name="content">የእኛን መተግበሪያ ምን ያህል ይወዳሉ?</string>
+
+    <string name="rate_now">አሁን ደረጃ</string>
+
+    <string name="feedback">ግብረመልስ</string>
+
+    <string name="tap_5_star_to_rate_it_on_the_play_store">በ Play መደብር ላይ ለማስቀመጥ 5 ኮከብን መታ ያድርጉ.</string>
+
+    <string name="enjoying_zomj_keyboard">በ ZOOMJ ቁልፍ ሰሌዳ መደሰት?</string>
+
+    <string name="later">በኋላ</string>
+    <string name="please_rate_5_start" translatable="false">እባክዎን 5 ኮከቦችን ይስጡ</string>
+</resources>

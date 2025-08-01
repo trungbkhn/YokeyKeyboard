@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">FiveStarsLibrary</string>
+    <string name="app_namee" translatable="false">Zomj Keyboard</string>
+    <string name="title_dialog" translatable="false">RATE THIS APP</string>
+    <string name="content" translatable="false">How much do you love our app?</string>
+    <string name="rate_now" translatable="false">Rate now</string>
+    <string name="feedback" translatable="false">Feedback</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store" translatable="false">Tap 5 star to rate it on the Play Store.</string>
+    <string name="enjoying_zomj_keyboard" translatable="false">Enjoying Zomj Keyboard?</string>
+    <string name="later" translatable="false">Later</string>
+    <string name="please_rate_5_start" translatable="false">Please rate 5 stars</string>
+</resources>

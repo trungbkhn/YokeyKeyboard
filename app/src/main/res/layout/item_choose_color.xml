@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="34dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imgColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@id/imgChooseColor"
+        app:layout_constraintEnd_toEndOf="@id/imgChooseColor"
+        android:src="@drawable/ic_color"
+        android:visibility="visible"
+        android:scaleType="fitXY"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/imgChooseColor"
+        android:layout_marginStart="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_choose_color"
+        android:layout_width="34dp"
+        android:layout_height="34dp"/>
+    <View
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/viewSpaceEnd"
+        app:layout_constraintStart_toEndOf="@id/imgChooseColor"
+        android:layout_width="15dp"
+        android:layout_height="30dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

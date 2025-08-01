@@ -1,0 +1,132 @@
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_transparent"
+        tools:context="com.tapbi.spark.yokey.ui.main.activatekeyboard.ActivateKeyboardFragment">
+
+        <View
+            android:id="@+id/viewClose"
+            android:layout_width="42dp"
+            android:layout_height="5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_corner_3"
+            app:layout_constraintBottom_toTopOf="@id/ctlContent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ctlContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_corner_top_32"
+            android:orientation="vertical"
+            android:paddingTop="12dp"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text="@string/activate_zomj_keyboard"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:drawableEndCompat="@drawable/ic_mini_keyboard"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide50"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <View
+                android:id="@+id/viewActivateKeyboard"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_grandient_corner_14"
+                app:layout_constraintEnd_toStartOf="@id/guide50"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+
+            <TextView
+                android:id="@+id/tvActiveKeyboard"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:drawablePadding="5dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center"
+                android:text="@string/step_1_activate"
+                android:textSize="@dimen/_12sdp"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintEnd_toEndOf="@id/viewActivateKeyboard"
+                app:layout_constraintStart_toStartOf="@+id/viewActivateKeyboard"
+                app:layout_constraintTop_toTopOf="@+id/viewActivateKeyboard" />
+
+            <View
+                android:id="@+id/viewSelectKeyboard"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/bg_grandient_corner_14"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/guide50"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+            <TextView
+                android:id="@+id/tvSelectKeyboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/inter_regular"
+                android:maxLines="1"
+                android:gravity="center"
+                android:text="@string/step_2_select"
+                android:textSize="@dimen/_12sdp"
+                android:includeFontPadding="false"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toBottomOf="@+id/viewSelectKeyboard"
+                app:layout_constraintEnd_toEndOf="@id/viewSelectKeyboard"
+                app:layout_constraintStart_toStartOf="@+id/viewSelectKeyboard"
+                app:layout_constraintTop_toTopOf="@+id/viewSelectKeyboard" />
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_activative_keyboard"
+                app:layout_constraintTop_toBottomOf="@id/tvSelectKeyboard"
+                app:layout_constraintBottom_toTopOf="@id/fr_ads_native"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.google.android.ads.nativetemplates.TemplateViewMultiAds
+                android:id="@+id/fr_ads_native"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:visibility="visible"
+                android:tag="@string/tag_native_active_keyboard"
+                app:priority="1"
+                app:gnt_template_type="@layout/gnt_admob_native_layout_no_media_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_min="50dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

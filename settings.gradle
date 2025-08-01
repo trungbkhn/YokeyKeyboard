@@ -1,0 +1,11 @@
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
+}
+include ':app', ':librate-ios'
+rootProject.name='ZomjKeyboard'
+include ':keyboardheight'
+//include ':giphy-android-sdk-core'
+include ':cropper'
+//project(':giphy-android-sdk-core').projectDir = new File(settingsDir, '/giphy-android-sdk-core/app')
+include ':indicator'
+//include ':renderscript-toolkit'

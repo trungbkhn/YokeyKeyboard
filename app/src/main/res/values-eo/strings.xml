@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_featured">Featured</string>
+    <string name="done">Done</string>
+    <string name="activate_zomj_keyboard">Aktivigu zomj -klavaron</string>
+    <string name="step_1_activate">Paŝo 1. Aktivigi</string>
+    <string name="step_2_select">Paŝo 2. Elektu</string>
+    <string name="activate_zomj_keyboard_to_enable_more_themes_and_emojis">*Aktivigu zomj -klavaron por ebligi pli da temoj kaj emojis</string>
+    <string name="download_this_theme_to_apply">Elŝutu ĉi tiun temon por kandidatiĝi</string>
+    <string name="download_this_font_to_apply">Elŝutu ĉi tiun tiparon por kandidatiĝi</string>
+    <string name="download">Elŝuti</string>
+
+    <string name="remove_all_ads">Forigu ĉiujn reklamojn</string>
+    <string name="get">Akiru</string>
+    <string name="download_this_sticker_to_use">Elŝutu ĉi tiun glumarkon por uzi</string>
+    <string name="this_is_actually_amazing_keyboad">Ĉi tio efektive estas mirinda klavaro!</string>
+    <string name="you_might_also_like">Vi eble povus ŝati</string>
+    <string name="try_your_new_theme">Provu vian novan temon</string>
+    <string name="please_enter_content">Bonvolu enigi Enhavon</string>
+    <string name="get_sticker">Akiru glumarkon</string>
+    <string name="illuminate_your_experience_with_our_zomj_keyboard">Lumigu vian sperton per nia zomj -klavaro!</string>
+    <string name="our_zomj_stickers_add_dynamic_hues">Niaj zomj -glumarkoj aldonas dinamikajn nuancojn!</string>
+    <string name="continuee">Daŭrigu</string>
+    <string name="pick_a_theme_you_like_and_get_started">Elektu temon, kiun vi ŝatas kaj eksperimentu</string>
+    <string name="unique_theme">Unika Temo</string>
+    <string name="current_theme">Nuna temo</string>
+    <string name="theme_led">Temo gvidis</string>
+    <string name="theme_color">Temo -Koloro</string>
+    <string name="read_external_dictionary_error">Estis eraro</string>
+    <string name="custom_input_styles_title">Propraj enigstiloj</string>
+    <string name="custom_input_style_note_message">"Via kutima enigostilo devas esti ebligita antaŭ ol vi ekuzi ĝin. Ĉu vi volas ebligi ĝin nun?"</string>
+    <string name="enable">Ebligu</string>
+    <string name="not_now">Ne nun</string>
+</resources>

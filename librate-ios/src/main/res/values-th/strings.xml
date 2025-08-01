@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">fivestarslibrary</string>
+    <string name="app_namee">แป้นพิมพ์ Zomj</string>
+    <string name="title_dialog">ให้คะแนนแอพนี้</string>
+    <string name="content">คุณรักแอพของเรามากแค่ไหน?</string>
+    <string name="rate_now">อัตราในขณะนี้</string>
+    <string name="feedback">ข้อเสนอแนะ</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">แตะ 5 ดาวเพื่อให้คะแนนบน Play Store</string>
+    <string name="enjoying_zomj_keyboard">เพลิดเพลินกับคีย์บอร์ด Zomj?</string>
+    <string name="later">ภายหลัง</string>
+    <string name="please_rate_5_start" translatable="false">โปรดประเมิน 5 ดาว</string>
+</resources>

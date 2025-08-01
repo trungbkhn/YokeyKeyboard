@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FivestarsLibrary</string>
+    <string name="app_namee">ઝૉમજ કીબોર્ડ</string>
+    <string name="title_dialog">આ એપ્લિકેશનને રેટ કરો</string>
+    <string name="content">તમે અમારી એપ્લિકેશનને કેટલો પ્રેમ કરો છો?</string>
+    <string name="rate_now">હવે ભાવ જણાવો</string>
+    <string name="feedback">પ્રતિક્રિયા</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">પ્લે સ્ટોર પર તેને રેટ કરવા માટે 5 સ્ટાર ટેપ કરો.</string>
+    <string name="enjoying_zomj_keyboard">ઝોમજ કીબોર્ડનો આનંદ માણો?</string>
+    <string name="later">પાછળથી</string>
+    <string name="please_rate_5_start" translatable="false">કૃપા કરીને 5 તારા રેટ કરો</string>
+</resources>

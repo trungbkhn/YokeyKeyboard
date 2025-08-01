@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FivissarsLibrary</string>
+    <string name="app_namee">Teclat Zomj</string>
+    <string name="title_dialog">VALORA AQUESTA APP</string>
+    <string name="content">Quant estimes la nostra aplicació?</string>
+    <string name="rate_now">Qualifica ara</string>
+    <string name="feedback">Retroalimentació</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Toqueu 5 estrelles per valorar-lo a la botiga de jocs.</string>
+    <string name="enjoying_zomj_keyboard">Gaudint de teclat zomj?</string>
+    <string name="later">Més tard</string>
+    <string name="please_rate_5_start" translatable="false">Valoreu 5 estrelles</string>
+</resources>

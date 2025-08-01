@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subscription_list">
+        <item name="purchase_pro_id_sub_month" translatable="false">tapbi_subscription_month</item>
+        <item name="purchase_pro_id_sub_year" translatable="false">tapbi_subscription_year</item>
+    </string-array>
+    <string name="productID" translatable="false">android.test.purchased</string>
+    <string name="product_remove_ads_id" translatable="false">android.test.purchased</string>
+    <string name="purchase_pro_id_permanently" translatable="false">tapbi_subscription_permanently</string>
+
+    <!--ads config-->
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <array name="admob_ads_open_id">
+        <item>ca-app-pub-3940256099942544/9257395921</item>
+    </array>
+    <array name="admob_interstitial_id">
+        <item>ca-app-pub-3940256099942544/1033173712</item>
+    </array>
+
+    <array name="admob_native_id_detail_theme">
+        <item>ca-app-pub-3940256099942544/2247696110</item>
+    </array>
+    <array name="admob_native_id_detail_font">
+        <item>ca-app-pub-3940256099942544/2247696110</item>
+    </array>
+    <array name="admob_native_id_detail_sticker">
+        <item>ca-app-pub-3940256099942544/2247696110</item>
+    </array>
+    <array name="admob_native_id_try_keyboard">
+        <item>ca-app-pub-3940256099942544/2247696110</item>
+    </array>
+    <array name="admob_native_id_active_keyboard">
+        <item>ca-app-pub-3940256099942544/2247696110</item>
+    </array>
+    <array name="admob_native_id_language">
+        <item>ca-app-pub-3940256099942544/2247696110</item>
+    </array>
+    <array name="admob_native_id_onboard">
+        <item>ca-app-pub-3940256099942544/2247696110</item>
+    </array>
+    <array name="admob_native_id_exit_app">
+        <item>ca-app-pub-3940256099942544/2247696110</item>
+    </array>
+    <array name="admob_native_id_setting">
+        <item>ca-app-pub-3940256099942544/2247696110</item>
+    </array>
+
+
+    <!--applovin ads for dev-->
+    <string name="applovin_sdk_key" translatable="false">8tzHmVzO2RTSGw_Zn_JbB25mkbZpSCg6peEkO9bxE8mCP1rT_QQNT6d79XmTM9qmq74HgLLsfoMvs_xlu1KQ16</string>
+    <array name="applovin_ads_open_id">
+        <item>413984c574766b2e</item>
+    </array>
+    <array name="applovin_interstitial_id">
+        <item>c9638fd386ac26f8</item>
+    </array>
+
+    <array name="applovin_native_id_detail_theme">
+        <item>89d6ae25c73248df</item>
+    </array>
+    <array name="applovin_native_id_detail_font">
+        <item>89d6ae25c73248df</item>
+    </array>
+    <array name="applovin_native_id_detail_sticker">
+        <item>89d6ae25c73248df</item>
+    </array>
+    <array name="applovin_native_id_try_keyboard">
+        <item>89d6ae25c73248df</item>
+    </array>
+    <array name="applovin_native_id_active_keyboard">
+        <item>89d6ae25c73248df</item>
+    </array>
+    <array name="applovin_native_id_language">
+        <item>89d6ae25c73248df</item>
+    </array>
+    <array name="applovin_native_id_onboard">
+        <item>89d6ae25c73248df</item>
+    </array>
+    <array name="applovin_native_id_exit_app">
+        <item>89d6ae25c73248df</item>
+    </array>
+    <array name="applovin_native_id_setting">
+        <item>89d6ae25c73248df</item>
+    </array>
+
+    <!--applovin ads for production-->
+<!--    <string name="applovin_sdk_key" translatable="false">8tzHmVzO2RTSGw_Zn_JbB25mkbZpSCg6peEkO9bxE8mCP1rT_QQNT6d79XmTM9qmq74HgLLsfoMvs_xlu1KQ16</string>-->
+<!--    <array name="applovin_ads_open_id">-->
+<!--        <item>64aeb7fb77cf09ce</item>-->
+<!--    </array>-->
+<!--    <array name="applovin_interstitial_id">-->
+<!--        <item>54810c49fe613f61</item>-->
+<!--    </array>-->
+
+<!--    <array name="applovin_native_id_detail_theme">-->
+<!--        <item>d3242ebdc26a5e2d</item>-->
+<!--    </array>-->
+<!--    <array name="applovin_native_id_detail_font">-->
+<!--        <item>bf055feb5c4105c0</item>-->
+<!--    </array>-->
+<!--    <array name="applovin_native_id_detail_sticker">-->
+<!--        <item>c918224d24c42e73</item>-->
+<!--    </array>-->
+<!--    <array name="applovin_native_id_try_keyboard">-->
+<!--        <item>0da884422d97779a</item>-->
+<!--    </array>-->
+<!--    <array name="applovin_native_id_active_keyboard">-->
+<!--        <item>479d0adeb6295725</item>-->
+<!--    </array>-->
+<!--    <array name="applovin_native_id_language">-->
+<!--        <item>b84e315ee02cf6f1</item>-->
+<!--    </array>-->
+<!--    <array name="applovin_native_id_onboard">-->
+<!--        <item>ac8a8d60c296315a</item>-->
+<!--    </array>-->
+<!--    <array name="applovin_native_id_exit_app">-->
+<!--        <item>4eb51185985d9028</item>-->
+<!--    </array>-->
+<!--    <array name="applovin_native_id_setting">-->
+<!--        <item>7e6938397c92bb6b</item>-->
+<!--    </array>-->
+
+    <string name="policy_url_rgb" translatable="false">https://www.google.com</string>
+    <string name="mail_feedback_rgb_keyboard" translatable="false">mail@mail.com</string>
+    <string name="ironsrc_app_key" translatable="false">85460dcd</string>
+</resources>

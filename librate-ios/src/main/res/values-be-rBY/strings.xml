@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary</string>
+    <string name="app_namee">ZOMJ клавіятуры</string>
+    <string name="title_dialog">Ацаніць гэта дадатак</string>
+    <string name="content">Колькі вы любіце наша дадатак?</string>
+    <string name="rate_now">Хуткасць</string>
+    <string name="feedback">Меркаванне</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Націсніце 5 зорак, каб ацаніць яго на Play Store.</string>
+    <string name="enjoying_zomj_keyboard">Атрымліваючы асалоду ад ZOMJ клавіятуры?</string>
+    <string name="later">Пазней</string>
+    <string name="please_rate_5_start" translatable="false">Калі ласка, ацаніце 5 зорак</string>
+</resources>

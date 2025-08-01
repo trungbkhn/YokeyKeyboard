@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">फिवरस्टर्स लिब्ररी</string>
+    <string name="app_namee">ज़ोमज कीबोर्ड</string>
+    <string name="title_dialog">इस ऐप्लिकेशन को रेट करे</string>
+    <string name="content">आप हमारे ऐप को कितना प्यार करते हैं?</string>
+    <string name="rate_now">अब रेट करें</string>
+    <string name="feedback">प्रतिपुष्टि</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">प्ले स्टोर पर इसे रेट करने के लिए 5 स्टार टैप करें।</string>
+    <string name="enjoying_zomj_keyboard">ज़ोमज कीबोर्ड का आनंद ले रहे हैं?</string>
+    <string name="later">बाद में</string>
+    <string name="please_rate_5_start" translatable="false">कृपया 5 सितारों को रेट करें</string>
+</resources>

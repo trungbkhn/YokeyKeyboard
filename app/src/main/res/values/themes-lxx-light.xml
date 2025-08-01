@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2015, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <style name="KeyboardTheme.LXX_Light" parent="KeyboardIcons.LXX_Light">
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="inputViewStyle">@style/InputView.LXX</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="keyboardStyle">@style/Keyboard.LXX_Light</item>
+        <item name="keyboardViewStyle">@style/KeyboardView.LXX_Light</item>
+        <item name="mainKeyboardViewStyle">@style/MainKeyboardView.LXX_Light</item>
+        <item name="emojiPalettesViewStyle">@style/EmojiPalettesView.LXX_Light</item>
+        <item name="moreKeysKeyboardStyle">@style/MoreKeysKeyboard.LXX_Light</item>
+        <item name="moreKeysKeyboardViewStyle">@style/MoreKeysKeyboardView.LXX_Light</item>
+        <item name="moreKeysKeyboardViewForActionStyle">@style/MoreKeysKeyboardView.LXX_Light.Action</item>
+        <item name="suggestionStripViewStyle">@style/SuggestionStripView.LXX_Light</item>
+        <item name="suggestionWordStyle">@style/SuggestionWord.LXX_Light</item>
+        <item name="android:textColor">@color/black</item>
+<!--        <item name="android:textColorPrimary">@color/white</item>-->
+        <item name="android:textSize">16sp</item>
+        <item name="android:popupMenuStyle">@style/Widget.AppCompat.PopupMenu</item>
+        <item name="android:itemTextAppearance">@style/TextAppearance.AppCompat</item>
+        <item name="android:label">@string/english_ime_name</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+    <style name="Language" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!--        <item name="android:windowBackground">@drawable/splash</item>-->
+<!--        <item name="android:windowNoTitle">true</item>-->
+<!--        <item name="android:windowActionBar">false</item>-->
+<!--        <item name="android:windowFullscreen">true</item>-->
+<!--        <item name="android:windowContentOverlay">@null</item>-->
+<!--        <item name="android:navigationBarColor">@color/white</item>-->
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:statusBarColor" >@color/white</item>
+    </style>
+    <style name="STYLE_APP" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:statusBarColor">@color/color_transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">@color/color_ffffff</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+<!--        <item name="fontFamily">@font/poppins_regular</item>-->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+
+
+
+
+<!--        <item name="android:navigationBarColor">@color/black</item>-->
+        <item name="inputViewStyle">@style/InputView.LXX</item>
+<!--        <item name="android:textColorPrimary">@color/black</item>-->
+        <item name="keyboardStyle">@style/Keyboard.LXX_Light</item>
+        <item name="keyboardViewStyle">@style/KeyboardView.LXX_Light</item>
+        <item name="mainKeyboardViewStyle">@style/MainKeyboardView.LXX_Light</item>
+        <item name="emojiPalettesViewStyle">@style/EmojiPalettesView.LXX_Light</item>
+        <item name="moreKeysKeyboardStyle">@style/MoreKeysKeyboard.LXX_Light</item>
+        <item name="moreKeysKeyboardViewStyle">@style/MoreKeysKeyboardView.LXX_Light</item>
+        <item name="moreKeysKeyboardViewForActionStyle">@style/MoreKeysKeyboardView.LXX_Light.Action</item>
+        <item name="suggestionStripViewStyle">@style/SuggestionStripView.LXX_Light</item>
+        <item name="suggestionWordStyle">@style/SuggestionWord.LXX_Light</item>
+        <item name="android:textColor">@color/black</item>
+        <!--        <item name="android:textColorPrimary">@color/white</item>-->
+        <item name="android:textSize">16sp</item>
+        <item name="android:popupMenuStyle">@style/Widget.AppCompat.PopupMenu</item>
+        <item name="android:itemTextAppearance">@style/TextAppearance.AppCompat</item>
+        <item name="android:label">@string/english_ime_name</item>
+        <item name="iconShiftKey">@drawable/sym_keyboard_shift_holo_dark</item>
+        <item name="iconDeleteKey">@drawable/sym_keyboard_delete_holo_dark</item>
+        <item name="iconSettingsKey">@drawable/ic_setting_keyboard_light</item>
+        <item name="iconSpaceKey">@null</item>
+        <item name="iconEnterKey">@drawable/sym_keyboard_return_lxx_light</item>
+        <item name="iconGoKey">@drawable/sym_keyboard_go_lxx_dark</item>
+        <item name="iconSearchKey">@drawable/sym_keyboard_search_holo_dark</item>
+        <item name="iconSendKey">@drawable/sym_keyboard_send_lxx_dark</item>
+        <item name="iconNextKey">@drawable/sym_keyboard_next_lxx_dark</item>
+        <item name="iconDoneKey">@drawable/sym_keyboard_done_lxx_dark</item>
+        <item name="iconPreviousKey">@drawable/sym_keyboard_previous_lxx_dark</item>
+        <item name="iconTabKey">@drawable/sym_keyboard_tab_lxx_light</item>
+        <item name="iconShortcutKey">@drawable/ic_voice_keyboard</item>
+        <item name="iconShortcutKeyStripSuggest">@drawable/ic_voice_keyboard</item>
+
+        <item name="iconSpaceKeyForNumberLayout">@drawable/sym_keyboard_space_lxx_light</item>
+        <item name="iconShiftKeyShifted">@drawable/sym_keyboard_shift_locked_holo_dark</item>
+        <item name="iconShortcutKeyDisabled">@drawable/sym_keyboard_voice_off_holo_dark</item>
+        <item name="iconLanguageSwitchKey">@drawable/sym_keyboard_language_switch_dark</item>
+        <item name="iconZwnjKey">@drawable/sym_keyboard_zwnj</item>
+        <item name="iconZwjKey">@drawable/sym_keyboard_zwj</item>
+        <!-- Use white emoji icon (for lxx_dark) because an action key has green/dark color background. -->
+        <item name="iconEmojiActionKey">@drawable/ic_emoji_keyboard</item>
+        <!-- Use dark green emoji icon (for lxx_light) because a normal key has white color background. -->
+        <item name="iconEmojiNormalKey">@drawable/ic_emoji_keyboard</item>
+        <item name="iconShiftKeyShiftedAll">@drawable/icon_shift_all</item>
+    </style>
+    <style name="Style_bottomsheet" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:statusBarColor">@color/color_transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">@color/color_ffffff</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+    </style>
+
+
+    <style name="collapsingToolbarLayoutTitleColor" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+    <style name="Theme.Collapsingtoolbar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">#4E1313</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">#4E1313</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >#000000</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">22sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style
+        name="Keyboard.LXX_Light"
+        parent="Keyboard"
+    >
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <!-- This should be aligned with KeyboardTheme.THEME_ID_* -->
+        <item name="themeId">LXXLight</item>
+    </style>
+    <style
+        name="KeyboardView.LXX_Light"
+        parent="KeyboardView.LXX"
+    >
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:background">@drawable/keyboard_background_lxx_light</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_lxx_light</item>
+        <item name="functionalKeyBackground">@drawable/btn_keyboard_key_functional_lxx_light</item>
+        <item name="spacebarBackground">@drawable/btn_keyboard_spacebar_lxx_light</item>
+        <item name="keyTextColor">@color/key_text_color_lxx_light</item>
+        <item name="keyTextInactivatedColor">@color/key_text_inactive_color_lxx_light</item>
+        <item name="functionalTextColor">@color/key_functional_text_color_lxx_light</item>
+        <item name="keyHintLetterColor">@color/key_hint_letter_color_lxx_light</item>
+        <item name="keyHintLabelColor">@color/key_text_inactive_color_lxx_light</item>
+        <item name="keyShiftedLetterHintInactivatedColor">@color/key_text_inactive_color_lxx_light</item>
+        <item name="keyShiftedLetterHintActivatedColor">@color/key_text_color_lxx_light</item>
+        <item name="keyPreviewTextColor">@color/key_text_color_lxx_light</item>
+
+
+    </style>
+    <style
+        name="MainKeyboardView.LXX_Light"
+        parent="KeyboardView.LXX_Light"
+    >
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="moreKeysKeyboardForActionLayout">@layout/more_keys_keyboard_for_action_lxx</item>
+        <item name="keyPreviewBackground">@drawable/keyboard_key_feedback_lxx_light</item>
+        <item name="keyPreviewHeight">@dimen/config_key_preview_height_lxx</item>
+        <item name="keyPreviewOffset">@dimen/config_key_preview_offset_lxx</item>
+        <item name="keyPreviewShowUpAnimator">@anim/key_preview_show_up_lxx</item>
+        <item name="keyPreviewDismissAnimator">@anim/key_preview_dismiss_lxx</item>
+        <item name="gestureFloatingPreviewTextColor">@color/auto_correct_color_lxx_light</item>
+        <item name="gestureFloatingPreviewColor">@color/gesture_floating_preview_color_lxx_light</item>
+        <item name="gestureTrailColor">@color/gesture_trail_color_lxx_light</item>
+        <item name="slidingKeyInputPreviewColor">@color/sliding_key_input_preview_color_lxx_light</item>
+        <item name="languageOnSpacebarTextColor">@color/language_on_spacebar_text_color_lxx_light</item>
+        <!-- A negative value to disable text shadow layer. -->
+        <item name="languageOnSpacebarTextShadowRadius">-1.0</item>
+    </style>
+    <!-- Though {@link com.android.inputmethod.keyboard.emoji.EmojiPalettesView} doesn't extend
+         {@link com.android.inputmethod.keyboard.KeyboardView}, some views inside it, for instance
+         delete button, need themed {@link com.android.inputmethod.keyboard.KeyboardView}
+         attributes. -->
+    <style
+        name="EmojiPalettesView.LXX_Light"
+        parent="MainKeyboardView.LXX_Light"
+    >
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="categoryIndicatorEnabled">false</item>
+        <item name="categoryPageIndicatorColor">@color/highlight_color_lxx_light</item>
+        <item name="categoryPageIndicatorBackground">@color/emoji_tab_page_indicator_background_lxx_light</item>
+        <item name="iconEmojiRecentsTab">@drawable/ic_emoji_recents_lxx_light</item>
+        <item name="iconEmojiFavouriteTab">@drawable/ic_emoji_favourite_holo_dark</item>
+        <item name="iconEmojiCategory1Tab">@drawable/ic_emoji_people_lxx_light</item>
+        <item name="iconEmojiCategory2Tab">@drawable/ic_emoji_objects_lxx_light</item>
+        <item name="iconEmojiCategory3Tab">@drawable/ic_emoji_nature_lxx_light</item>
+        <item name="iconEmojiCategory4Tab">@drawable/ic_emoji_places_lxx_light</item>
+        <item name="iconEmojiCategory5Tab">@drawable/ic_emoji_symbols_lxx_light</item>
+        <item name="iconEmojiCategory6Tab">@drawable/ic_emoji_emoticons_lxx_light</item>
+        <item name="iconEmojiCategory7Tab">@drawable/ic_emoji_flag_lxx_light</item>
+        <item name="iconEmojiCategory8Tab">@drawable/ic_emoji_people_lxx_light</item>
+        <item name="iconEmojiCategory9Tab">@drawable/ic_emoji_nature_lxx_light</item>
+        <item name="iconEmojiCategory10Tab">@drawable/ic_emoji_food_lxx_light</item>
+        <item name="iconEmojiCategory11Tab">@drawable/ic_emoji_places_lxx_light</item>
+        <item name="iconEmojiCategory12Tab">@drawable/ic_emoji_activity_lxx_light</item>
+        <item name="iconEmojiCategory13Tab">@drawable/ic_emoji_objects_lxx_light</item>
+        <item name="iconEmojiCategory14Tab">@drawable/ic_emoji_symbols_lxx_light</item>
+        <item name="iconEmojiCategory15Tab">@drawable/ic_emoji_flag_lxx_light</item>
+        <item name="iconEmojiCategory16Tab">@drawable/ic_emoji_people_lxx_light</item>
+    </style>
+    <style
+        name="MoreKeysKeyboard.LXX_Light"
+        parent="Keyboard.LXX_Light"
+    >
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="keyboardTopPadding">0%p</item>
+        <item name="keyboardBottomPadding">0%p</item>
+        <item name="horizontalGap">0%p</item>
+        <item name="touchPositionCorrectionData">@null</item>
+    </style>
+    <style
+        name="MoreKeysKeyboardView.LXX_Light"
+        parent="KeyboardView.LXX_Light"
+    >
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:background">@drawable/keyboard_popup_panel_background_lxx_light</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_popup_lxx_light</item>
+        <item name="divider">@drawable/more_keys_divider</item>
+        <item name="keyTypeface">normal</item>
+        <item name="verticalCorrection">@dimen/config_more_keys_keyboard_vertical_correction_holo</item>
+        <item name="keyLabelFlags">keepBackgroundAspectRatio</item>
+    </style>
+    <style
+        name="MoreKeysKeyboardView.LXX_Light.Action"
+        parent="MoreKeysKeyboardView.LXX_Light"
+    >
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_popup_action_lxx_light</item>
+        <item name="divider">@null</item>
+        <item name="keyLabelFlags">keepBackgroundAspectRatio</item>
+    </style>
+    <style
+        name="SuggestionStripView.LXX_Light"
+        parent="KeyboardView.LXX_Light"
+    >
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="suggestionsCountInStrip">@integer/config_suggestions_count_in_strip</item>
+        <item name="centerSuggestionPercentile">@fraction/config_center_suggestion_percentile</item>
+        <item name="maxMoreSuggestionsRow">@integer/config_max_more_suggestions_row</item>
+        <item name="minMoreSuggestionsWidth">@fraction/config_min_more_suggestions_width</item>
+        <item name="android:background">@drawable/keyboard_suggest_strip_lxx_light</item>
+        <item name="android:src">@drawable/suggestions_strip_divider_lxx_light</item>
+        <item name="suggestionStripOptions">autoCorrectBold|validTypedWordBold</item>
+        <item name="colorValidTypedWord">@color/typed_word_color_lxx_light</item>
+        <item name="colorTypedWord">@color/typed_word_color_lxx_light</item>
+        <item name="colorAutoCorrect">@color/auto_correct_color_lxx_light</item>
+        <item name="colorSuggested">@color/suggested_word_color_lxx_light</item>
+        <item name="alphaObsoleted">70%</item>
+    </style>
+    <style
+        name="SuggestionWord.LXX_Light"
+        parent="SuggestionWord"
+    >
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:background">@drawable/btn_suggestion_lxx_light</item>
+        <item name="android:textColor">@color/highlight_color_lxx_light</item>
+    </style>
+
+    <style name="Spinner" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:forceDarkAllowed" >false</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">2dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:backgroundTint">@color/background_main</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="KeyboardTheme.LXX_Light.AdAttribution">
+        <item name="android:forceDarkAllowed" >false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:text">Ad</item>
+        <item name="android:background">#FFCC66</item>
+        <item name="android:width">15dp</item>
+        <item name="android:height">15dp</item>
+    </style>
+
+</resources>

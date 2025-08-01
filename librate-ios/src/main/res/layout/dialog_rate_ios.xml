@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="24dp"
+    android:background="@drawable/custom_background_dialog_rate"
+    android:orientation="vertical"
+    app:ignore="NamespaceTypo">
+
+    <ImageView
+        android:id="@+id/img_icon_app"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/icon_rate_app_dialogss"
+        rb:layout_constraintEnd_toEndOf="parent"
+        rb:layout_constraintStart_toStartOf="parent"
+        rb:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_exit_rate"
+        android:layout_width="35dp"
+        android:background="?actionBarItemBackground"
+        android:layout_height="35dp"
+        android:padding="6dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/ic_close_rate"
+        rb:layout_constraintEnd_toEndOf="parent"
+        rb:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="12dp" />
+
+    <TextView
+        android:id="@+id/txt_name_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:gravity="center_horizontal"
+        android:text="@string/enjoying_zomj_keyboard"
+        android:textColor="#212121"
+        android:textSize="20sp"
+        rb:layout_constraintTop_toBottomOf="@id/img_icon_app" />
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/tap_5_star_to_rate_it_on_the_play_store"
+        android:textColor="#212121"
+        android:textSize="17sp"
+        rb:layout_constraintTop_toBottomOf="@id/txt_name_app" />
+
+    <View
+        android:id="@+id/v_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginTop="14dp"
+        android:background="#d8d8d8"
+        rb:layout_constraintTop_toBottomOf="@id/txt_title" />
+
+    <company.librate.view.RotationRatingBar
+        android:id="@+id/simpleRatingBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        rb:clearRatingEnabled="true"
+        rb:layout_constraintTop_toBottomOf="@id/v_line"
+        rb:starPadding="16"
+        rb:touchable="true" />
+
+    <View
+        android:id="@+id/v_line_rate"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginTop="14dp"
+        android:background="#d8d8d8"
+        rb:layout_constraintTop_toBottomOf="@id/simpleRatingBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center|right"
+        android:orientation="horizontal"
+        rb:layout_constraintTop_toBottomOf="@id/v_line_rate">
+
+        <TextView
+            android:id="@+id/btn_not_now"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/later"
+            android:textAllCaps="false"
+            android:textColor="#28293D"
+            android:textSize="@dimen/_13sdp"/>
+
+        <View
+            android:layout_width="0.8dp"
+            android:layout_height="match_parent"
+            android:background="#d8d8d8" />
+
+        <company.librate.view.CustomTextViewGradients
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn_rate"
+            android:gravity="center"
+            android:fontFamily="@font/inter_medium"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:maxLines="1"
+            android:text="@string/rate_now"
+            android:textAllCaps="false"
+            android:textColor="#ff2d54"
+            android:textSize="@dimen/_14sdp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FiveStarslibrary</string>
+    <string name="app_namee">Zomj баскычтоп</string>
+    <string name="title_dialog">Бул колдонмону баалаңыз</string>
+    <string name="content">Сиз биздин колдонмоңузду канчалык жакшы көрөсүз?</string>
+    <string name="rate_now">Азыр баалоо</string>
+    <string name="feedback">Пикир</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Play Store дүкөнүндө баалоо үчүн 5 жылдызды таптаңыз.</string>
+    <string name="enjoying_zomj_keyboard">ZOMJ клавиатурасынан ырахат аласыңбы?</string>
+    <string name="later">Кийинчерээк</string>
+    <string name="please_rate_5_start" translatable="false">Сураныч, 5 жылдызга баа бериңиз</string>
+</resources>

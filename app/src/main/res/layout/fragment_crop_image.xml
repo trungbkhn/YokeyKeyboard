@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:splitMotionEvents="false">
+
+
+        <ImageView
+            android:id="@+id/btnBackCrop"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="17dp"
+            android:background="?android:actionBarItemBackground"
+            android:src="@drawable/ic_icon_back_crop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="@string/crop_image"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.theartofdev.edmodo.cropper.CropImageView
+            android:id="@+id/imgCrop"
+            android:layout_width="0dp"
+            android:largeHeap="true"
+            android:hardwareAccelerated="false"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="@dimen/padding_normal_double"
+            app:layout_constraintBottom_toTopOf="@id/txtCancelCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnBackCrop" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/progressCrop"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/padding_normal_double"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            app:layout_constraintBottom_toBottomOf="@id/imgCrop"
+            app:layout_constraintEnd_toEndOf="@id/imgCrop"
+            app:layout_constraintStart_toStartOf="@id/imgCrop"
+            app:layout_constraintTop_toTopOf="@id/imgCrop"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="loading_circle.json"
+            app:lottie_loop="true" />
+
+
+        <com.tapbi.spark.yokey.ui.custom.view.CusTomButtonText
+            android:id="@+id/txtCancelCrop"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="@dimen/padding_normal_double_extra5dp"
+            android:layout_marginEnd="@dimen/padding_normal"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_effect_btn_cancel"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            app:colorEnd="#A099A9"
+            app:colorStart="#BDBEDB"
+            app:cornerRadius="@dimen/padding_normal_double_extra5dp"
+            app:icShowGradient="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/txtCrop"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.tapbi.spark.yokey.ui.custom.view.CusTomButtonText
+            android:id="@+id/txtCrop"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="@dimen/padding_normal"
+            android:layout_marginEnd="@dimen/padding_normal_double_extra5dp"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_crop"
+            android:gravity="center"
+            android:text="@string/crop"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            app:colorEnd="#FF46E1"
+            app:colorStart="#913FFF"
+            app:cornerRadius="@dimen/padding_normal_double_extra5dp"
+            app:icShowGradient="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@id/txtCancelCrop" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

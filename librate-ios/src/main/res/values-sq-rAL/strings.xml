@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FivestarsLibrary</string>
+    <string name="app_namee">Tastierë zom</string>
+    <string name="title_dialog">VLERSONI KETE APLIKACION</string>
+    <string name="content">Sa e doni aplikacionin tonë?</string>
+    <string name="rate_now">Norma tani</string>
+    <string name="feedback">Reagim</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Prekni 5 yll për ta vlerësuar atë në dyqanin e lojës.</string>
+    <string name="enjoying_zomj_keyboard">Duke shijuar tastierën ZOMJ?</string>
+    <string name="later">Më vonë</string>
+    <string name="please_rate_5_start" translatable="false">Vlerësoni 5 yje</string>
+</resources>

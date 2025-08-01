@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cstlMain"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@+id/vDragTop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_34dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/viewtop"
+        android:layout_width="@dimen/size_15dp"
+        android:layout_height="@dimen/size_6dp"
+        android:src="@drawable/ic_up_drag"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/vDragTop" />
+
+    <View
+        android:id="@+id/vLineHz"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_6dp"
+        android:background="@drawable/bg_line_drag_height_kb"
+        app:layout_constraintBottom_toBottomOf="@id/vDragTop"
+        app:layout_constraintTop_toTopOf="@id/vDragTop" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/viewbottom"
+        android:layout_width="@dimen/size_15dp"
+        android:layout_height="@dimen/size_6dp"
+        android:src="@drawable/ic_down_drag"
+        app:layout_constraintBottom_toBottomOf="@id/vDragTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_line_drag_height_kb"
+        android:text="@string/setup_finish_action"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vDragTop" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/viewGroup"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:constraint_referenced_ids="btnOk,vDragTop,vLineHz,viewbottom,viewtop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

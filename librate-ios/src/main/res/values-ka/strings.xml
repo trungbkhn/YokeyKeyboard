@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary</string>
+    <string name="app_namee">Zomj კლავიატურა</string>
+    <string name="title_dialog">შეაფასეთ ეს აპლიკაცია</string>
+    <string name="content">რამდენად გიყვარს ჩვენი აპლიკაცია?</string>
+    <string name="rate_now">განაკვეთი ახლა</string>
+    <string name="feedback">კავშირი</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Tap 5 ვარსკვლავი შეაფასოს ეს Play Store.</string>
+    <string name="enjoying_zomj_keyboard">სარგებლობს Zomj კლავიატურაზე?</string>
+    <string name="later">მოგვიანებით</string>
+    <string name="please_rate_5_start" translatable="false">გთხოვთ შეაფასოთ 5 ვარსკვლავი</string>
+</resources>

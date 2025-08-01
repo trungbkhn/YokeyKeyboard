@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">fivestarslibrary</string>
+    <string name="app_namee">Zomj键盘</string>
+    <string name="title_dialog">为这个应用软件评分</string>
+    <string name="content">你喜欢我们的应用程序多少钱？</string>
+    <string name="rate_now">现在就评价吧</string>
+    <string name="feedback">回馈</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">点击5星可在播放商店进行评分。</string>
+    <string name="enjoying_zomj_keyboard">享受zomj键盘？</string>
+    <string name="later">之后</string>
+    <string name="please_rate_5_start" translatable="false">请评价5星</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FIVESTARSLIRATRY</string>
+    <string name="app_namee">Zomj klaviatūra</string>
+    <string name="title_dialog">ĮVERTINK ŠIĄ APLIKACIJĄ</string>
+    <string name="content">Kiek jums patinka mūsų programa?</string>
+    <string name="rate_now">Įvertink dabar</string>
+    <string name="feedback">Atsiliepimas</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Bakstelėkite 5 žvaigždę, kad ją įvertintumėte žaidimų parduotuvėje.</string>
+    <string name="enjoying_zomj_keyboard">Mėgaukitės zomj klaviatūra?</string>
+    <string name="later">Vėliau</string>
+    <string name="please_rate_5_start" translatable="false">Įvertinkite 5 žvaigždes</string>
+</resources>

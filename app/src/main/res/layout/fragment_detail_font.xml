@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:paddingBottom="50dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgClose"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="@dimen/_16sdp"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_close"
+                    app:layout_constraintBottom_toTopOf="@id/layoutContent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layoutContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="@dimen/_80sdp"
+                    android:background="@drawable/bg_done_language"
+                    android:clipToPadding="false"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/imgPreviewFont"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_180sdp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:src="@drawable/bg_black_corner_8"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:shapeAppearance="?attr/shapeAppearanceMediumComponent"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.Card.Media"
+                        tools:ignore="MissingConstraints" />
+
+                    <View
+                        android:id="@+id/gl_60"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:orientation="horizontal"
+                        app:layout_constraintTop_toTopOf="@id/imgPreviewFont"
+                        app:layout_constraintBottom_toBottomOf="@id/imgPreviewFont"/>
+
+                    <TextView
+                        android:id="@+id/txtNameFont"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:paddingStart="20dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="20dp"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        app:layout_constraintBottom_toTopOf="@id/gl_60" />
+
+                    <TextView
+                        android:id="@+id/txtDemoFont"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        app:layout_constraintTop_toBottomOf="@id/gl_60"
+                        tools:ignore="SmallSp" />
+
+                    <TextView
+                        android:id="@+id/txtDescriptionDowload"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:text="@string/download_this_font_to_apply"
+                        android:textColor="@color/color_999999"
+                        android:textSize="@dimen/_10sdp"
+                        android:visibility="visible"
+                        app:layout_constraintTop_toBottomOf="@id/imgPreviewFont"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:id="@+id/btnApplyFont"
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/bg_black_corner_8"
+                        android:clickable="true"
+                        android:drawablePadding="5dp"
+                        android:focusable="true"
+                        android:fontFamily="@font/inter_medium"
+                        android:gravity="center"
+                        android:paddingTop="@dimen/_2sdp"
+                        android:paddingStart="25dp"
+                        android:paddingEnd="25dp"
+                        android:text="@string/txt_apply_font"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13sdp"
+                        android:visibility="visible"
+                        app:layout_constraintTop_toBottomOf="@id/imgPreviewFont"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <View
+                        app:layout_constraintTop_toBottomOf="@+id/btnApplyFont"
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"/>
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/spin_kit_detail_activity"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:scaleX="1.5"
+                        android:scaleY="1.5"
+                        android:visibility="invisible"
+                        app:layout_constraintBottom_toBottomOf="@+id/btnApplyFont"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@id/btnApplyFont"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="loading_circle.json"
+                        app:lottie_loop="true" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/ctlPremium2"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:layout_marginHorizontal="15dp"
+                        android:visibility="gone"
+                        android:background="@drawable/bg_fff6f0_corner_8_press"
+                        app:layout_constraintTop_toBottomOf="@id/btnApplyFont"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp">
+
+                        <TextView
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:drawablePadding="5dp"
+                            android:fontFamily="@font/inter_medium"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:gravity="center"
+                            android:text="@string/remove_all_ads"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            app:drawableStartCompat="@drawable/ic_noti" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <com.google.android.ads.nativetemplates.TemplateViewMultiAds
+                        android:id="@+id/fr_ads_native"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:tag="@string/tag_native_detail_font"
+                        app:priority="1"
+                        android:minHeight="50dp"
+                        app:gnt_template_type="@layout/gnt_admob_native_layout_no_media_2"
+                        app:layout_constraintTop_toBottomOf="@id/ctlPremium2" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/ctlPremium"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/bg_fff6f0_corner_8_press"
+                    app:layout_constraintTop_toBottomOf="@id/layoutContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp">
+
+                    <TextView
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/inter_medium"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:text="@string/remove_all_ads"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:drawableStartCompat="@drawable/ic_noti" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

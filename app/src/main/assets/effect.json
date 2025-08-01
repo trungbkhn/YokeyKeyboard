@@ -1,0 +1,70 @@
+{
+  "Effect": [
+    {
+      "id": "1001",
+      "name": "Effect 1",
+      "image": "file:///android_asset/effect/1001/thumbnail.png",
+      "preview": "file:///android_asset/effect/1001/preview.png"
+    },
+    {
+      "id": "1002",
+      "name": "Effect 2",
+      "image": "file:///android_asset/effect/1002/thumbnail.png",
+      "preview": "file:///android_asset/effect/1002/preview.png"
+    },
+    {
+      "id": "1003",
+      "name": "Effect 3",
+      "image": "file:///android_asset/effect/1003/thumbnail.png",
+      "preview": "file:///android_asset/effect/1003/preview.png"
+    },
+    {
+      "id": "1004",
+      "name": "Effect 4",
+      "image": "file:///android_asset/effect/1004/thumbnail.png",
+      "preview": "file:///android_asset/effect/1004/preview.png"
+    },
+    {
+      "id": "1005",
+      "name": "Effect 5",
+      "image": "file:///android_asset/effect/1005/thumbnail.png",
+      "preview": "file:///android_asset/effect/1005/preview.png"
+    },
+    {
+      "id": "1006",
+      "name": "Effect 6",
+      "image": "file:///android_asset/effect/1006/thumbnail.png",
+      "preview": "file:///android_asset/effect/1006/preview.png"
+    },
+    {
+      "id": "1007",
+      "name": "Effect 7",
+      "image": "file:///android_asset/effect/1007/thumbnail.png",
+      "preview": "file:///android_asset/effect/1007/preview.png"
+    },
+    {
+      "id": "1008",
+      "name": "Effect 8",
+      "image": "file:///android_asset/effect/1008/thumbnail.png",
+      "preview": "file:///android_asset/effect/1008/preview.png"
+    },
+    {
+      "id": "1009",
+      "name": "Effect 9",
+      "image": "file:///android_asset/effect/1009/thumbnail.png",
+      "preview": "file:///android_asset/effect/1009/preview.png"
+    },
+    {
+      "id": "1010",
+      "name": "Effect 10",
+      "image": "file:///android_asset/effect/1010/thumbnail.png",
+      "preview": "file:///android_asset/effect/1010/preview.png"
+    },
+    {
+      "id": "1011",
+      "name": "Effect 11",
+      "image": "file:///android_asset/effect/1011/thumbnail.png",
+      "preview": "file:///android_asset/effect/1011/preview.png"
+    }
+  ]
+}

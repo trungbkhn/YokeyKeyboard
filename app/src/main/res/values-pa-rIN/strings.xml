@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="no_support_number_keyboard">ਸੰਖਿਆਤਮ ਕੀਪੈਡ ਲਈ ਸਹਾਇਤਾ ਨਹੀਂ</string>
+    <string name="the_maximum_number_of_characters_has_been_reached">ਅੱਖਰਾਂ ਦੀ ਵੱਧ ਤੋਂ ਵੱਧ ਗਿਣਤੀ ਤੱਕ ਪਹੁੰਚ ਗਈ ਹੈ</string>
+    <string name="no_support_this_language_keyboard"> ਇਹ ਭਾਸ਼ਾ ਕੀਬੋਰਡ ਇਸ ਸਮੇਂ ਸਹਿਯੋਗੀ ਨਹੀਂ ਹੈ  </string>
+    <string name="langauge_detection">                ਭਾਸ਼ਾ ਦੀ ਪਛਾਣ  </string>
+    <string name="app_language">ਐਪਲੀਕੇਸ਼ਨ ਭਾਸ਼ਾ</string>
+    <string name="not_support_gif">ਇਹ ਸੰਪਾਦਨ GIF ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ!</string>
+    <string name="you_haven_t_created_a_theme_yet">ਤੁਸੀਂ ਥੀਮਜ਼ ਨੂੰ ਅਜੇ ਨਹੀਂ ਬਣਾਇਆ</string>
+    <string name="an_error_select_the_image">ਚਿੱਤਰ ਨੂੰ ਚੁਣਨ ਵੇਲੇ ਇੱਕ ਗਲਤੀ ਹੈ! ਮੁੜ ਕੋਸ਼ਿਸ ਕਰੋ ਜੀ.</string>
+    <string name="txt_featured"> ਫੀਚਰਡ </string>
+    <string name="change_size">  ਆਕਾਰ ਬਦਲੋ  </string>
+    <string name="crop_image">   ਫਸਲ ਦਾ ਚਿੱਤਰ  </string>
+    <string name="crop">         ਫਸਲ         </string>
+    <string name="gallery">      ਗੈਲਰੀ       </string>
+    <string name="store">        ਸਟੋਰ </string>
+    <string name="premium_remove_ads_success">ਤੁਸੀਂ ਪ੍ਰੀਮੀਅਮ ਬਣ ਗਏ ਹੋ !!!</string>
+
+    <string name="pro_restore_failed">ਜਾਣਕਾਰੀ ਦੀ ਖਰੀਦ ਨਹੀਂ ਮਿਲੀ!</string>
+
+    <string name="premium_billing_error">ਖਰੀਦ ਗਲਤੀ ਆਈ ਹੈ! ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ</string>
+
+    <string name="zibil">ਜ਼ੀਬਿਲ</string>
+
+    <string name="get_started">ਸ਼ੁਰੂ ਕਰੋ</string>
+
+    <string name="apply_theme">ਥੀਮ ਲਾਗੂ ਕਰੋ</string>
+
+    <string name="buy_theme">ਥੀਮ ਖਰੀਦੋ</string>
+
+    <string name="apply_theme_done">ਲਾਗੂ ਥੀਮ</string>
+
+    <string name="apply_font_done">ਲਾਗੂ ਫੋਂਟ</string>
+
+    <string name="apply_font_success">ਫੋਂਟ ਸਫਲਤਾ</string>
+
+    <string name="apply_sticker_done">ਲਾਗੂ ਕੀਤਾ ਗਿਆ ਸਟਿੱਕਰ</string>
+
+    <string name="apply_sticker_success">ਸਟਿੱਕਰ ਸਫਲਤਾਪੂਰਵਕ</string>
+
+    <string name="apply_theme_fail">ਥੀਮ ਨੂੰ ਅਸਫਲ ਲਾਗੂ ਕੀਤਾ</string>
+
+    <string name="apply_sticker_fail">ਸਟਿੱਕਰ ਲਗਾਓ</string>
+
+    <string name="link_json_file">ਥੀਮ / ਥੀਮਸ_ਬਰਾਉਂਸਨ</string>
+
+    <string name="link_json_top_file">ਥੀਮ / ਥੀਮਜ਼_ਟੌਪ.ਜਸਨ</string>
+
+    <string name="path_themes_file">ਥੀਮ / ਥੀਮਸ_ਬਰਾਉਂਸਨ</string>
+
+    <string name="text_rate_5_star_for_rgb_keyboard">ਰੇਟ ਐਪ</string>
+
+    <string name="text_policy_rgb_keyboard">ਨੀਤੀ ਨੂੰ</string>
+
+    <string name="text_more">ਹੋਰ</string>
+
+    <string name="text_ledkey_for_life_beauty">ਜ਼ੋਮਜੇ ਕੀਬੋਰਡ ਤੇ ਟੈਕਸਟ ਭੇਜਣਾ!</string>
+
+    <string name="app_name_emoji">20 ਇਡੋਜੀ ਕੀਬੋਰਡ 2021</string>
+
+    <string name="text_tab_themes">ਥੀਮ</string>
+
+    <string name="text_tab_fonts">ਫੋਂਟ</string>
+
+    <string name="text_tab_sticker">ਸਟਿੱਕਰ</string>
+
+    <string name="text_tab_emoji">ਇਮੋਜੀ</string>
+
+    <string name="text_tab_setting">ਸੈਟਿੰਗ</string>
+
+    <string name="text_tab_more">ਹੋਰ</string>
+
+    <string name="hello_blank_fragment">ਹੈਲੋ ਖਾਲੀ ਟੁਕੜਾ</string>
+
+    <string name="text_loading">ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ ...</string>
+
+    <string name="txt_name_hot_theme">ਗਰਮ</string>
+
+    <string name="txt_name_led_theme">ਅਗਵਾਈ</string>
+
+    <string name="txt_name_animated_theme">ਐਨੀਮੇਟਡ</string>
+
+    <string name="txt_name_gradient_theme">ਢਾਲ</string>
+
+    <string name="txt_name_color_theme">ਰੰਗ</string>
+
+    <string name="txt_download_theme">ਥੀਮ ਡਾ Download ਨਲੋਡ ਕਰੋ</string>
+
+    <string name="txt_get_theme">ਥੀਮ ਪ੍ਰਾਪਤ ਕਰੋ</string>
+
+    <string name="txt_download_sticker">ਡਿਕਰ ਡਾਉਨਲੋਡ ਕਰੋ</string>
+
+    <string name="txt_add_sticker">ਸਟਿੱਕਰ ਸ਼ਾਮਲ ਕਰੋ</string>
+
+    <string name="txt_apply_font">ਫੋਂਟ ਲਾਗੂ ਕਰੋ</string>
+
+    <string name="txt_not_theme">ਥੀਮ ਨਹੀਂ</string>
+
+    <string name="txt_wallpaper">ਵਾਲਪੇਪਰ</string>
+
+    <string name="txt_MyTheme">ਮੇਰੇ ਥੀਮ</string>
+
+    <string name="txt_tiktok">Tik ਟੋਕ</string>
+
+    <string name="txt_animal">ਜਾਨਵਰ</string>
+
+    <string name="text_check_internet">ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਥੀਮਜ਼ ਲਈ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ!</string>
+
+    <string name="text_check_internet_sticker">ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਸਟਿੱਕਰ ਲੈਣ ਲਈ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ!</string>
+
+    <string name="txt_splash">ਜ਼ੋਮਜੇ ਕੀਬੋਰਡ</string>
+
+    <string name="txt_text_policy">ਮੈਂ ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ ਅਤੇ ਗੋਪਨੀਯਤਾ ਨੀਤੀ ਨਾਲ ਸਹਿਮਤ ਹਾਂ</string>
+
+    <string name="select">ਚੁਣੋ</string>
+
+    <string name="select_all">ਸਾਰਿਆ ਨੂੰ ਚੁਣੋ</string>
+
+    <string name="copy">ਕਾਪੀ</string>
+
+    <string name="paste">ਚਿਪਕਾਓ</string>
+
+    <string name="cut">ਕੱਟ</string>
+
+    <string name="text_copied">ਟੈਕਸਟ ਨਕਲ ਕੀਤਾ</string>
+
+    <string name="show_key_special">ਕੁੰਜੀਆਂ \'ਤੇ ਵਿਸ਼ੇਸ਼ ਅੱਖਰ ਦਿਖਾਓ</string>
+
+    <string name="ledkey">ਲਕੀਕੀ</string>
+
+    <string name="custom">ਪ੍ਰਥਾ</string>
+
+    <string name="help_and_feedbacks">ਮਦਦ ਅਤੇ ਫੀਡਬੈਕ</string>
+
+    <string name="emoji_sticker_gif_and_symbol_keyboard">ਇਮੋਜੀ, ਸਟਿੱਕਰ, ਗਿਫ ਅਤੇ ਸਿੰਬਲ ਕੀਬੋਰਡ</string>
+
+    <string name="_15sp">15 ਵਜੇ</string>
+
+    <string name="enter_something_for_test">ਟੈਸਟ ਲਈ ਕੁਝ ਦਾਖਲ ਕਰੋ</string>
+
+    <string name="fonts">ਫੋਂਟ</string>
+
+    <string name="tab_all">ਸਾਰੇ</string>
+
+    <string name="tab_sans_serif">ਸੀਨਜ਼ ਸੇਰਿਫ</string>
+
+    <string name="tab_serif">ਸੇਰਿਫ</string>
+
+    <string name="tab_display">ਡਿਸਪਲੇਅ</string>
+
+    <string name="tab_handwriting">ਲਿਖਤ</string>
+
+    <string name="tab_script">ਸਕ੍ਰਿਪਟ</string>
+
+    <string name="tab_tiktok">Tik ਟੋਕ</string>
+
+    <string name="tab_instagram">ਇੰਸਟਾਗ੍ਰਾਮ</string>
+
+    <string name="tab_other">ਹੋਰ</string>
+
+    <string name="no_app">ਕੋਈ ਵੀ ਐਪ ਲੱਭਿਆ ਬਾਹਰੀ ਕੰਮ ਕਰਨ ਲਈ ਕੋਈ ਐਪ ਨਹੀਂ</string>
+
+    <string name="clipboard">ਕਲਿੱਪਬੋਰਡ</string>
+
+    <string name="there_is_no_data_in_the_clipboard">ਕਲਿੱਪਬੋਰਡ ਵਿੱਚ ਕੋਈ ਡਾਟਾ ਨਹੀਂ ਹੈ</string>
+
+    <string name="hidden">ਲੁਕਿਆ ਹੋਇਆ</string>
+
+    <string name="vibrate">ਵਾਈਬ੍ਰੇਟ</string>
+
+    <string name="sound">ਆਵਾਜ਼</string>
+
+    <string name="automatic_ncorrection">ਆਟੋਮੈਟਿਕ ਨੈਕੋਰੈਕਸ਼ਨ</string>
+
+    <string name="correction_off">ਸੁਧਾਰ ਬੰਦ</string>
+
+    <string name="suggestion_off">ਸੁਝਾਅ ਬੰਦ</string>
+
+    <string name="silent">ਚੁੱਪ</string>
+
+    <string name="mute">ਮੂਕ</string>
+
+    <string name="language">ਭਾਸ਼ਾ</string>
+
+    <string name="show_n_suggestions">ਸੁਝਾਅ ਦਿਖਾਓ</string>
+
+    <string name="more">ਹੋਰ</string>
+
+    <string name="sticker">ਸਟਿੱਕਰ</string>
+
+    <string name="add_sticker">ਸਟਿੱਕਰ ਸ਼ਾਮਲ ਕਰੋ</string>
+
+    <string name="not_support_sticker">ਇਹ ਐਡਟੇਸਟ ਸਟਿੱਕਰ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ!</string>
+
+    <string name="add_font">ਫੋਂਟ ਸ਼ਾਮਲ ਕਰੋ</string>
+
+    <string name="not_support_font">ਇਹ ਫੋਂਟ ਤੁਹਾਡੀ ਭਾਸ਼ਾ ਵਿੱਚ ਸਹਿਯੋਗੀ ਨਹੀਂ ਹੈ</string>
+
+    <string name="apply_themes_success">ਥੀਮ ਸਫਲਤਾ ਲਾਗੂ ਕਰੋ</string>
+
+    <string name="let_s_get_started">ਆਓ ਸ਼ੁਰੂ ਕਰੀਏ</string>
+
+    <string name="thanks_for_choosing_zomj_keyboard_you_trust_is_very_important_to_us">ਜ਼ੋਮਜੇ ਕੀਬੋਰਡ ਦੀ ਚੋਣ ਕਰਨ ਲਈ ਧੰਨਵਾਦ ਤੁਹਾਡੇ ਭਰੋਸੇਮੰਦ ਸਾਡੇ ਲਈ ਬਹੁਤ ਮਹੱਤਵਪੂਰਨ ਹੈ</string>
+
+    <string name="choose_keyboard">ਕੀਬੋਰਡ ਚੁਣੋ</string>
+
+    <string name="data_privacy">ਡਾਟਾ ਗੋਪਨੀਯਤਾ</string>
+
+    <string name="zomj_keyboard">ਜ਼ੋਮਜੇ ਕੀਬੋਰਡ</string>
+
+    <string name="never_collects_personal_data">ਕਦੇ ਵੀ ਨਿੱਜੀ ਡੇਟਾ ਇਕੱਤਰ ਨਹੀਂ ਕਰਦਾ</string>
+
+    <string name="such_as_password_credit_card_number_etc">ਜਿਵੇਂ ਕਿ ਪਾਸਵਰਡ, ਕ੍ਰੈਡਿਟ ਕਾਰਡ ਨੰਬਰ ਆਦਿ ...</string>
+
+    <string name="how_do_we_protect_personal_data">ਅਸੀਂ ਨਿੱਜੀ ਡਾਟੇ ਦੀ ਰੱਖਿਆ ਕਿਵੇਂ ਕਰਦੇ ਹਾਂ?</string>
+
+    <string name="accept">ਸਵੀਕਾਰ ਕਰੋ</string>
+
+    <string name="customize">ਅਨੁਕੂਲਿਤ</string>
+
+    <string name="background">ਪਿਛੋਕੜ</string>
+
+    <string name="key">ਕੁੰਜੀ</string>
+
+    <string name="effect">ਪ੍ਰਭਾਵ</string>
+
+    <string name="double_spacebar_insert_period">ਡਬਲ ਸਪੇਸ ਬਾਰ ਸੰਮਿਲਨ ਅਵਧੀ</string>
+
+    <string name="automatic_correction">ਆਟੋਮੈਟਿਕ ਸੁਧਾਰ</string>
+
+    <string name="auto_capitalization">ਆਟੋ ਪੂੰਜੀਕਰਣ</string>
+
+    <string name="privacy_policy">ਪਰਾਈਵੇਟ ਨੀਤੀ</string>
+
+    <string name="custom_input">ਕਸਟਮ ਇਨਪੁਟ</string>
+
+    <string name="themes">ਥੀਮ</string>
+
+    <string name="simple_button">ਸਧਾਰਨ ਬਟਨ</string>
+
+    <string name="popular_button">ਪ੍ਰਸਿੱਧ ਬਟਨ</string>
+
+    <string name="text_color">ਟੈਕਸਟ ਰੰਗ</string>
+
+    <string name="toolbar_color">ਟੂਲਬਾਰ ਰੰਗ</string>
+
+    <string name="key_effect">ਮੁੱਖ ਪ੍ਰਭਾਵ</string>
+
+    <string name="You_need_to_enable_permissions_to_use_this_feature">ਤੁਹਾਨੂੰ ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਅਧਿਕਾਰਾਂ ਨੂੰ ਸਮਰੱਥ ਕਰਨ ਦੀ ਜ਼ਰੂਰਤ ਹੈ</string>
+
+    <string name="go_to_setting">ਸੈਟਿੰਗ ਤੇ ਜਾਓ</string>
+
+    <string name="go_back">ਵਾਪਸ ਜਾਓ</string>
+
+    <string name="access_is_denied">ਪਹੁੰਚ ਤੋਂ ਇਨਕਾਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ</string>
+
+    <string name="error_down_background">ਪਿਛੋਕੜ ਹੇਠਾਂ</string>
+
+    <string name="_0">0</string>
+
+    <string name="download_and_use_free_150_theme">ਮੁਫਤ 150+ ਥੀਮ ਨੂੰ ਡਾ and ਨਲੋਡ ਕਰੋ ਅਤੇ ਵਰਤੋਂ</string>
+
+    <string name="unlock_all_themes">ਸਾਰੇ ਥੀਮ ਨੂੰ ਅਨਲੌਕ ਕਰੋ</string>
+
+    <string name="_199_month">$ 1.99 / ਮਹੀਨਾ</string>
+
+    <string name="_1999_year">$ 19.99 / ਸਾਲ (ਸੇਵ 2 ਮਹੀਨੇ)</string>
+
+    <string name="_2999_uses">$ 29.99 / ਵਰਤੋਂ ਪੱਕੇ ਤੌਰ \'ਤੇ</string>
+
+    <string name="try_3_days_free_1_99_mo_after_trial_ends">3 ਦਿਨ ਮੁਫਤ ਅਜ਼ਮਾਓ. ਮੁਕੱਦਮੇ ਦੇ ਬਾਅਦ $ 1.99 / ਮੋ</string>
+
+    <string name="continue1">ਜਾਰੀ ਰੱਖੋ</string>
+
+    <string name="already_pro">ਪਹਿਲਾਂ ਹੀ ਪ੍ਰੋ?</string>
+
+    <string name="trial_will_automatically">ਮੁਕੱਦਮਾ ਆਪਣੇ ਆਪ ਹੀ ਇੱਕ ਮਹੀਨਾਵਾਰ ਗਾਹਕੀ ਵਿੱਚ ਬਦਲ ਜਾਵੇਗਾ <font fgcolor='#000000'>18 ਸਤੰਬਰ, 2021</font>
+        ਜਦ ਤੱਕ ਘੱਟੋ ਘੱਟ 24 ਘੰਟੇ ਪਹਿਲਾਂ ਰੱਦ ਨਹੀਂ ਹੁੰਦਾ</string>
+
+    <string name="your_design_will_be_lost">ਤੁਹਾਡਾ ਡਿਜ਼ਾਇਨ ਗੁੰਮ ਜਾਵੇਗਾ ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਬਾਹਰ ਆਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+
+    <string name="cancel_theme">ਰੱਦ ਕਰੋ</string>
+
+    <string name="yes_theme">ਹਾਂ</string>
+
+    <string name="premium_billing_not_avaiable">ਖਰੀਦ ਸੇਵਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ ਜਾਂ ਗਲਤੀ</string>
+
+    <string name="key_sound">ਕੁੰਜੀ ਆਵਾਜ਼</string>
+
+    <string name="set_name_keyboard">ਨਾਮ ਕੀਬੋਰਡ ਸੈਟ ਕਰੋ</string>
+
+    <string name="zomj_themes">ਜ਼ੋਮਜ ਥੀਮ ...</string>
+
+    <string name="save_theme">ਸੇਵ</string>
+
+    <string name="enter_name_keyboard">ਕਿਰਪਾ ਕਰਕੇ, ਕੀਬੋਰਡ ਨਾਮ ਦਰਜ ਕਰੋ</string>
+
+    <string name="theme_creation_failed">ਥੀਮ ਬਣਾਉਣਾ ਅਸਫਲ</string>
+
+    <string name="theme_creation_success">ਥੀਮ ਸਤਰ</string>
+
+    <string name="themes_1">ਥੀਮ 1</string>
+
+    <string name="delete_themes">ਥੀਮ ਹਟਾਓ</string>
+
+    <string name="are_you_sure_delete">ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਇਸ ਥੀਮ ਨੂੰ ਮਿਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+
+    <string name="no">ਨਹੀਂ</string>
+
+    <string name="premium_subscription_month">%1$s/ਮਹੀਨਾ</string>
+
+    <string name="premium_subscription_year">%1$s/ਸਾਲ</string>
+
+    <string name="premium_subscription_permanently">%1$s/ਸਥਾਈ ਤੌਰ ਤੇ ਵਰਤਿਆ ਗਿਆ</string>
+
+    <string name="best_offer">ਵਿਕਰੀ</string>
+
+    <string name="txt_tab_stickers">ਸਟਿੱਕਰ</string>
+
+    <string name="txt_tab_emojis">ਇਮੋਜੀ</string>
+
+    <string name="txt_tab_trending">ਰੁਝਾਨ</string>
+
+    <string name="txt_tab_top">ਸਿਖਰ</string>
+
+    <string name="txt_tab_latest">ਤਾਜ਼ਾ</string>
+
+    <string name="txt_tab_cosplay">Cosplay</string>
+
+    <string name="no_favorite_emoji_yet">ਅਜੇ ਕੋਈ ਮਨਪਸੰਦ ਈਮੋਜੀ ਨਹੀਂ</string>
+
+    <string name="no_recent_sticker_yet">ਤੁਸੀਂ ਅਜੇ ਕੋਈ ਸਟਿੱਕਰ ਨਹੀਂ ਵਰਤਿਆ</string>
+
+    <string name="phan_tram">%</string>
+
+    <string name="name_keyboard_exist">ਨਾਮ ਕੀਬੋਰਡ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ</string>
+
+    <string name="premium_desp_download">ਸਾਰੇ ਮੁਫਤ ਡਾ Download ਨਲੋਡ ਕਰੋ</string>
+
+    <string name="premium_desp_remove_ads">ਇਸ਼ਤਿਹਾਰ ਹਟਾਓ</string>
+
+    <string name="premium_desp_cancel">ਕਦੇ ਵੀ ਰੱਦ ਕਰਨਾ</string>
+
+    <string name="unlock_all_theme">ਸਾਰੇ ਥੀਮ ਨੂੰ ਅਨਲੌਕ ਕਰੋ</string>
+
+    <string name="unlock_pro_features">ਅਨਲੌਕ ਪ੍ਰੋ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ</string>
+
+    <string name="des_unlock_pro_features">ਪ੍ਰੋ ਖਾਤੇ ਦੇ ਸਾਰੇ ਕਾਰਜਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ</string>
+
+    <string name="unlock_all_style_custom_led">ਸਾਰੀ ਸ਼ੈਲੀ ਕਸਟਮ ਐਲਈਡੀ ਨੂੰ ਅਨਲੌਕ ਕਰੋ</string>
+
+    <string name="des_unlock_all_style_custom_led">ਹਰ ਅਗਵਾਈ ਕੀਬੋਰਡ ਨੂੰ ਅਨੁਕੂਲਿਤ ਕਰੋ</string>
+
+    <string name="des_remove_ads">ਜਦੋਂ ਤੁਸੀਂ ਐਪ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋ ਤਾਂ ਸਾਰੇ ਵਿਗਿਆਪਨਾਂ ਤੋਂ ਛੁਟਕਾਰਾ ਪਾਓ</string>
+    <string name="english_ime_input_options" msgid="3909945612939668554">"ਇਨਪੁਟ ਚੋਣਾਂ"</string>
+    <string name="use_contacts_for_spellchecking_option_title" msgid="5374120998125353898">"ਸੰਪਰਕ ਨਾਮ ਤਲਾਸ਼ੋ"</string>
+    <string name="use_contacts_for_spellchecking_option_summary" msgid="8754413382543307713">"ਸਪੈੱਲ ਚੈਕਰ ਤੁਹਾਡੀ ਸੰਪਰਕ ਸੂਚੀ ਵਿੱਚੋਂ ਐਂਟਰੀਆਂ ਵਰਤਦਾ ਹੈ"</string>
+    <string name="vibrate_on_keypress" msgid="5258079494276955460">"ਕੁੰਜੀ ਦਬਾਉਣ ’ਤੇ ਥਰਥਰਾਹਟ ਕਰੋ"</string>
+    <string name="sound_on_keypress" msgid="6093592297198243644">"ਕੁੰਜੀ ਦਬਾਉਣ \'ਤੇ ਧੁਨ ਵਜਾਓ"</string>
+    <string name="popup_on_keypress" msgid="123894815723512944">"ਕੁੰਜੀ ਦਬਾਉਣ ’ਤੇ ਪੌਪਅੱਪ ਕਰੋ"</string>
+    <string name="settings_screen_preferences" msgid="2696713156722014624">"ਤਰਜੀਹਾਂ"</string>
+    <string name="settings_screen_accounts" msgid="2786418968536696670">"ਖਾਤੇ &amp; ਪ੍ਰਾਈਵੇਸੀ"</string>
+    <string name="settings_screen_appearance" msgid="7358046399111611615">"ਪ੍ਰਗਟਾਅ &amp; ਲੇਆਉਟਸ"</string>
+    <string name="settings_screen_gesture" msgid="8826372746901183556">"ਸੰਕੇਤ ਟਾਈਪਿੰਗ"</string>
+    <string name="settings_screen_correction" msgid="1616818407747682955">"ਟੈਕਸਟ ਸੁਧਾਈ"</string>
+    <string name="settings_screen_advanced" msgid="7472408607625972994">"ਉੱਨਤ"</string>
+    <string name="settings_screen_theme" msgid="2137262503543943871">"ਵਿਸ਼ਾ"</string>
+    <string name="enable_split_keyboard" msgid="4177264923999493614">"ਸਪਲਿਟ ਕੀ-ਬੋਰਡ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ"</string>
+    <string name="cloud_sync_title" msgid="8579271074443847055">"Google ਕੀ-ਬੋਰਡ ਸਿੰਕ"</string>
+    <string name="cloud_sync_summary" msgid="7684887161145650857">"ਸਿੰਕ ਚਾਲੂ ਕੀਤਾ ਗਿਆ ਹੈ"</string>
+    <string name="cloud_sync_summary_disabled" msgid="4553338970382825796">"ਡਿਵਾਈਸਾਂ ਵਿੱਚ ਆਪਣਾ ਨਿੱਜੀ ਸ਼ਬਦਕੋਸ਼ ਸਿੰਕ ਕਰੋ"</string>
+    <string name="sync_now_title" msgid="3088838136743277721">"ਹੁਣ ਸਮਕਾਲੀਕਰਨ ਕਰੋ"</string>
+    <string name="clear_sync_data_title" msgid="8582001557037069154">"ਕਲਾਉਡ ਡੈਟਾ ਮਿਟਾਓ"</string>
+    <string name="clear_sync_data_summary" msgid="993477139012576584">"Google ਤੋਂ ਤੁਹਾਡਾ ਸਿੰਕ ਕੀਤਾ ਡੈਟਾ ਮਿਟਾਉਂਦਾ ਹੈ"</string>
+    <string name="clear_sync_data_confirmation" msgid="2811931135574727678">"ਤੁਹਾਡਾ ਸਿੰਕ ਕੀਤਾ ਡੈਟਾ ਕਲਾਉਡ ਤੋਂ ਮਿਟਾ ਦਿੱਤਾ ਜਾਏਗਾ। ਕੀ ਤੁਸੀਂ ਨਿਸ਼ਚਿਤ ਹੋ?"</string>
+    <string name="clear_sync_data_ok" msgid="613104067705915132">"ਮਿਟਾਓ"</string>
+    <string name="cloud_sync_cancel" msgid="5877481252150919037">"ਰੱਦ ਕਰੋ"</string>
+    <string name="cloud_sync_opt_in_text" msgid="9176039655776298248">"ਤੁਹਾਡਾ ਨਿੱਜੀ ਸ਼ਬਦਕੋਸ਼ ਸਿੰਕ ਕੀਤਾ ਜਾਏਗਾ ਅਤੇ Google ਸਰਵਰਾਂ ਤੇ ਬੈਕ ਅਪ ਕੀਤਾ ਜਾਏਗਾ। ਸ਼ਬਦ ਬਾਰੰਬਾਰਤਾ ਦੀ ਅੰਕੜੇ ਸੰਬੰਧੀ ਜਾਣਕਾਰੀ ਸਾਡੇ ਉਤਪਾਦਾਂ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਲਈ ਇਕੱਤਰ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ। ਸਾਰੀ ਜਾਣਕਾਰੀ ਦਾ ਇਕੱਤਰੀਕਰਨ ਅਤੇ ਵਰਤੋਂ "<a href="https://www.google.com/policies/privacy">"Google ਦੀ ਪ੍ਰਾਈਵੇਸੀ ਨੀਤੀ"</a>"ਦੇ ਮੁਤਾਬਕ ਹੋਵੇਗੀ।"</string>
+    <string name="add_account_to_enable_sync" msgid="7836932571852055265">"ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਨੂੰ ਸਮਰੱਥ ਬਣਾਉਣ ਲਈ ਇਸ ਡੀਵਾਈਸ ਤੇ ਇੱਕ Google ਖਾਤਾ ਸ਼ਾਮਲ ਕਰੋ।"</string>
+    <string name="cloud_sync_summary_disabled_work_profile" msgid="1381770407303129164">"ਬਿਜਨਸ ਖਾਤਿਆਂ ਲਈ Google ਐਪਸ ਵਾਲੀਆਂ ਡਿਵਾਈਸਾਂ ਲਈ ਸਿੰਕ ਉਪਲਬਧ ਨਹੀਂ ਹੈ"</string>
+    <string name="include_other_imes_in_language_switch_list" msgid="4533689960308565519">"ਹੋਰਾਂ ਇਨਪੁਟ ਵਿਧੀਆਂ ਤੇ ਸਵਿਚ ਕਰੋ"</string>
+    <string name="include_other_imes_in_language_switch_list_summary" msgid="840637129103317635">"ਭਾਸ਼ਾ ਸਵਿਚ ਕੁੰਜੀ ਹੋਰਾਂ ਇਨਪੁਟ ਵਿਧੀਆਂ ਨੂੰ ਵੀ ਸ਼ਾਮਲ ਕਰਦੀ ਹੈ"</string>
+    <string name="show_language_switch_key" msgid="5915478828318774384">"ਭਾਸ਼ਾ ਸਵਿਚ ਕੁੰਜੀ"</string>
+    <string name="show_language_switch_key_summary" msgid="7343403647474265713">"ਜਦੋਂ ਮਲਟੀਪਲ ਭਾਸਾਵਾਂ ਸਮਰਥਿਤ ਹੋਣ ਤਾਂ ਦਿਖਾਓ"</string>
+    <string name="key_preview_popup_dismiss_delay" msgid="6213164897443068248">"ਕੁੰਜੀ ਪੌਪਅਪ ਬਰਖਾਸਤ ਦੇਰੀ"</string>
+    <string name="key_preview_popup_dismiss_no_delay" msgid="2096123151571458064">"ਕੋਈ ਦੇਰੀ ਨਹੀਂ"</string>
+    <string name="key_preview_popup_dismiss_default_delay" msgid="2166964333903906734">"ਡਿਫੌਲਟ"</string>
+    <string name="abbreviation_unit_milliseconds" msgid="8700286094028323363">"<xliff:g id="MILLISECONDS">%s</xliff:g>ms"</string>
+    <string name="settings_system_default" msgid="6268225104743331821">"ਸਿਸਟਮ ਡਿਫੌਲਟ"</string>
+    <string name="use_contacts_dict" msgid="4435317977804180815">"ਸੰਪਰਕ ਨਾਵਾਂ ਦਾ ਸੁਝਾਅ ਦਿਓ"</string>
+    <string name="use_contacts_dict_summary" msgid="6599983334507879959">"ਸੁਝਾਵਾਂ ਅਤੇ ਸੋਧਾਂ ਲਈ ਸੰਪਰਕਾਂ ਵਿੱਚੋਂ ਨਾਮ ਵਰਤੋ"</string>
+    <string name="use_personalized_dicts" msgid="5167396352105467626">"ਨਿੱਜੀ ਬਣਾਏ ਸੁਝਾਅ"</string>
+    <string name="enable_metrics_logging" msgid="5506372337118822837">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> ਸੁਧਾਰ ਕਰੋ"</string>
+    <string name="use_double_space_period" msgid="8781529969425082860">"ਡਬਲ-ਸਪੇਸ ਡੰਡੀ"</string>
+    <string name="use_double_space_period_summary" msgid="6532892187247952799">"ਸਪੇਸਬਾਰ ’ਤੇ ਡਬਲ ਟੈਪ ਕਰਨਾ ਇੱਕ ਡੰਡੀ ਤੋਂ ਬਾਅਦ ਇੱਕ ਸਪੇਸ ਦਾਖਲ ਕਰਦਾ ਹੈ"</string>
+    <string name="auto_cap" msgid="1719746674854628252">"ਆਟੋ-ਕੈਪਿਟਲਾਈਜ਼ੇਸ਼ਨ"</string>
+    <string name="auto_cap_summary" msgid="7934452761022946874">"ਹਰੇਕ ਵਾਕ ਦਾ ਪਹਿਲਾ ਸ਼ਬਦ ਕੈਪੀਟਲਾਈਜ਼ ਕਰੋ"</string>
+    <string name="edit_personal_dictionary" msgid="3996910038952940420">"ਨਿੱਜੀ ਸ਼ਬਦਕੋਸ਼"</string>
+    <string name="configure_dictionaries_title" msgid="4238652338556902049">"ਐਡ-ਓਨ ਸ਼ਬਦਕੋਸ਼"</string>
+    <string name="main_dictionary" msgid="4798763781818361168">"ਮੁੱਖ ਸ਼ਬਦਕੋਸ਼"</string>
+    <string name="prefs_show_suggestions" msgid="8026799663445531637">"ਸੁਧਾਈ ਸੁਝਾਅ ਦਿਖਾਓ"</string>
+    <string name="prefs_show_suggestions_summary" msgid="1583132279498502825">"ਟਾਈਪਿੰਗ ਕਰਦੇ ਸਮੇਂ ਸੁਝਾਏ ਗਏ ਸ਼ਬਦ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰੋ"</string>
+    <string name="prefs_block_potentially_offensive_title" msgid="5078480071057408934">"ਅਪਮਾਨਜਨਕ ਸ਼ਬਦਾਂ ਨੂੰ ਬਲੌਕ ਕਰੋ"</string>
+    <string name="prefs_block_potentially_offensive_summary" msgid="2371835479734991364">"ਸੰਭਾਵੀ ਅਪਮਾਨਜਨਕ ਸ਼ਬਦਾਂ ਦਾ ਸੁਝਾਅ ਨਾ ਦਿਓ"</string>
+    <string name="auto_correction" msgid="7630720885194996950">"ਆਟੋ-ਸੁਧਾਈ"</string>
+    <string name="auto_correction_summary" msgid="5625751551134658006">"ਸਪੇਸਬਾਰ ਅਤੇ ਵਿਸ਼ਰਾਮ ਚਿੰਨ੍ਹ ਗ਼ਲਤ ਟਾਈਪ ਕੀਤੇ ਸ਼ਬਦਾਂ ਨੂੰ ਆਟੋਮੈਟਿਕਲੀ ਠੀਕ ਕਰਦੇ ਹਨ"</string>
+    <string name="auto_correction_threshold_mode_off" msgid="8470882665417944026">"ਬੰਦ"</string>
+    <string name="auto_correction_threshold_mode_modest" msgid="8788366690620799097">"ਸੰਕੋਚਵਾਨ"</string>
+    <string name="auto_correction_threshold_mode_aggressive" msgid="7319007299148899623">"ਆਕਰਮਣਸ਼ੀਲ"</string>
+    <string name="auto_correction_threshold_mode_very_aggressive" msgid="1853309024129480416">"ਬਹੁਤ ਆਕਰਮਣਸ਼ੀਲ"</string>
+    <string name="bigram_prediction" msgid="1084449187723948550">"ਅਗਲਾ-ਸ਼ਬਦ ਸੁਝਾਅ"</string>
+    <string name="bigram_prediction_summary" msgid="3896362682751109677">"ਸੁਝਾਅ ਦੇਣ ਵਿੱਚ ਪਿਛਲਾ ਸ਼ਬਦ ਵਰਤੋ"</string>
+    <string name="gesture_input" msgid="826951152254563827">"ਸੰਕੇਤ ਟਾਈਪਿੰਗ ਸਮਰੱਥ ਬਣਾਓ"</string>
+    <string name="gesture_input_summary" msgid="9180350639305731231">"ਅੱਖਰਾਂ ਰਾਹੀਂ ਸਲਾਈਡ ਕਰਕੇ ਇੱਕ ਸ਼ਬਦ ਦਾਖਲ ਕਰੋ"</string>
+    <string name="gesture_preview_trail" msgid="3802333369335722221">"ਸੰਕੇਤ ਲੀਹ ਵਿਖਾਓ"</string>
+    <string name="gesture_floating_preview_text" msgid="4443240334739381053">"ਸਕਿਰਿਆ ਫਲੋਟਿੰਗ ਪ੍ਰੀਵਿਊ"</string>
+    <string name="gesture_floating_preview_text_summary" msgid="4472696213996203533">"ਸੰਕੇਤ ਦਿੰਦੇ ਸਮੇਂ ਸੁਝਾਇਆ ਗਿਆ ਸ਼ਬਦ ਦੇਖੋ"</string>
+    <string name="gesture_space_aware" msgid="2078291600664682496">"ਵਾਕਾਂਸ਼ ਸੰਕੇਤ"</string>
+    <string name="gesture_space_aware_summary" msgid="4371385818348528538">"ਸਪੇਸ ਕੁੰਜੀ ਸਰਕਾ ਕੇ ਸੰਕੇਤਾਂ ਦੇ ਦੌਰਾਨ ਸਪੇਸ ਇਨਪੁਟ ਕਰੋ"</string>
+    <string name="voice_input" msgid="3583258583521397548">"ਵੌਇਸ ਇਨਪੁਟ ਕੁੰਜੀ"</string>
+    <string name="voice_input_disabled_summary" msgid="6323489602945135165">"ਕੋਈ ਵੌਇਸ ਇਨਪੁੱਟ ਵਿਧੀਆਂ ਯੋਗ ਨਹੀਂ ਬਣਾਈਆਂ ਹਨ। ਭਾਸ਼ਾਵਾਂ ਅਤੇ ਇਨਪੁੱਟ ਸੈਟਿੰਗਾਂ ਦੀ ਜਾਂਚ ਕਰੋ।"</string>
+    <string name="configure_input_method" msgid="373356270290742459">"ਇਨਪੁਟ ਵਿਧੀਆਂ ਕੌਂਫਿਗਰ ਕਰੋ"</string>
+    <string name="language_selection_title" msgid="3666971864764478269">"ਭਾਸ਼ਾਵਾਂ"</string>
+    <string name="help_and_feedback" msgid="5328219371839879161">"ਮਦਦ ਅਤੇ ਪ੍ਰਤੀਕਰਮ"</string>
+    <string name="select_language" msgid="5709487854987078367">"ਭਾਸ਼ਾਵਾਂ"</string>
+    <string name="hint_add_to_dictionary" msgid="2645988432867033007">"ਰੱਖਿਅਤ ਕਰਨ ਲਈ ਦੁਬਾਰਾ ਟੈਪ ਕਰੋ"</string>
+    <string name="hint_add_to_dictionary_without_word" msgid="6710206006427574423">"ਰੱਖਿਅਤ ਕਰਨ ਲਈ ਇੱਥੇ ਟੈਪ ਕਰੋ"</string>
+    <string name="has_dictionary" msgid="6071847973466625007">"ਸ਼ਬਦਕੋਸ਼ ਉਪਲਬਧ"</string>
+    <string name="keyboard_layout" msgid="8451164783510487501">"ਕੀ-ਬੋਰਡ ਵਿਸ਼ਾ"</string>
+    <string name="switch_accounts" msgid="3321216593719006162">"ਖਾਤੇ ਸਵਿਚ ਕਰੋ"</string>
+    <string name="no_accounts_selected" msgid="2073821619103904330">"ਕੋਈ ਖਾਤੇ ਨਹੀਂ ਚੁਣੇ"</string>
+    <string name="account_selected" msgid="2846876462199625974">"ਇਸ ਵੇਲੇ <xliff:g id="EMAIL_ADDRESS">%1$s</xliff:g> ਵਰਤ ਰਿਹਾ ਹੈ"</string>
+    <string name="account_select_ok" msgid="9141195141763227797">"ਠੀਕ"</string>
+    <string name="account_select_cancel" msgid="5181012062618504340">"ਰੱਦ ਕਰੋ"</string>
+    <string name="account_select_sign_out" msgid="3299651159390187933">"ਸਾਈਨ ਆਉਟ ਕਰੋ"</string>
+    <string name="account_select_title" msgid="6279711684772922649">"ਵਰਤਣ ਲਈ ਇੱਕ ਖਾਤਾ ਚੁਣੋ"</string>
+    <string name="subtype_en_GB" msgid="88170601942311355">"ਅੰਗ੍ਰੇਜ਼ੀ (ਯੂਕੇ)"</string>
+    <string name="subtype_en_US" msgid="6160452336634534239">"ਅੰਗ੍ਰੇਜੀ (ਅਮਰੀਕਾ)"</string>
+    <string name="subtype_es_US" msgid="5583145191430180200">"ਸਪੇਨੀ (ਅਮਰੀਕਾ)"</string>
+    <string name="subtype_hi_ZZ" msgid="8860448146262798623">"ਹਿੰਗਲਿੰਸ਼"</string>
+    <string name="subtype_sr_ZZ" msgid="9059219552986034343">"ਸਰਬੀਅਨ (ਲਾਤੀਨੀ)"</string>
+    <string name="subtype_with_layout_en_GB" msgid="1931018968641592304">"ਅੰਗਰੇਜ਼ੀ (ਯੂ.ਕੇ.) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_en_US" msgid="8809311287529805422">"ਅੰਗਰੇਜ਼ੀ (ਅਮਰੀਕਾ) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_es_US" msgid="510930471167541338">"ਸਪੇਨੀ (ਅਮਰੀਕਾ) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_hi_ZZ" msgid="6827402953860547044">"ਹਿੰਗਲਿਸ਼(<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_sr_ZZ" msgid="2859024772719772407">"ਸਰਬੀਅਨ (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_generic_traditional" msgid="8584594350973800586">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (ਪਰੰਪਰਿਕ)"</string>
+    <string name="subtype_generic_compact" msgid="3353673321203202922">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (ਕੰਪੈਕਟ)"</string>
+    <string name="subtype_no_language" msgid="7137390094240139495">"ਕੋਈ ਭਾਸ਼ਾ ਨਹੀਂ (ਵਰਨਮਾਲਾ)"</string>
+    <string name="subtype_no_language_qwerty" msgid="244337630616742604">"ਵਰਨਮਾਲਾ (QWERTY)"</string>
+    <string name="subtype_no_language_qwertz" msgid="443066912507547976">"ਵਰਨਮਾਲਾ (QWERTZ)"</string>
+    <string name="subtype_no_language_azerty" msgid="8144348527575640087">"ਵਰਨਮਾਲਾ (AZERTY)"</string>
+    <string name="subtype_no_language_dvorak" msgid="1564494667584718094">"ਵਰਨਮਾਲਾ (ਵੋਰਕ)"</string>
+    <string name="subtype_no_language_colemak" msgid="5837418400010302623">"ਵਰਨਮਾਲਾ (ਕੋਲਮੈਕ)"</string>
+    <string name="subtype_no_language_pcqwerty" msgid="5354918232046200018">"ਵਰਨਮਾਲਾ (PC)"</string>
+    <string name="subtype_emoji" msgid="7483586578074549196">"ਇਮੋਜੀ"</string>
+    <string name="keyboard_theme" msgid="4909551808526178852">"ਕੀ-ਬੋਰਡ ਵਿਸ਼ਾ"</string>
+    <string name="custom_input_styles_title" msgid="8429952441821251512">"ਕਸਟਮ ਇਨਪੁਟ ਸਟਾਈਲ"</string>
+    <string name="add_style" msgid="6163126614514489951">"ਸਟਾਈਲ ਜੋੜੋ"</string>
+    <string name="add" msgid="8299699805688017798">"ਜੋੜੋ"</string>
+    <string name="remove" msgid="4486081658752944606">"ਹਟਾਓ"</string>
+    <string name="save" msgid="7646738597196767214">"ਰੱਖਿਅਤ ਕਰੋ"</string>
+    <string name="subtype_locale" msgid="8576443440738143764">"ਭਾਸ਼ਾ"</string>
+    <string name="keyboard_layout_set" msgid="4309233698194565609">"ਲੇਆਉਟ"</string>
+    <string name="custom_input_style_note_message" msgid="8826731320846363423">"ਇਸਤੋਂ ਪਹਿਲਾਂ ਕਿ ਤੁਸੀਂ ਆਪਣਾ ਕਸਟਮ ਇਨਪੁਟ ਸਟਾਈਲ ਵਰਤਣਾ ਸ਼ੁਰੂ ਕਰੋ ਤੁਹਾਨੂੰ ਇਸਨੂੰ ਸਮਰੱਥ ਬਣਾਉਣ ਦੀ ਲੋੜ ਹੈ। ਕੀ ਤੁਸੀਂ ਹੁਣ ਇਸਨੂੰ ਸਮਰੱਥ ਬਣਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"</string>
+    <string name="enable" msgid="5031294444630523247">"ਸਮਰੱਥ ਬਣਾਓ"</string>
+    <string name="not_now" msgid="6172462888202790482">"ਅਜੇ ਨਹੀਂ"</string>
+    <string name="custom_input_style_already_exists" msgid="8008728952215449707">"ਸਮਾਨ ਇਨਪੁਟ ਸਟਾਈਲ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ: <xliff:g id="INPUT_STYLE_NAME">%s</xliff:g>"</string>
+    <string name="prefs_keypress_vibration_duration_settings" msgid="7918341459947439226">"ਕੀਪ੍ਰੈਸ ਵਾਈਬ੍ਰੇਸ਼ਨ ਮਿਆਦ"</string>
+    <string name="prefs_keypress_sound_volume_settings" msgid="6027007337036891623">"ਕੀਪ੍ਰੈਸ ਅਵਾਜ਼ ਵੌਲਿਊਮ"</string>
+    <string name="prefs_key_longpress_timeout_settings" msgid="6102240298932897873">"ਕੁੰਜੀ ਦਬਾਈ ਰੱਖਣ ਦੀ ਮਿਆਦ"</string>
+    <string name="prefs_enable_emoji_alt_physical_key" msgid="5963640002335470112">"ਭੌਤਿਕ ਕੀ-ਬੋਰਡ ਲਈ ਈਮੋਜੀ"</string>
+    <string name="prefs_enable_emoji_alt_physical_key_summary" msgid="5259484820941627827">"ਭੌਤਿਕ Alt ਕੁੰਜੀ ਇਮੋਜੀ ਪੈਲੇਟ ਦਿਖਾਉਂਦੀ ਹੈ"</string>
+    <string name="button_default" msgid="3988017840431881491">"ਡਿਫੌਲਟ"</string>
+    <string name="setup_welcome_title" msgid="6112821709832031715">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> ਤੇ ਸੁਆਗਤ ਹੈ"</string>
+    <string name="setup_welcome_additional_description" msgid="8150252008545768953">"ਸੰਕੇਤ ਟਾਈਪਿੰਗ ਨਾਲ"</string>
+    <string name="setup_start_action" msgid="8936036460897347708">"ਸ਼ੁਰੂਆਤ ਕਰੋ"</string>
+    <string name="setup_next_action" msgid="371821437915144603">"ਅਗਲਾ ਸਟੈਪ"</string>
+    <string name="setup_steps_title" msgid="6400373034871816182">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> ਸੈਟ ਅਪ ਕਰ ਰਿਹਾ ਹੈ"</string>
+    <string name="setup_step1_title" msgid="3147967630253462315">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ"</string>
+    <string name="setup_step1_instruction" msgid="4295448056733329661">"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀਆਂ ਭਾਸ਼ਾਵਾਂ ਅਤੇ ਇਨਪੁੱਟ ਸੈਟਿੰਗਾਂ ਵਿੱਚ \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" \'ਤੇ ਸਹੀ ਦਾ ਨਿਸ਼ਾਨ ਲਗਾਓ। ਇਹ ਉਸ ਨੂੰ ਤੁਹਾਡੀ ਡੀਵਾਈਸ \'ਤੇ ਚੱਲਣ ਲਈ ਅਧਿਕਾਰਿਤ ਕਰੇਗਾ।"</string>
+    <string name="setup_step1_finished_instruction" msgid="8701441895377434947">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> ਨੂੰ ਪਹਿਲਾਂ ਹੀ ਤੁਹਾਡੀਆਂ ਭਾਸ਼ਾਵਾਂ ਅਤੇ ਇਨਪੁੱਟ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਯੋਗ ਬਣਾਇਆ ਗਿਆ ਹੈ, ਇਸ ਲਈ ਇਹ ਪੜਾਅ ਪੂਰਾ ਹੋ ਗਿਆ ਹੈ। ਅਗਲੇ ਪੜਾਅ \'ਤੇ ਜਾਓ!"</string>
+    <string name="setup_step1_action" msgid="4366513534999901728">"ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਸਮਰੱਥ ਬਣਾਓ"</string>
+    <string name="setup_step2_title" msgid="6860725447906690594">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> ਤੇ ਸਵਿਚ ਕਰੋ"</string>
+    <string name="setup_step2_instruction" msgid="9141481964870023336">"ਫਿਰ, \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" ਨੂੰ ਆਪਣੀ ਸਕਿਰਿਆ ਟੈਕਸਟ-ਇਨਪੁਟ ਵਿਧੀ ਦੇ ਤੌਰ ਤੇ ਚੁਣੋ।"</string>
+    <string name="setup_step2_action" msgid="1660330307159824337">"ਇਨਪੁਟ ਵਿਧੀਆਂ ਸਵਿਚ ਕਰੋ"</string>
+    <string name="setup_step3_title" msgid="3154757183631490281">"ਵਧਾਈ ਹੋਵੇ, ਤੁਸੀਂ ਸਾਰਾ ਸੈਟ ਕਰ ਲਿਆ ਹੈ!"</string>
+    <string name="setup_step3_instruction" msgid="8025981829605426000">"ਹੁਣ ਤੁਸੀਂ <xliff:g id="APPLICATION_NAME">%s</xliff:g> ਨਾਲ ਆਪਣੇ ਸਾਰੇ ਮਨਪਸੰਦ ਐਪਸ ਨੂੰ ਟਾਈਪ ਕਰ ਸਕਦੇ ਹੋ।"</string>
+    <string name="setup_step3_action" msgid="600879797256942259">"ਵਾਧੂ ਭਾਸ਼ਾਵਾਂ ਕੌਂਫਿਗਰ ਕਰੋ"</string>
+    <string name="setup_finish_action" msgid="276559243409465389">"ਪੂਰਾ ਹੋਇਆ"</string>
+    <string name="show_setup_wizard_icon" msgid="5008028590593710830">"ਐਪ ਚਿੰਨ੍ਹ ਦਿਖਾਓ"</string>
+    <string name="show_setup_wizard_icon_summary" msgid="4119998322536880213">"ਲਾਂਚਰ ਵਿੱਚ ਐਪਲੀਕੇਸ਼ਨ ਚਿੰਨ੍ਹ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰੋ"</string>
+    <string name="app_name" msgid="6320102637491234792">"ਸ਼ਬਦਕੋਸ਼ ਪ੍ਰਦਾਤਾ"</string>
+    <string name="dictionary_provider_name" msgid="3027315045397363079">"ਸ਼ਬਦਕੋਸ਼ ਪ੍ਰਦਾਤਾ"</string>
+    <string name="dictionary_service_name" msgid="6237472350693511448">"ਸ਼ਬਦਕੋਸ਼ ਸੇਵਾ"</string>
+    <string name="download_description" msgid="6014835283119198591">"ਸ਼ਬਦਕੋਸ਼ ਅਪਡੇਟ ਜਾਣਕਾਰੀ"</string>
+    <string name="dictionary_settings_title" msgid="8091417676045693313">"ਐਡ-ਓਨ ਸ਼ਬਦਕੋਸ਼"</string>
+    <string name="dictionary_install_over_metered_network_prompt" msgid="3587517870006332980">"ਸ਼ਬਦਕੋਸ਼ ਉਪਲਬਧ"</string>
+    <string name="dictionary_settings_summary" msgid="5305694987799824349">"ਸ਼ਬਦਕੋਸ਼ਾਂ ਦੀਆਂ ਸੈਟਿੰਗਾਂ"</string>
+    <string name="user_dictionaries" msgid="3582332055892252845">"ਉਪਭੋਗਤਾ ਸ਼ਬਦਕੋਸ਼"</string>
+    <string name="default_user_dict_pref_name" msgid="1625055720489280530">"ਉਪਭੋਗਤਾ ਸ਼ਬਦਕੋਸ਼"</string>
+    <string name="dictionary_available" msgid="4728975345815214218">"ਸ਼ਬਦਕੋਸ਼ ਉਪਲਬਧ"</string>
+    <string name="dictionary_downloading" msgid="2982650524622620983">"ਇਸ ਵੇਲੇ ਡਾਊਨਲੋਡ ਕਰ ਰਿਹਾ ਹੈ"</string>
+    <string name="dictionary_installed" msgid="8081558343559342962">"ਇੰਸਟੌਲ ਕੀਤਾ"</string>
+    <string name="dictionary_disabled" msgid="8950383219564621762">"ਇੰਸਟੌਲ ਕੀਤਾ, ਅਸਮਰਥਿਤ"</string>
+    <string name="cannot_connect_to_dict_service" msgid="9216933695765732398">"ਸ਼ਬਦਕੋਸ਼ ਸੇਵਾ ਕਨੈਕਟ ਕਰਨ ਵਿੱਚ ਸਮੱਸਿਆ"</string>
+    <string name="no_dictionaries_available" msgid="8039920716566132611">"ਕੋਈ ਸ਼ਬਦਕੋਸ਼ ਉਪਲਬਧ ਨਹੀਂ"</string>
+    <string name="check_for_updates_now" msgid="8087688440916388581">"ਤਾਜ਼ਾ"</string>
+    <string name="last_update" msgid="730467549913588780">"ਆਖਰੀ ਵਾਰ ਅਪਡੇਟ ਕੀਤਾ"</string>
+    <string name="message_updating" msgid="4457761393932375219">"ਅਪਡੇਟਸ ਦੀ ਜਾਂਚ ਕਰ ਰਿਹਾ ਹੈ"</string>
+    <string name="message_loading" msgid="5638680861387748936">"ਲੋਡ ਕਰ ਰਿਹਾ ਹੈ…"</string>
+    <string name="main_dict_description" msgid="3072821352793492143">"ਮੁੱਖ ਸ਼ਬਦਕੋਸ਼"</string>
+    <string name="cancel" msgid="6830980399865683324">"ਰੱਦ ਕਰੋ"</string>
+    <string name="go_to_settings" msgid="3876892339342569259">"ਸੈਟਿੰਗਾਂ"</string>
+    <string name="install_dict" msgid="180852772562189365">"ਇੰਸਟੌਲ ਕਰੋ"</string>
+    <string name="cancel_download_dict" msgid="7843340278507019303">"ਰੱਦ ਕਰੋ"</string>
+    <string name="delete_dict" msgid="756853268088330054">"ਮਿਟਾਓ"</string>
+    <string name="should_download_over_metered_prompt" msgid="6737084685073734292">"ਤੁਹਾਡੀ ਮੋਬਾਈਲ ਡੀਵਾਈਸ \'ਤੇ ਚੁਣੀ ਗਈ ਭਾਸ਼ਾ ਵਿੱਚ ਸ਼ਬਦਕੋਸ਼ ਉਪਲਬਧ ਹੈ।&lt;br/&gt; ਅਸੀਂ ਤੁਹਾਡੇ ਟਾਈਪਿੰਗ ਅਨੁਭਵ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਲਈ <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> ਸ਼ਬਦਕੋਸ਼ ਨੂੰ &lt;b&gt;ਡਾਊਨਲੋਡ ਕਰਨ&lt;/b&gt; ਦੀ ਸਿਫ਼ਾਰਸ਼ ਕਰਦੇ ਹਾਂ।&lt;br/&gt; &lt;br/&gt; 3G \'ਤੇ ਡਾਊਨਲੋਡ ਕਰਨ ਵਿੱਚ ਇੱਕ ਜਾਂ ਦੋ ਮਿੰਟਾਂ ਦਾ ਸਮਾਂ ਲੱਗ ਸਕਦਾ ਹੈ। ਜੇਕਰ ਤੁਹਾਡੇ ਕੋਲ &lt;b&gt;ਅਸੀਮਤ ਡੈਟਾ ਪਲਾਨ&lt;/b&gt; ਨਹੀਂ ਹੈ ਤਾਂ ਖ਼ਰਚਾ ਲਿਆ ਜਾ ਸਕਦਾ ਹੈ।&lt;br/&gt; ਜੇਕਰ ਤੁਸੀਂ ਨਹੀਂ ਯਕੀਨੀ ਨਹੀਂ ਹੋ ਕਿ ਤੁਹਾਡੇ ਕੋਲ ਕਿਹੜਾ ਡੈਟਾ ਪਲਾਨ ਹੈ, ਤਾਂ ਅਸੀਂ ਡਾਊਨਲੋਡ ਨੂੰ ਆਪਣੇ ਆਪ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਕਿਸੇ Wi-Fi ਕਨੈਕਸ਼ਨ ਨੂੰ ਲੱਭਣ ਦੀ ਸਿਫ਼ਾਰਸ਼ ਕਰਦੇ ਹਾਂ।&lt;br/&gt; &lt;br/&gt; ਨੁਕਤਾ: ਤੁਸੀਂ ਆਪਣੀ ਮੋਬਾਈਲ ਡੀਵਾਈਸ \'ਤੇ &lt;b&gt;ਸੈਟਿੰਗਾਂ&lt;/b&gt; ਮੀਨੂ ਵਿੱਚ  &lt;b&gt;ਭਾਸ਼ਾਵਾਂ ਅਤੇ ਇਨਪੁੱਟ&lt;/b&gt; ਵਿੱਚ ਜਾਣ ਦੁਆਰਾ ਸ਼ਬਦਕੋਸ਼ਾਂ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰ ਅਤੇ ਹਟਾ ਸਕਦੇ ਹੋ।"</string>
+    <string name="download_over_metered" msgid="1643065851159409546">"(<xliff:g id="SIZE_IN_MEGABYTES">%1$.1f</xliff:g>MB) ਹੁਣ ਡਾਊਨਲੋਡ ਕਰੋ"</string>
+    <string name="do_not_download_over_metered" msgid="2176209579313941583">"Wi-Fi ਤੇ ਡਾਊਨਲੋਡ ਕਰੋ"</string>
+    <string name="dict_available_notification_title" msgid="4583842811218581658">"<xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> ਲਈ ਇੱਕ ਸ਼ਬਦਕੋਸ਼ ਉਪਲਬਧ ਹੈ"</string>
+    <string name="dict_available_notification_description" msgid="1075194169443163487">"ਸਮੀਖਿਆ ਕਰਨ ਅਤੇ ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਦਬਾਓ"</string>
+    <string name="toast_downloading_suggestions" msgid="6128155879830851739">"ਡਾਊਨਲੋਡਿੰਗ: <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> ਲਈ ਸੁਝਾਅ ਜਲਦੀ ਹੀ ਤਿਆਰ ਹੋਣਗੇ।"</string>
+    <string name="version_text" msgid="2715354215568469385">"ਰੂਪ <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="user_dict_settings_add_menu_title" msgid="1254195365689387076">"ਜੋੜੋ"</string>
+    <string name="user_dict_settings_add_dialog_title" msgid="4096700390211748168">"ਸ਼ਬਦਕੋਸ਼ ਵਿੱਚ ਜੋੜੋ"</string>
+    <string name="user_dict_settings_add_screen_title" msgid="5818914331629278758">"ਵਾਕਾਂਸ਼"</string>
+    <string name="user_dict_settings_add_dialog_more_options" msgid="5671682004887093112">"ਹੋਰ ਚੋਣਾਂ"</string>
+    <string name="user_dict_settings_add_dialog_less_options" msgid="2716586567241724126">"ਘੱਟ ਚੋਣਾਂ"</string>
+    <string name="user_dict_settings_add_dialog_confirm" msgid="4703129507388332950">"ਠੀਕ"</string>
+    <string name="user_dict_settings_add_word_option_name" msgid="6665558053408962865">"ਸ਼ਬਦ:"</string>
+    <string name="user_dict_settings_add_shortcut_option_name" msgid="3094731590655523777">"ਸ਼ਾਰਟਕੱਟ:"</string>
+    <string name="user_dict_settings_add_locale_option_name" msgid="4738643440987277705">"ਭਾਸ਼ਾ:"</string>
+    <string name="user_dict_settings_add_word_hint" msgid="4902434148985906707">"ਇੱਕ ਸ਼ਬਦ ਟਾਈਪ ਕਰੋ"</string>
+    <string name="user_dict_settings_add_shortcut_hint" msgid="2265453012555060178">"ਵਿਕਲਪਕ ਸ਼ਾਰਟਕੱਟ"</string>
+    <string name="user_dict_settings_edit_dialog_title" msgid="3765774633869590352">"ਸ਼ਬਦ ਸੰਪਾਦਿਤ ਕਰੋ"</string>
+    <string name="user_dict_settings_context_menu_edit_title" msgid="6812255903472456302">"ਸੰਪਾਦਿਤ ਕਰੋ"</string>
+    <string name="user_dict_settings_context_menu_delete_title" msgid="8142932447689461181">"ਮਿਟਾਓ"</string>
+    <string name="user_dict_settings_empty_text" msgid="6889278304342592383">"ਤੁਹਾਡੇ ਕੋਲ ਵਰਤੋਂਕਾਰ ਸ਼ਬਦਕੋਸ਼ ਵਿੱਚ ਕੋਈ ਸ਼ਬਦ ਨਹੀਂ ਹਨ। ਇੱਕ ਸ਼ਬਦ ਸ਼ਾਮਲ ਕਰਨ ਲਈ \'ਸ਼ਾਮਲ ਕਰੋ\' (+) ਬਟਨ \'ਤੇ ਟੈਪ ਕਰੋ।"</string>
+    <string name="user_dict_settings_all_languages" msgid="8276126583216298886">"ਸਾਰੀਆਂ ਭਾਸ਼ਾਵਾਂ ਲਈ"</string>
+    <string name="user_dict_settings_more_languages" msgid="7131268499685180461">"ਹੋਰ ਭਾਸ਼ਾਵਾਂ…"</string>
+    <string name="user_dict_settings_delete" msgid="110413335187193859">"ਮਿਟਾਓ"</string>
+    <string name="user_dict_fast_scroll_alphabet" msgid="5431919401558285473">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="detail_theme_error_remove_theme_current">ਤੁਸੀਂ ਜਿਸ ਥੀਮ ਨੂੰ ਵਰਤ ਰਹੇ ਹੋ ਉਸਨੂੰ ਮਿਟਾ ਨਹੀਂ ਸਕਦੇ!</string>
+    <string name="pro_purchase_description">ਤੁਸੀਂ ਗੂਗਲ ਪਲੇ ਦੇ ਗਾਹਕੀ ਭਾਗ ਵਿੱਚ ਕਿਸੇ ਵੀ ਸਮੇਂ ਆਪਣੀ ਗਾਹਕੀ ਨੂੰ ਰੱਦ ਕਰ ਸਕਦੇ ਹੋ. ਜਦੋਂ ਤੁਸੀਂ ਆਪਣੀ ਗਾਹਕੀ ਨੂੰ ਰੱਦ ਕਰਦੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ ਮੌਜੂਦਾ ਬਿਲਿੰਗ ਅਵਧੀ ਦੇ ਅੰਤ ਤੇ ਗਾਹਕੀ ਤੱਕ ਪਹੁੰਚ ਗੁਆ ਬੈਠੋਗੇ.</string>
+    <string name="add_more_emojis_combos">ਹੋਰ ਇਮੋ ਈਸਿਸ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="done">ਕੀਤਾ</string>
+    <string name="error_load_data_billing">ਕਿਸੇ ਕਾਰਨ ਕਰਕੇ ਗਾਹਕੀ ਜਾਣਕਾਰੀ ਲੋਡ ਕਰਨ ਵਿੱਚ ਗਲਤੀ, ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="retry">ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+
+    <string name="activate_zomj_keyboard">ਐਕਟੀਵੇਟ ਜ਼ੋਮਜੇ ਕੀਬੋਰਡ</string>
+    <string name="step_1_activate">ਕਦਮ 1. ਐਕਟੀਵੇਟ</string>
+    <string name="step_2_select">ਕਦਮ 2. ਚੁਣੋ</string>
+    <string name="activate_zomj_keyboard_to_enable_more_themes_and_emojis">* ਹੋਰ ਥੀਮ ਅਤੇ ਇਡੋਸਿਸ ਨੂੰ ਸਮਰੱਥ ਕਰਨ ਲਈ ਜ਼ੋਮਜੇ ਕੀਬੋਰਡ ਨੂੰ ਸਰਗਰਮ ਕਰੋ</string>
+    <string name="download_this_theme_to_apply">ਇਸ ਥੀਮ ਨੂੰ ਲਾਗੂ ਕਰਨ ਲਈ ਡਾ Download ਨਲੋਡ ਕਰੋ</string>
+    <string name="download_this_font_to_apply">ਇਸ ਫੋਂਟ ਨੂੰ ਲਾਗੂ ਕਰਨ ਲਈ ਡਾ Download ਨਲੋਡ ਕਰੋ</string>
+    <string name="download">ਡਾਉਨਲੋਡ ਕਰੋ</string>
+
+    <string name="remove_all_ads">ਸਾਰੇ ਵਿਗਿਆਪਨ ਹਟਾਓ</string>
+    <string name="get">ਪ੍ਰਾਪਤ ਕਰੋ</string>
+    <string name="download_this_sticker_to_use">ਵਰਤਣ ਲਈ ਇਸ ਸਟਿੱਕਰ ਨੂੰ ਡਾਉਨਲੋਡ ਕਰੋ</string>
+    <string name="this_is_actually_amazing_keyboad">ਇਹ ਅਸਲ ਵਿੱਚ ਸ਼ਾਨਦਾਰ ਕੀਬੋਰਡ ਹੈ!</string>
+    <string name="you_might_also_like">ਤੁਹਾਨੂੰ ਪਸੰਦ ਕਰ ਸਕਦੇ ਹੋ</string>
+    <string name="try_your_new_theme">ਆਪਣੇ ਨਵੇਂ ਥੀਮ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="please_enter_content">ਕਿਰਪਾ ਕਰਕੇ ਸਮੱਗਰੀ ਦਾਖਲ ਕਰੋ</string>
+    <string name="get_sticker">ਸਟਿੱਕਰ ਪ੍ਰਾਪਤ ਕਰੋ</string>
+    <string name="illuminate_your_experience_with_our_zomj_keyboard">ਆਪਣੇ ਤਜ਼ਰਬੇ ਨੂੰ ਸਾਡੇ ਜ਼ੋਮਜੇ ਕੀਬੋਰਡ ਨਾਲ ਰੋਸ਼ਨ ਕਰੋ!</string>
+    <string name="our_zomj_stickers_add_dynamic_hues">ਸਾਡੇ ਜ਼ੋਮਜ ਸਟਿਕਰ ਡਾਇਨਨਾਮਿਕ ਬਿੱਖੇ ਸ਼ਾਮਲ ਕਰਦੇ ਹਨ!</string>
+    <string name="continuee">ਜਾਰੀ ਰੱਖੋ</string>
+    <string name="pick_a_theme_you_like_and_get_started">ਇੱਕ ਥੀਮ ਚੁਣੋ ਜੋ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਅਤੇ ਪ੍ਰਯੋਗ ਕਰੋ</string>
+    <string name="unique_theme">ਵਿਲੱਖਣ ਥੀਮ</string>
+    <string name="current_theme">ਮੌਜੂਦਾ ਥੀਮ</string>
+    <string name="theme_led">ਥੀਮ ਐਲਈਡੀ</string>
+    <string name="theme_color">ਥੀਮ ਦਾ ਰੰਗ</string>
+    <string name="read_external_dictionary_error">ਇੱਕ ਗਲਤੀ ਆਈ</string>
+
+</resources>

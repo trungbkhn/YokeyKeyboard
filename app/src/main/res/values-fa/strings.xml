@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="no_support_number_keyboard">از صفحه کلید عددی پشتیبانی نمی کند</string>
+    <string name="the_maximum_number_of_characters_has_been_reached">به حداکثر تعداد کاراکترها رسیده است</string>
+    <string name="no_data">                           اطلاعاتی وجود ندارد </string>
+    <string name="use_system_languages">از زبانهای سیستم استفاده کنید</string>
+    <string name="active_input_method">روش ورودی فعال</string>
+    <string name="type_to_translate">برای ترجمه تایپ کنید</string>
+    <string name="no_support_this_language_keyboard"> این صفحه کلید زبان در حال حاضر پشتیبانی نمی شود  </string>
+    <string name="langauge_detection">                تشخیص زبان  </string>
+    <string name="pleaseTurnOnInternet">لطفا اینترنت را روشن کنید</string>
+    <string name="app_language">زبان برنامه</string>
+    <string name="not_support_gif">این edittext از gif پشتیبانی نمی کند!</string>
+    <string name="you_haven_t_created_a_theme_yet">شما هنوز مضامین ایجاد نکرده اید</string>
+    <string name="an_error_select_the_image">هنگام انتخاب تصویر یک خطا وجود دارد! لطفا دوباره تلاش کنید.</string>
+    <string name="txt_featured">ویژه </string>
+    <string name="change_size"> اندازه تغییر  </string>
+    <string name="crop_image">  تصویر محصول  </string>
+    <string name="crop">        محصول         </string>
+    <string name="gallery">     گالری       </string>
+    <string name="store">       فروشگاه </string>
+    <string name="english_ime_input_options" msgid="3909945612939668554">"گزینه‌های ورودی"</string>
+    <string name="use_contacts_for_spellchecking_option_title" msgid="5374120998125353898">"پیدا کردن نام مخاطبین"</string>
+    <string name="use_contacts_for_spellchecking_option_summary" msgid="8754413382543307713">"غلط‌گیر املا از ورودی‌های فهرست مخاطبین شما استفاده می‌کند"</string>
+    <string name="vibrate_on_keypress" msgid="5258079494276955460">"لرزش با فشار کلید"</string>
+    <string name="sound_on_keypress" msgid="6093592297198243644">"صدا با فشار کلید"</string>
+    <string name="popup_on_keypress" msgid="123894815723512944">"بازشدن با فشار کلید"</string>
+    <string name="settings_screen_preferences" msgid="2696713156722014624">"تنظیمات برگزیده"</string>
+    <string name="settings_screen_accounts" msgid="2786418968536696670">"حساب‌ها و حریم خصوصی"</string>
+    <string name="settings_screen_appearance" msgid="7358046399111611615">"شکل ظاهری و چیدمان"</string>
+    <string name="settings_screen_gesture" msgid="8826372746901183556">"ورودی اشاره‌ای"</string>
+    <string name="settings_screen_correction" msgid="1616818407747682955">"اصلاح نوشتار"</string>
+    <string name="settings_screen_advanced" msgid="7472408607625972994">"پیشرفته"</string>
+    <string name="settings_screen_theme" msgid="2137262503543943871">"طرح‌زمینه"</string>
+    <string name="enable_split_keyboard" msgid="4177264923999493614">"فعال کردن دونیم‌کردن صفحه‌کلید"</string>
+    <string name="cloud_sync_title" msgid="8579271074443847055">"‏همگام‌سازی صفحه‌کلید Google"</string>
+    <string name="cloud_sync_summary" msgid="7684887161145650857">"همگام‌سازی روشن است"</string>
+    <string name="cloud_sync_summary_disabled" msgid="4553338970382825796">"همگام‌سازی واژه‌نامه شخصی‌تان در همه دستگاه‌ها"</string>
+    <string name="sync_now_title" msgid="3088838136743277721">"اکنون همگام‌سازی شود"</string>
+    <string name="clear_sync_data_title" msgid="8582001557037069154">"‏حذف داده‌های cloud"</string>
+    <string name="clear_sync_data_summary" msgid="993477139012576584">"‏اطلاعات همگام‌سازی شده شما را از Google حذف می‌کند"</string>
+    <string name="clear_sync_data_confirmation" msgid="2811931135574727678">"‏داده‌های همگام‌سازی شده شما از cloud حذف می‌شوند. مطمئنید؟"</string>
+    <string name="clear_sync_data_ok" msgid="613104067705915132">"حذف"</string>
+    <string name="cloud_sync_cancel" msgid="5877481252150919037">"لغو"</string>
+    <string name="cloud_sync_opt_in_text" msgid="9176039655776298248">"‏واژه‌نامه شخصی شما با سرورهای Google همگام‌سازی و در آنها پشتیبان‌گیری می‌شود. ممکن است برای کمک به بهبود محصولات ما، اطلاعات آماری از فراوانی کلمه جمع‌آوری شود. جمع‌آوری و استفاده از همه اطلاعات مطابق با "<a href="https://www.google.com/policies/privacy">"خط‌مشی رازداری Google"</a>" خواهد بود."</string>
+    <string name="add_account_to_enable_sync" msgid="7836932571852055265">"‏برای فعال کردن این ویژگی، یک حساب Google به این دستگاه اضافه کنید"</string>
+    <string name="cloud_sync_summary_disabled_work_profile" msgid="1381770407303129164">"‏همگام‌سازی برای دستگاه‌های دارای حساب Google Apps for Business در دسترس نیست"</string>
+    <string name="include_other_imes_in_language_switch_list" msgid="4533689960308565519">"تغییر به دیگر روش‌های ورودی"</string>
+    <string name="include_other_imes_in_language_switch_list_summary" msgid="840637129103317635">"کلید تغییر زبان، سایر ورودی‌های زبان را نیز پوشش می‌دهد"</string>
+    <string name="show_language_switch_key" msgid="5915478828318774384">"کلید تغییر زبان"</string>
+    <string name="show_language_switch_key_summary" msgid="7343403647474265713">"وقتی چند زبان ورودی فعال است نشان داده شود"</string>
+    <string name="key_preview_popup_dismiss_delay" msgid="6213164897443068248">"تأخیر در رد کردن کلید نمایشی"</string>
+    <string name="key_preview_popup_dismiss_no_delay" msgid="2096123151571458064">"بدون تأخیر"</string>
+    <string name="key_preview_popup_dismiss_default_delay" msgid="2166964333903906734">"پیش‌فرض"</string>
+    <string name="abbreviation_unit_milliseconds" msgid="8700286094028323363">"<xliff:g id="MILLISECONDS">%s</xliff:g> میلی‌ثانیه"</string>
+    <string name="settings_system_default" msgid="6268225104743331821">"پیش‌فرض سیستم"</string>
+    <string name="use_contacts_dict" msgid="4435317977804180815">"پیشنهاد نام‌های مخاطب"</string>
+    <string name="use_contacts_dict_summary" msgid="6599983334507879959">"برای پیشنهاد و تصحیح از نام مخاطبین استفاده شود"</string>
+    <string name="use_personalized_dicts" msgid="5167396352105467626">"پیشنهادات شخصی شده"</string>
+    <string name="enable_metrics_logging" msgid="5506372337118822837">"بهبود <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="use_double_space_period" msgid="8781529969425082860">"نقطه با دو فاصله"</string>
+    <string name="use_double_space_period_summary" msgid="6532892187247952799">"با دو بار ضربه روی دکمه فاصله، نقطه بعلاوه فاصله‌ای بعد آن درج می‌شود"</string>
+    <string name="auto_cap" msgid="1719746674854628252">"بزرگ‌کردن خودکار حروف"</string>
+    <string name="auto_cap_summary" msgid="7934452761022946874">"بزرگ‌نویسی کلمه اول هر جمله"</string>
+    <string name="edit_personal_dictionary" msgid="3996910038952940420">"واژه‌نامه شخصی"</string>
+    <string name="configure_dictionaries_title" msgid="4238652338556902049">"واژه‌نامه‌های برافزا"</string>
+    <string name="main_dictionary" msgid="4798763781818361168">"واژه‌نامه اصلی"</string>
+    <string name="prefs_show_suggestions" msgid="8026799663445531637">"نمایش پیشنهادات تصحیح"</string>
+    <string name="prefs_show_suggestions_summary" msgid="1583132279498502825">"نمایش واژه‌های پیشنهادی در حین تایپ"</string>
+    <string name="prefs_block_potentially_offensive_title" msgid="5078480071057408934">"عدم نمایش کلمات توهین‌آمیز"</string>
+    <string name="prefs_block_potentially_offensive_summary" msgid="2371835479734991364">"کلمات توهین‌آمیز احتمالی پیشنهاد نشود"</string>
+    <string name="auto_correction" msgid="7630720885194996950">"تصحیح خودکار"</string>
+    <string name="auto_correction_summary" msgid="5625751551134658006">"کلید فاصله و علائم سجاوندی به‌صورت خودکار کلماتی را که غلط تایپ شده‌اند تصحیح می‌کند"</string>
+    <string name="auto_correction_threshold_mode_off" msgid="8470882665417944026">"خاموش"</string>
+    <string name="auto_correction_threshold_mode_modest" msgid="8788366690620799097">"متوسط"</string>
+    <string name="auto_correction_threshold_mode_aggressive" msgid="7319007299148899623">"شدید"</string>
+    <string name="auto_correction_threshold_mode_very_aggressive" msgid="1853309024129480416">"بسیار شدید"</string>
+    <string name="bigram_prediction" msgid="1084449187723948550">"پیشنهادات کلمه بعدی"</string>
+    <string name="bigram_prediction_summary" msgid="3896362682751109677">"استفاده از کلمه قبلی در ایجاد پیشنهادات"</string>
+    <string name="gesture_input" msgid="826951152254563827">"فعال کردن تایپ حرکتی"</string>
+    <string name="gesture_input_summary" msgid="9180350639305731231">"با لغزاندن انگشت روی حروف کلمه وارد کنید"</string>
+    <string name="gesture_preview_trail" msgid="3802333369335722221">"نمایش نسخه آزمایشی حرکت"</string>
+    <string name="gesture_floating_preview_text" msgid="4443240334739381053">"پیش‌نمایش متحرک پویا"</string>
+    <string name="gesture_floating_preview_text_summary" msgid="4472696213996203533">"مشاهده کلمه پیشنهادی در حین انجام حرکات"</string>
+    <string name="gesture_space_aware" msgid="2078291600664682496">"‫ورود عبارت با حرکت اشاره‌ای"</string>
+    <string name="gesture_space_aware_summary" msgid="4371385818348528538">"با سراندن انگشت روی کلید فاصله در زمان استفاده از حرکات، فاصله وارد کنید"</string>
+    <string name="voice_input" msgid="3583258583521397548">"کلید ورودی صوتی"</string>
+    <string name="voice_input_disabled_summary" msgid="6323489602945135165">"هیچ روش ورودی گفتاری‌ای فعال نشده است. تنظیمات «زبان‌ها و ورودی» را بررسی کنید."</string>
+    <string name="configure_input_method" msgid="373356270290742459">"پیکربندی روش‌های ورودی"</string>
+    <string name="language_selection_title" msgid="3666971864764478269">"زبان‌ها"</string>
+    <string name="help_and_feedback" msgid="5328219371839879161">"راهنما و بازخورد"</string>
+    <string name="select_language" msgid="5709487854987078367">"زبان‌ها"</string>
+    <string name="hint_add_to_dictionary" msgid="2645988432867033007">"برای ذخیره شدن، دوباره ضربه بزنید"</string>
+    <string name="hint_add_to_dictionary_without_word" msgid="6710206006427574423">"برای ذخیره شدن، اینجا را ضربه بزنید"</string>
+    <string name="has_dictionary" msgid="6071847973466625007">"واژه‌نامه در دسترس است"</string>
+    <string name="keyboard_layout" msgid="8451164783510487501">"طرح زمینه صفحه‌کلید"</string>
+    <string name="switch_accounts" msgid="3321216593719006162">"رفتن به حساب دیگر"</string>
+    <string name="no_accounts_selected" msgid="2073821619103904330">"هیچ حسابی انتخاب نشده است"</string>
+    <string name="account_selected" msgid="2846876462199625974">"در حال حاضر در حال استفاده از <xliff:g id="EMAIL_ADDRESS">%1$s</xliff:g>"</string>
+    <string name="account_select_ok" msgid="9141195141763227797">"تأیید"</string>
+    <string name="account_select_cancel" msgid="5181012062618504340">"لغو"</string>
+    <string name="account_select_sign_out" msgid="3299651159390187933">"خروج از سیستم"</string>
+    <string name="account_select_title" msgid="6279711684772922649">"انتخاب یک حساب برای استفاده"</string>
+    <string name="subtype_en_GB" msgid="88170601942311355">"انگلیسی (بریتانیا)"</string>
+    <string name="subtype_en_US" msgid="6160452336634534239">"انگلیسی (امریکا)"</string>
+    <string name="subtype_es_US" msgid="5583145191430180200">"اسپانیایی (امریکا)"</string>
+    <string name="subtype_hi_ZZ" msgid="8860448146262798623">"هندی انگلیسی"</string>
+    <string name="subtype_sr_ZZ" msgid="9059219552986034343">"صربی (لاتین)"</string>
+    <string name="subtype_with_layout_en_GB" msgid="1931018968641592304">"انگلیسی (بریتانیا) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_en_US" msgid="8809311287529805422">"انگلیسی (امریکا) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_es_US" msgid="510930471167541338">"اسپانیایی (امریکا) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_hi_ZZ" msgid="6827402953860547044">"هندی انگلیسی (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_sr_ZZ" msgid="2859024772719772407">"صربی (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_generic_traditional" msgid="8584594350973800586">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (سنتی)"</string>
+    <string name="subtype_generic_compact" msgid="3353673321203202922">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (فشرده)"</string>
+    <string name="subtype_no_language" msgid="7137390094240139495">"بدون زبان (حروف الفبا)"</string>
+    <string name="subtype_no_language_qwerty" msgid="244337630616742604">"‏حروف الفبا (QWERTY)"</string>
+    <string name="subtype_no_language_qwertz" msgid="443066912507547976">"‏حروف الفبا (QWERTZ)"</string>
+    <string name="subtype_no_language_azerty" msgid="8144348527575640087">"‏حروف الفبا (AZERTY)"</string>
+    <string name="subtype_no_language_dvorak" msgid="1564494667584718094">"‏حروف الفبا (Dvorak)"</string>
+    <string name="subtype_no_language_colemak" msgid="5837418400010302623">"‏حروف الفبا (Colemak)"</string>
+    <string name="subtype_no_language_pcqwerty" msgid="5354918232046200018">"‏حروف الفبا (PC)"</string>
+    <string name="subtype_emoji" msgid="7483586578074549196">"اموجی"</string>
+    <string name="keyboard_theme" msgid="4909551808526178852">"طرح زمینه صفحه‌کلید"</string>
+    <string name="custom_input_styles_title" msgid="8429952441821251512">"سبک‌های ورودی سفارشی"</string>
+    <string name="add_style" msgid="6163126614514489951">"افزودن سبک"</string>
+    <string name="add" msgid="8299699805688017798">"افزودن"</string>
+    <string name="remove" msgid="4486081658752944606">"حذف"</string>
+    <string name="save" msgid="7646738597196767214">"ذخیره"</string>
+    <string name="subtype_locale" msgid="8576443440738143764">"زبان"</string>
+    <string name="keyboard_layout_set" msgid="4309233698194565609">"چیدمان"</string>
+    <string name="custom_input_style_note_message" msgid="8826731320846363423">"سبک ورودی سفارشی شما باید قبل از شروع به استفاده از آن فعال شود. می‌خواهید اکنون آن را فعال کنید؟"</string>
+    <string name="enable" msgid="5031294444630523247">"فعال کردن"</string>
+    <string name="not_now" msgid="6172462888202790482">"اکنون نه"</string>
+    <string name="custom_input_style_already_exists" msgid="8008728952215449707">"سبک ورودی مشابهی در حال حاضر وجود دارد: <xliff:g id="INPUT_STYLE_NAME">%s</xliff:g>"</string>
+    <string name="prefs_keypress_vibration_duration_settings" msgid="7918341459947439226">"طول مدت لرزش در اثر فشردن کلید"</string>
+    <string name="prefs_keypress_sound_volume_settings" msgid="6027007337036891623">"میزان صدای فشردن کلید"</string>
+    <string name="prefs_key_longpress_timeout_settings" msgid="6102240298932897873">"تأخیر فشار طولانی کلید"</string>
+    <string name="prefs_enable_emoji_alt_physical_key" msgid="5963640002335470112">"اموجی برای صفحه‌کلید فیزیکی"</string>
+    <string name="prefs_enable_emoji_alt_physical_key_summary" msgid="5259484820941627827">"‏کلید Alt صفحه‌کلید فیزیکی، پالت اموجی را نشان می‌دهد"</string>
+    <string name="button_default" msgid="3988017840431881491">"پیش‌فرض"</string>
+    <string name="setup_welcome_title" msgid="6112821709832031715">"به <xliff:g id="APPLICATION_NAME">%s</xliff:g> خوش آمدید"</string>
+    <string name="setup_welcome_additional_description" msgid="8150252008545768953">"با ورودی اشاره‌ای"</string>
+    <string name="setup_start_action" msgid="8936036460897347708">"شروع به کار"</string>
+    <string name="setup_next_action" msgid="371821437915144603">"مرحله بعد"</string>
+    <string name="setup_steps_title" msgid="6400373034871816182">"راه‌اندازی <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_step1_title" msgid="3147967630253462315">"فعال‌سازی <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_step1_instruction" msgid="4295448056733329661">"لطفاً «<xliff:g id="APPLICATION_NAME">%s</xliff:g>» را در تنظیمات «زبان‌ها و ورودی» علامت بزنید. این کار مجوز اجرا در دستگاه است."</string>
+    <string name="setup_step1_finished_instruction" msgid="8701441895377434947">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> از قبل در تنظیمات «زبان‌ها و ورودی» شما فعال شده است، بنابراین این مرحله تمام است. به مرحله بعد بروید!"</string>
+    <string name="setup_step1_action" msgid="4366513534999901728">"فعال‌سازی در تنظیمات"</string>
+    <string name="setup_step2_title" msgid="6860725447906690594">"جابجایی به <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_step2_instruction" msgid="9141481964870023336">"در مرحله بعد، با انتخاب «<xliff:g id="APPLICATION_NAME">%s</xliff:g>» به عنوان روش ورودی نوشتار خود آن را فعال نمایید."</string>
+    <string name="setup_step2_action" msgid="1660330307159824337">"تغییر روش‌های ورودی"</string>
+    <string name="setup_step3_title" msgid="3154757183631490281">"تبریک می‌گوییم، اکنون کاملاً آماده هستید!"</string>
+    <string name="setup_step3_instruction" msgid="8025981829605426000">"اکنون می‌توانید در همه برنامه‌های دلخواه خود با <xliff:g id="APPLICATION_NAME">%s</xliff:g> تایپ کنید."</string>
+    <string name="setup_step3_action" msgid="600879797256942259">"پیکربندی زبان‌های دیگر"</string>
+    <string name="setup_finish_action" msgid="276559243409465389">"تمام شد"</string>
+    <string name="show_setup_wizard_icon" msgid="5008028590593710830">"نمایش نماد برنامه"</string>
+    <string name="show_setup_wizard_icon_summary" msgid="4119998322536880213">"نمایش نماد برنامه در راه‌انداز"</string>
+    <string name="app_name" msgid="6320102637491234792">"ارائه‌دهنده واژه‌نامه"</string>
+    <string name="dictionary_provider_name" msgid="3027315045397363079">"ارائه‌دهنده واژه‌نامه"</string>
+    <string name="dictionary_service_name" msgid="6237472350693511448">"خدمات واژه‌نامه"</string>
+    <string name="download_description" msgid="6014835283119198591">"اطلاعات به‌روزرسانی واژه‌نامه"</string>
+    <string name="dictionary_settings_title" msgid="8091417676045693313">"واژه‌نامه‌های برافزا"</string>
+    <string name="dictionary_install_over_metered_network_prompt" msgid="3587517870006332980">"واژه‌نامه موجود است"</string>
+    <string name="dictionary_settings_summary" msgid="5305694987799824349">"تنظیمات برای فرهنگ‌ لغت‌ها"</string>
+    <string name="user_dictionaries" msgid="3582332055892252845">"فرهنگ‌های لغت کاربر"</string>
+    <string name="default_user_dict_pref_name" msgid="1625055720489280530">"واژه‌نامه کاربر"</string>
+    <string name="dictionary_available" msgid="4728975345815214218">"واژه‌نامه موجود است"</string>
+    <string name="dictionary_downloading" msgid="2982650524622620983">"موارد در حال بارگیری فعلی"</string>
+    <string name="dictionary_installed" msgid="8081558343559342962">"نصب شده"</string>
+    <string name="dictionary_disabled" msgid="8950383219564621762">"نصب‌شده، غیرفعال شد"</string>
+    <string name="cannot_connect_to_dict_service" msgid="9216933695765732398">"مشکل اتصال به سرویس واژه‌نامه"</string>
+    <string name="no_dictionaries_available" msgid="8039920716566132611">"هیچ فرهنگ لغتی موجود نیست"</string>
+    <string name="check_for_updates_now" msgid="8087688440916388581">"بازخوانی"</string>
+    <string name="last_update" msgid="730467549913588780">"آخرین به‌روزرسانی"</string>
+    <string name="message_updating" msgid="4457761393932375219">"در حال بررسی به‌روزرسانی‌ها"</string>
+    <string name="message_loading" msgid="5638680861387748936">"در حال بارگیری…"</string>
+    <string name="main_dict_description" msgid="3072821352793492143">"واژه‌نامه اصلی"</string>
+    <string name="cancel" msgid="6830980399865683324">"لغو"</string>
+    <string name="go_to_settings" msgid="3876892339342569259">"تنظیمات"</string>
+    <string name="install_dict" msgid="180852772562189365">"نصب"</string>
+    <string name="cancel_download_dict" msgid="7843340278507019303">"لغو"</string>
+    <string name="delete_dict" msgid="756853268088330054">"حذف"</string>
+    <string name="should_download_over_metered_prompt" msgid="6737084685073734292">"‏زبان انتخاب‌شده واژه‌نامه در دسترسی در دستگاه همراهتان دارد.&lt;br/&gt; برای بهبود تجربه تایپ کردن توصیه می‌کنیم واژه‌نامه <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> را &lt;b&gt;بارگیری کنید&lt;/b&gt; .&lt;br/&gt; &lt;br/&gt; بارگیری از طریق ‎3G حدود یک تا دو دقیقه طول می‌کشد. اگر &lt;b&gt;طرح داده نامحدود&lt;/b&gt;نداشته باشید، ممکن است هزینه‌هایی اعمال شود.&lt;br/&gt; اگر نمی‌دانید چه طرح داده‌ای دارید، توصیه می‌کنیم برای شروع بارگیری خودکار، اتصال Wi-Fi  پیدا کنید.&lt;br/&gt; &lt;br/&gt; نکته: می‌توانید با رفتن به &lt;b&gt;زبان‌ها و ورودی&lt;/b&gt; در منوی &lt;b&gt;تنظیمات&lt;/b&gt; دستگاه همراهتان، واژه‌نامه را بارگیری و حذف کنید."</string>
+    <string name="download_over_metered" msgid="1643065851159409546">"هم‌اکنون بارگیری شود (<xliff:g id="SIZE_IN_MEGABYTES">%1$.1f</xliff:g> مگابایت)"</string>
+    <string name="do_not_download_over_metered" msgid="2176209579313941583">"‏بارگیری ازطریق Wi-Fi"</string>
+    <string name="dict_available_notification_title" msgid="4583842811218581658">"یک واژه‌نامه برای <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> در دسترس است"</string>
+    <string name="dict_available_notification_description" msgid="1075194169443163487">"برای مرور و بارگیری فشار دهید"</string>
+    <string name="toast_downloading_suggestions" msgid="6128155879830851739">"بارگیری پیشنهادات برای <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> به زودی شروع می‌شود."</string>
+    <string name="version_text" msgid="2715354215568469385">"نسخه <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="user_dict_settings_add_menu_title" msgid="1254195365689387076">"افرودن"</string>
+    <string name="user_dict_settings_add_dialog_title" msgid="4096700390211748168">"افزودن به واژه‌نامه"</string>
+    <string name="user_dict_settings_add_screen_title" msgid="5818914331629278758">"عبارت"</string>
+    <string name="user_dict_settings_add_dialog_more_options" msgid="5671682004887093112">"گزینه‌های بیشتر"</string>
+    <string name="user_dict_settings_add_dialog_less_options" msgid="2716586567241724126">"گزینه‌های کمتر"</string>
+    <string name="user_dict_settings_add_dialog_confirm" msgid="4703129507388332950">"تأیید"</string>
+    <string name="user_dict_settings_add_word_option_name" msgid="6665558053408962865">"کلمه:"</string>
+    <string name="user_dict_settings_add_shortcut_option_name" msgid="3094731590655523777">"میان‌بر:"</string>
+    <string name="user_dict_settings_add_locale_option_name" msgid="4738643440987277705">"زبان:"</string>
+    <string name="user_dict_settings_add_word_hint" msgid="4902434148985906707">"کلمه‌ای تایپ کنید"</string>
+    <string name="user_dict_settings_add_shortcut_hint" msgid="2265453012555060178">"میان‌بر اختیاری"</string>
+    <string name="user_dict_settings_edit_dialog_title" msgid="3765774633869590352">"ویرایش کلمه"</string>
+    <string name="user_dict_settings_context_menu_edit_title" msgid="6812255903472456302">"ویرایش"</string>
+    <string name="user_dict_settings_context_menu_delete_title" msgid="8142932447689461181">"حذف"</string>
+    <string name="user_dict_settings_empty_text" msgid="6889278304342592383">"واژه‌ای در واژه‌نامه کاربر ندارید. برای افزودن واژه، روی دکمه افزودن (+) ضربه بزنید."</string>
+    <string name="user_dict_settings_all_languages" msgid="8276126583216298886">"برای همه زبان‌ها"</string>
+    <string name="user_dict_settings_more_languages" msgid="7131268499685180461">"زبان‌های بیشتر…"</string>
+    <string name="user_dict_settings_delete" msgid="110413335187193859">"حذف"</string>
+    <string name="user_dict_fast_scroll_alphabet" msgid="5431919401558285473">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+
+    <string name="premium_remove_ads_success">شما به یک حق بیمه تبدیل شده اید !!!</string>
+
+    <string name="pro_restore_failed">خرید اطلاعات یافت نشد!</string>
+
+    <string name="premium_billing_error">خرید یک خطا رخ داده است! لطفا بعدا دوباره امتحان کنید</string>
+
+    <string name="zibil">زبری</string>
+
+    <string name="get_started">شروع کردن</string>
+
+    <string name="apply_theme">تم را اعمال کنید</string>
+
+    <string name="buy_theme">خرید تم</string>
+
+    <string name="apply_theme_done">تم کاربردی</string>
+
+    <string name="apply_font_done">فونت کاربردی</string>
+
+    <string name="apply_font_success">موفقیت فونت کاربردی</string>
+
+    <string name="apply_sticker_done">برچسب کاربردی</string>
+
+    <string name="apply_sticker_success">موفقیت برچسب کاربردی</string>
+
+    <string name="apply_theme_fail">اعمال موضوع شکست خورده</string>
+
+    <string name="apply_sticker_fail">برچسب را اعمال کنید</string>
+
+    <string name="link_json_file">تم ها / themes_round.json</string>
+
+    <string name="link_json_top_file">تم ها / themes_top.json</string>
+
+    <string name="path_themes_file">تم ها / themes_round.json</string>
+
+    <string name="text_rate_5_star_for_rgb_keyboard">برنامه</string>
+
+    <string name="text_policy_rgb_keyboard">خط مشی</string>
+
+    <string name="text_more">بیشتر</string>
+
+    <string name="text_ledkey_for_life_beauty">پیام کوتاه در صفحه کلید Zomj!</string>
+
+    <string name="app_name_emoji">صفحه کلید جدید Emojis 2021</string>
+
+    <string name="text_tab_themes">تم ها</string>
+
+    <string name="text_tab_fonts">فونت</string>
+
+    <string name="text_tab_sticker">استیکر</string>
+
+    <string name="text_tab_emoji">ایموجی</string>
+
+    <string name="text_tab_setting">تنظیمات</string>
+
+    <string name="text_tab_more">بیشتر</string>
+
+    <string name="hello_blank_fragment">سلام قطعه خالی</string>
+
+    <string name="text_loading">بارگذاری...</string>
+
+    <string name="txt_name_hot_theme">داغ</string>
+
+    <string name="txt_name_led_theme">رهبری</string>
+
+    <string name="txt_name_animated_theme">متحرک</string>
+
+    <string name="txt_name_gradient_theme">شیب</string>
+
+    <string name="txt_name_color_theme">رنگ</string>
+
+    <string name="txt_download_theme">تم دانلود</string>
+
+    <string name="txt_get_theme">گرفتن تم ها</string>
+
+    <string name="txt_download_sticker">دانلود برچسب</string>
+
+    <string name="txt_add_sticker">اضافه کردن برچسب</string>
+
+    <string name="txt_apply_font">فونت را اعمال کنید</string>
+
+    <string name="txt_not_theme">تم نیست</string>
+
+    <string name="txt_wallpaper">تصویر زمینه</string>
+
+    <string name="txt_MyTheme">تم های من</string>
+
+    <string name="txt_tiktok">تیکوتوک</string>
+
+    <string name="txt_animal">حیوان</string>
+
+    <string name="text_check_internet">لطفا اتصال اینترنت خود را بررسی کنید و دوباره امتحان کنید تا تم ها را دریافت کنید!</string>
+
+    <string name="text_check_internet_sticker">لطفا اتصال اینترنت خود را بررسی کنید و دوباره امتحان کنید!</string>
+
+    <string name="txt_splash">صفحه کلید ZOMJ</string>
+
+    <string name="txt_text_policy">من با شرایط استفاده و سیاست حفظ حریم خصوصی موافقم</string>
+
+    <string name="select">انتخاب کنید</string>
+
+    <string name="select_all">انتخاب همه</string>
+
+    <string name="copy">کپی 🀄</string>
+
+    <string name="paste">چسباندن</string>
+
+    <string name="cut">برش</string>
+
+    <string name="text_copied">متن کپی شده است</string>
+
+    <string name="show_key_special">شخصیت ویژه را بر روی کلید نشان دهید</string>
+
+    <string name="ledkey">لودکی</string>
+
+    <string name="custom">سفارشی</string>
+
+    <string name="help_and_feedbacks">کمک و بازخورد</string>
+
+    <string name="emoji_sticker_gif_and_symbol_keyboard">ایموجی برچسب، GIF و صفحه کلید نماد</string>
+
+    <string name="_15sp">15sp</string>
+
+    <string name="enter_something_for_test">چیزی را برای آزمون وارد کنید</string>
+
+    <string name="fonts">فونت</string>
+
+    <string name="tab_all">همه</string>
+
+    <string name="tab_sans_serif">بدون دندانه</string>
+
+    <string name="tab_serif">سریف</string>
+
+    <string name="tab_display">نمایش دادن</string>
+
+    <string name="tab_handwriting">دست خط</string>
+
+    <string name="tab_script">اسکریپت</string>
+
+    <string name="tab_tiktok">تیکوتوک</string>
+
+    <string name="tab_instagram">نمایشگاه</string>
+
+    <string name="tab_other">دیگر</string>
+
+    <string name="no_app">هیچ برنامه ای برای انجام کار خارجی پیدا نشد</string>
+
+    <string name="clipboard">کلیپ بورد</string>
+
+    <string name="there_is_no_data_in_the_clipboard">هیچ اطلاعاتی در کلیپ بورد وجود ندارد</string>
+
+    <string name="hidden">پنهان</string>
+
+    <string name="vibrate">لرزیدن</string>
+
+    <string name="sound">صدا</string>
+
+    <string name="automatic_ncorrection">خودکار  تصحیح</string>
+
+    <string name="correction_off">اصلاح خاموش</string>
+
+    <string name="suggestion_off">پیشنهاد خاموش</string>
+
+    <string name="silent">بی صدا</string>
+
+    <string name="mute">بی صدا</string>
+
+    <string name="language">صفحه کلید زبان</string>
+
+    <string name="show_n_suggestions">نمایش پیشنهادات</string>
+
+    <string name="more">بیشتر</string>
+
+    <string name="sticker">استیکر</string>
+
+    <string name="add_sticker">اضافه کردن برچسب</string>
+
+    <string name="not_support_sticker">این edittext از برچسب پشتیبانی نمی کند!</string>
+
+    <string name="add_font">اضافه کردن فونت</string>
+
+    <string name="not_support_font">این فونت در زبان شما پشتیبانی نمی شود</string>
+
+    <string name="apply_themes_success">موفقیت تم ها را اعمال کنید</string>
+
+    <string name="let_s_get_started">بیا شروع کنیم</string>
+
+    <string name="thanks_for_choosing_zomj_keyboard_you_trust_is_very_important_to_us">با تشکر از انتخاب صفحه کلید Zomj شما اعتماد برای ما بسیار مهم است</string>
+
+    <string name="choose_keyboard">صفحه کلید را انتخاب کنید</string>
+
+    <string name="data_privacy">حریم خصوصی داده ها</string>
+
+    <string name="zomj_keyboard">صفحه کلید ZOMJ</string>
+
+    <string name="never_collects_personal_data">هرگز اطلاعات شخصی را جمع نمی کند</string>
+
+    <string name="such_as_password_credit_card_number_etc">مانند رمز عبور، شماره کارت اعتباری و غیره ...</string>
+
+    <string name="how_do_we_protect_personal_data">چگونه ما از اطلاعات شخصی محافظت می کنیم؟</string>
+
+    <string name="accept">تایید کنید</string>
+
+    <string name="customize">شخصی سازی</string>
+
+    <string name="background">زمینه</string>
+
+    <string name="key">کلید</string>
+
+    <string name="effect">اثر</string>
+
+    <string name="double_spacebar_insert_period">دوبار فاصله قرار دادن دوره</string>
+
+    <string name="automatic_correction">اصلاح خودکار</string>
+
+    <string name="auto_capitalization">سرمایه داری اتوماتیک</string>
+
+    <string name="privacy_policy">سیاست حفظ حریم خصوصی</string>
+
+    <string name="custom_input">ورودی سفارشی</string>
+
+    <string name="themes">تم ها</string>
+
+    <string name="simple_button">دکمه ساده</string>
+
+    <string name="popular_button">دکمه محبوب</string>
+
+    <string name="text_color">رنگ متن</string>
+
+    <string name="toolbar_color">رنگ نوار ابزار</string>
+
+    <string name="key_effect">اثر کلیدی</string>
+
+    <string name="You_need_to_enable_permissions_to_use_this_feature">شما باید مجوزهای خود را برای استفاده از این ویژگی فعال کنید</string>
+
+    <string name="go_to_setting">به تنظیم بروید</string>
+
+    <string name="go_back">برگرد</string>
+
+    <string name="access_is_denied">دسترسی ممنوع است</string>
+
+    <string name="error_down_background">خطا در پس زمینه</string>
+
+    <string name="_0">0</string>
+
+    <string name="download_and_use_free_150_theme">دانلود و استفاده از تم رایگان 150+</string>
+
+    <string name="unlock_all_themes">باز کردن تمام تم ها</string>
+
+    <string name="_199_month">$ 1.99 / ماه</string>
+
+    <string name="_1999_year">19.99 دلار در سال (صرفه جویی 2 ماه)</string>
+
+    <string name="_2999_uses">$ 29.99 / استفاده دائمی</string>
+
+    <string name="try_3_days_free_1_99_mo_after_trial_ends">3 روز رایگان را امتحان کنید $ 1.99 / mo پس از محاکمه به پایان می رسد</string>
+
+    <string name="continue1">ادامه هید</string>
+
+    <string name="already_pro">در حال حاضر طرفدار؟</string>
+
+    <string name="trial_will_automatically">محاکمه به طور خودکار به اشتراک ماهانه تبدیل خواهد شد <font fgcolor='#000000'>سپتامبر 18، 2021</font>
+       مگر اینکه حداقل 24 ساعت قبل لغو شود</string>
+
+    <string name="your_design_will_be_lost">آیا طراحی شما از دست رفته است، مطمئن هستید که می خواهید بیرون بروید؟</string>
+
+    <string name="cancel_theme">لغو کردن</string>
+
+    <string name="yes_theme">آره</string>
+
+    <string name="premium_billing_not_avaiable">خدمات خرید در دسترس نیست یا خطا</string>
+
+    <string name="key_sound">صدای کلید</string>
+
+    <string name="set_name_keyboard">صفحه کلید نام را تنظیم کنید</string>
+
+    <string name="zomj_themes">تم های Zomj ...</string>
+
+    <string name="save_theme">صرفه جویی</string>
+
+    <string name="enter_name_keyboard">لطفا نام صفحه کلید را وارد کنید</string>
+
+    <string name="theme_creation_failed">ایجاد تم شکست خورده است</string>
+
+    <string name="theme_creation_success">ایجاد تم موفقیت آمیز است</string>
+
+    <string name="themes_1">تم ها 1</string>
+
+    <string name="delete_themes">حذف تم ها</string>
+
+    <string name="are_you_sure_delete">آیا مطمئن هستید که می خواهید این موضوع را حذف کنید؟</string>
+
+    <string name="no">نه</string>
+
+<!--    <string name="premium_subscription_month">٪ 1 دلار S / ماه</string>-->
+    <string name="premium_subscription_month">%1$s/ماه</string>
+
+    <string name="premium_subscription_year"> %1$s/سال</string>
+
+    <string name="premium_subscription_permanently"> %1$s/به طور دائم استفاده می شو</string>
+
+    <string name="best_offer">فروش</string>
+
+    <string name="txt_tab_stickers">استیکر</string>
+
+    <string name="txt_tab_emojis">ایموجی</string>
+
+    <string name="txt_tab_trending">طیف</string>
+
+    <string name="txt_tab_top">بالا</string>
+
+    <string name="txt_tab_latest">آخرین</string>
+
+    <string name="txt_tab_cosplay">کلاسیک</string>
+
+    <string name="no_favorite_emoji_yet">هنوز ایموجی مورد علاقه نیست</string>
+
+    <string name="no_recent_sticker_yet">شما هنوز از برچسب استفاده نکرده اید</string>
+
+    <string name="phan_tram">ماه</string>
+
+    <string name="name_keyboard_exist">نام صفحه کلید در حال حاضر وجود دارد</string>
+
+    <string name="premium_desp_download">دانلود همه رایگان</string>
+
+    <string name="premium_desp_remove_ads">حذف تبلیغات</string>
+
+    <string name="premium_desp_cancel">لغو هر زمان</string>
+
+    <string name="unlock_all_theme">باز کردن تمام تم ها</string>
+
+    <string name="unlock_pro_features">ویژگی های PRO را باز کنید</string>
+
+    <string name="des_unlock_pro_features">از تمام توابع حساب Pro استفاده کنید</string>
+
+    <string name="unlock_all_style_custom_led">باز کردن تمام سبک های سفارشی سبک</string>
+
+    <string name="des_unlock_all_style_custom_led">هر صفحه کلید LED را سفارشی کنید</string>
+
+    <string name="des_remove_ads">هنگام استفاده از برنامه، از همه تبلیغات خلاص شوید</string>
+
+    <string name="detail_theme_error_remove_theme_current">نمی توانید تم مورد استفاده خود را حذف کنید!</string>
+
+    <string name="pro_purchase_description">در هر زمان می توانید اشتراک خود را در بخش اشتراک ها در Google Play لغو کنید. وقتی اشتراک خود را لغو کنید ، در پایان دوره صورتحساب جاری ، دسترسی به اشتراک را از دست خواهید داد.</string>
+    <string name="add_more_emojis_combos">emojis بیشتر اضافه کنید</string>
+    <string name="done">انجام شده</string>
+    <string name="error_load_data_billing">خطای بارگیری اطلاعات اشتراک به دلایلی، لطفاً دوباره امتحان کنید</string>
+    <string name="retry">دوباره امتحان کنید</string>
+
+    <string name="activate_zomj_keyboard">صفحه کلید ZOMJ را فعال کنید</string>
+    <string name="step_1_activate">مرحله 1. فعال کردن</string>
+    <string name="step_2_select">مرحله 2. انتخاب کنید</string>
+    <string name="activate_zomj_keyboard_to_enable_more_themes_and_emojis">*صفحه کلید ZOMJ را فعال کنید تا مضامین و ایموجی های بیشتری را فعال کنید</string>
+    <string name="download_this_theme_to_apply">این موضوع را برای درخواست بارگیری کنید</string>
+    <string name="download_this_font_to_apply">این قلم را برای درخواست بارگیری کنید</string>
+    <string name="download">دانلود</string>
+
+    <string name="remove_all_ads">همه تبلیغات را حذف کنید</string>
+    <string name="get">گرفتن</string>
+    <string name="download_this_sticker_to_use">این برچسب را برای استفاده بارگیری کنید</string>
+    <string name="this_is_actually_amazing_keyboad">این در واقع صفحه کلید شگفت انگیز است!</string>
+    <string name="you_might_also_like">شما ممکن است دوست داشته باشید</string>
+    <string name="try_your_new_theme">موضوع جدید خود را امتحان کنید</string>
+    <string name="please_enter_content">لطفا محتوا را وارد کنید</string>
+    <string name="get_sticker">برچسب گرفتن</string>
+    <string name="illuminate_your_experience_with_our_zomj_keyboard">تجربه خود را با صفحه کلید ZOMJ ما روشن کنید!</string>
+    <string name="our_zomj_stickers_add_dynamic_hues">برچسب های ZOMJ ما رنگ های پویا را اضافه می کنند!</string>
+    <string name="continuee">ادامه هید</string>
+    <string name="pick_a_theme_you_like_and_get_started">موضوعی را که دوست دارید انتخاب کنید و آزمایش کنید</string>
+    <string name="unique_theme">موضوع منحصر به فرد</string>
+    <string name="current_theme">تم فعلی</string>
+    <string name="theme_led">تم رهبری</string>
+    <string name="theme_color">رنگ تم</string>
+    <string name="read_external_dictionary_error">یک خطای وجود دارد</string>
+
+</resources>

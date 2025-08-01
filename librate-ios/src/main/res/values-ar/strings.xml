@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">fivestarsLibrary.</string>
+    <string name="app_namee">لوحة المفاتيح Zomj</string>
+    <string name="title_dialog">قيم هذا التطبيق</string>
+    <string name="content">كم تحب تطبيقنا؟</string>
+    <string name="rate_now">قيم الآن</string>
+    <string name="feedback">تعليق</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">اضغط 5 نجوم لتقييمه على متجر بلاي.</string>
+    <string name="enjoying_zomj_keyboard">تتمتع Zomj لوحة المفاتيح؟</string>
+    <string name="later">في وقت لاحق</string>
+    <string name="please_rate_5_start" translatable="false">يرجى تقييم 5 نجوم</string>
+</resources>

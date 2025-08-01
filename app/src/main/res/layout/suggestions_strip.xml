@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+**
+** Copyright 2011, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layoutDirection="ltr"
+        android:layout_height="@dimen/config_suggestions_strip_height">
+
+        <LinearLayout
+            android:id="@+id/suggestions_strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hapticFeedbackEnabled="false"
+            android:orientation="horizontal"
+            android:soundEffectsEnabled="false"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/suggestions_strip_setting_key"
+            android:layout_width="@dimen/config_suggestions_strip_height"
+            android:layout_height="@dimen/config_suggestions_strip_height"
+            android:padding="6dp"
+            android:textAlignment="viewStart"
+            android:background="@drawable/bg_circle_black"
+            android:src="@drawable/ic_setting_on_keyboard"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <HorizontalScrollView
+            android:id="@+id/nestedScrollView"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/suggestions_strip_setting_key"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:scrollbars="none"
+            android:overScrollMode="never"
+            android:fillViewport="true"
+            android:layout_height="@dimen/config_suggestions_strip_height">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/selection"
+                    android:layout_width="@dimen/config_suggestions_strip_height"
+                    android:layout_height="@dimen/config_suggestions_strip_height"
+                    android:padding="6dp"
+                    android:background="@drawable/bg_circle_black"
+                    android:src="@drawable/ic_select_on_keyboard"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imgClipBoard"
+                    android:layout_width="@dimen/config_suggestions_strip_height"
+                    android:layout_height="@dimen/config_suggestions_strip_height"
+                    android:padding="6dp"
+                    android:background="@drawable/bg_circle_black"
+                    android:src="@drawable/ic_clip_board"
+                    android:layout_toEndOf="@id/selection"/>
+
+                <ImageView
+                    android:id="@+id/suggestions_strip_voice_key"
+                    android:layout_width="@dimen/config_suggestions_strip_height"
+                    android:layout_height="@dimen/config_suggestions_strip_height"
+                    android:layout_toEndOf="@id/imgClipBoard"
+                    android:contentDescription="@string/spoken_description_mic"
+                    android:padding="6dp"
+                    android:background="@drawable/bg_circle_black"
+                    android:src="@drawable/ic_mic_on_keyboard" />
+
+                <ImageView
+                    android:id="@+id/imgSticker"
+                    android:layout_width="@dimen/config_suggestions_strip_height"
+                    android:layout_height="@dimen/config_suggestions_strip_height"
+                    android:background="@drawable/bg_circle_black"
+                    android:layout_toEndOf="@id/suggestions_strip_voice_key"
+                    android:contentDescription="@string/spoken_description_mic"
+                    android:padding="6dp"
+                    android:src="@drawable/ic_sticker_on_keyboard" />
+
+
+                <ImageView
+                    android:id="@+id/suggestions_strip_emoji"
+                    android:layout_width="@dimen/config_suggestions_strip_height"
+                    android:layout_height="@dimen/config_suggestions_strip_height"
+                    android:layout_gravity="center"
+                    android:layout_toEndOf="@id/imgSticker"
+                    android:background="@drawable/bg_circle_black"
+                    android:contentDescription="@string/spoken_description_mic"
+                    android:padding="6dp"
+                    android:src="@drawable/ic_emoji_on_keyboard"
+                    app:layout_constraintStart_toEndOf="@id/suggestions_strip_voice_key"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/translate"
+                    android:layout_width="@dimen/config_suggestions_strip_height"
+                    android:layout_height="@dimen/config_suggestions_strip_height"
+                    android:layout_gravity="center"
+                    android:layout_toEndOf="@id/suggestions_strip_emoji"
+                    android:background="@drawable/bg_circle_black"
+                    android:contentDescription="@string/spoken_description_mic"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_translateds"
+                    app:layout_constraintStart_toEndOf="@id/suggestions_strip_voice_key"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rclFontKeyboard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/config_suggestions_strip_height"
+                    android:layout_toEndOf="@id/translate"
+                    android:orientation="horizontal"
+                    android:overScrollMode="never"
+                    app:layout_constraintStart_toEndOf="@id/translate"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+
+        </HorizontalScrollView>
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/layoutGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:constraint_referenced_ids="suggestions_strip_setting_key,nestedScrollView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/important_notice_strip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/config_suggestions_strip_horizontal_margin"
+        android:hapticFeedbackEnabled="false"
+        android:orientation="horizontal"
+        android:soundEffectsEnabled="false"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/important_notice_title"
+            style="?attr/suggestionWordStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2sp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</merge>

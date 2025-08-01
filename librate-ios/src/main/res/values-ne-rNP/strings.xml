@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">पाँच्टातरलबारी</string>
+    <string name="app_namee">Zomj किबोर्ड</string>
+    <string name="title_dialog">यो अनुप्रयोग दर</string>
+    <string name="content">तपाइँ हाम्रो अनुप्रयोगलाई कति माया गर्नुहुन्छ?</string>
+    <string name="rate_now">दर अब</string>
+    <string name="feedback">प्रतिक्रिया</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">प्ले स्टारमा ट्याप गर्नुहोस् प्ले स्टोरमा मूल्या rate ्कन गर्नुहोस्।</string>
+    <string name="enjoying_zomj_keyboard">Zomj किबोर्डको आनन्द लिदै?</string>
+    <string name="later">पछि</string>
+    <string name="please_rate_5_start" translatable="false">कृपया trars ताराहरूलाई दर दिनुहोस्</string>
+</resources>

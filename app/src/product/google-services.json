@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "650174297733",
+    "project_id": "zomj-keyboard-dev",
+    "storage_bucket": "zomj-keyboard-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650174297733:android:70f9c592268cc5dec49bec",
+        "android_client_info": {
+          "package_name": "com.keyboard.zomj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650174297733-reiclo9ju6dl31arjiannrucqr4d409t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxjF_hdBpf5cutBvD_RkLqyum4-gYPD8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650174297733-reiclo9ju6dl31arjiannrucqr4d409t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

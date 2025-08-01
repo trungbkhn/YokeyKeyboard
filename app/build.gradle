@@ -1,0 +1,188 @@
+apply plugin: 'com.android.application'
+// Add the following line:
+apply plugin: 'com.google.gms.google-services'  // Google Services plugin
+// Apply the Crashlytics Gradle plugin
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'dagger.hilt.android.plugin'
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion versions.compileSdkVersion
+    buildToolsVersion versions.buildToolsVersion
+    defaultConfig {
+        applicationId "com.tapbi.spark.yokey"
+        minSdkVersion versions.minSdkVersion
+        targetSdkVersion versions.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        flavorDimensions "default"
+        multiDexEnabled true
+        renderscriptTargetApi 18
+        renderscriptSupportModeEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        // UNCOMMENT TO BUILD NATIVE
+        dataBinding {
+            enabled = true
+        }
+        viewBinding {
+            enabled = true
+        }
+
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main', '../java-overridable/src']
+            assets.srcDirs = ['src/main/assets', 'src/main/assets/2']
+        }
+        aaptOptions.noCompress ".dict"
+    }
+    buildFeatures {
+        dataBinding true
+        buildConfig = true
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField("String", "GIPHY_API", "\"PeSXg858NM5ceop09vZno8KVMxFbwuyp\"")
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField("String", "GIPHY_API", "\"PeSXg858NM5ceop09vZno8KVMxFbwuyp\"")
+        }
+    }
+
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17
+    }
+    kapt {
+        generateStubs = true
+    }
+    productFlavors {
+        product {
+            dimension "default"
+        }
+        dev {
+            dimension "default"
+        }
+        billing {
+            dimension "default"
+            applicationId = 'vn.tapbi.testinappsubscription'
+        }
+    }
+    namespace 'com.tapbi.spark.yokey'
+    ndkVersion '26.1.10909125'
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+
+    /*Core*/
+    implementation libraries.androidAppCopmpat
+    implementation libraries.multidex
+    implementation libraries.ktxCore
+    /*Coroutine*/
+    implementation libraries.coroutine
+    /*UI*/
+    implementation libraries.androidxNavigation
+    implementation libraries.androidUICommon
+    implementation libraries.materialDesign
+    implementation libraries.hilt
+    implementation project(':indicator')
+    kapt libraries.hiltKpt
+    annotationProcessor libraries.hiltAP
+    implementation libraries.glide
+    annotationProcessor libraries.glideAP
+    /*Firebase*/
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:33.1.2')
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    // Declare the dependencies for the Remote Config and Analytics libraries
+    /*Database ( if use Room) */
+    implementation libraries.room
+    implementation libraries.roomRxjava
+    annotationProcessor libraries.roomKpt
+    kapt libraries.roomAP
+    /*Other*/
+    implementation libraries.rxJava
+    implementation libraries.retrofitWithLogger
+    implementation libraries.retrofitRXjavaAdapter
+    implementation libraries.timberLog
+    implementation libraries.eventBus
+    implementation libraries.lifeCycleKtx
+
+    /*Test*/
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation testLib
+
+    //$lottieRuJson
+    implementation libraries.lottie
+
+    implementation project(path: ':keyboardheight')
+    implementation 'com.google.code.findbugs:jsr305:3.0.2'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+
+    //tab bar lib
+//    implementation 'devlight.io:navigationtabbar:1.2.5'
+
+    //rate star
+    implementation project(path: ':librate-ios')
+    implementation project(path: ':cropper')
+
+
+    //Ads
+    implementation 'com.github.trungsteven:ControlAdsTrue:1.5.36'
+    implementation 'com.google.android.gms:play-services-ads:23.2.0'
+    implementation 'com.applovin:applovin-sdk:12.6.0'
+    implementation 'com.google.android.gms:play-services-ads:23.2.0'
+
+
+    //data-store
+    implementation libraries.dataStore
+    implementation libraries.dataStoreCore
+
+    //giphy sdk
+    // implementation project(':giphy-android-sdk-core')
+
+    // ion
+    implementation libraries.ion
+    implementation libraries.ionFacebook
+
+    //billing
+    implementation 'com.android.billingclient:billing:7.1.1'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.google.firebase:firebase-config-ktx:22.0.1'
+    implementation 'androidx.preference:preference-ktx:1.2.1'
+    implementation 'com.jakewharton.threetenabp:threetenabp:1.4.7'
+
+    implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
+    //hawk
+    implementation libraries.hawk
+    implementation "com.giphy.sdk:ui:2.3.13"
+    implementation "com.github.android:renderscript-intrinsics-replacement-toolkit:b6363490c3"
+
+//    implementation project(":renderscript-toolkit")
+
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+}

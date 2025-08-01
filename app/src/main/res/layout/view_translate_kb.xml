@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+        <View
+            android:id="@+id/vLineTop"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/color_C6C7D2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvInputLanguage"
+            android:layout_width="@dimen/size_0"
+            android:layout_height="@dimen/size_0"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="en"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center"
+            android:paddingStart="@dimen/padding_20dp"
+            android:paddingEnd="@dimen/padding_20dp"
+            android:text="tieng Anh"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/text_12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgChangeLanguage"
+            app:layout_constraintEnd_toStartOf="@+id/imgChangeLanguage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imgChangeLanguage" />
+
+        <ImageView
+            android:id="@+id/imgChangeLanguage"
+            android:layout_width="@dimen/size_36dp"
+            android:layout_height="@dimen/size_36dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:padding="@dimen/padding_6dp"
+            android:src="@drawable/ic_arrows_left_right"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tvOutputLanguage"
+            android:layout_width="@dimen/size_0"
+            android:layout_height="@dimen/size_0"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="vi"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center"
+            android:paddingStart="@dimen/padding_20dp"
+            android:paddingEnd="@dimen/padding_20dp"
+            android:text="tieng Viet"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/text_12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgChangeLanguage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imgChangeLanguage"
+            app:layout_constraintTop_toTopOf="@+id/imgChangeLanguage" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gdLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <View
+            android:id="@+id/vLineCenter"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/color_C6C7D2"
+            app:layout_constraintTop_toBottomOf="@id/imgChangeLanguage" />
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="@dimen/size_30dp"
+            android:layout_height="@dimen/size_30dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="@dimen/padding_5dp"
+            android:src="@drawable/ic_back_translate"
+            app:layout_constraintBottom_toBottomOf="@+id/vBackgroundInput"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/vBackgroundInput" />
+
+        <View
+            android:id="@+id/vBackgroundInput"
+            android:layout_width="@dimen/size_0"
+            android:layout_height="@dimen/size_36dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginEnd="@dimen/margin_7dp"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:background="@drawable/bg_stroke_gray_radius_8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imgBack"
+            app:layout_constraintTop_toBottomOf="@id/vLineCenter" />
+
+        <com.android.inputmethod.keyboard.translate.CustomEditTextTranslate
+            android:id="@+id/edtInput"
+            android:layout_width="@dimen/size_0"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_25dp"
+            android:background="@color/color_transparent"
+            android:focusable="true"
+            android:fontFamily="@font/inter_regular"
+            android:hint="@string/type_to_translate"
+            android:maxLength="1501"
+            android:padding="@dimen/size_0"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            android:textColor="@color/color_999999"
+            android:textColorHint="@color/color_999999"
+            android:textDirection="ltr"
+            android:textSize="@dimen/text_12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/vBackgroundInput"
+            app:layout_constraintEnd_toStartOf="@+id/imgClose"
+            app:layout_constraintStart_toStartOf="@+id/vBackgroundInput"
+            app:layout_constraintTop_toTopOf="@+id/vBackgroundInput" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie"
+            android:layout_width="@dimen/size_20dp"
+            android:layout_height="@dimen/size_20dp"
+            android:layout_marginStart="@dimen/margin_3dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/edtInput"
+            app:layout_constraintStart_toStartOf="@id/vBackgroundInput"
+            app:layout_constraintTop_toTopOf="@id/edtInput"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/lottie_loading_ios_black"
+            app:lottie_speed="1" />
+
+        <ImageView
+            android:id="@+id/imgClose"
+            android:layout_width="@dimen/size_20dp"
+            android:layout_height="@dimen/size_20dp"
+            android:layout_marginEnd="@dimen/margin_10dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_close_translate"
+            app:layout_constraintBottom_toBottomOf="@id/vBackgroundInput"
+            app:layout_constraintEnd_toEndOf="@id/vBackgroundInput"
+            app:layout_constraintTop_toTopOf="@id/vBackgroundInput" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/groupShowTranslate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:constraint_referenced_ids="tvInputLanguage, imgChangeLanguage, tvOutputLanguage, vLineCenter
+            , vBackgroundInput, edtInput,imgClose" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/groupTurnOnInternet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:constraint_referenced_ids="tvNoInternet" />
+
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/groupNoSupport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:constraint_referenced_ids="tvNoSupportThisLanguage" />
+
+        <!--        /////////////-->
+
+        <TextView
+            android:id="@+id/tvNoInternet"
+            android:layout_width="@dimen/size_0"
+            android:layout_height="@dimen/size_36dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="start|center_vertical"
+            android:paddingStart="@dimen/padding_20dp"
+            android:paddingEnd="@dimen/padding_20dp"
+            android:text="@string/pleaseTurnOnInternet"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/text_17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imgBack"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvNoSupportThisLanguage"
+            android:layout_width="@dimen/size_0"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="start|center_vertical"
+            android:paddingStart="@dimen/padding_20dp"
+            android:paddingTop="@dimen/padding_6dp"
+            android:paddingEnd="@dimen/padding_20dp"
+            android:paddingBottom="@dimen/padding_6dp"
+            android:text="@string/no_support_this_language_keyboard"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/text_17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imgBack"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

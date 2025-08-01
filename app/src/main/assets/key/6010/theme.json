@@ -1,0 +1,82 @@
+{
+  "ThemeFeatured": [
+    {
+      "background": {
+        "background_color": "0xFF414244",
+        "background_image": "file:///android_asset/key/6010/bg1.jpg",
+        "degree": 90,
+        "finish_color": "0xFFFFFFFF",
+        "radiusBlur": 0,
+        "start_color": "0xFFFFFFFF"
+      },
+      "effect": "none",
+      "font": "fonts/segoeui.TTF",
+      "id": "6010",
+      "key": {
+        "led": {
+          "alpha": 55.0,
+          "colors": "-8176972;-189155;-217019",
+          "cross": 50.0,
+          "radius": 1.0,
+          "range": 50.0,
+          "speed": 40.0,
+          "stroke_width": 100.0,
+          "style": "style_fill",
+          "style_led": 1
+        },
+        "number": {
+          "normal": "btn_key_number.png",
+          "pressed": "btn_key_number_pressed.png",
+          "text_color": "0xFFFFFFFF",
+          "text_color_pressed": "0xFFFFFFFF"
+        },
+        "special": {
+          "normal": "btn_key_special.png",
+          "pressed": "btn_key_special_pressed.png",
+          "text_color": "0xFFFFFFFF",
+          "text_color_pressed": "0xFFFFFFFF"
+        },
+        "text": {
+          "normal": "btn_key_text.png",
+          "pressed": "btn_key_text_pressed.png",
+          "text_color": "0xFFFFFFFF",
+          "text_color_pressed": "0xFFFFFFFF"
+        }
+      },
+      "menu_bar": {
+        "content_divider_color": "0xFF4E4F52",
+        "content_text_Color": "0xFFE8E8E8",
+        "divider_color": "0xFF4E4F52",
+        "icon_background_color_selected": "0xFFA8AAAF",
+        "icon_color": "0xFFFFFFFF",
+        "icon_color_selected": "0xFF414244",
+        "menu": {
+          "bg_color": "0xFF4A4B4D",
+          "bg_color_selected": "0xFF4A4B4D",
+          "text_color": "0xFFE0E0E0",
+          "text_color_selected": "0xFFE0E0E0"
+        },
+        "text_color": "0xFFE8E8E8",
+        "text_color_highlighted": "0xFF51B7A0"
+      },
+      "name_keyboard": "6010",
+      "popup": {
+        "min_keyboard": {
+          "bg_image": "btn_key_text.png",
+          "text_color": "0xFF888888",
+          "text_color_selected": "0xFF222222"
+        },
+        "preview": {
+          "bg_image": "file:///android_asset/key/6010/preview.jpg",
+          "height": "70dp",
+          "subkey_color": "0xFFFFFFFF",
+          "text_color": "0xFF4F5052",
+          "width": "70dp"
+        }
+      },
+      "sound": "audio_default",
+      "typeKey": 6010,
+      "type_keyboard": "featured"
+    }
+  ]
+}

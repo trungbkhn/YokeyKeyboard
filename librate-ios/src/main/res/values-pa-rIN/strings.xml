@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ਪੰਜ ਬਸਤਰ</string>
+    <string name="app_namee">ਜ਼ੋਮਜੇ ਕੀਬੋਰਡ</string>
+    <string name="title_dialog">ਇਸ ਐਪ ਨੂੰ ਦਰਜਾ ਦਿਓ</string>
+    <string name="content">ਤੁਸੀਂ ਸਾਡੇ ਐਪ ਨੂੰ ਕਿੰਨਾ ਪਿਆਰ ਕਰਦੇ ਹੋ?</string>
+    <string name="rate_now">ਹੁਣ ਰੇਟ</string>
+    <string name="feedback">ਸੁਝਾਅ</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">ਪਲੇ ਸਟੋਰ apos;ਤੇ ਇਸ ਨੂੰ ਦਰਜਾ ਦੇਣ ਲਈ 5 ਸਟਾਰ ਨੂੰ ਟੈਪ ਕਰੋ.</string>
+    <string name="enjoying_zomj_keyboard">ਜ਼ੋਮਜੇ ਕੀਬੋਰਡ ਦਾ ਅਨੰਦ ਲੈ ਰਹੇ ਹੋ?</string>
+    <string name="later">ਬਾਅਦ ਵਿਚ</string>
+    <string name="please_rate_5_start" translatable="false">ਕਿਰਪਾ ਕਰਕੇ 5 ਸਿਤਾਰਿਆਂ ਨੂੰ ਦਰਜਾ ਦਿਓ</string>
+</resources>

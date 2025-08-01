@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">fivestarslibrary</string>
+    <string name="app_namee">Zomj 키보드</string>
+    <string name="title_dialog">이 앱을 평가 해주세요</string>
+    <string name="content">얼마를 사랑 하시겠습니까?</string>
+    <string name="rate_now">지금 평가</string>
+    <string name="feedback">피드백</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">플레이 스토어에서 평가하려면 5 성급을 누릅니다.</string>
+    <string name="enjoying_zomj_keyboard">Zomj 키보드 즐기기?</string>
+    <string name="later">나중에</string>
+    <string name="please_rate_5_start" translatable="false">별 5 개를 평가하십시오</string>
+</resources>

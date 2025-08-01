@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cstlParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guiline"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.60" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_vector"
+            app:layout_constraintBottom_toTopOf="@id/_ima_view"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_bg_splash_phase6"
+            app:layout_constraintBottom_toBottomOf="@id/guiline"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/_ima_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/bg_white_transparent"
+            app:layout_constraintBottom_toBottomOf="@id/guiline" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="@string/let_s_get_started"
+            android:textColor="@color/color_28293D"
+            android:textSize="20sp"
+
+            app:layout_constraintTop_toBottomOf="@id/guiline" />
+
+        <TextView
+            android:id="@+id/txt_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:text="@string/thanks_for_choosing_zomj_keyboard_you_trust_is_very_important_to_us"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_title" />
+
+
+        <TextView
+            android:id="@+id/btn_start_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/bg_color"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="@string/choose_keyboard"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            app:layout_constraintTop_toBottomOf="@id/txt_des" />
+
+        <TextView
+            android:id="@+id/btn_select_input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/bg_color"
+            android:gravity="center"
+            android:text="@string/english_ime_input_options"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/txt_des" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/spin_kit_main"
+            android:visibility="gone"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="43dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_des"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="loading_circle.json"
+            app:lottie_loop="true" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/spin_kit_hot"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="loading_circle.json"
+            app:lottie_loop="true" />
+
+        <ViewStub
+            android:id="@+id/viewStubSLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inflatedId="@id/viewStubSLanguage"
+            android:layout="@layout/layout_language" />
+        <!--    <TextView-->
+        <!--        android:id="@+id/tv_link_policy"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_gravity="center"-->
+        <!--        android:gravity="center"-->
+        <!--        android:paddingBottom="7sp"-->
+        <!--        android:text="@string/txt_text_policy"-->
+        <!--        android:textColor="@color/black"-->
+        <!--        android:textSize="11sp"-->
+        <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--        tools:ignore="SmallSp" />-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

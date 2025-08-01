@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslarrary.</string>
+    <string name="app_namee">Zomj Keyboard</string>
+    <string name="title_dialog">RANGER DENNE APPEN</string>
+    <string name="content">Hvor mye elsker du vår app?</string>
+    <string name="rate_now">Vurder nå</string>
+    <string name="feedback">Tilbakemelding</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Trykk på 5 Star for å rangere det på Play Store.</string>
+    <string name="enjoying_zomj_keyboard">Nyter zomj tastatur?</string>
+    <string name="later">Seinere</string>
+    <string name="please_rate_5_start" translatable="false">Vennligst vurder 5 stjerner</string>
+</resources>

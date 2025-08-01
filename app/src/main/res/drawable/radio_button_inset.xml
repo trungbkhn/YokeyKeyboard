@@ -1,0 +1,5 @@
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/radio_btn_bg"
+    android:insetLeft="@dimen/padding_left_ratio_button"
+    android:insetRight="@dimen/padding_right_ratio_button"
+    />

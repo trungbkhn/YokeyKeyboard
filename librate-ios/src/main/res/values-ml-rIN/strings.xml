@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">നിരന്തരമായത്സ്ലിബ്രറി</string>
+    <string name="app_namee">സോംജ് കീബോർഡ്</string>
+    <string name="title_dialog">ഈ അപ്ലിക്കേഷൻ റേറ്റുചെയ്യുക</string>
+    <string name="content">ഞങ്ങളുടെ അപ്ലിക്കേഷനെ നിങ്ങൾ എത്രമാത്രം ഇഷ്ടപ്പെടുന്നു?</string>
+    <string name="rate_now">ഇപ്പോൾ നിരക്ക്</string>
+    <string name="feedback">ഫീഡ്ബാക്ക്</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">പ്ലേ സ്റ്റോറിൽ റേറ്റുചെയ്യാൻ 5 നക്ഷത്രം ടാപ്പുചെയ്യുക.</string>
+    <string name="enjoying_zomj_keyboard">സോംജ് കീബോർഡ് ആസ്വദിക്കുന്നുണ്ടോ?</string>
+    <string name="later">താമസിച്ച</string>
+    <string name="please_rate_5_start" translatable="false">5 നക്ഷത്രങ്ങളെ റേറ്റുചെയ്യുക</string>
+</resources>

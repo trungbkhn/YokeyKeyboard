@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_setting_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_setting"
+            style="@style/KeyboardTheme.LXX_Light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center_vertical"
+            android:paddingStart="15dp"
+            android:text="@string/go_to_settings"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="RtlSymmetry" />
+
+        <View
+            android:id="@+id/v_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#32000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_setting" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scroll_setting"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:fillViewport="true"
+            android:overScrollMode="never"
+            android:paddingStart="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/v_line"
+            tools:ignore="RtlSymmetry">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="150dp">
+
+                <TextView
+                    android:id="@+id/txt_custom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_regular"
+                    android:text="@string/custom"
+                    android:layout_marginTop="24dp"
+                    android:textColor="@color/color_A3A3A3"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toTopOf="@id/vLanguageApp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="RtlSymmetry" />
+                <View
+                    android:id="@+id/vLanguageApp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    app:layout_constraintBottom_toTopOf="@id/v_language"
+                    android:layout_marginTop="8dp"
+                    android:background="?android:selectableItemBackground"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/txt_custom" />
+
+                <TextView
+                    android:id="@+id/btnSettingLanguageApp"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text="@string/app_language"
+                    android:textColor="@color/color_28293D"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/imgLanguageApp"
+                    app:layout_constraintBottom_toBottomOf="@id/vLanguageApp"
+                    app:layout_constraintStart_toStartOf="@id/vLanguageApp"
+                    app:layout_constraintTop_toTopOf="@id/vLanguageApp"
+                    tools:ignore="RtlSymmetry"
+                    app:drawableStartCompat="@drawable/icon_language" />
+
+                <ImageView
+                    android:id="@+id/imgLanguageApp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:clickable="false"
+                    android:contentDescription="@string/english_ime_name"
+                    android:src="@drawable/ic_right"
+                    app:layout_constraintBottom_toBottomOf="@id/vLanguageApp"
+                    app:layout_constraintEnd_toEndOf="@id/vLanguageApp"
+                    app:layout_constraintTop_toTopOf="@id/vLanguageApp" />
+                <View
+                    android:id="@+id/vLineLanguageApp"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginStart="46dp"
+                    android:background="#EBEBF0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/vLanguageApp" />
+                <View
+                    android:id="@+id/v_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    app:layout_constraintBottom_toTopOf="@id/v_custom_input"
+                    android:background="?android:selectableItemBackground"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/vLanguageApp" />
+
+
+                <TextView
+                    android:id="@+id/btn_setting_language"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text="@string/language"
+                    android:textColor="@color/color_28293D"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/img_language"
+                    app:layout_constraintBottom_toBottomOf="@id/v_language"
+                    app:layout_constraintStart_toStartOf="@id/v_language"
+                    app:layout_constraintTop_toTopOf="@id/v_language"
+                    tools:ignore="RtlSymmetry"
+                    app:drawableStartCompat="@drawable/ic_keyboard_language" />
+
+                <ImageView
+                    android:id="@+id/img_language"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:clickable="false"
+                    android:contentDescription="@string/english_ime_name"
+                    android:src="@drawable/ic_right"
+                    app:layout_constraintBottom_toBottomOf="@id/v_language"
+                    app:layout_constraintEnd_toEndOf="@id/v_language"
+                    app:layout_constraintTop_toTopOf="@id/v_language" />
+
+                <View
+                    android:id="@+id/v_line_language"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginStart="46dp"
+                    android:background="#EBEBF0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_language" />
+
+                <View
+                    android:id="@+id/v_custom_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:selectableItemBackground"
+                    app:layout_constraintTop_toBottomOf="@id/v_language" />
+
+
+                <TextView
+                    android:id="@+id/btn_custom_input_style"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text="@string/custom_input"
+                    android:textColor="@color/color_28293D"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/img_input"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/v_custom_input"
+                    tools:ignore="RtlSymmetry"
+                    app:drawableStartCompat="@drawable/icon_custom_input" />
+
+                <ImageView
+                    android:id="@+id/img_input"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:clickable="false"
+                    android:contentDescription="@string/english_ime_name"
+                    android:src="@drawable/ic_right"
+                    app:layout_constraintBottom_toBottomOf="@id/v_custom_input"
+                    app:layout_constraintEnd_toEndOf="@id/v_custom_input"
+                    app:layout_constraintTop_toTopOf="@id/v_custom_input" />
+
+                <View
+                    android:id="@+id/v_line_custom"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginStart="46dp"
+                    android:background="#EBEBF0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_custom_input" />
+
+                <View
+                    android:id="@+id/v_double"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:selectableItemBackground"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_show_correction" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text="@string/double_spacebar_insert_period"
+                    android:textColor="@color/color_28293D"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/switch_double_space"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/v_double"
+                    tools:ignore="RtlSymmetry"
+                    app:drawableStartCompat="@drawable/icon_double" />
+
+                <com.tapbi.spark.yokey.ui.custom.view.CustomSwitch
+                    android:id="@+id/switch_double_space"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:button="@color/background_main"
+                    app:layout_constraintBottom_toBottomOf="@id/v_double"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/v_double" />
+
+                <View
+                    android:id="@+id/v_line_double"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginStart="46dp"
+                    android:background="#EBEBF0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_double" />
+
+                <View
+                    android:id="@+id/v_auto_correction"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:selectableItemBackground"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_popup" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text="@string/automatic_correction"
+                    android:textColor="@color/color_28293D"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/switch_auto_correct"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/v_auto_correction"
+                    tools:ignore="RtlSymmetry"
+                    app:drawableStartCompat="@drawable/icon_automatic" />
+
+                <com.tapbi.spark.yokey.ui.custom.view.CustomSwitch
+                    android:id="@+id/switch_auto_correct"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:button="@color/background_main"
+                    app:layout_constraintBottom_toBottomOf="@id/v_auto_correction"
+                    app:layout_constraintEnd_toEndOf="@id/v_auto_correction"
+                    app:layout_constraintTop_toTopOf="@id/v_auto_correction" />
+
+                <View
+                    android:id="@+id/v_line_auto_correction"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginStart="46dp"
+                    android:background="#EBEBF0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_auto_correction" />
+
+                <View
+                    android:id="@+id/v_show_correction"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:selectableItemBackground"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_auto_capitalization" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text="@string/prefs_show_suggestions"
+                    android:textColor="@color/color_28293D"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/switch_show_suggestions"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/v_show_correction"
+                    tools:ignore="RtlSymmetry"
+                    app:drawableStartCompat="@drawable/icon_show" />
+
+                <com.tapbi.spark.yokey.ui.custom.view.CustomSwitch
+                    android:id="@+id/switch_show_suggestions"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:button="@color/background_main"
+                    app:layout_constraintBottom_toBottomOf="@id/v_show_correction"
+                    app:layout_constraintEnd_toEndOf="@id/v_show_correction"
+                    app:layout_constraintTop_toTopOf="@id/v_show_correction" />
+
+
+                <View
+                    android:id="@+id/v_line_show_correction"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginStart="46dp"
+                    android:background="#EBEBF0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_show_correction" />
+
+                <View
+                    android:id="@+id/v_sound_on_key_press"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:selectableItemBackground"
+                    app:layout_constraintEnd_toEndOf="@id/v_show_correction"
+                    app:layout_constraintTop_toBottomOf="@id/v_vibrate" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text="@string/sound_on_keypress"
+                    android:textColor="@color/color_28293D"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/switch_sound_key_press"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/v_sound_on_key_press"
+                    tools:ignore="RtlSymmetry"
+                    app:drawableStartCompat="@drawable/icon_sound" />
+
+                <com.tapbi.spark.yokey.ui.custom.view.CustomSwitch
+                    android:id="@+id/switch_sound_key_press"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:button="@color/background_main"
+                    app:layout_constraintBottom_toBottomOf="@id/v_sound_on_key_press"
+                    app:layout_constraintEnd_toEndOf="@id/v_sound_on_key_press"
+                    app:layout_constraintTop_toTopOf="@id/v_sound_on_key_press" />
+
+                <View
+                    android:id="@+id/v_line_sound_key_press"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginStart="46dp"
+                    android:background="#EBEBF0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_sound_on_key_press" />
+
+                <View
+                    android:id="@+id/v_vibrate"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:selectableItemBackground"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/fr_ads_native" />
+
+                <com.google.android.ads.nativetemplates.TemplateViewMultiAds
+                    android:id="@+id/fr_ads_native"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:minHeight="50dp"
+                    android:tag="@string/tag_native_setting"
+                    app:gnt_template_type="@layout/gnt_admob_native_layout_no_media_2"
+                    app:layout_constraintTop_toBottomOf="@id/v_custom_input"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text="@string/vibrate_on_keypress"
+                    android:textColor="@color/color_28293D"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/switch_vibration"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/v_vibrate"
+                    tools:ignore="RtlSymmetry"
+                    app:drawableStartCompat="@drawable/icon_vibrate" />
+
+                <com.tapbi.spark.yokey.ui.custom.view.CustomSwitch
+                    android:id="@+id/switch_vibration"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:button="@color/background_main"
+                    app:layout_constraintBottom_toBottomOf="@id/v_vibrate"
+                    app:layout_constraintEnd_toEndOf="@id/v_vibrate"
+                    app:layout_constraintTop_toTopOf="@id/v_vibrate" />
+
+                <View
+                    android:id="@+id/v_line_vibrate"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginStart="46dp"
+                    android:background="#EBEBF0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_vibrate" />
+
+                <View
+                    android:id="@+id/v_popup"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:selectableItemBackground"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_sound_on_key_press" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text="@string/popup_on_keypress"
+                    android:textColor="@color/color_28293D"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/switch_popup_key_press"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/v_popup"
+                    tools:ignore="RtlSymmetry"
+                    app:drawableStartCompat="@drawable/icon_popup" />
+
+                <com.tapbi.spark.yokey.ui.custom.view.CustomSwitch
+                    android:id="@+id/switch_popup_key_press"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:button="@color/background_main"
+                    app:layout_constraintBottom_toBottomOf="@id/v_popup"
+                    app:layout_constraintEnd_toEndOf="@id/v_popup"
+                    app:layout_constraintTop_toTopOf="@id/v_popup" />
+
+
+                <View
+                    android:id="@+id/v_line_popup"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginStart="46dp"
+                    android:background="#EBEBF0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_popup" />
+
+                <View
+                    android:id="@+id/v_auto_capitalization"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:selectableItemBackground"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_auto_correction" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text="@string/auto_capitalization"
+                    android:textColor="@color/color_28293D"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/switch_auto_caption"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/v_auto_capitalization"
+                    tools:ignore="RtlSymmetry"
+                    app:drawableStartCompat="@drawable/icon_auto_capital" />
+
+                <com.tapbi.spark.yokey.ui.custom.view.CustomSwitch
+                    android:id="@+id/switch_auto_caption"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:button="@color/background_main"
+                    app:layout_constraintBottom_toBottomOf="@id/v_auto_capitalization"
+                    app:layout_constraintEnd_toEndOf="@id/v_auto_capitalization"
+                    app:layout_constraintTop_toTopOf="@id/v_auto_capitalization" />
+
+
+                <View
+                    android:id="@+id/v_line_auto_capitalization"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginStart="46dp"
+                    android:background="#EBEBF0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_auto_capitalization" />
+
+                <TextView
+                    android:id="@+id/name_help_feedback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:text="@string/help_and_feedbacks"
+                    android:textColor="@color/color_A3A3A3"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_double"
+                    tools:ignore="RtlSymmetry" />
+
+
+                <View
+                    android:id="@+id/v_help"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:background="?android:selectableItemBackground"
+                    app:layout_constraintTop_toBottomOf="@id/name_help_feedback" />
+
+                <TextView
+                    android:id="@+id/btn_fb"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:text="@string/help_and_feedback"
+                    android:textColor="@color/color_28293D"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/v_help"
+                    tools:ignore="RtlSymmetry"
+                    app:drawableStartCompat="@drawable/icon_feedback" />
+
+                <View
+                    android:id="@+id/v_line_help_feedback"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginStart="46dp"
+                    android:background="#EBEBF0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_help" />
+
+
+                <View
+                    android:id="@+id/v_rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:selectableItemBackground"
+                    app:layout_constraintTop_toBottomOf="@id/v_line_help_feedback" />
+
+                <TextView
+                    android:id="@+id/btn_rate"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:clickable="false"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_rate_5_star_for_rgb_keyboard"
+                    android:textColor="@color/color_28293D"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/v_rate"
+                    tools:ignore="RtlSymmetry"
+                    app:drawableStartCompat="@drawable/icon_rate_app" />
+
+                <View
+                    android:id="@+id/v_line_rate_app"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginStart="46dp"
+                    android:background="#EBEBF0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_rate" />
+
+
+                <View
+                    android:id="@+id/v_policy"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:selectableItemBackground"
+                    app:layout_constraintTop_toBottomOf="@id/v_line_rate_app" />
+
+                <TextView
+                    android:id="@+id/btn_policy"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:clickable="false"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:text="@string/privacy_policy"
+                    android:textColor="@color/color_28293D"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/v_policy"
+                    tools:ignore="RtlSymmetry"
+                    app:drawableStartCompat="@drawable/icon_privacy" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

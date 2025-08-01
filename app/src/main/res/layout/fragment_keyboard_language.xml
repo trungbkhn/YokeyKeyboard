@@ -1,0 +1,161 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_F5F6F8"
+        android:splitMotionEvents="false">
+
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:background="?actionBarItemBackground"
+            android:padding="8dp"
+            android:src="@drawable/ic_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="70dp"
+            android:gravity="center"
+            android:text="@string/language"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/color_000000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imgBack"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSectionRgbKeyboard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/padding_normal_double"
+            android:text="@string/zomj_keyboard"
+            android:textAllCaps="true"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/text12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/guideline20End"
+            app:layout_constraintStart_toEndOf="@id/guideline20Start"
+            app:layout_constraintTop_toBottomOf="@id/imgBack" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline20Start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="@dimen/padding_normal_extra5dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline20End"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="@dimen/padding_normal_extra5dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvLanguageSystem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:layout_marginEnd="15dp"
+            android:outlineSpotShadowColor="@color/color_000000_5"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="2dp"
+            app:layout_constraintTop_toBottomOf="@id/tvSectionRgbKeyboard">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvUseSystemLanguage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_normal_extra5dp"
+                    android:text="@string/use_system_languages"
+                    android:textColor="@color/color_212625"
+                    android:textSize="@dimen/text14sp"
+                    app:layout_constraintEnd_toStartOf="@id/swSystemLanguage"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <com.tapbi.spark.yokey.ui.custom.view.CustomSwitch
+                    android:id="@+id/swSystemLanguage"
+                    android:layout_width="35dp"
+                    android:layout_height="20dp"
+                    android:layout_marginEnd="@dimen/padding_normal_extra5dp"
+                    android:button="@color/background_main"
+                    app:layout_constraintBottom_toBottomOf="@id/tvUseSystemLanguage"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/tvUseSystemLanguage" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.ads.nativetemplates.TemplateViewMultiAds
+            android:id="@+id/frAds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginHorizontal="10dp"
+            android:tag="@string/tag_native_language_kb"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical"
+            app:gnt_template_type="@layout/gnt_admob_native_layout_no_media_1"
+            app:layout_constraintTop_toBottomOf="@+id/cvLanguageSystem"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSectionLanguageActive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/padding_normal_double"
+            android:text="@string/active_input_method"
+            android:textAllCaps="true"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/text12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/guideline20End"
+            app:layout_constraintStart_toEndOf="@id/guideline20Start"
+            app:layout_constraintTop_toBottomOf="@id/frAds" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="20dp"
+            android:outlineSpotShadowColor="@color/color_000000_5"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvSectionLanguageActive">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcvLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

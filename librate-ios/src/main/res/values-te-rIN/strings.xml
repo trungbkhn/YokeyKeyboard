@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary.</string>
+    <string name="app_namee">Zomj కీబోర్డ్</string>
+    <string name="title_dialog">ఈ అనువర్తనం రేట్ చేయండి</string>
+    <string name="content">మీరు మా అనువర్తనాన్ని ఎంత ప్రేమిస్తారు?</string>
+    <string name="rate_now">ఇప్పుడే రేట్ చేయండి</string>
+    <string name="feedback">ఫీడ్బ్యాక్</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">ప్లే స్టోర్లో రేట్ చేయడానికి 5 నక్షత్రాలను నొక్కండి.</string>
+    <string name="enjoying_zomj_keyboard">Zomj కీబోర్డ్ ఆనందించే?</string>
+    <string name="later">తరువాత</string>
+    <string name="please_rate_5_start" translatable="false">దయచేసి 5 నక్షత్రాలను రేట్ చేయండి</string>
+</resources>

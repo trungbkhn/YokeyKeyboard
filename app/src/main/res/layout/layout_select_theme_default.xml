@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ctlSelectThemeDefault"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        tools:ignore="MissingDefaultResource">
+
+        <TextView
+            android:id="@+id/txtSkip"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/text20sp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="@string/continuee"
+            android:textAllCaps="true"
+            android:textColor="@color/gnt_black"
+            android:textSize="@dimen/text14sp"
+            android:drawablePadding="@dimen/_5sdp"
+            app:drawableEndCompat="@drawable/ic_right_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/inter_bold"
+            android:text="@string/pick_a_theme_you_like_and_get_started"
+            android:textColor="#000000"
+            android:textSize="@dimen/_20sdp"
+            app:layout_constraintTop_toBottomOf="@+id/txtSkip" />
+
+        <View
+            android:id="@+id/viewCenter"
+            app:layout_constraintTop_toBottomOf="@id/txtTitle"
+            app:layout_constraintBottom_toTopOf="@id/fr_ads_native"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgThemeCurrent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/img_theme_led_default"
+            app:layout_constraintTop_toBottomOf="@id/rbThemeCurrent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:foreground="?selectableItemBackground"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:shapeAppearance="?attr/shapeAppearanceMediumComponent"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.Card.Media"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/rbThemeCurrent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="-5dp"
+            android:buttonTint="@color/gnt_black"
+            app:layout_constraintStart_toStartOf="@+id/imgThemeCurrent"
+            app:layout_constraintTop_toBottomOf="@id/txtTitle"
+            android:textColor="@color/gnt_black"
+            android:text="@string/theme_led"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgThemeSuggest"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            android:foreground="?selectableItemBackground"
+            android:src="@drawable/img_theme_color_default"
+            app:layout_constraintTop_toBottomOf="@id/rbThemeSuggest"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintDimensionRatio="217:157"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:shapeAppearance="?attr/shapeAppearanceMediumComponent"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.Card.Media"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/rbThemeSuggest"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="-5dp"
+            android:buttonTint="@color/gnt_black"
+            app:layout_constraintStart_toStartOf="@+id/imgThemeSuggest"
+            app:layout_constraintTop_toBottomOf="@id/viewCenter"
+            android:textColor="@color/gnt_black"
+            android:text="@string/theme_color"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"/>
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/groupPreview"
+            android:visibility="invisible"
+            app:constraint_referenced_ids="imgThemeCurrent, imgThemeSuggest, rbThemeCurrent, rbThemeSuggest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.ads.nativetemplates.TemplateViewMultiAds
+            android:id="@+id/fr_ads_native"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:tag="@string/tag_native_select_theme"
+            android:minHeight="50dp"
+            app:gnt_template_type="@layout/gnt_admob_native_layout_no_media_2"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

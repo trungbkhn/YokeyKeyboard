@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary</string>
+    <string name="app_namee">Zomj tastatūra</string>
+    <string name="title_dialog">Novērtējiet šo lietotni</string>
+    <string name="content">Cik daudz jūs mīlat mūsu lietotni?</string>
+    <string name="rate_now">Novērtē tagad</string>
+    <string name="feedback">Atsauksmes</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Pieskarieties 5 zvaigznei, lai to novērtētu rotaļu veikalā.</string>
+    <string name="enjoying_zomj_keyboard">Baudot Zomj tastatūru?</string>
+    <string name="later">Vēlāk</string>
+    <string name="please_rate_5_start" translatable="false">Lūdzu, novērtējiet 5 zvaigznes</string>
+</resources>

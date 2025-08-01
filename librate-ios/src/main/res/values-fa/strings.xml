@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">fivestarslibrary</string>
+    <string name="app_namee">صفحه کلید ZOMJ</string>
+    <string name="title_dialog">امتیاز دهی به این برنامه</string>
+    <string name="content">برنامه ما چقدر دوست داری؟</string>
+    <string name="rate_now">اکنون بسنج</string>
+    <string name="feedback">بازخورد</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">ضربه بزنید 5 ستاره برای ارزیابی آن در فروشگاه Play.</string>
+    <string name="enjoying_zomj_keyboard">لذت بردن از صفحه کلید Zomj؟</string>
+    <string name="later">بعد</string>
+    <string name="please_rate_5_start" translatable="false">لطفا 5 ستاره را ارزیابی کنید</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_theme"
+        android:icon="@drawable/ic_theme"
+        android:title="@string/text_tab_themes"
+        android:enabled="true"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/menu_font"
+        android:icon="@drawable/ic_font"
+        android:title="@string/text_tab_fonts"
+        android:enabled="true"
+        />
+
+    <item
+        android:id="@+id/menu_sticker"
+        android:icon="@drawable/ic_sticker"
+        android:title="@string/text_tab_sticker"
+        android:enabled="true"
+        />
+
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/ic_setting"
+        android:title="@string/text_tab_setting"
+        android:enabled="true"
+        />
+<!--    <item-->
+<!--        android:id="@+id/menu_more"-->
+<!--        android:icon="@drawable/ic_tab_more"-->
+<!--        android:title="@string/text_tab_more"-->
+<!--        android:enabled="true"-->
+<!--        />-->
+
+</menu>

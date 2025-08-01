@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="the_maximum_number_of_characters_has_been_reached">Tá uaslíon na gcarachtar bainte amach</string>
+    <string name="english_ime_input_options">Eingaboptionen</string>
+    <string name="no_data">                           Keine Daten</string>
+    <string name="use_contacts_for_spellchecking_option_title">Schauen Sie sich Kontaktnamen an</string>
+    <string name="use_contacts_for_spellchecking_option_summary">Der Schreibweis übernutzt Einträge aus Ihrer Kontaktliste</string>
+    <string name="vibrate_on_keypress">Vibrieren auf Knopfdruck</string>
+    <string name="sound_on_keypress">Sound auf Tastaturpress</string>
+    <string name="popup_on_keypress">Popup auf TastePress</string>
+    <string name="settings_screen_preferences">Vorlieben</string>
+    <string name="settings_screen_accounts">Konten &amp; amp; Privatsphäre</string>
+    <string name="settings_screen_appearance">Aussehen &amp; amp; Layouts</string>
+    <string name="settings_screen_gesture">Gesten -Typisierung</string>
+    <string name="settings_screen_correction">Textkorrektur</string>
+    <string name="settings_screen_advanced">Fortschrittlich</string>
+    <string name="settings_screen_theme">Thema</string>
+    <string name="enable_split_keyboard">Aktivieren Sie die geteilte Tastatur</string>
+    <string name="cloud_sync_title">Google -Tastatur -Synchronisierung</string>
+    <string name="cloud_sync_summary">Synchronisation ist eingeschaltet</string>
+    <string name="cloud_sync_summary_disabled">Synchronisieren Sie Ihr persönliches Wörterbuch über Geräte hinweg</string>
+    <string name="sync_now_title">Jetzt synchronisieren</string>
+    <string name="clear_sync_data_title">Cloud -Daten löschen</string>
+    <string name="clear_sync_data_summary">Löscht Ihre synchronisierten Daten von Google</string>
+    <string name="clear_sync_data_confirmation">Ihre synchronisierten Daten werden aus der Cloud gelöscht. Bist du dir sicher?</string>
+    <string name="clear_sync_data_ok">Löschen</string>
+    <string name="cloud_sync_cancel">Stornieren</string>
+    <string name="add_account_to_enable_sync">Bitte fügen Sie diesem Gerät ein Google -Konto hinzu, um diese Funktion zu aktivieren</string>
+    <string name="cloud_sync_summary_disabled_work_profile">Sync ist für Geräte mit Google -Apps für Geschäftskonten nicht verfügbar</string>
+    <string name="include_other_imes_in_language_switch_list">Wechseln Sie zu anderen Eingangsmethoden</string>
+    <string name="include_other_imes_in_language_switch_list_summary">Der Taste des Sprachschalters deckt auch andere Eingabemethoden ab</string>
+    <string name="show_language_switch_key">Sprachschalterschlüssel</string>
+    <string name="show_language_switch_key_summary">Zeigen Sie, wenn mehrere Eingangssprachen aktiviert sind</string>
+    <string name="key_preview_popup_dismiss_delay">Schlüsselpopup entlassen Verzögerung</string>
+    <string name="key_preview_popup_dismiss_no_delay">Keine Verzögerung</string>
+    <string name="key_preview_popup_dismiss_default_delay">Standard</string>
+    <string name="abbreviation_unit_milliseconds"><xliff:g id="MILLISECONDS">%s</xliff:g>ms</string>
+    <string name="settings_system_default">Systemfehler</string>
+    <string name="use_contacts_dict">Schlagen Sie Kontaktnamen vor</string>
+    <string name="use_contacts_dict_summary">Verwenden Sie Namen aus Kontakten für Vorschläge und Korrekturen</string>
+    <string name="use_personalized_dicts">Personalisierte Vorschläge</string>
+    <string name="enable_metrics_logging">"Verbessern</string>
+    <string name="use_double_space_period">Doppelraum</string>
+    <string name="use_double_space_period_summary">Doppelte Tippen Sie auf die Leertaste fügt eine Periode ein, gefolgt von einem Raum</string>
+    <string name="auto_cap">Automatische Kapitalisierung</string>
+    <string name="auto_cap_summary">Kapitalisieren Sie das erste Wort jedes Satzes</string>
+    <string name="edit_personal_dictionary">Persönliches Wörterbuch</string>
+    <string name="configure_dictionaries_title">Add-On-Wörterbücher</string>
+    <string name="main_dictionary">Hauptwörterbuch</string>
+    <string name="prefs_show_suggestions">Korrekturvorschläge zeigen</string>
+    <string name="prefs_show_suggestions_summary">Anzeige vorgeschlagene Wörter beim Tippen</string>
+    <string name="prefs_block_potentially_offensive_title">Anstößige Worte blockieren</string>
+    <string name="prefs_block_potentially_offensive_summary">Schlagen Sie nicht potenziell beleidigende Wörter vor</string>
+    <string name="weak_space_swapping_symbols">.,;:!?)]} \ "</string>
+    <string name="weak_space_stripping_symbols">"&#x0009; &#x0020; \ n/_ \ '-"</string>
+    <string name="phantom_space_promoting_symbols">([*&amp; amp;@{&amp; lt; &amp; gt;+= |</string>
+    <string name="auto_correction">Autokorrektur</string>
+    <string name="auto_correction_summary">Leertaste und Zeichensetzung korrigieren automatisch benebelte Wörter</string>
+    <string name="auto_correction_threshold_mode_off">Aus</string>
+    <string name="auto_correction_threshold_mode_modest">Bescheiden</string>
+    <string name="auto_correction_threshold_mode_aggressive">Aggressiv</string>
+    <string name="auto_correction_threshold_mode_very_aggressive">Sehr agressiv</string>
+    <string name="bigram_prediction">Vorschläge von nächsten Wort</string>
+    <string name="bigram_prediction_summary">Verwenden Sie das vorherige Wort, um Vorschläge zu machen</string>
+    <string name="gesture_input">Aktivieren der Gestentypisierung</string>
+    <string name="gesture_input_summary">Geben Sie ein Wort ein, indem Sie durch die Buchstaben rutschen</string>
+    <string name="gesture_preview_trail">Show Gestenpfad</string>
+    <string name="gesture_floating_preview_text">Dynamische schwebende Vorschau</string>
+    <string name="gesture_floating_preview_text_summary">Sehen Sie das vorgeschlagene Wort beim Gestikieren</string>
+    <string name="gesture_space_aware">Phrase Geste</string>
+    <string name="gesture_space_aware_summary">Eingabebereich während der Gesten, indem Sie auf den Raumschlüssel gleiten</string>
+    <string name="voice_input">Spracheingangstaste</string>
+    <string name="voice_input_disabled_summary">Keine Spracheingangsmethoden aktiviert. Überprüfen Sie Sprachen &#160; &amp; amp; Eingabeeinstellungen.</string>
+    <string name="configure_input_method">Konfigurieren Sie Eingabemethoden</string>
+    <string name="language_selection_title">Sprachen</string>
+    <string name="help_and_feedback">Hilfe &amp; amp; Rückmeldung</string>
+    <string name="select_language">Tastatursprache</string>
+    <string name="hint_add_to_dictionary">Tippen Sie erneut, um zu speichern</string>
+    <string name="hint_add_to_dictionary_without_word">Tippen Sie hier, um zu speichern</string>
+    <string name="has_dictionary">Wörterbuch verfügbar</string>
+    <string name="keyboard_layout">Tastaturthema</string>
+    <string name="switch_accounts">Konten wechseln</string>
+    <string name="no_accounts_selected">Keine Konten ausgewählt</string>
+    <string name="account_selected">Derzeit verwendet</string>
+    <string name="account_select_ok">OK</string>
+    <string name="account_select_cancel">Stornieren</string>
+    <string name="account_select_sign_out">austragen</string>
+    <string name="account_select_title">Wählen Sie ein Konto aus, das verwendet werden soll</string>
+    <string name="subtype_en_GB">Englisch UK)</string>
+    <string name="subtype_en_US">Amerikanisches Englisch)</string>
+    <string name="subtype_es_US">Spanisch (USA)</string>
+    <string name="subtype_hi_ZZ">Hinglish</string>
+    <string name="subtype_sr_ZZ">Serbisch (lateinisch)</string>
+    <string name="subtype_with_layout_en_GB">Englisch UK) (</string>
+    <string name="subtype_with_layout_en_US">Amerikanisches Englisch) (</string>
+    <string name="subtype_with_layout_es_US">Spanisch (uns) (</string>
+    <string name="subtype_with_layout_hi_ZZ">Hinglish (</string>
+    <string name="subtype_with_layout_sr_ZZ">Serbisch (</string>
+    <string name="subtype_generic_traditional"><xliff:g example="Nepali" id="LANGUAGE_NAME">%s</xliff:g> (Traditional)</string>
+    <string name="subtype_generic_compact"><xliff:g example="Hindi" id="LANGUAGE_NAME">%s</xliff:g> (Compact)</string>
+    <string name="subtype_no_language">Keine Sprache (Alphabet)</string>
+    <string name="subtype_no_language_qwerty">Alphabet (QWERTY)</string>
+    <string name="subtype_no_language_qwertz">Alphabet (QWERTZ)</string>
+    <string name="subtype_no_language_azerty">Alphabet (asery)</string>
+    <string name="subtype_no_language_dvorak">Alphabet (Dvorak)</string>
+    <string name="subtype_no_language_colemak">Alphabet (Colemak)</string>
+    <string name="subtype_no_language_pcqwerty">Alphabet (PC)</string>
+    <string name="subtype_emoji">Emoji</string>
+    <string name="keyboard_theme">Tastaturthema</string>
+    <string name="keyboard_theme_holo_white" translatable="false">Holo weiß</string>
+    <string name="keyboard_theme_holo_blue" translatable="false">Holo blau</string>
+    <string name="keyboard_theme_material_dark" translatable="false">Material dunkel</string>
+    <string name="keyboard_theme_material_light" translatable="false">Materiallicht</string>
+    <string name="custom_input_styles_title">Benutzerdefinierte Eingabestile</string>
+    <string name="add_style">Stil hinzufügen</string>
+    <string name="add">Hinzufügen</string>
+    <string name="remove">Entfernen</string>
+    <string name="save">Speichern</string>
+    <string name="subtype_locale">Sprache</string>
+    <string name="keyboard_layout_set">Layout</string>
+    <string name="custom_input_style_note_message">"Ihr benutzerdefinierter Eingabestil muss aktiviert sein, bevor Sie ihn verwenden. Möchten Sie ihn jetzt aktivieren?"</string>
+    <string name="enable">Ermöglichen</string>
+    <string name="not_now">Nicht jetzt</string>
+    <string name="custom_input_style_already_exists">"Der gleiche Eingangsstil gibt es bereits:</string>
+    <string name="prefs_keypress_vibration_duration_settings">Tastepress -Vibrationsdauer</string>
+    <string name="prefs_keypress_sound_volume_settings">Tastendrückschallvolumen</string>
+    <string name="prefs_key_longpress_timeout_settings">Taste Long Press Verzögerung</string>
+    <string name="prefs_enable_emoji_alt_physical_key">Emoji für physische Tastatur</string>
+    <string name="prefs_enable_emoji_alt_physical_key_summary">Der physische Alt -Schlüssel zeigt die Emoji -Palette</string>
+    <string name="button_default">Standard</string>
+    <string name="setup_welcome_title">"Willkommen zu</string>
+    <string name="setup_welcome_additional_description">Gesten -Typisierung</string>
+    <string name="setup_start_action">Loslegen</string>
+    <string name="setup_next_action">Nächster Schritt</string>
+    <string name="setup_steps_title">"Einrichten</string>
+    <string name="setup_step1_bullet" translatable="false">1</string>
+    <string name="setup_step1_title">"Ermöglichen</string>
+    <string name="setup_step1_instruction">"Überprüfen Sie bitte \"</string>
+    <string name="setup_step1_finished_instruction">"</string>
+    <string name="setup_step1_action">Aktivieren Sie in Einstellungen</string>
+    <string name="setup_step2_bullet" translatable="false">2</string>
+    <string name="setup_step2_title">"Wechseln zu</string>
+    <string name="setup_step2_instruction">"Als nächstes wählen Sie \"</string>
+    <string name="setup_step2_action">Eingangsmethoden schalten</string>
+    <string name="setup_step3_bullet" translatable="false">3</string>
+    <string name="setup_step3_title">"Herzlichen Glückwunsch, Sie sind alle gesetzt!"</string>
+    <string name="setup_step3_instruction">Jetzt können Sie alle Ihre bevorzugten Apps eingeben</string>
+    <string name="setup_step3_action">Konfigurieren Sie zusätzliche Sprachen</string>
+    <string name="setup_finish_action">Fertig</string>
+    <string name="show_setup_wizard_icon">App -Symbol anzeigen</string>
+    <string name="show_setup_wizard_icon_summary">Anzeigen des Anwendungssymbols im Launcher anzeigen</string>
+    <string name="app_name">Zomj</string>
+    <string name="dictionary_provider_name">Wörterbuchanbieter</string>
+    <string name="dictionary_service_name">Wörterbuchdienst</string>
+    <string name="download_description">Informationen zum Dictionary -Update</string>
+    <string name="dictionary_settings_title">Add-On-Wörterbücher</string>
+    <string name="dictionary_install_over_metered_network_prompt">Wörterbuch verfügbar</string>
+    <string name="dictionary_settings_summary">Einstellungen für Wörterbücher</string>
+    <string name="user_dictionaries">Benutzerwörterbücher</string>
+    <string name="default_user_dict_pref_name">Benutzerwörterbuch</string>
+    <string name="dictionary_available">Wörterbuch verfügbar</string>
+    <string name="dictionary_downloading">Derzeit herunterladen</string>
+    <string name="dictionary_installed">Eingerichtet</string>
+    <string name="dictionary_disabled">Installiert, deaktiviert</string>
+    <string name="cannot_connect_to_dict_service">Problem, die sich mit dem Wörterbuchdienst verbinden</string>
+    <string name="no_dictionaries_available">Keine Wörterbücher verfügbar</string>
+    <string name="check_for_updates_now">Aktualisierung</string>
+    <string name="last_update">Letzte Aktualisierung</string>
+    <string name="message_updating">Überprüfung nach Updates</string>
+    <string name="message_loading">Laden &#x2026;</string>
+    <string name="main_dict_description">Hauptwörterbuch</string>
+    <string name="cancel">Stornieren</string>
+    <string name="go_to_settings">Einstellungen</string>
+    <string name="install_dict">Installieren</string>
+    <string name="cancel_download_dict">Stornieren</string>
+    <string name="delete_dict">Löschen</string>
+    <string name="download_over_metered">Jetzt downloaden (</string>
+    <string name="do_not_download_over_metered">Download über Wi-Fi</string>
+    <string name="dict_available_notification_title">Ein Wörterbuch ist für verfügbar</string>
+    <string name="dict_available_notification_description">Drücken Sie, um zu überprüfen und herunterzuladen</string>
+    <string name="toast_downloading_suggestions">Herunterladen: Vorschläge für</string>
+    <string name="version_text">Ausführung</string>
+    <string name="user_dict_settings_summary" translatable="false">"" "</string>
+    <string name="user_dict_settings_add_menu_title">Hinzufügen</string>
+    <string name="user_dict_settings_add_dialog_title">Zum Wörterbuch hinzufügen</string>
+    <string name="user_dict_settings_add_screen_title">Phrase</string>
+    <string name="user_dict_settings_add_dialog_more_options">Mehr Optionen</string>
+    <string name="user_dict_settings_add_dialog_less_options">Weniger Optionen</string>
+    <string name="user_dict_settings_add_dialog_confirm">OK</string>
+    <string name="user_dict_settings_add_word_option_name">Wort:</string>
+    <string name="user_dict_settings_add_shortcut_option_name">Abkürzung:</string>
+    <string name="user_dict_settings_add_locale_option_name">Sprache:</string>
+    <string name="user_dict_settings_add_word_hint">Geben Sie ein Wort ein</string>
+    <string name="user_dict_settings_add_shortcut_hint">Optionale Verknüpfung</string>
+    <string name="user_dict_settings_edit_dialog_title">Wort bearbeiten</string>
+    <string name="user_dict_settings_context_menu_edit_title">Bearbeiten</string>
+    <string name="user_dict_settings_context_menu_delete_title">Löschen</string>
+    <string name="user_dict_settings_empty_text">Sie haben keine Wörter im Benutzerwörterbuch. Um ein Wort hinzuzufügen, tippen Sie auf die Schaltfläche ADD (+).</string>
+    <string name="user_dict_settings_all_languages">Für alle Sprachen</string>
+    <string name="user_dict_settings_more_languages">Weitere Sprachen…</string>
+    <string name="user_dict_settings_delete">Löschen</string>
+    <string name="user_dict_fast_scroll_alphabet">\ u0020abcdefghijklmnopqrstuvwxyz</string>
+    <string name="premium_remove_ads_success">Du bist eine Prämie geworden !!!</string>
+    <string name="pro_restore_failed">Nicht gefundene Informationskauf!</string>
+    <string name="premium_billing_error">Der Kauf ist ein Fehler aufgetreten! Bitte versuchen Sie es später erneut</string>
+    <string name="zibil" translatable="false">Zibil</string>
+    <string name="get_started" translatable="false">Loslegen</string>
+    <string name="apply_theme" translatable="false">Thema anwenden</string>
+    <string name="buy_theme" translatable="false">Thema kaufen</string>
+    <string name="apply_theme_done" translatable="false">Angewandtes Thema</string>
+    <string name="apply_font_done" translatable="false">Schriftart angewendet</string>
+    <string name="apply_font_success" translatable="false">Angewandter Schrift erfolgreich</string>
+    <string name="apply_sticker_done" translatable="false">Aufkleber aufgetragen</string>
+    <string name="apply_sticker_success" translatable="false">Aufkleberer Erfolg</string>
+    <string name="apply_theme_fail" translatable="false">Das Thema anwenden fehlgeschlagen</string>
+    <string name="apply_sticker_fail" translatable="false">Aufkleber fehlgeschlagen auftragen</string>
+    <string name="link_json_file" translatable="false">Themen/Themen_Round.json</string>
+    <string name="link_json_top_file" translatable="false">Themen/Themen_Top.json</string>
+    <string name="path_themes_file" translatable="false">Themen/Themen_Round.json</string>
+    <string name="text_rate_5_star_for_rgb_keyboard" translatable="false">Bewertungs App</string>
+    <string name="text_policy_rgb_keyboard" translatable="false">Politik</string>
+    <string name="text_more" translatable="false">Mehr</string>
+    <string name="text_ledkey_for_life_beauty" translatable="false">SMS auf ZOMJ -Tastatur!</string>
+    <string name="app_name_emoji">Neue Emojis -Tastatur 2021</string>
+    <string name="text_tab_themes">Themen</string>
+    <string name="text_tab_fonts">Schriftarten</string>
+    <string name="text_tab_sticker">Aufkleber</string>
+    <string name="text_tab_emoji">Emoji</string>
+    <string name="text_tab_setting">Einstellung</string>
+    <string name="text_tab_more">Mehr</string>
+    <string name="hello_blank_fragment">Hallo leeres Fragment</string>
+    <string name="text_loading">Wird geladen...</string>
+    <string name="txt_name_hot_theme">Heiß</string>
+    <string name="txt_name_led_theme">LED</string>
+    <string name="txt_name_animated_theme">Animiert</string>
+    <string name="txt_name_gradient_theme">Gradient</string>
+    <string name="txt_name_color_theme">Farbe</string>
+    <string name="txt_download_theme">Download -Thema</string>
+    <string name="txt_get_theme">Holen Sie sich Themen</string>
+    <string name="txt_download_sticker">Download Aufkleber</string>
+    <string name="txt_add_sticker">Aufkleber hinzufügen</string>
+    <string name="txt_apply_font">Schriftart anwenden</string>
+    <string name="txt_not_theme">Kein Thema</string>
+    <string name="txt_wallpaper">Hintergrund</string>
+    <string name="txt_MyTheme">Meine Themen</string>
+    <string name="txt_tiktok">Tick ​​Tack</string>
+    <string name="txt_animal">Tier</string>
+    <string name="text_check_internet">Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut, um Themen zu erhalten!</string>
+    <string name="text_check_internet_sticker">Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut, um Aufkleber zu erhalten!</string>
+    <string name="txt_splash">ZOMJ -Tastatur</string>
+    <string name="txt_text_policy">Ich stimme den Nutzungsbedingungen und Datenschutzrichtlinien zu</string>
+    <string name="select">WÄHLEN</string>
+    <string name="select_all">WÄHLEN SIE ALLE</string>
+    <string name="copy">KOPIEREN</string>
+    <string name="paste">PASTE</string>
+    <string name="cut">SCHNEIDEN</string>
+    <string name="text_copied">Text kopiert</string>
+    <string name="show_key_special">Zeigen Sie einen besonderen Charakter auf Schlüsseln</string>
+    <string name="ledkey">Ledkey</string>
+    <string name="custom">Brauch</string>
+    <string name="help_and_feedbacks">Hilfe und Feedback</string>
+    <string name="emoji_sticker_gif_and_symbol_keyboard">Emoji, Aufkleber, GIF und Symbol -Tastatur</string>
+    <string name="_15sp">15sp</string>
+    <string name="enter_something_for_test">Geben Sie etwas für den Test ein</string>
+    <string name="fonts">Schriftarten</string>
+    <string name="tab_all">Alle</string>
+    <string name="tab_sans_serif">Serifenlos</string>
+    <string name="tab_serif">Serife</string>
+    <string name="tab_display">Anzeige</string>
+    <string name="tab_handwriting">Handschrift</string>
+    <string name="tab_script">Skript</string>
+    <string name="tab_tiktok">Tick ​​Tack</string>
+    <string name="tab_instagram">Instagram</string>
+    <string name="tab_other">Andere</string>
+    <string name="no_app">Keine App, um eine externe Aufgabe auszuführen, die gefunden wurde</string>
+    <string name="clipboard">Zwischenablage</string>
+    <string name="there_is_no_data_in_the_clipboard">In der Zwischenablage sind keine Daten vorhanden</string>
+    <string name="hidden">Versteckt</string>
+    <string name="vibrate">Vibrieren</string>
+    <string name="sound">Klang</string>
+    <string name="automatic_ncorrection">Automatische Correction</string>
+    <string name="correction_off">Korrektur  aus</string>
+    <string name="suggestion_off">Vorschlag  aus</string>
+    <string name="silent">Still</string>
+    <string name="mute">Stumm</string>
+    <string name="language">Méarchlár teanga</string>
+    <string name="show_n_suggestions">Zeigen Sie sugestions</string>
+    <string name="more">Mehr</string>
+    <string name="sticker">Aufkleber</string>
+    <string name="add_sticker">Aufkleber hinzufügen</string>
+    <string name="not_support_sticker">Dieser EditText nicht unterstützt Aufkleber!</string>
+    <string name="add_font">Schriftart hinzufügen</string>
+    <string name="not_support_font">Diese Schriftart wird in Ihrer Sprache nicht unterstützt</string>
+    <string name="apply_themes_success">Themen Erfolg anwenden</string>
+    <string name="let_s_get_started">Lass uns anfangen</string>
+    <string name="thanks_for_choosing_zomj_keyboard_you_trust_is_very_important_to_us">Vielen Dank, dass Sie sich für die ZOMJ -Tastatur ausgewählt haben, die Sie vertrauen, ist für uns sehr wichtig</string>
+    <string name="choose_keyboard">Wählen Sie Tastatur</string>
+    <string name="data_privacy">Datenprivatsphäre</string>
+
+    <string name="zomj_keyboard">ZOMJ -Tastatur</string>
+    <string name="never_collects_personal_data">Sammelt niemals personenbezogene Daten</string>
+    <string name="such_as_password_credit_card_number_etc">wie Passwort, Kreditkartennummer usw. ...</string>
+    <string name="how_do_we_protect_personal_data">Wie schützen wir personenbezogene Daten?</string>
+    <string name="accept">akzeptieren</string>
+    <string name="customize">Anpassen</string>
+    <string name="background">Hintergrund</string>
+    <string name="key">Taste</string>
+    <string name="effect">Wirkung</string>
+    <string name="double_spacebar_insert_period">Doppelraum -Raumleiste -Einsatzzeitraum</string>
+    <string name="automatic_correction">Automatische Korrektur</string>
+    <string name="auto_capitalization">Automatische Kapitalisierung</string>
+    <string name="privacy_policy">Datenschutz-Bestimmungen</string>
+    <string name="custom_input">Benutzerdefinierte Eingabe</string>
+    <string name="themes">Themen</string>
+    <string name="simple_button">Einfacher Taste</string>
+    <string name="popular_button">Beliebter Knopf</string>
+    <string name="text_color">Textfarbe</string>
+    <string name="toolbar_color">Symbolleiste Farbe</string>
+    <string name="key_effect">Schlüsseleffekt</string>
+    <string name="You_need_to_enable_permissions_to_use_this_feature">Sie müssen Berechtigungen zur Verwendung dieser Funktion ermöglichen</string>
+    <string name="go_to_setting">Gehen Sie zur Einstellung</string>
+    <string name="go_back">Geh zurück</string>
+    <string name="access_is_denied">Der Zugang wird abgelehnt</string>
+    <string name="error_down_background">Fehler im Hintergrund</string>
+    <string name="_0">0</string>
+    <string name="download_and_use_free_150_theme">Download und verwenden Sie kostenlos 150+ Thema</string>
+    <string name="unlock_all_themes">Schalte alle Themen frei</string>
+    <string name="_199_month">$ 1,99/Monat</string>
+    <string name="_1999_year">$ 19,99/Jahr (sparen 2 Monate)</string>
+    <string name="_2999_uses">$ 29.99/dauerhaft verwendet</string>
+    <string name="try_3_days_free_1_99_mo_after_trial_ends">Versuchen Sie es 3 Tage kostenlos. $ 1,99/Mon</string>
+    <string name="continue1">weitermachen</string>
+    <string name="already_pro">Schon Pro?</string>
+    <string name="trial_will_automatically">Die Testversion wird automatisch in ein monatliches Abonnement konvertiert</string>
+    <string name="pro_purchase_description">Sie können Ihr Abonnement jederzeit im Abschnitt Abonnements in Google Play kündigen. Wenn Sie Ihr Abonnement kündigen, verlieren Sie am Ende des aktuellen Abrechnungszeitraums den Zugang zum Abonnement.</string>
+    <string name="your_design_will_be_lost">Ihr Design wird verloren gehen. Sind Sie sicher, dass Sie raus möchten?</string>
+    <string name="cancel_theme">Stornieren</string>
+    <string name="yes_theme">Ja</string>
+    <string name="premium_billing_not_avaiable">Kaufdienst nicht verfügbar oder Fehler</string>
+    <string name="key_sound">Schlüsselklang</string>
+    <string name="set_name_keyboard">Setzen Sie den Namen Tastatur</string>
+    <string name="zomj_themes">Zomj Themen ...</string>
+    <string name="save_theme">Speichern</string>
+    <string name="enter_name_keyboard">Bitte geben Sie den Tastaturnamen ein</string>
+    <string name="theme_creation_failed">Themenerstellung fehlgeschlagen</string>
+    <string name="theme_creation_success">Themenerstellung Erfolg</string>
+    <string name="themes_1">Themen 1</string>
+    <string name="delete_themes">Themen löschen</string>
+    <string name="are_you_sure_delete">Sind Sie sicher, dass Sie dieses Thema löschen möchten?</string>
+    <string name="no">NEIN</string>
+    <string name="premium_subscription_month">%1 $ s/Monat</string>
+    <string name="premium_subscription_year">%1 $ s/Jahr</string>
+    <string name="premium_subscription_permanently">%1 $ s/dauerhaft verwendet</string>
+    <string name="best_offer">Verkauf</string>
+    <string name="txt_tab_stickers">Aufkleber</string>
+    <string name="txt_tab_emojis">Emoji</string>
+    <string name="txt_tab_trending">Trendung</string>
+    <string name="txt_tab_top">Spitze</string>
+    <string name="txt_tab_latest">Neueste</string>
+    <string name="txt_tab_cosplay">Cosplay</string>
+    <string name="no_favorite_emoji_yet">Noch kein Lieblings -Emoji</string>
+    <string name="no_recent_sticker_yet">Sie haben noch keinen Aufkleber verwendet</string>
+    <string name="phan_tram">%</string>
+    <string name="name_keyboard_exist">Nennen Sie die Tastatur bereits</string>
+    <string name="premium_desp_download">Laden Sie alle kostenlos herunter</string>
+    <string name="premium_desp_remove_ads">Anzeigen entfernen</string>
+    <string name="premium_desp_cancel">Jederzeit stornieren</string>
+    <string name="unlock_all_theme">Schalte alle Themen frei</string>
+    <string name="unlock_pro_features">Profi -Funktionen entsperren</string>
+    <string name="des_unlock_pro_features">Verwenden Sie alle Funktionen des Pro -Kontos</string>
+    <string name="unlock_all_style_custom_led">Schalte alle style -kundenspezifischen LEDs frei</string>
+    <string name="des_unlock_all_style_custom_led">Passen Sie jede LED -Tastatur an</string>
+    <string name="des_remove_ads">Rollen Sie alle Anzeigen los, wenn Sie App verwenden</string>
+    <string name="detail_theme_error_remove_theme_current">Sie können das von Ihnen verwendete Thema nicht löschen!</string>
+    <string name="add_more_emojis_combos">Fügen Sie weitere Emojis -Combos hinzu</string>
+    <string name="txt_featured"> Vorgestellt</string>
+    <string name="change_size">  Größe ändern</string>
+    <string name="crop_image">   Bild zuschneiden</string>
+    <string name="crop">         Ernte</string>
+    <string name="gallery">      Galerie</string>
+    <string name="store">        Speichern</string>
+    <string name="an_error_select_the_image">Es gibt einen Fehler, wenn Sie das Bild auswählen! Bitte versuche es erneut.</string>
+    <string name="type_to_translate">Geben Sie zum Übersetzen ein</string>
+    <string name="pleaseTurnOnInternet" translatable="false">Bitte überprüfen Sie das Internet</string>
+    <string name="no_support_this_language_keyboard"> Diese Sprach -Tastatur wird derzeit nicht unterstützt</string>
+    <string name="langauge_detection">                Spracherkennung</string>
+    <string name="no_support_number_keyboard">Nichtunterstützung für numerische Tastaturen</string>
+    <string name="you_haven_t_created_a_theme_yet">Sie haben noch kein Thema erstellt</string>
+    <string name="not_support_gif">Dieser EditText unterstützt GIF nicht!</string>
+    <string name="please_check">Bitte überprüfen Sie das Internet</string>
+    <string name="app_language">App -Sprache</string>
+    <string name="use_system_languages">Verwenden Sie Systemsprachen</string>
+    <string name="active_input_method">Aktive Eingangsmethode</string>
+    <string name="done">Déanta</string>
+    <string name="error_load_data_billing">Earráid lódála faisnéise síntiúis ar chúis éigin, bain triail eile as le do thoil</string>
+    <string name="retry">Bain triail eile as</string>
+
+    <string name="activate_zomj_keyboard">Méarchláir Zomj a ghníomhachtú</string>
+    <string name="step_1_activate">Céim 1. Gníomhachtaigh</string>
+    <string name="step_2_select">Céim 2. Roghnaigh</string>
+    <string name="activate_zomj_keyboard_to_enable_more_themes_and_emojis">*Gníomhaigh méarchlár Zomj chun níos mó téamaí agus emojis a chumasú</string>
+    <string name="download_this_theme_to_apply">Íoslódáil an téama seo chun iarratas a dhéanamh</string>
+    <string name="download_this_font_to_apply">Íoslódáil an cló seo chun iarratas a dhéanamh</string>
+    <string name="download">Íoslódáil</string>
+
+    <string name="remove_all_ads">Bain na fógraí go léir</string>
+    <string name="get">Tóg</string>
+    <string name="download_this_sticker_to_use">Íoslódáil an greamán seo le húsáid</string>
+    <string name="this_is_actually_amazing_keyboad">Is méarchlár iontach é seo i ndáiríre!</string>
+    <string name="you_might_also_like">D’fhéadfá alse a dhéanamh cosúil le</string>
+    <string name="try_your_new_theme">Bain triail as do théama nua</string>
+    <string name="please_enter_content">Iontráil Ábhar le do thoil</string>
+    <string name="get_sticker">Faigh greamán</string>
+    <string name="illuminate_your_experience_with_our_zomj_keyboard">Déan do thaithí a shoilsiú lenár méarchlár ZOMJ!</string>
+    <string name="our_zomj_stickers_add_dynamic_hues">Cuireann ár ngreamáin ZOMJ hues dinimiciúil leis!</string>
+    <string name="continuee">Leanúint ar aghaidh</string>
+    <string name="pick_a_theme_you_like_and_get_started">Roghnaigh téama is mian leat agus triail a bhaint as</string>
+    <string name="unique_theme">Téama uathúil</string>
+    <string name="current_theme">Téama reatha</string>
+    <string name="theme_led">Téama faoi stiúir</string>
+    <string name="theme_color">Dath téama</string>
+    <string name="read_external_dictionary_error">Bhí earráid ann</string>
+
+</resources>

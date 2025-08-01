@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary.</string>
+    <string name="app_namee">מקלדת ZOMJ.</string>
+    <string name="title_dialog">דרג את האפליקציה הזו</string>
+    <string name="content">כמה אתה אוהב את האפליקציה שלנו?</string>
+    <string name="rate_now">דרג עכשיו</string>
+    <string name="feedback">מָשׁוֹב</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">הקש 5 כוכב כדי לדרג אותו בחנות ההצגה.</string>
+    <string name="enjoying_zomj_keyboard">נהנה מקלדת ZOMJ?</string>
+    <string name="later">יותר מאוחר</string>
+    <string name="please_rate_5_start" translatable="false">אנא דרג 5 כוכבים</string>
+</resources>

@@ -1,0 +1,261 @@
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context="com.flashkeyboard.led.ui.main.trykeyboard.TryKeyboardFragment">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            app:layout_constraintTop_toTopOf="@id/imgAvt"
+            app:layout_constraintBottom_toBottomOf="@id/imgAvt"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="?actionBarItemBackground"
+            android:padding="5dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/ic_right_1"
+            android:rotation="180"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <ImageView
+            android:id="@+id/imgAvt"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgBack"
+            android:src="@drawable/ic_act"
+            android:layout_width="32dp"
+            android:layout_height="32dp"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/inter_regular"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="Pooya"
+            app:layout_constraintBottom_toBottomOf="@id/imgAvt"
+            app:layout_constraintTop_toTopOf="@id/imgAvt"
+            app:layout_constraintStart_toEndOf="@id/imgAvt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_try_keyboard"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@id/imgAvt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_marginTop="5dp"
+            android:descendantFocusability="blocksDescendants"
+            app:layout_constraintBottom_toTopOf="@id/viewBackgroundInput"
+            android:layout_width="match_parent"
+            android:overScrollMode="never"
+            android:fillViewport="true"
+            app:layout_constraintTop_toBottomOf="@id/imgAvt"
+            android:layout_height="0dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline80"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.8" />
+
+                <ImageView
+                    android:id="@+id/imgBackgroundMessage"
+                    android:background="@drawable/ic_bg_message"
+                    android:layout_marginStart="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/tvMessage"
+                    app:layout_constraintEnd_toEndOf="@id/guideline80"
+                    app:layout_constraintBottom_toBottomOf="@id/tvTime"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"/>
+
+                <TextView
+                    android:layout_marginStart="20dp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:text="@string/this_is_actually_amazing_keyboad"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="20dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/tvMessage"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline80"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="09:51 pm"
+                    android:textColor="#A5A5A5"
+                    android:textSize="12sp"
+                    android:id="@+id/tvTime"
+                    android:layout_marginEnd="10dp"
+                    android:paddingBottom="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/tvMessage"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/imgSticker"
+                    android:src="@drawable/ic_sticker_preview"
+                    android:layout_marginEnd="15dp"
+                    app:layout_constraintTop_toBottomOf="@id/imgBackgroundMessage"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"/>
+
+                <TextView
+                    android:id="@+id/tvYMAL"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/you_might_also_like"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/fr_ads_native"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    app:drawableStartCompat="@drawable/ic_fire" />
+                <com.google.android.ads.nativetemplates.TemplateViewMultiAds
+                    android:id="@+id/fr_ads_native"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:minHeight="50dp"
+                    android:tag="@string/tag_native_try_keyboard"
+                    app:gnt_template_type="@layout/gnt_admob_native_layout_no_media_1"
+                    app:layout_constraintTop_toBottomOf="@id/imgSticker"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcvThemeSticker"
+                    app:layout_constraintTop_toBottomOf="@id/tvYMAL"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"/>
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/spinLoading"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:scaleX="1.5"
+                    android:scaleY="1.5"
+                    android:visibility="visible"
+                    android:layout_marginTop="50dp"
+                    app:layout_constraintTop_toTopOf="@id/rcvThemeSticker"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:lottie_autoPlay="true"
+                    app:lottie_fileName="loading_circle.json"
+                    app:lottie_loop="true" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ctlPreviewInputView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@+id/spaceBottomScrv"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/viewBackgroundInput"
+            app:layout_constraintBottom_toTopOf="@+id/ctlPreviewInputView"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <View
+            android:id="@+id/viewBackgroundText"
+            android:background="@drawable/bg_gray_corner_8"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintTop_toTopOf="@+id/viewBackgroundInput"
+            app:layout_constraintBottom_toBottomOf="@id/viewBackgroundInput"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+
+        <EditText
+            android:id="@+id/edtInput"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:fontFamily="@font/inter_regular"
+            android:textSize="14sp"
+            android:hint="@string/try_your_new_theme"
+            android:inputType="text"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:enabled="false"
+            android:textColorHint="#959595"
+            android:background="@color/color_transparent"
+            app:layout_constraintTop_toTopOf="@id/viewBackgroundText"
+            app:layout_constraintEnd_toStartOf="@+id/imgSend"
+            app:layout_constraintStart_toStartOf="@id/viewBackgroundText"
+            android:layout_width="0dp"
+            android:layout_height="40dp"/>
+
+        <View
+            android:id="@+id/viewClickText"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="60dp"
+            app:layout_constraintTop_toTopOf="@+id/viewBackgroundInput"
+            app:layout_constraintBottom_toBottomOf="@id/viewBackgroundInput"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <ImageView
+            android:id="@+id/imgSend"
+            android:layout_marginEnd="5dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_send"
+            android:background="?actionBarItemBackground"
+            app:layout_constraintEnd_toEndOf="@id/viewBackgroundText"
+            app:layout_constraintTop_toTopOf="@id/viewBackgroundText"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/groupInputText"
+            android:visibility="visible"
+            app:constraint_referenced_ids="viewBackgroundInput,viewBackgroundText,edtInput,imgSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

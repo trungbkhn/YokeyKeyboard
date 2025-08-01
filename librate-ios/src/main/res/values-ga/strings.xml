@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">Fivestarslibrary</string>
+    <string name="app_namee" translatable="false">Méarchláir Zomj</string>
+    <string name="title_dialog" translatable="false">Ráta an aip seo</string>
+    <string name="content" translatable="false">Cé mhéad is breá leat ár n -aip?</string>
+    <string name="rate_now" translatable="false">Ráta anois</string>
+    <string name="feedback" translatable="false">Aiseolas</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store" translatable="false">Beartaíonn 5 réalta chun é a rátáil ar an siopa súgartha.</string>
+    <string name="enjoying_zomj_keyboard" translatable="false">Ag baint taitnimh as méarchlár Zomj?</string>
+    <string name="later" translatable="false">Ina dhiaidh sin</string>
+    <string name="please_rate_5_start" translatable="false">Ráta 5 réaltaí le do thoil</string>
+</resources>

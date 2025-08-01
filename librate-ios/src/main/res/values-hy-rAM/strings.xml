@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary</string>
+    <string name="app_namee">Zomj ստեղնաշար</string>
+    <string name="title_dialog">Գնահատեք այս ծրագիրը</string>
+    <string name="content">Որքան եք սիրում մեր ծրագիրը:</string>
+    <string name="rate_now">Գնահատեք հիմա</string>
+    <string name="feedback">Հետադարձ կապ</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Հպեք 5 աստղին `այն գնահատելու խաղային խանութում:</string>
+    <string name="enjoying_zomj_keyboard">Վայելել zomj ստեղնաշարը:</string>
+    <string name="later">Ավելի ուշ</string>
+    <string name="please_rate_5_start" translatable="false">Խնդրում ենք գնահատել 5 աստղ</string>
+</resources>

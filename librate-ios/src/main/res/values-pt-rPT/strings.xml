@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary.</string>
+    <string name="app_namee">Teclado Zomj</string>
+    <string name="title_dialog">AVALIE ESTE APLICATIVO</string>
+    <string name="content">Quanto você ama nosso aplicativo?</string>
+    <string name="rate_now">Avalie agora</string>
+    <string name="feedback">Comentários</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Toque em 5 estrelas para avaliá-lo na loja.</string>
+    <string name="enjoying_zomj_keyboard">Apreciando o teclado Zomj?</string>
+    <string name="later">Mais tarde</string>
+    <string name="please_rate_5_start" translatable="false">Por favor, avalie 5 estrelas</string>
+</resources>

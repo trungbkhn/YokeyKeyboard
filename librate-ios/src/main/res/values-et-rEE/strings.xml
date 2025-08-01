@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary</string>
+    <string name="app_namee">Zomj klaviatuur</string>
+    <string name="title_dialog">HINDA SEDA ÄPPI</string>
+    <string name="content">Kui palju sa armastad meie rakendust?</string>
+    <string name="rate_now">Hinda kohe</string>
+    <string name="feedback">Tagasiside</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Puuduta 5 tärni, et hinnata selle mängupoest.</string>
+    <string name="enjoying_zomj_keyboard">Nauding Zomj klaviatuuri?</string>
+    <string name="later">Hilisema</string>
+    <string name="please_rate_5_start" translatable="false">Palun hinnake 5 tärni</string>
+</resources>

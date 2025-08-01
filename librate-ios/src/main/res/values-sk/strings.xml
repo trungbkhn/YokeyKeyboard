@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary</string>
+    <string name="app_namee">Zomj Klávesnica</string>
+    <string name="title_dialog">OHODNOŤ TÚTO APLIKÁCIU</string>
+    <string name="content">Koľko milujete našu aplikáciu?</string>
+    <string name="rate_now">Hodnotiť teraz</string>
+    <string name="feedback">Spätná väzba</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Klepnite na 5 hviezdičiek, aby ste ho hodnotili na obchode.</string>
+    <string name="enjoying_zomj_keyboard">Teší sa zomu klávesnice?</string>
+    <string name="later">Neskôr</string>
+    <string name="please_rate_5_start" translatable="false">Hodnotiť 5 hviezdičiek</string>
+</resources>

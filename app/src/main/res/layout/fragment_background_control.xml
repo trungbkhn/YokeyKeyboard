@@ -1,0 +1,170 @@
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.tapbi.spark.yokey.ui.main.customize.control_createtheme.BackgroundControlFragment">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:overScrollMode="never"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ScrollViewCount">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp">
+
+                <com.tapbi.spark.yokey.ui.custom.view.CusTomButtonText
+                    android:id="@+id/btnStore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="21dp"
+                    android:background="@drawable/bg_button_customize"
+                    android:drawablePadding="6dp"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingStart="19dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="21dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/store"
+                    android:textColor="@color/color_black_50"
+                    android:textSize="15sp"
+                    app:colorEnd="#FF46E1"
+                    app:colorStart="#913FFF"
+                    app:drawableStartCompat="@drawable/ic_icon_store_fill"
+                    app:icShowGradient="true"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.tapbi.spark.yokey.ui.custom.view.CusTomButtonText
+                    android:id="@+id/btnGallery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="21dp"
+                    android:background="@drawable/bg_button_customize"
+                    android:drawablePadding="6dp"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingStart="19dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="21dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/gallery"
+                    android:textColor="@color/color_black_50"
+                    android:textSize="15sp"
+                    app:colorEnd="#FF46E1"
+                    app:colorStart="#913FFF"
+                    app:drawableStartCompat="@drawable/ic_icon_photo"
+                    app:icShowGradient="false"
+                    app:layout_constraintStart_toEndOf="@id/btnStore"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:stroke="1dp" />
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rclBackgroundControl"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:overScrollMode="never"
+            app:layout_constraintBottom_toTopOf="@id/vBgBlur"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/horizontal" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/spin_kit_load_backround"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="loading_circle.json"
+            app:lottie_loop="true" />
+
+        <View
+            android:id="@+id/vBgBlur"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/color_ffffff"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgIcBlurBg"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="17dp"
+            android:src="@drawable/ic_blur_bg_keyboard"
+            app:layout_constraintBottom_toBottomOf="@id/vBgBlur"
+            app:layout_constraintStart_toStartOf="@id/vBgBlur"
+            app:layout_constraintTop_toTopOf="@id/vBgBlur" />
+
+        <SeekBar
+            android:id="@+id/seekbarBlur"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:max="24"
+            android:maxHeight="13.5dp"
+            android:minHeight="10dp"
+            android:paddingStart="15dp"
+            android:progress="10"
+            android:progressDrawable="@drawable/bg_seekbar"
+            android:splitTrack="false"
+            android:thumb="@drawable/custom_thumb_seek_bar"
+            app:layout_constraintBottom_toBottomOf="@id/vBgBlur"
+            app:layout_constraintEnd_toStartOf="@+id/tvProgress"
+            app:layout_constraintStart_toEndOf="@id/imgIcBlurBg"
+            app:layout_constraintTop_toTopOf="@id/vBgBlur" />
+
+
+        <TextView
+            android:id="@+id/tvProgress"
+            android:layout_width="33dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="@string/_0"
+            android:textColor="@color/color_0063F7"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@id/vBgBlur"
+            app:layout_constraintEnd_toStartOf="@id/tv"
+            app:layout_constraintTop_toTopOf="@id/vBgBlur" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="17dp"
+            android:text="@string/phan_tram"
+            android:textColor="@color/color_0063F7"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@id/tvProgress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvProgress" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/groupBlur"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="vBgBlur,tvProgress,tv,seekbarBlur,imgIcBlurBg" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

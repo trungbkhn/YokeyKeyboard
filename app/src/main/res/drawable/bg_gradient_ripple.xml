@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/colorWhiteGray">
+
+    <!-- the normal bg color will be light grey -->
+    <item>
+        <shape android:shape="rectangle"  >
+            <corners android:radius="50dp"/>
+            <gradient android:startColor="#0018FF"
+                android:centerColor="#FF00FE"
+                android:endColor="#FFE600" android:angle="360"/>
+        </shape>
+    </item>
+
+    <!-- make sure the ripple doesn't exceed the bounds -->
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle" >
+            <corners android:radius="50dp"/>
+            <gradient android:startColor="#4355FF"
+                android:centerColor="#FF35FD"
+                android:endColor="#FFE600" android:angle="360"/>
+        </shape>
+    </item>
+</ripple>

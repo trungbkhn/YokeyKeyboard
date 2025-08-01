@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslibrary</string>
+    <string name="app_namee">ZOMJ клавиатура</string>
+    <string name="title_dialog">ОЦЕНЕТЕ ТОВА ПРИЛОЖЕНИЕ</string>
+    <string name="content">Колко обичате нашето приложение?</string>
+    <string name="rate_now">Оцени сега</string>
+    <string name="feedback">Обратна връзка</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Докоснете 5 Star, за да го оцените в магазина за игра.</string>
+    <string name="enjoying_zomj_keyboard">Наслаждавайки се на zomj клавиатура?</string>
+    <string name="later">По късно</string>
+    <string name="please_rate_5_start" translatable="false">Моля, оценете 5 звезди</string>
+</resources>

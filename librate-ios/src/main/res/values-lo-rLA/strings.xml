@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ຫ້າເສົາ</string>
+    <string name="app_namee">ແປ້ນພິມ ZOMJ</string>
+    <string name="title_dialog">ໃຫ້ຄະແນນ app ນີ້</string>
+    <string name="content">ທ່ານຮັກແອັບ obe ຂອງພວກເຮົາເທົ່າໃດ?</string>
+    <string name="rate_now">ອັດຕາການດຽວນີ້</string>
+    <string name="feedback">ຄໍາຕິຊົມ</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">ແຕະ 5 ດາວເພື່ອໃຫ້ຄະແນນມັນຢູ່ໃນ Play Store.</string>
+    <string name="enjoying_zomj_keyboard">ເພີດເພີນໄປກັບຄີບອດ ZOMJ ບໍ?</string>
+    <string name="later">ມື້ຕໍ່ມາ</string>
+    <string name="please_rate_5_start" translatable="false">ກະລຸນາໃຫ້ຄະແນນ 5 ດາວ</string>
+</resources>

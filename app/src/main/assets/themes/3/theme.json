@@ -1,0 +1,85 @@
+{
+  "id": "3",
+  "name_keyboard": "CircleR",
+  "type_keyboard" : "rgb",
+  "font" : "fonts/segoeui.TTF",
+  
+  "background": {
+    "background_color" : "0xFF000000",
+    "background_image": "https://image.freepik.com/free-vector/outer-space-background-vector-illustration_94250-11.jpg",
+    "start_color": "0xFF56DDD5",
+    "finish_color": "0xFF00AAFF",
+    "degree": 90
+  },
+  
+
+  "key" : {
+
+    "text": {
+      "normal": "btn_key_text.9.png",
+      "pressed": "btn_key_text_pressed.9.png",
+      "text_color": "0xFFFFFFFF",
+      "text_color_pressed": "0xFFFFFFFF"
+    },
+    "number": {
+      "normal": "btn_key_number.9.png",
+      "pressed": "btn_key_number_pressed.9.png",
+      "text_color": "0xFFFFFFFF",
+      "text_color_pressed": "0xFFFFFFFF"
+    },
+    "special": {
+      "normal": "btn_key_special.9.png",
+      "pressed": "btn_key_special_pressed.9.png",
+      "text_color": "0xFFFFFFFF",
+      "text_color_pressed": "0xFFFFFFFF"
+    },
+    "led":{
+      "alpha": 50.0,
+      "colors": "-65536;-256;-16711936;-16711681;-16776961;-65281",
+      "cross": 50.0,
+      "radius": 1.5,
+      "range": 50.0,
+      "speed": 30.0,
+      "stroke_width": 50.0,
+      "style": "style_stroke",
+      "style_led": 3
+    }
+
+  },
+
+  "popup" : {
+
+    "preview" : {
+      "text_color": "0xFF31C7E7",
+      "subkey_color": "0xFFC0C0C0",
+      "bg_image": "bg_key_popup.png",
+      "width": "70dp",
+      "height": "70dp"
+    },
+
+    "min_keyboard" : {
+      "bg_image": "bg_key_longpress.9.png",
+      "text_color": "0xFFC0C0C0",
+      "text_color_selected": "0xFF31C7E7"
+    }
+  },
+
+  "menu_bar": {
+    "divider_color": "0x1AFFFFFF",
+    "content_divider_color": "0xFFFFFFFF",
+    "icon_color": "0xFFFFFFFF",
+    "icon_color_selected": "0xFF56DDD5",
+    "icon_background_color_selected": "0xFFFFFFFF",
+    "text_color": "0xFFFFFFFF",
+    "text_color_highlighted": "0xFFFFFFFF",
+    "content_text_Color": "0xFFFFFFFF",
+
+    "menu": {
+      "bg_color": "0x1AFFFFFF",
+      "bg_color_selected": "0x1AFFFFFF",
+      "text_color": "0xFFFFFFFF",
+      "text_color_selected": "0xFF56DDD5"
+    }
+
+  }
+}

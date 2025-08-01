@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Done</string>
+    <string name="error_load_data_billing">কিছু কারণে সদস্যতা তথ্য লোড ত্রুটি, আবার চেষ্টা করুন</string>
+    <string name="retry">পুনরায় চেষ্টা করা</string>
+    <string name="activate_zomj_keyboard">জোমজে কীবোর্ড সক্রিয় করুন</string>
+    <string name="step_1_activate">পদক্ষেপ 1. সক্রিয়</string>
+    <string name="step_2_select">পদক্ষেপ 2. নির্বাচন করুন</string>
+    <string name="activate_zomj_keyboard_to_enable_more_themes_and_emojis">*আরও থিম এবং ইমোজিগুলি সক্ষম করতে ZOMJ কীবোর্ড সক্রিয় করুন</string>
+    <string name="download_this_theme_to_apply">প্রয়োগ করতে এই থিমটি ডাউনলোড করুন</string>
+    <string name="download_this_font_to_apply">প্রয়োগ করতে এই ফন্টটি ডাউনলোড করুন</string>
+    <string name="download">ডাউনলোড</string>
+
+    <string name="remove_all_ads">সমস্ত বিজ্ঞাপন সরান</string>
+    <string name="get">পাওয়া</string>
+    <string name="download_this_sticker_to_use">ব্যবহারের জন্য এই স্টিকারটি ডাউনলোড করুন</string>
+    <string name="this_is_actually_amazing_keyboad">এটি আসলে আশ্চর্যজনক কীবোর্ড!</string>
+    <string name="you_might_also_like">আপনি পছন্দ করতে পারেন</string>
+    <string name="try_your_new_theme">আপনার নতুন থিম চেষ্টা করুন</string>
+    <string name="please_enter_content">দয়া করে সামগ্রী লিখুন</string>
+    <string name="get_sticker">স্টিকার পান</string>
+    <string name="illuminate_your_experience_with_our_zomj_keyboard">আমাদের জোমজে কীবোর্ডের সাথে আপনার অভিজ্ঞতা আলোকিত করুন!</string>
+    <string name="our_zomj_stickers_add_dynamic_hues">আমাদের জোমজ স্টিকারগুলি গতিশীল রঙ যুক্ত করে!</string>
+    <string name="continuee">চালিয়ে যান</string>
+    <string name="pick_a_theme_you_like_and_get_started">আপনার পছন্দ মতো একটি থিম চয়ন করুন এবং পরীক্ষা করুন</string>
+    <string name="unique_theme">অনন্য থিম</string>
+    <string name="current_theme">বর্তমান থিম</string>
+    <string name="theme_led">থিম এলইডি</string>
+    <string name="theme_color">থিম রঙ</string>
+    <string name="read_external_dictionary_error">সেখানে একটা ভুল ছিল</string>
+</resources>

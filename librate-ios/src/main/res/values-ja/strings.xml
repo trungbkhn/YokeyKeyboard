@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FiveStarsLibrary</string>
+    <string name="app_namee">ZOMJキーボード</string>
+    <string name="title_dialog">このアプリを評価してください</string>
+    <string name="content">あなたは私たちのアプリをどれだけ好きですか？</string>
+    <string name="rate_now">今すぐ評価します</string>
+    <string name="feedback">フィードバック</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Play Storeで評価するために5つ星をタップしてください。</string>
+    <string name="enjoying_zomj_keyboard">ZOMJキーボードを楽しんでいますか？</string>
+    <string name="later">後で</string>
+    <string name="please_rate_5_start" translatable="false">5つ星を評価してください</string>
+</resources>

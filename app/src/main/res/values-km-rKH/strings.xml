@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="no_support_number_keyboard">មិនគាំទ្រសម្រាប់គ្រាប់ចុចលេខ</string>
+    <string name="the_maximum_number_of_characters_has_been_reached">ចំនួនតួអក្សរអតិបរមាត្រូវបានឈានដល់</string>
+    <string name="no_support_this_language_keyboard"> ក្តារចុចភាសានេះមិនត្រូវបានគាំទ្រទេ  </string>
+    <string name="langauge_detection">                ការរកឃើញភាសា  </string>
+    <string name="app_language">ភាសាកម្មវិធី</string>
+    <string name="not_support_gif">អត្ថបទអេឡិចត្រូនិចនេះមិនគាំទ្រ GIF!</string>
+    <string name="you_haven_t_created_a_theme_yet">អ្នកមិនទាន់បានបង្កើតពួកគេនៅឡើយទេ</string>
+    <string name="an_error_select_the_image">មានកំហុសនៅពេលជ្រើសរើសរូបភាព! សូម​ព្យាយាម​ម្តង​ទៀត។</string>
+    <string name="txt_featured"> លក្ខណៈពិសេស </string>
+    <string name="change_size">  ផ្លាស់ប្តូរទំហំ  </string>
+    <string name="crop_image">   រូបភាពដំណាំ  </string>
+    <string name="crop">         ដមនាម         </string>
+    <string name="gallery">      វិចិរតសាល       </string>
+    <string name="store">        តុប </string>
+    <string name="english_ime_input_options" msgid="3909945612939668554">"ជម្រើស​​បញ្ចូល"</string>
+    <string name="use_contacts_for_spellchecking_option_title" msgid="5374120998125353898">"រក​មើល​ឈ្មោះ​ទំនាក់ទំនង"</string>
+    <string name="use_contacts_for_spellchecking_option_summary" msgid="8754413382543307713">"កម្មវិធី​ពិនិត្យ​អក្ខរាវិរុទ្ធ​ប្រើ​ធាតុ​ពី​​ក្នុង​បញ្ជី​ទំនាក់ទំនង​របស់​អ្នក"</string>
+    <string name="vibrate_on_keypress" msgid="5258079494276955460">"ញ័រ​នៅ​ពេល​ចុច​គ្រាប់ចុច"</string>
+    <string name="sound_on_keypress" msgid="6093592297198243644">"សំឡេង​នៅ​ពេល​ចុច​គ្រាប់ចុច"</string>
+    <string name="popup_on_keypress" msgid="123894815723512944">"លេច​ឡើង​នៅ​​ពេល​ចុច​គ្រាប់​ចុច"</string>
+    <string name="settings_screen_preferences" msgid="2696713156722014624">"ចំណូលចិត្ត"</string>
+    <string name="settings_screen_accounts" msgid="2786418968536696670">"គណនី &amp;amp ភាពឯកជន"</string>
+    <string name="settings_screen_appearance" msgid="7358046399111611615">"រូបរាង &amp;amp ប្លង់"</string>
+    <string name="settings_screen_gesture" msgid="8826372746901183556">"កាយវិការ​បញ្ចូល"</string>
+    <string name="settings_screen_correction" msgid="1616818407747682955">"ការ​កែ​​អត្ថបទ"</string>
+    <string name="settings_screen_advanced" msgid="7472408607625972994">"កម្រិត​ខ្ពស់"</string>
+    <string name="settings_screen_theme" msgid="2137262503543943871">"រូបរាង"</string>
+    <string name="enable_split_keyboard" msgid="4177264923999493614">"បើក​ការ​បំបែក​ក្ដារចុច"</string>
+    <string name="cloud_sync_title" msgid="8579271074443847055">"សមកាលកម្មលើក្តារចុច Google"</string>
+    <string name="cloud_sync_summary" msgid="7684887161145650857">"សមកាលម្មត្រូវបានបើក"</string>
+    <string name="cloud_sync_summary_disabled" msgid="4553338970382825796">"ធ្វើសមកាលកម្មបញ្ជីឯកសារផ្ទាល់ខ្លួនឆ្លងឧបករណ៍"</string>
+    <string name="sync_now_title" msgid="3088838136743277721">"ធ្វើសម្មកាលកម្មឥឡូវនេះ"</string>
+    <string name="clear_sync_data_title" msgid="8582001557037069154">"លុបទិន្នន័យក្លោត"</string>
+    <string name="clear_sync_data_summary" msgid="993477139012576584">"លុបទិន្នន័យដែលបានធ្វើសមកាលកម្មរបស់អ្នកចេញពី Google"</string>
+    <string name="clear_sync_data_confirmation" msgid="2811931135574727678">"ទិន្នន័យធ្វើសមកាលកម្មរបស់អ្នកនឹងត្រូវបានលុបពីពពក។ តើអ្នកប្រាកដទេ?"</string>
+    <string name="clear_sync_data_ok" msgid="613104067705915132">"លុប"</string>
+    <string name="cloud_sync_cancel" msgid="5877481252150919037">"បោះបង់"</string>
+    <string name="cloud_sync_opt_in_text" msgid="9176039655776298248">"បញ្ជីឯកសារផ្ទាល់ខ្លួនរបស់អ្នកនឹងត្រូវបានធ្វើសមកាលកម្ម និងបម្រុងទុកនៅក្នុងម៉ាស៊ីនមេ Google។ ព័ត៌មានស្ថិតិនៃចំនួនពាក្យដែលឧស្សាហ៍ប្រើអាចត្រូវបានប្រមូលដើម្បីធ្វើឲ្យផលិតផលរបស់ពួកយើងប្រសើរជាងមុន។ ការប្រមូល និងការប្រើប្រាស់ព័ត៌មាន នឹងត្រូវអនុលោមតាម "<a href="https://www.google.com/policies/privacy">"គោលការណ៍ភាពឯកជនរបស់ Google"</a>"។"</string>
+    <string name="add_account_to_enable_sync" msgid="7836932571852055265">"សូមបន្ថែមគណនី Google ទៅឧបករណ៍នេះដើម្បីបើកដំណើរការលក្ខណៈពិសេសនេះ"</string>
+    <string name="cloud_sync_summary_disabled_work_profile" msgid="1381770407303129164">"ការធ្វើសមកាលកម្មមិនមាននោះទេសម្រាប់ឧបករណ៍ដែលមានគណនីកម្មវិធី Google សម្រាប់ធុរកិច្ច។"</string>
+    <string name="include_other_imes_in_language_switch_list" msgid="4533689960308565519">"ប្ដូរ​ទៅ​​​វិធីសាស្ត្រ​បញ្ចូល​​​ផ្សេង​ទៀត"</string>
+    <string name="include_other_imes_in_language_switch_list_summary" msgid="840637129103317635">"គ្រាប់ចុច​ប្ដូរ​ភាសា​តាម​វិធីសាស្ត្រ​បញ្ចូល​ផ្សេងទៀត"</string>
+    <string name="show_language_switch_key" msgid="5915478828318774384">"គ្រាប់​ចុច​ប្ដូរ​​ភាសា"</string>
+    <string name="show_language_switch_key_summary" msgid="7343403647474265713">"បង្ហាញ​នៅ​ពេល​ដែល​បើក​ភាសា​បញ្ចូល​ច្រើន"</string>
+    <string name="key_preview_popup_dismiss_delay" msgid="6213164897443068248">"​សោ​លេចឡើង​បោះបង់​ការ​​ពន្យារពេល​"</string>
+    <string name="key_preview_popup_dismiss_no_delay" msgid="2096123151571458064">"គ្មាន​ការ​ពន្យារពេល"</string>
+    <string name="key_preview_popup_dismiss_default_delay" msgid="2166964333903906734">"លំនាំដើម"</string>
+    <string name="abbreviation_unit_milliseconds" msgid="8700286094028323363">"<xliff:g id="MILLISECONDS">%s</xliff:g> មិល្លី​វិនាទី"</string>
+    <string name="settings_system_default" msgid="6268225104743331821">"លំនាំ​ដើម​​​ប្រព័ន្ធ"</string>
+    <string name="use_contacts_dict" msgid="4435317977804180815">"ស្នើ​ឈ្មោះ​ទំនាក់ទំនង"</string>
+    <string name="use_contacts_dict_summary" msgid="6599983334507879959">"ប្រើ​ឈ្មោះ​ពី​ទំនាក់ទំនង​សម្រាប់​ការ​​ស្នើ និង​​​កែ"</string>
+    <string name="use_personalized_dicts" msgid="5167396352105467626">"ការ​ស្នើ​ផ្ទាល់​ខ្លួន"</string>
+    <string name="enable_metrics_logging" msgid="5506372337118822837">"ធ្វើឲ្យ <xliff:g id="APPLICATION_NAME">%s</xliff:g> ប្រសើរ​ឡើង"</string>
+    <string name="use_double_space_period" msgid="8781529969425082860">"រយៈ​ពេល​ចុច​ដកឃ្លា​ពីរដង"</string>
+    <string name="use_double_space_period_summary" msgid="6532892187247952799">"ប៉ះ​ដកឃ្លា​ពីរ​​ដង​បញ្ចូល​​​រយៈ​ពេល​ដែល​អនុវត្ត​តាម​ដកឃ្លា"</string>
+    <string name="auto_cap" msgid="1719746674854628252">"ការ​សរសេរ​ជា​អក្សរ​ធំ​​ស្វ័យប្រវត្តិ​"</string>
+    <string name="auto_cap_summary" msgid="7934452761022946874">"សរសេរ​ពាក្យ​ដំបូង​​​ជា​អក្សរ​ធំ​​នៃ​ប្រយោគ​នីមួយ​ៗ"</string>
+    <string name="edit_personal_dictionary" msgid="3996910038952940420">"វចនានុក្រម​ផ្ទាល់ខ្លួន"</string>
+    <string name="configure_dictionaries_title" msgid="4238652338556902049">"ផ្នែក​បន្ថែម​វចនានុក្រម"</string>
+    <string name="main_dictionary" msgid="4798763781818361168">"វចនានុក្រម​ចម្បង"</string>
+    <string name="prefs_show_suggestions" msgid="8026799663445531637">"បង្ហាញ​ការ​ស្នើ​​កែ"</string>
+    <string name="prefs_show_suggestions_summary" msgid="1583132279498502825">"បង្ហាញ​ពាក្យ​​បាន​​ផ្ដល់​​ស្នើ​​ខណៈ​ពេល​​​វាយ​បញ្ចូល"</string>
+    <string name="prefs_block_potentially_offensive_title" msgid="5078480071057408934">"ទប់ស្កាត់​​ពាក្យ​​បំពាន"</string>
+    <string name="prefs_block_potentially_offensive_summary" msgid="2371835479734991364">"កុំ​ស្នើ​ឲ្យ​ពាក្យ​បំពាន​មាន​សក្ដានុពល​"</string>
+    <string name="auto_correction" msgid="7630720885194996950">"ការ​កែ​​​ស្វ័យប្រវត្តិ"</string>
+    <string name="auto_correction_summary" msgid="5625751551134658006">"ចន្លោះ​មិន​ឃើញ ​និង​សញ្ញា​​វណ្ណយុត្ត​កែ​ពាក្យ​ដែល​បាន​វាយ​ខុស​ស្វ័យប្រវត្តិ"</string>
+    <string name="auto_correction_threshold_mode_off" msgid="8470882665417944026">"បិទ"</string>
+    <string name="auto_correction_threshold_mode_modest" msgid="8788366690620799097">"ល្មម"</string>
+    <string name="auto_correction_threshold_mode_aggressive" msgid="7319007299148899623">"បំពាន"</string>
+    <string name="auto_correction_threshold_mode_very_aggressive" msgid="1853309024129480416">"បំពាន​ខ្លាំង"</string>
+    <string name="bigram_prediction" msgid="1084449187723948550">"ការ​ស្នើ​ពាក្យ​បន្ទាប់"</string>
+    <string name="bigram_prediction_summary" msgid="3896362682751109677">"ប្រើ​ពាក្យ​មុន​​នៅ​ពេល​ធ្វើ​ការ​​​ស្នើ"</string>
+    <string name="gesture_input" msgid="826951152254563827">"បើក​ការ​​បញ្ចូល​​កាយវិការ"</string>
+    <string name="gesture_input_summary" msgid="9180350639305731231">"បញ្ចូល​ពាក្យ​ដោយ​រំកិល​​​តាម​​អក្សរ"</string>
+    <string name="gesture_preview_trail" msgid="3802333369335722221">"បង្ហាញ​ដាន​កាយវិការ"</string>
+    <string name="gesture_floating_preview_text" msgid="4443240334739381053">"មើល​ការ​​អណ្ដែត​ដែល​មាន​ចលនា​ជា​មុន"</string>
+    <string name="gesture_floating_preview_text_summary" msgid="4472696213996203533">"​មើល​ពាក្យ​​​ដែល​បាន​ស្នើ​​​ខណៈ​ពេល​កំពុង​ធ្វើ​កាយ​វិការ"</string>
+    <string name="gesture_space_aware" msgid="2078291600664682496">"កាយវិការ​​ឃ្លា"</string>
+    <string name="gesture_space_aware_summary" msgid="4371385818348528538">"បញ្ចូល​​ដកឃ្លា​​​អំឡុង​​​កាយវិការ​ ដោយ​រំកិល​ទៅ​គ្រាប់​ចុច​ដកឃ្លា"</string>
+    <string name="voice_input" msgid="3583258583521397548">"គ្រាប់​ចុច​បញ្ចូល​​សំឡេង"</string>
+    <string name="voice_input_disabled_summary" msgid="6323489602945135165">"គ្មានការបើកវិធីសាស្ត្របញ្ចូលសំឡេងទេ។ សូមពិនិត្យការកំណត់ភាសា និងបញ្ចូល។"</string>
+    <string name="configure_input_method" msgid="373356270290742459">"កំណត់​រចនាសម្ព័ន្ធ​វិធីសាស្ត្រ​បញ្ចូល"</string>
+    <string name="language_selection_title" msgid="3666971864764478269">"ភាសា"</string>
+    <string name="help_and_feedback" msgid="5328219371839879161">"ជំនួយ &amp; មតិ​ត្រឡប់"</string>
+    <string name="select_language" msgid="5709487854987078367">"ភាសា"</string>
+    <string name="hint_add_to_dictionary" msgid="2645988432867033007">"ប៉ះម្តងទៀតដើម្បីរក្សាទុក"</string>
+    <string name="hint_add_to_dictionary_without_word" msgid="6710206006427574423">"ប៉ះទីនេះដើម្បីរក្សាទុក"</string>
+    <string name="has_dictionary" msgid="6071847973466625007">"មាន​វចនានុក្រម"</string>
+    <string name="keyboard_layout" msgid="8451164783510487501">"រូបរាង​ក្ដារចុច"</string>
+    <string name="switch_accounts" msgid="3321216593719006162">"ប្ដូរ​គណនី"</string>
+    <string name="no_accounts_selected" msgid="2073821619103904330">"មិន​បាន​ជ្រើស​គណនី"</string>
+    <string name="account_selected" msgid="2846876462199625974">"កំពុង​ប្រើ <xliff:g id="EMAIL_ADDRESS">%1$s</xliff:g>"</string>
+    <string name="account_select_ok" msgid="9141195141763227797">"យល់ព្រម"</string>
+    <string name="account_select_cancel" msgid="5181012062618504340">"បោះបង់"</string>
+    <string name="account_select_sign_out" msgid="3299651159390187933">"ចេញ"</string>
+    <string name="account_select_title" msgid="6279711684772922649">"ជ្រើស​គណនី​ដើម្បី​ប្រើ"</string>
+    <string name="subtype_en_GB" msgid="88170601942311355">"អង់គ្លេស (​អង់គ្លេស)"</string>
+    <string name="subtype_en_US" msgid="6160452336634534239">"អង់គ្លេស (សហរដ្ឋ​អាមេរិក)"</string>
+    <string name="subtype_es_US" msgid="5583145191430180200">"អេស្ប៉ាញ (សហរដ្ឋ​អាមេរិក​)"</string>
+    <string name="subtype_hi_ZZ" msgid="8860448146262798623">"Hinglish"</string>
+    <string name="subtype_sr_ZZ" msgid="9059219552986034343">"សើប (ឡាតាំង​)"</string>
+    <string name="subtype_with_layout_en_GB" msgid="1931018968641592304">"អង់គ្លេស (ចក្រភព​អង់គ្លេស) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_en_US" msgid="8809311287529805422">"អង់គ្លេស (អាមេរិក) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_es_US" msgid="510930471167541338">"អេស្ប៉ាញ (អាមេរិក) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_hi_ZZ" msgid="6827402953860547044">"Hinglish (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_sr_ZZ" msgid="2859024772719772407">"សើប (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_generic_traditional" msgid="8584594350973800586">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (អក្សរ​ពេញ)"</string>
+    <string name="subtype_generic_compact" msgid="3353673321203202922">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (បង្រួម)"</string>
+    <string name="subtype_no_language" msgid="7137390094240139495">"គ្មាន​ភាសា (អក្សរ​ក្រម)"</string>
+    <string name="subtype_no_language_qwerty" msgid="244337630616742604">"តាម​លំដាប់​អក្សរក្រម (QWERTY)"</string>
+    <string name="subtype_no_language_qwertz" msgid="443066912507547976">"តាម​លំដាប់​អក្សរក្រម (QWERTZ)"</string>
+    <string name="subtype_no_language_azerty" msgid="8144348527575640087">"តាម​លំដាប់​អក្សរក្រម (AZERTY)"</string>
+    <string name="subtype_no_language_dvorak" msgid="1564494667584718094">"តាម​លំដាប់​អក្សរក្រម (Dvorak)"</string>
+    <string name="subtype_no_language_colemak" msgid="5837418400010302623">"តាម​លំដាប់​អក្សរក្រម (Colemak)"</string>
+    <string name="subtype_no_language_pcqwerty" msgid="5354918232046200018">"តាម​លំដាប់​អក្សរក្រម (កុំព្យូទ័រ)"</string>
+    <string name="subtype_emoji" msgid="7483586578074549196">"សញ្ញា​អារម្មណ៍"</string>
+    <string name="keyboard_theme" msgid="4909551808526178852">"រូបរាង​ក្ដារចុច"</string>
+    <string name="custom_input_styles_title" msgid="8429952441821251512">"រចនាប័ទ្ម​បញ្ចូល​ផ្ទាល់ខ្លួន"</string>
+    <string name="add_style" msgid="6163126614514489951">"បន្ថែម​រចនាប័ទ្ម"</string>
+    <string name="add" msgid="8299699805688017798">"បន្ថែម"</string>
+    <string name="remove" msgid="4486081658752944606">"លុប​ចេញ"</string>
+    <string name="save" msgid="7646738597196767214">"រក្សាទុក"</string>
+    <string name="subtype_locale" msgid="8576443440738143764">"ភាសា"</string>
+    <string name="keyboard_layout_set" msgid="4309233698194565609">"ប្លង់"</string>
+    <string name="custom_input_style_note_message" msgid="8826731320846363423">"ចាំបាច់​ត្រូវ​បើក​រចនាប័ទ្ម​បញ្ចូល​ផ្ទាល់​ខ្លួន​របស់​អ្នក មុន​ពេល​អ្នក​ចាប់ផ្ដើម​ប្រើ​វា។ តើ​អ្នក​ចង់​បើក​វា​ឥឡូវ​នេះ​ឬ?"</string>
+    <string name="enable" msgid="5031294444630523247">"បើក"</string>
+    <string name="not_now" msgid="6172462888202790482">"មិនមែន​ឥឡូវ"</string>
+    <string name="custom_input_style_already_exists" msgid="8008728952215449707">"មាន​រចនាប័ទ្ម​បញ្ចូល​ដូច​គ្នា​ដូច​ហើយ៖ <xliff:g id="INPUT_STYLE_NAME">%s</xliff:g>"</string>
+    <string name="prefs_keypress_vibration_duration_settings" msgid="7918341459947439226">"ថិរវេលា​​ញ័រ​​ពេល​ចុច​គ្រាប់ចុច"</string>
+    <string name="prefs_keypress_sound_volume_settings" msgid="6027007337036891623">"កម្រិត​សំឡេង​ពេល​ចុច​គ្រាប់​ចុច"</string>
+    <string name="prefs_key_longpress_timeout_settings" msgid="6102240298932897873">"ពន្យារពេល​​​ចុច​គ្រាប់​ចុច​ឲ្យ​​យូរ"</string>
+    <string name="prefs_enable_emoji_alt_physical_key" msgid="5963640002335470112">"សញ្ញាអារម្មណ៍សម្រាប់ក្តារចុចពិតប្រាកដ"</string>
+    <string name="prefs_enable_emoji_alt_physical_key_summary" msgid="5259484820941627827">"គ្រាប់ចុច Alt បង្ហាញផ្ទាំងសញ្ញាអារម្មណ៍"</string>
+    <string name="button_default" msgid="3988017840431881491">"លំនាំដើម"</string>
+    <string name="setup_welcome_title" msgid="6112821709832031715">"សូម​ស្វាគមន៍​មក​កាន់ <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_welcome_additional_description" msgid="8150252008545768953">"ជាមួយ​​​ការ​វាយ​បញ្ចូល​ដោយ​ប្រើ​​​កាយវិការ"</string>
+    <string name="setup_start_action" msgid="8936036460897347708">"បាន​ចាប់ផ្ដើម"</string>
+    <string name="setup_next_action" msgid="371821437915144603">"ជំហាន​បន្ទាប់"</string>
+    <string name="setup_steps_title" msgid="6400373034871816182">"រៀបចំ <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_step1_title" msgid="3147967630253462315">"បើក <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_step1_instruction" msgid="4295448056733329661">"សូមពិនិត្យ \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" ក្នុងការកំណត់ភាសា និងបញ្ចូលរបស់អ្នក។ វានឹងផ្តល់សិទ្ធិឲ្យកម្មវិធីនេះដំណើរការនៅលើឧបករណ៍របស់អ្នក។"</string>
+    <string name="setup_step1_finished_instruction" msgid="8701441895377434947">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> ត្រូវបានបើកដំណើរការនៅក្នុងការកំណត់ភាសា និងបញ្ចូលរបស់អ្នករួចហើយ ដូច្នេះជំហ៊ាននេះបានបញ្ចប់ហើយ។ ចូលទៅជំហ៊ានបន្ទាប់!"</string>
+    <string name="setup_step1_action" msgid="4366513534999901728">"បើក​នៅ​ក្នុង​ការ​កំណត់"</string>
+    <string name="setup_step2_title" msgid="6860725447906690594">"ប្ដូរ​ទៅ <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_step2_instruction" msgid="9141481964870023336">"បន្ទាប់ ជ្រើស \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" ជា​វិធី​សាស្ត្រ​បញ្ចូល​អត្ថបទ​សកម្ម​របស់​អ្នក។"</string>
+    <string name="setup_step2_action" msgid="1660330307159824337">"ប្ដូរ​វិធីសាស្ត្រ​បញ្ចូល"</string>
+    <string name="setup_step3_title" msgid="3154757183631490281">"សូម​អបអរ​សាទរ,​ អ្នក​​បាន​កំណត់​​រួចរាល់​ហើយ!"</string>
+    <string name="setup_step3_instruction" msgid="8025981829605426000">"ឥឡូវ​​អ្នក​អាច​​វាយ​បញ្ចូល​នៅ​ក្នុង​​កម្មវិធី​​ពេញ​ចិត្ត​របស់​អ្នក​ទាំងអស់​ជាមួយ <xliff:g id="APPLICATION_NAME">%s</xliff:g> ។"</string>
+    <string name="setup_step3_action" msgid="600879797256942259">"កំណត់​រចនា​សម្ព័ន្ធ​ភាសា​បន្ថែម"</string>
+    <string name="setup_finish_action" msgid="276559243409465389">"បាន​បញ្ចប់"</string>
+    <string name="show_setup_wizard_icon" msgid="5008028590593710830">"បង្ហាញ​រូប​តំណាង​កម្មវិធី"</string>
+    <string name="show_setup_wizard_icon_summary" msgid="4119998322536880213">"បង្ហាញ​រូប​តំណាង​កម្មវិធី​នៅ​ក្នុង​កម្ម​​វិធី​ចាប់ផ្ដើម"</string>
+    <string name="app_name" msgid="6320102637491234792">"កម្មវិធី​ផ្ដល់​វចនានុក្រម"</string>
+    <string name="dictionary_provider_name" msgid="3027315045397363079">"កម្មវិធី​ផ្ដល់​វចនានុក្រម"</string>
+    <string name="dictionary_service_name" msgid="6237472350693511448">"សេវាកម្ម​​វចនានុក្រម"</string>
+    <string name="download_description" msgid="6014835283119198591">"ព័ត៌មាន​បច្ចុប្បន្នភាព​វចនានុក្រម"</string>
+    <string name="dictionary_settings_title" msgid="8091417676045693313">"ផ្នែក​បន្ថែម​វចនានុក្រម​​"</string>
+    <string name="dictionary_install_over_metered_network_prompt" msgid="3587517870006332980">"វចនានុក្រម​​​​​អាច​ប្រើ​បាន"</string>
+    <string name="dictionary_settings_summary" msgid="5305694987799824349">"ការ​កំណត់​សម្រាប់​វចនានុក្រម"</string>
+    <string name="user_dictionaries" msgid="3582332055892252845">"វចនានុក្រម​​​អ្នក​ប្រើ"</string>
+    <string name="default_user_dict_pref_name" msgid="1625055720489280530">"វចនានុក្រម​អ្នកប្រើ"</string>
+    <string name="dictionary_available" msgid="4728975345815214218">"វចនានុក្រម​​​អាច​ប្រើ​បាន"</string>
+    <string name="dictionary_downloading" msgid="2982650524622620983">"បច្ចុប្បន្ន​កំពុង​ទាញ​យក"</string>
+    <string name="dictionary_installed" msgid="8081558343559342962">"បាន​ដំឡើង"</string>
+    <string name="dictionary_disabled" msgid="8950383219564621762">"បាន​ដំឡើង បាន​បិទ"</string>
+    <string name="cannot_connect_to_dict_service" msgid="9216933695765732398">"មាន​បញ្ហា​ក្នុង​ការ​​ភ្ជាប់​ទៅ​​សេវា​កម្ម​វចនានុក្រម"</string>
+    <string name="no_dictionaries_available" msgid="8039920716566132611">"គ្មាន​វចនានុក្រម"</string>
+    <string name="check_for_updates_now" msgid="8087688440916388581">"ផ្ទុក​ឡើងវិញ"</string>
+    <string name="last_update" msgid="730467549913588780">"បាន​ធ្វើ​បច្ចុប្បន្នភាព​ចុងក្រោយ"</string>
+    <string name="message_updating" msgid="4457761393932375219">"ពិនិត្យមើល​បច្ចុប្បន្នភាព"</string>
+    <string name="message_loading" msgid="5638680861387748936">"កំពុង​ផ្ទុក..."</string>
+    <string name="main_dict_description" msgid="3072821352793492143">"វចនានុក្រម​ចម្បង"</string>
+    <string name="cancel" msgid="6830980399865683324">"បោះ​បង់​"</string>
+    <string name="go_to_settings" msgid="3876892339342569259">"ការ​កំណត់"</string>
+    <string name="install_dict" msgid="180852772562189365">"ដំឡើង"</string>
+    <string name="cancel_download_dict" msgid="7843340278507019303">"បោះ​បង់​"</string>
+    <string name="delete_dict" msgid="756853268088330054">"លុប"</string>
+    <string name="should_download_over_metered_prompt" msgid="6737084685073734292">"ភាសាដែលបានជ្រើសនៅលើឧបករណ៍ចល័តរបស់អ្នកមានវចនានុក្រមដែលអាចប្រើបាន&lt;br/&gt; យើងសូមណែនាំឲ្យអ្នក&lt;b&gt;ដោនឡូត&lt;/b&gt;វចនានុក្រម<xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> ដើម្បីធ្វើឲ្យការវាយបញ្ចូលរបស់អ្នកប្រសើរឡើង។&lt;br/&gt; &lt;br/&gt; ការដោនឡូតអាចចំណាយពេលមួយ ឬពីរនាទីតាមរយៈប្រព័ន្ធ 3G។ ការគិតប្រាក់អាចនឹងត្រូវបានអនុវត្ត ប្រសិនបើអ្នកមិនប្រើ&lt;b&gt;គម្រោងទិន្នន័យគ្មានដែនកំណត់&lt;/b&gt;ទេនោះ។&lt;br/&gt; ប្រសិនបើអ្នកមិនច្បាស់ថាតើគម្រោងទិន្នន័យប្រភេទណាដែលអ្នកប្រើទេនោះ យើងសូមណែនាំឲ្យអ្នករកមើលការតភ្ជាប់ Wi-Fi ដើម្បីចាប់ផ្តើមដោនឡូតដោយស្វ័យប្រវត្តិ។&lt;br/&gt; &lt;br/&gt; គន្លឹះ៖ អ្នកអាចដោនឡូត និងយកវចនានុក្រមចេញដោយចូលទៅកាន់&lt;b&gt;ភាសា និងបញ្ចូល&lt;/b&gt; នៅក្នុងម៉ឺនុយ&lt;b&gt;ការកំណត់&lt;/b&gt;នៃឧបករណ៍ចល័តរបស់អ្នក។"</string>
+    <string name="download_over_metered" msgid="1643065851159409546">"ទាញ​យក​ឥឡូវ​នេះ (<xliff:g id="SIZE_IN_MEGABYTES">%1$.1f</xliff:g> មេកាបៃ)"</string>
+    <string name="do_not_download_over_metered" msgid="2176209579313941583">"ទាញ​យក​តាម​វ៉ាយហ្វាយ"</string>
+    <string name="dict_available_notification_title" msgid="4583842811218581658">"វចនានុក្រម​អាច​ប្រើ​បាន​សម្រាប់ <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g>"</string>
+    <string name="dict_available_notification_description" msgid="1075194169443163487">"ចុច​ ដើម្បី​ពិនិត្យ​មើល​ឡើង​​វិញ​ និង​ទាញ​យក"</string>
+    <string name="toast_downloading_suggestions" msgid="6128155879830851739">"ទាញ​យក៖ ការ​ស្នើ​សម្រាប់ <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> នឹង​រួចរាល់​ក្នុង​ពេល​ឆាប់ៗ​នេះ។"</string>
+    <string name="version_text" msgid="2715354215568469385">"កំណែ <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="user_dict_settings_add_menu_title" msgid="1254195365689387076">"បន្ថែម"</string>
+    <string name="user_dict_settings_add_dialog_title" msgid="4096700390211748168">"បន្ថែម​ទៅ​វចនានុក្រម"</string>
+    <string name="user_dict_settings_add_screen_title" msgid="5818914331629278758">"ឃ្លា"</string>
+    <string name="user_dict_settings_add_dialog_more_options" msgid="5671682004887093112">"ជម្រើស​ច្រើន"</string>
+    <string name="user_dict_settings_add_dialog_less_options" msgid="2716586567241724126">"ជម្រើស​តិច"</string>
+    <string name="user_dict_settings_add_dialog_confirm" msgid="4703129507388332950">"យល់ព្រម"</string>
+    <string name="user_dict_settings_add_word_option_name" msgid="6665558053408962865">"ពាក្យ៖"</string>
+    <string name="user_dict_settings_add_shortcut_option_name" msgid="3094731590655523777">"ផ្លូវកាត់​៖"</string>
+    <string name="user_dict_settings_add_locale_option_name" msgid="4738643440987277705">"ភាសា៖"</string>
+    <string name="user_dict_settings_add_word_hint" msgid="4902434148985906707">"វាយ​បញ្ចូល​ពាក្យ​"</string>
+    <string name="user_dict_settings_add_shortcut_hint" msgid="2265453012555060178">"ផ្លូវកាត់​ជា​ជម្រើស"</string>
+    <string name="user_dict_settings_edit_dialog_title" msgid="3765774633869590352">"កែ​ពាក្យ"</string>
+    <string name="user_dict_settings_context_menu_edit_title" msgid="6812255903472456302">"កែ"</string>
+    <string name="user_dict_settings_context_menu_delete_title" msgid="8142932447689461181">"លុប"</string>
+    <string name="user_dict_settings_empty_text" msgid="6889278304342592383">"អ្នកមិនមានពាក្យនៅក្នុងវចនានុក្រមអ្នកប្រើទេ។ ដើម្បីបន្ថែមពាក្យ សូមប៉ះប៊ូតុងបន្ថែម (+)។"</string>
+    <string name="user_dict_settings_all_languages" msgid="8276126583216298886">"សម្រាប់​ភាសា​ទាំងអស់"</string>
+    <string name="user_dict_settings_more_languages" msgid="7131268499685180461">"ភាសា​ច្រើន​ទៀត…"</string>
+    <string name="user_dict_settings_delete" msgid="110413335187193859">"លុប"</string>
+    <string name="user_dict_fast_scroll_alphabet" msgid="5431919401558285473">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+
+    <string name="premium_remove_ads_success">អ្នកបានក្លាយជាបុព្វលាភ !!!</string>
+
+    <string name="pro_restore_failed">រកមិនឃើញការទិញព័ត៌មាន!</string>
+
+    <string name="premium_billing_error">ការទិញបានកើតឡើងគឺជាកំហុសមួយ! សូម​ព្យាយាម​ម្តង​ទៀត​នៅ​ពេល​ក្រោយ</string>
+
+    <string name="zibil">Zibil</string>
+
+    <string name="get_started">ចាប់ផ្តើម</string>
+
+    <string name="apply_theme">អនុវត្តស្បែក</string>
+
+    <string name="buy_theme">ទិញស្បែក</string>
+
+    <string name="apply_theme_done">ស្បែកអនុវត្ត</string>
+
+    <string name="apply_font_done">ពុម្ពអក្សរដែលបានអនុវត្ត</string>
+
+    <string name="apply_font_success">ទទួលបានជោគជ័យពុម្ពអក្សរ</string>
+
+    <string name="apply_sticker_done">មេតាដែលបានអនុវត្ត</string>
+
+    <string name="apply_sticker_success">ទទួលបានជោគជ័យនៃផ្ទាំងបិទស្អិត</string>
+
+    <string name="apply_theme_fail">អនុវត្តស្បែកបានបរាជ័យ</string>
+
+    <string name="apply_sticker_fail">អនុវត្តផ្ទាំងបានបរាជ័យ</string>
+
+    <string name="link_json_file">ស្បែក / temes_round.json</string>
+
+    <string name="link_json_top_file">ស្បែក / temes_top.json</string>
+
+    <string name="path_themes_file">ស្បែក / temes_round.json</string>
+
+    <string name="text_rate_5_star_for_rgb_keyboard">អត្រាការប្រាក់</string>
+
+    <string name="text_policy_rgb_keyboard">នយោបាយ</string>
+
+    <string name="text_more">រេចីនចាង</string>
+
+    <string name="text_ledkey_for_life_beauty">ការផ្ញើសារនៅលើក្តារចុច zomj!</string>
+
+    <string name="app_name_emoji">ក្តារចុច emojis ថ្មី 2021</string>
+
+    <string name="text_tab_themes">ស្បែក</string>
+
+    <string name="text_tab_fonts">ពុម្ពអក្សរ</string>
+
+    <string name="text_tab_sticker">ស្លាក</string>
+
+    <string name="text_tab_emoji">emoji</string>
+
+    <string name="text_tab_setting">ការកំណត់</string>
+
+    <string name="text_tab_more">រេចីនចាង</string>
+
+    <string name="hello_blank_fragment">សួស្តី</string>
+
+    <string name="text_loading">កំពុងផ្ទុក ...</string>
+
+    <string name="txt_name_hot_theme">ក្ដោ</string>
+
+    <string name="txt_name_led_theme">ដេលបអមដោ</string>
+
+    <string name="txt_name_animated_theme">អមខ្លុយ</string>
+
+    <string name="txt_name_gradient_theme">ថ្លេ</string>
+
+    <string name="txt_name_color_theme">ប៍ន</string>
+
+    <string name="txt_download_theme">ទាញយកស្បែក</string>
+
+    <string name="txt_get_theme">ទទួលបានស្បែក</string>
+
+    <string name="txt_download_sticker">ទាញយកផ្ទាំង</string>
+
+    <string name="txt_add_sticker">បន្ថែមស្លាកសញ្ញា</string>
+
+    <string name="txt_apply_font">អនុវត្តពុម្ពអក្សរ</string>
+
+    <string name="txt_not_theme">មិនមែនជាស្បែកទេ</string>
+
+    <string name="txt_wallpaper">ផ្ទាំង​រូបភាព</string>
+
+    <string name="txt_MyTheme">ស្បែករបស់ខ្ញុំ</string>
+
+    <string name="txt_tiktok">តាកាខេ</string>
+
+    <string name="txt_animal">សតវ</string>
+
+    <string name="text_check_internet">សូមពិនិត្យមើលការភ្ជាប់អ៊ីនធឺណិតរបស់អ្នកហើយព្យាយាមម្តងទៀតសម្រាប់យកស្បែក!</string>
+
+    <string name="text_check_internet_sticker">សូមពិនិត្យមើលការភ្ជាប់អ៊ីនធឺណិតរបស់អ្នកហើយព្យាយាមម្តងទៀតសម្រាប់ទទួលបានតែម!</string>
+
+    <string name="txt_splash">ក្តារចុច zomj</string>
+
+    <string name="txt_text_policy">ខ្ញុំយល់ស្របនឹងល័ក្ខខ័ណ្ឌនៃការប្រើប្រាស់និងគោលការណ៍ភាពឯកជន</string>
+
+    <string name="select">រេចីសរើស</string>
+
+    <string name="select_all">ជ្រើស​យក​ទាំងអស់</string>
+
+    <string name="copy">ការចម្លង</string>
+
+    <string name="paste">រេនាយោហរការ</string>
+
+    <string name="cut">ចមនេក</string>
+
+    <string name="text_copied">អត្ថបទបានថតចម្លង</string>
+
+    <string name="show_key_special">បង្ហាញតួអក្សរពិសេសលើគ្រាប់ចុច</string>
+
+    <string name="ledkey">កមប៉ុង</string>
+
+    <string name="custom">តមន្យេមតមលាប់</string>
+
+    <string name="help_and_feedbacks">ជួយនិងមតិយោបល់</string>
+
+    <string name="emoji_sticker_gif_and_symbol_keyboard">emoji, chopfer, gif និងក្តារចុចនិមិត្តសញ្ញា</string>
+
+    <string name="_15sp">15SP</string>
+
+    <string name="enter_something_for_test">បញ្ចូលអ្វីមួយសម្រាប់ការធ្វើតេស្ត</string>
+
+    <string name="fonts">ពុម្ពអក្សរ</string>
+
+    <string name="tab_all">តាមងអស់</string>
+
+    <string name="tab_sans_serif">Sans Serif</string>
+
+    <string name="tab_serif">សយច</string>
+
+    <string name="tab_display">ការបង្ហាញ</string>
+
+    <string name="tab_handwriting">សមនេរដៃ</string>
+
+    <string name="tab_script">អត្ថបត</string>
+
+    <string name="tab_tiktok">តាកាខេ</string>
+
+    <string name="tab_instagram">បន្ដោហ្វបេម</string>
+
+    <string name="tab_other">ផ្សេងទៀត</string>
+
+    <string name="no_app">មិនមានកម្មវិធីដើម្បីអនុវត្តការងារខាងក្រៅ</string>
+
+    <string name="clipboard">ក្តារចុច</string>
+
+    <string name="there_is_no_data_in_the_clipboard">មិនមានទិន្នន័យនៅក្នុងក្តារតម្បៀតខ្ទាស់ទេ</string>
+
+    <string name="hidden">កតុមង</string>
+
+    <string name="vibrate">ញ័រ</string>
+
+    <string name="sound">របនិត / រតឹមរតុវ</string>
+
+    <string name="automatic_ncorrection">ដោយស្វ័យប្រវត្តិ កមនេ</string>
+
+    <string name="correction_off">ការកែ បិទ</string>
+
+    <string name="suggestion_off">ការផ្តល់យោបល់  បិទ</string>
+
+    <string name="silent">ដេលសាត់</string>
+
+    <string name="mute">ដេលសប់សាត់</string>
+
+    <string name="language">ផាសា</string>
+
+    <string name="show_n_suggestions">បង្ហាញ ការផ្ដល់យោបល់</string>
+
+    <string name="more">រេចីនចាង</string>
+
+    <string name="sticker">ស្លាក</string>
+
+    <string name="add_sticker">បន្ថែមស្លាកសញ្ញា</string>
+
+    <string name="not_support_sticker">អត្ថបទនេះមិនគាំទ្រផ្ទាំងបិតទេ!</string>
+
+    <string name="add_font">បន្ថែមពុម្ពអក្សរ</string>
+
+    <string name="not_support_font">ពុម្ពអក្សរនេះមិនត្រូវបានគាំទ្រជាភាសារបស់អ្នកទេ</string>
+
+    <string name="apply_themes_success">អនុវត្តប្រធានបទទទួលបានជោគជ័យ</string>
+
+    <string name="let_s_get_started">តោះ​ចាប់ផ្តើម</string>
+
+    <string name="thanks_for_choosing_zomj_keyboard_you_trust_is_very_important_to_us">សូមអរគុណសម្រាប់ការជ្រើសរើសក្តារចុច Zomj ដែលអ្នកទុកចិត្តគឺមានសារៈសំខាន់ណាស់សម្រាប់យើង</string>
+
+    <string name="choose_keyboard">ជ្រើសរើសក្តារចុច</string>
+
+    <string name="data_privacy">ភាពឯកជនទិន្នន័យ</string>
+
+    <string name="zomj_keyboard">ក្តារចុច zomj</string>
+
+    <string name="never_collects_personal_data">កុំប្រមូលទិន្នន័យផ្ទាល់ខ្លួន</string>
+
+    <string name="such_as_password_credit_card_number_etc">ដូចជាលេខសំងាត់លេខកាតឥណទាន។ ល ...</string>
+
+    <string name="how_do_we_protect_personal_data">តើយើងការពារទិន្នន័យផ្ទាល់ខ្លួនយ៉ាងដូចម្តេច?</string>
+
+    <string name="accept">តតយល</string>
+
+    <string name="customize">រាយនាមធ៍</string>
+
+    <string name="background">ផ្ទៃខាងរេកាយ</string>
+
+    <string name="key">កុនសោ</string>
+
+    <string name="effect">ផល</string>
+
+    <string name="double_spacebar_insert_period">រយៈពេលបញ្ចូលអវកាសទ្វេដង</string>
+
+    <string name="automatic_correction">ការកែដោយស្វ័យប្រវត្តិ</string>
+
+    <string name="auto_capitalization">មូលធន​ដោយ​ស្វ័យ​ប្រវត្តិ</string>
+
+    <string name="privacy_policy">គោលការណ៍​ភាព​ឯកជន</string>
+
+    <string name="custom_input">ការបញ្ចូលផ្ទាល់ខ្លួន</string>
+
+    <string name="themes">ស្បែក</string>
+
+    <string name="simple_button">ប៊ូតុងសាមញ្ញ</string>
+
+    <string name="popular_button">ប៊ូតុងពេញនិយម</string>
+
+    <string name="text_color">ពណ៌អត្ថបទ</string>
+
+    <string name="toolbar_color">ពណ៌របារឧបករណ៍</string>
+
+    <string name="key_effect">បែបផែនគ្រាប់ចុចសំខាន់</string>
+
+    <string name="You_need_to_enable_permissions_to_use_this_feature">អ្នកត្រូវអនុញ្ញាតឱ្យអនុញ្ញាតសិទ្ធិក្នុងការប្រើលក្ខណៈពិសេសនេះ</string>
+
+    <string name="go_to_setting">ទៅការកំណត់</string>
+
+    <string name="go_back">ត្រឡប់​ក្រោយ</string>
+
+    <string name="access_is_denied">ការចូលប្រើត្រូវបានបដិសេធ</string>
+
+    <string name="error_down_background">កំហុសផ្ទៃខាងក្រោយ</string>
+
+    <string name="_0">0</string>
+
+    <string name="download_and_use_free_150_theme">ទាញយកនិងប្រើស្បែកឥតគិតថ្លៃ 150+</string>
+
+    <string name="unlock_all_themes">ដោះសោស្បែកទាំងអស់</string>
+
+    <string name="_199_month">1.99 ដុល្លារ / ខែ</string>
+
+    <string name="_1999_year">19.99 ដុល្លារ / ឆ្នាំ (សន្សំបាន 2 ខែ)</string>
+
+    <string name="_2999_uses">29,99 ដុល្លារ / ប្រើជាអចិន្ត្រៃយ៍</string>
+
+    <string name="try_3_days_free_1_99_mo_after_trial_ends">ព្យាយាម 3 ថ្ងៃដោយឥតគិតថ្លៃ។ 1.99 / M បន្ទាប់ពីការជំនុំជម្រះក្តីចប់</string>
+
+    <string name="continue1">បន្ដ</string>
+
+    <string name="already_pro">គាំទ្ររួចហើយ?</string>
+
+    <string name="trial_will_automatically">ការជំនុំជម្រះនឹងបំលែងជាវប្រចាំខែវិញ <font fgcolor='#000000'>កញ្ញា 18, 2021</font>
+        លើកលែងតែបានលុបចោលយ៉ាងហោចណាស់ 24 ម៉ោងមុន</string>
+
+    <string name="your_design_will_be_lost">ការរចនារបស់អ្នកនឹងត្រូវបាត់បង់តើអ្នកពិតជាចង់ចេញក្រៅមែនទេ?</string>
+
+    <string name="cancel_theme">លប់ចោល</string>
+
+    <string name="yes_theme">បាត</string>
+
+    <string name="premium_billing_not_avaiable">សេវាកម្មទិញមិនមានឬមានកំហុសទេ</string>
+
+    <string name="key_sound">សំឡេងសំខាន់</string>
+
+    <string name="set_name_keyboard">កំណត់ក្តារចុចឈ្មោះ</string>
+
+    <string name="zomj_themes">សាកសព zomj ...</string>
+
+    <string name="save_theme">សរេង្គាហ</string>
+
+    <string name="enter_name_keyboard">សូមបញ្ចូលឈ្មោះក្តារចុច</string>
+
+    <string name="theme_creation_failed">ការបង្កើតប្រធានបទបានបរាជ័យ</string>
+
+    <string name="theme_creation_success">ការបង្កើតប្រធានបទទទួលបានជោគជ័យ</string>
+
+    <string name="themes_1">ស្បែក 1</string>
+
+    <string name="delete_themes">លុបស្បែក</string>
+
+    <string name="are_you_sure_delete">តើអ្នកពិតជាចង់លុបប្រធានបទនេះមែនឬ?</string>
+
+    <string name="no">ដេលក្ផាន</string>
+
+    <string name="premium_subscription_month">%1$s/ ែ</string>
+
+    <string name="premium_subscription_year">%1$s/ឆ្នាំ</string>
+
+    <string name="premium_subscription_permanently">%1$s/បានប្រើជាអចិន្ត្រៃយ៍</string>
+
+    <string name="best_offer">ការលក់ដុរ</string>
+
+    <string name="txt_tab_stickers">ស្លាក</string>
+
+    <string name="txt_tab_emojis">emoji</string>
+
+    <string name="txt_tab_trending">ការធេវីអាេយវៀង</string>
+
+    <string name="txt_tab_top">ឯផ្ទលើ</string>
+
+    <string name="txt_tab_latest">យឺតបមផុត</string>
+
+    <string name="txt_tab_cosplay">តល់ផូសាយ</string>
+
+    <string name="no_favorite_emoji_yet">មិនមាន emoji ដែលអ្នកចូលចិត្តនៅឡើយទេ</string>
+
+    <string name="no_recent_sticker_yet">អ្នកមិនទាន់បានប្រើផ្ទាំងណាមួយនៅឡើយទេ</string>
+
+    <string name="phan_tram">%</string>
+
+    <string name="name_keyboard_exist">ឈ្មោះក្តារចុចមានរួចហើយ</string>
+
+    <string name="premium_desp_download">ទាញយកឥតគិតថ្លៃទាំងអស់</string>
+
+    <string name="premium_desp_remove_ads">ដក​ការ​ផ្សព្វផ្សាយ</string>
+
+    <string name="premium_desp_cancel">បោះបង់គ្រប់ពេល</string>
+
+    <string name="unlock_all_theme">ដោះសោស្បែកទាំងអស់</string>
+
+    <string name="unlock_pro_features">ដោះសោលក្ខណៈពិសេសគាំទ្រ</string>
+
+    <string name="des_unlock_pro_features">ប្រើមុខងារទាំងអស់របស់គណនីគាំទ្រ</string>
+
+    <string name="unlock_all_style_custom_led">ដោះសោ LED គ្រប់ប្រភេទ</string>
+
+    <string name="des_unlock_all_style_custom_led">ប្ដូរតាមបំណងរាល់ក្តារចុច LED</string>
+
+    <string name="des_remove_ads">បំបាត់ការផ្សព្វផ្សាយទាំងអស់នៅពេលអ្នកប្រើកម្មវិធី</string>
+
+    <string name="detail_theme_error_remove_theme_current">អ្នកមិនអាចលុបស្បែកដែលអ្នកកំពុងប្រើបានទេ!</string>
+
+    <string name="pro_purchase_description">អ្នកអាចបោះបង់ការជាវរបស់អ្នកបានគ្រប់ពេលនៅក្នុងផ្នែកជាវនៅលើ Google Play ។ នៅពេលអ្នកបោះបង់ការជាវរបស់អ្នកអ្នកនឹងបាត់បង់សិទ្ធិចូលប្រើការជាវនៅចុងបញ្ចប់នៃរយៈពេលចេញវិក្កយបត្របច្ចុប្បន្ន។</string>
+    <string name="add_more_emojis_combos">បន្ថែម emojis បន្ថែមទៀត</string>
+    <string name="done">រ្យេឱដេនោ</string>
+    <string name="error_load_data_billing">កំហុសក្នុងការផ្ទុកព័ត៌មានជាវសម្រាប់ហេតុផលមួយចំនួន សូមព្យាយាមម្តងទៀត</string>
+    <string name="retry">ព្យាយាមម្តងទៀត</string>
+
+    <string name="activate_zomj_keyboard">ធ្វើឱ្យក្តារចុច zomj សកម្ម</string>
+    <string name="step_1_activate">ជំហានទី 1. ធ្វើឱ្យសកម្ម</string>
+    <string name="step_2_select">ជំហានទី 2. ជ្រើសរើស</string>
+    <string name="activate_zomj_keyboard_to_enable_more_themes_and_emojis">* ធ្វើឱ្យក្តារចុច zomj សកម្មដើម្បីបើកដំណើរការស្បែកនិង emojis បន្ថែមទៀត</string>
+    <string name="download_this_theme_to_apply">ទាញយកស្បែកនេះដើម្បីអនុវត្ត</string>
+    <string name="download_this_font_to_apply">ទាញយកពុម្ពអក្សរនេះដើម្បីអនុវត្ត</string>
+    <string name="download">របចាបរេកា</string>
+
+    <string name="remove_all_ads">លុបការផ្សាយពាណិជ្ជកម្មទាំងអស់ចេញ</string>
+    <string name="get">តតយល / បាន</string>
+    <string name="download_this_sticker_to_use">ទាញយកផ្ទាំងនេះដើម្បីប្រើ</string>
+    <string name="this_is_actually_amazing_keyboad">នេះពិតជាក្តារចុចដ៏អស្ចារ្យ!</string>
+    <string name="you_might_also_like">អ្នកអាច alse ដូច</string>
+    <string name="try_your_new_theme">សាកល្បងស្បែកថ្មីរបស់អ្នក</string>
+    <string name="please_enter_content">សូមបញ្ចូលមាតិកា</string>
+    <string name="get_sticker">ទទួលបានបិទស្អិត</string>
+    <string name="illuminate_your_experience_with_our_zomj_keyboard">បំភ្លឺបទពិសោធន៍របស់អ្នកជាមួយក្តារចុច zomj របស់យើង!</string>
+    <string name="our_zomj_stickers_add_dynamic_hues">ផ្ទាំង ZOMJ របស់យើងបន្ថែមការគូសបញ្ជាក់ថាមវន្ត!</string>
+    <string name="continuee">បន្ដ</string>
+    <string name="pick_a_theme_you_like_and_get_started">ជ្រើសរើសប្រធានបទដែលអ្នកចូលចិត្តនិងពិសោធន៍</string>
+    <string name="unique_theme">ប្រធានបទពិសេស</string>
+    <string name="current_theme">ស្បែកបច្ចុប្បន្ន</string>
+    <string name="theme_led">ស្បែកដឹកនាំ</string>
+    <string name="theme_color">ពណ៌ស្បែក</string>
+    <string name="read_external_dictionary_error">មាន​កំហុស​មួយ​គឺ</string>
+
+</resources>

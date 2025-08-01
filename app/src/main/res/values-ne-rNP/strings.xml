@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="no_support_number_keyboard">संख्यात्मक कुञ्जीप्याडको लागि समर्थन छैन</string>
+    <string name="the_maximum_number_of_characters_has_been_reached">वर्णहरूको अधिकतम संख्या पुगेको छ</string>
+    <string name="no_support_this_language_keyboard"> यो भाषा किबोर्ड हाल समर्थित छैन  </string>
+    <string name="langauge_detection">                भाषिक पहिचान  </string>
+    <string name="app_language">आवेदन भाषा</string>
+    <string name="not_support_gif">यो एडेटेटेक्स्ट समर्थन gif!</string>
+    <string name="you_haven_t_created_a_theme_yet">तपाईंले अझै विषयवस्तु सिर्जना गर्नुभएको छैन</string>
+    <string name="an_error_select_the_image">छवि चयन गर्दा त्यहाँ त्रुटि छ! फेरि प्रयास गर्नुहोस।</string>
+    <string name="txt_featured"> चित्रित गरियो </string>
+    <string name="change_size">  आकार परिवर्तन गर्नुहोस्  </string>
+    <string name="crop_image">   क्रप छवि  </string>
+    <string name="crop">         फसल         </string>
+    <string name="gallery">      प्रदर्शन भवन       </string>
+    <string name="store">        पसल </string>
+    <string name="premium_remove_ads_success">तपाईं एक प्रीमियम बन्नुभयो !!!</string>
+
+    <string name="pro_restore_failed">जानकारी खरीद फेला परेन!</string>
+
+    <string name="premium_billing_error">खरीद त्रुटि भयो! फेरी प्रयास गर्नु होला</string>
+
+    <string name="zibil">जोबेरी</string>
+
+    <string name="get_started">सुरु गर</string>
+
+    <string name="apply_theme">विषयवस्तु लागू गर्नुहोस्</string>
+
+    <string name="buy_theme">थिम किन्नुहोस्</string>
+
+    <string name="apply_theme_done">लागू विषयवस्तु</string>
+
+    <string name="apply_font_done">लागू फन्ट</string>
+
+    <string name="apply_font_success">लागू फन्ट सफलता</string>
+
+    <string name="apply_sticker_done">लागू स्टिकर</string>
+
+    <string name="apply_sticker_success">लागू स्टिकर सफलता</string>
+
+    <string name="apply_theme_fail">विषयवस्तु लागू गरियो</string>
+
+    <string name="apply_sticker_fail">स्टिकर लागू गर्नुहोस्</string>
+
+    <string name="link_json_file">विषयवस्तु / थिमहरू_न्डर .js टोसन</string>
+
+    <string name="link_json_top_file">विषयवस्तु / थिमफा_टोप</string>
+
+    <string name="path_themes_file">विषयवस्तु / थिमहरू_न्डर .js टोसन</string>
+
+    <string name="text_rate_5_star_for_rgb_keyboard">दर</string>
+
+    <string name="text_policy_rgb_keyboard">नीति</string>
+
+    <string name="text_more">अरु</string>
+
+    <string name="text_ledkey_for_life_beauty">Zomj किबोर्डमा टेक्स्ट गर्दै!</string>
+
+    <string name="app_name_emoji">नयाँ Emojis किबोर्ड 2021</string>
+
+    <string name="text_tab_themes">विषयवस्तु</string>
+
+    <string name="text_tab_fonts">फन्ट</string>
+
+    <string name="text_tab_sticker">टांस्ने पत्र</string>
+
+    <string name="text_tab_emoji">EMOJI</string>
+
+    <string name="text_tab_setting">सेप्ट गर्नु</string>
+
+    <string name="text_tab_more">अरु</string>
+
+    <string name="hello_blank_fragment">नमस्ते खाली भाग</string>
+
+    <string name="text_loading">लोड गर्दै ...</string>
+
+    <string name="txt_name_hot_theme">गरम</string>
+
+    <string name="txt_name_led_theme">लिड</string>
+
+    <string name="txt_name_animated_theme">अनुमोदन गरिएको</string>
+
+    <string name="txt_name_gradient_theme">कहराक</string>
+
+    <string name="txt_name_color_theme">रंग</string>
+
+    <string name="txt_download_theme">Adme डाउनलोड गर्नुहोस्</string>
+
+    <string name="txt_get_theme">थिमहरू पाउनुहोस्</string>
+
+    <string name="txt_download_sticker">स्टिकर डाउनलोड गर्नुहोस्</string>
+
+    <string name="txt_add_sticker">स्टिकर थप्नुहोस्</string>
+
+    <string name="txt_apply_font">फन्ट लागू गर्नुहोस्</string>
+
+    <string name="txt_not_theme">थिम छैन</string>
+
+    <string name="txt_wallpaper">वालपेपर</string>
+
+    <string name="txt_MyTheme">मेरो विषयवस्तुहरू</string>
+
+    <string name="txt_tiktok">टिक टक</string>
+
+    <string name="txt_animal">जनावर</string>
+
+    <string name="text_check_internet">कृपया तपाईंको इन्टर्नेट जडान जाँच गर्नुहोस् र फेरि थिमहरूको लागि पुन: प्रयास गर्नुहोस्!</string>
+
+    <string name="text_check_internet_sticker">कृपया तपाईंको इन्टर्नेट जडान जाँच गर्नुहोस् र स्टिकरको लागि फेरि प्रयास गर्नुहोस्!</string>
+
+    <string name="txt_splash">Zomj किबोर्ड</string>
+
+    <string name="txt_text_policy">म प्रयोगको सर्तहरू र गोपनीयता नीतिमा सहमत छु</string>
+
+    <string name="select">चुन्नु</string>
+
+    <string name="select_all">सबै छान्नु</string>
+
+    <string name="copy">कापी</string>
+
+    <string name="paste">टाँसिनु</string>
+
+    <string name="cut">काट्ने काम</string>
+
+    <string name="text_copied">पाठ प्रतिलिपि गरियो</string>
+
+    <string name="show_key_special">कुञ्जीहरूमा विशेष चरित्र देखाउनुहोस्</string>
+
+    <string name="ledkey">फेररी</string>
+
+    <string name="custom">चलन</string>
+
+    <string name="help_and_feedbacks">मद्दत र प्रतिक्रिया</string>
+
+    <string name="emoji_sticker_gif_and_symbol_keyboard">EMOJI, स्टिकर, gif र प्रतीक कुञ्जीपाटी</string>
+
+    <string name="_15sp">15SSE</string>
+
+    <string name="enter_something_for_test">परीक्षणको लागि केहि प्रविष्ट गर्नुहोस्</string>
+
+    <string name="fonts">फन्ट</string>
+
+    <string name="tab_all">सबै</string>
+
+    <string name="tab_sans_serif">Sans Sigfif</string>
+
+    <string name="tab_serif">सर्निफ</string>
+
+    <string name="tab_display">प्रदर्शन</string>
+
+    <string name="tab_handwriting">हातले लेखेका अक्षर</string>
+
+    <string name="tab_script">लिपि</string>
+
+    <string name="tab_tiktok">टिक टक</string>
+
+    <string name="tab_instagram">इन्स्टाग्राम</string>
+
+    <string name="tab_other">अरु</string>
+
+    <string name="no_app">बाह्य कार्य फेला पार्न कुनै अनुप्रयोग फेला पर्दैन</string>
+
+    <string name="clipboard">क्लिपबोर्ड</string>
+
+    <string name="there_is_no_data_in_the_clipboard">क्लिपबोर्डमा कुनै डाटा छैन</string>
+
+    <string name="hidden">लुकाइएको</string>
+
+    <string name="vibrate">थर्कनु</string>
+
+    <string name="sound">राम्रो अवस्थामा</string>
+
+    <string name="automatic_ncorrection">स्वचालित सच्चाउने काम</string>
+
+    <string name="correction_off">सुधार बन्द</string>
+
+    <string name="suggestion_off">सुझाव बन्द</string>
+
+    <string name="silent">निःशब्द</string>
+
+    <string name="mute">बोल्न नसक्ने</string>
+
+    <string name="language">भाषा</string>
+
+    <string name="show_n_suggestions">कानूनहरू देखाउनुहोस्</string>
+
+    <string name="more">अरु</string>
+
+    <string name="sticker">टांस्ने पत्र</string>
+
+    <string name="add_sticker">स्टिकर थप्नुहोस्</string>
+
+    <string name="not_support_sticker">यो सम्पादनटेक्स्ट समर्थन स्टिकर छैन!</string>
+
+    <string name="add_font">फन्ट जोड्नुहोस्</string>
+
+    <string name="not_support_font">यो फन्ट तपाईंको भाषामा समर्थित छैन</string>
+
+    <string name="apply_themes_success">विषयवस्तु सफलता लागू गर्नुहोस्</string>
+
+    <string name="let_s_get_started">सुरु गरौं</string>
+
+    <string name="thanks_for_choosing_zomj_keyboard_you_trust_is_very_important_to_us">Zomj किबोर्ड छनौट गर्नका लागि धन्यवाद तपाईले विश्वास गर्नुहुन्छ हाम्रोलागि धेरै महत्त्वपूर्ण छ</string>
+
+    <string name="choose_keyboard">किबोर्ड छनौट गर्नुहोस्</string>
+
+    <string name="data_privacy">डाटा गोपनीयता</string>
+
+    <string name="zomj_keyboard">Zomj किबोर्ड</string>
+
+    <string name="never_collects_personal_data">व्यक्तिगत डेटा कहिले पनि संकलन गर्दैन</string>
+
+    <string name="such_as_password_credit_card_number_etc">जस्तै पासवर्ड, क्रेडिट कार्ड नम्बर आदि ...</string>
+
+    <string name="how_do_we_protect_personal_data">हामी कसरी व्यक्तिगत डेटालाई सुरक्षा दिन्छौं?</string>
+
+    <string name="accept">ग्रहण गर्नु</string>
+
+    <string name="customize">अनुकूलन</string>
+
+    <string name="background">पृष्ठभूमि</string>
+
+    <string name="key">सांचो</string>
+
+    <string name="effect">असर</string>
+
+    <string name="double_spacebar_insert_period">डबल स्पेसबार घुसाउनुहोस्</string>
+
+    <string name="automatic_correction">स्वचालित सुधार</string>
+
+    <string name="auto_capitalization">स्वत: क्यापिटलाइजेशन</string>
+
+    <string name="privacy_policy">गोपनीयता नीति</string>
+
+    <string name="custom_input">अनुकूलन इनपुट</string>
+
+    <string name="themes">विषयवस्तु</string>
+
+    <string name="simple_button">सामान्य बटन</string>
+
+    <string name="popular_button">लोकप्रिय बटन</string>
+
+    <string name="text_color">अध्याय रंग</string>
+
+    <string name="toolbar_color">उपकरणपट्टी रंग</string>
+
+    <string name="key_effect">मुख्य प्रभाव</string>
+
+    <string name="You_need_to_enable_permissions_to_use_this_feature">तपाईंले यस सुविधा प्रयोग गर्न अनुमतिहरू सक्षम गर्नु आवश्यक छ</string>
+
+    <string name="go_to_setting">सेटिंग मा जानुहोस्</string>
+
+    <string name="go_back">पछाडी जाउ</string>
+
+    <string name="access_is_denied">प्रवेश निषेद</string>
+
+    <string name="error_down_background">पृष्ठभूमि तल त्रुटि</string>
+
+    <string name="_0">0</string>
+
+    <string name="download_and_use_free_150_theme">डाउनलोड गर्नुहोस् र नि: शुल्क 1 1500+ थिम प्रयोग गर्नुहोस्</string>
+
+    <string name="unlock_all_themes">सबै विषयवस्तु अनलक गर्नुहोस्</string>
+
+    <string name="_199_month">1.999999 / महिना</string>
+
+    <string name="_1999_year">$ 19.99 / / वर्ष (2 महिना बचत गर्नुहोस्)</string>
+
+    <string name="_2999_uses">$ 2..9 / / / स्थायी रूपमा प्रयोग गर्दछ</string>
+
+    <string name="try_3_days_free_1_99_mo_after_trial_ends">Days दिन नि: शुल्क प्रयास गर्नुहोस्। 1.99999999 / mo. परीक्षण समाप्त भएपछि</string>
+
+    <string name="continue1">जारी राख्नु</string>
+
+    <string name="already_pro">पहिले नै प्रो?</string>
+
+    <string name="trial_will_automatically">परीक्षणले स्वचालित रूपमा मासिक सदस्यतामा रूपान्तरण गर्दछ <font fgcolor='#000000'>सेप्टेम्बर 1 ,, 2021</font>
+       कम्तिमा 2 hours घण्टा पहिले रद्द नगरी</string>
+
+    <string name="your_design_will_be_lost">तपाईंको डिजाइन हराउनेछ के तपाईं बाहिर निस्कन चाहानुहुन्छ भन्ने कुरा निश्चित गर्नुहोस्?</string>
+
+    <string name="cancel_theme">रद्द गर्नु</string>
+
+    <string name="yes_theme">हुन्छ</string>
+
+    <string name="premium_billing_not_avaiable">खरीद सेवा उपलब्ध छैन वा त्रुटि</string>
+
+    <string name="key_sound">मुख्य आवाज</string>
+
+    <string name="set_name_keyboard">नाम किबोर्ड सेट गर्नुहोस्</string>
+
+    <string name="zomj_themes">Zomj थिमहरू ...</string>
+
+    <string name="save_theme">बचाउनु</string>
+
+    <string name="enter_name_keyboard">कृपया, किबोर्ड नाम प्रविष्ट गर्नुहोस्</string>
+
+    <string name="theme_creation_failed">विषयवस्तु सृष्टि असफल भयो</string>
+
+    <string name="theme_creation_success">विषयवस्तु क्रिसमस सफलताहरू</string>
+
+    <string name="themes_1">थिम 1</string>
+
+    <string name="delete_themes">बिषयहरू हटाउनुहोस्</string>
+
+    <string name="are_you_sure_delete">के तपाईं पक्का यो विषयवस्तु मेटाउन चाहानुहुन्छ?</string>
+
+    <string name="no">छैन</string>
+
+    <string name="premium_subscription_month">%1$s/महिना</string>
+
+    <string name="premium_subscription_year">%1$s/वर्ष</string>
+
+    <string name="premium_subscription_permanently">%1$s/स्थायी रूपमा प्रयोग गरियो</string>
+
+    <string name="best_offer">बिक्रि</string>
+
+    <string name="txt_tab_stickers">टांस्ने पत्र</string>
+
+    <string name="txt_tab_emojis">EMOJI</string>
+
+    <string name="txt_tab_trending">सजीव पार्नु</string>
+
+    <string name="txt_tab_top">टुप्पो</string>
+
+    <string name="txt_tab_latest">सबभन्दा नया</string>
+
+    <string name="txt_tab_cosplay">कोस्प्ला</string>
+
+    <string name="no_favorite_emoji_yet">कुनै मनपर्दो Emoji छैन</string>
+
+    <string name="no_recent_sticker_yet">तपाईंले अझै कुनै स्टीकर प्रयोग गर्नुभएन</string>
+
+    <string name="phan_tram">%</string>
+
+    <string name="name_keyboard_exist">नाम किबोर्ड पहिले नै अवस्थित छ</string>
+
+    <string name="premium_desp_download">सबै नि: शुल्क डाउनलोड गर्नुहोस्</string>
+
+    <string name="premium_desp_remove_ads">विज्ञापन हटाउनुहोस्</string>
+
+    <string name="premium_desp_cancel">कुनै पनि समय रद्द गर्दै</string>
+
+    <string name="unlock_all_theme">सबै विषयवस्तु अनलक गर्नुहोस्</string>
+
+    <string name="unlock_pro_features">PROLE सुविधाहरू अनलक गर्नुहोस्</string>
+
+    <string name="des_unlock_pro_features">प्रो खाताको सबै कार्यहरू प्रयोग गर्नुहोस्</string>
+
+    <string name="unlock_all_style_custom_led">सबै शैली अनुकूलन नेतृत्व अनलक गर्नुहोस्</string>
+
+    <string name="des_unlock_all_style_custom_led">प्रत्येक नेतृत्व किबोर्ड अनुकूलन गर्नुहोस्</string>
+
+    <string name="des_remove_ads">तपाईंले अनुप्रयोग प्रयोग गर्दा सबै विज्ञापनहरूबाट छुटकारा पाउनुहोस्</string>
+    <string name="english_ime_input_options" msgid="3909945612939668554">"इनपुट विकल्पहरू"</string>
+    <string name="use_contacts_for_spellchecking_option_title" msgid="5374120998125353898">"सम्पर्क नामहरू हेर्नुहोस्"</string>
+    <string name="use_contacts_for_spellchecking_option_summary" msgid="8754413382543307713">"तपाईँको सम्पर्क सूचीबाट हिज्जे परीक्षकले प्रविष्टिहरूको प्रयोग गर्छ"</string>
+    <string name="vibrate_on_keypress" msgid="5258079494276955460">"कुञ्जी थिच्दा भाइब्रेट"</string>
+    <string name="sound_on_keypress" msgid="6093592297198243644">"कुञ्जी थिच्दा आवाज"</string>
+    <string name="popup_on_keypress" msgid="123894815723512944">"कुञ्जी दबाउँदा पपअप"</string>
+    <string name="settings_screen_preferences" msgid="2696713156722014624">"प्राथमिकताहरू"</string>
+    <string name="settings_screen_accounts" msgid="2786418968536696670">"खाताहरू तथा गोपनीयता"</string>
+    <string name="settings_screen_appearance" msgid="7358046399111611615">"आवरण तथा लेआउटहरू"</string>
+    <string name="settings_screen_gesture" msgid="8826372746901183556">"इशारा टाइपिङ"</string>
+    <string name="settings_screen_correction" msgid="1616818407747682955">"पाठ सुधार"</string>
+    <string name="settings_screen_advanced" msgid="7472408607625972994">"उन्नत"</string>
+    <string name="settings_screen_theme" msgid="2137262503543943871">"विषयवस्तु"</string>
+    <string name="enable_split_keyboard" msgid="4177264923999493614">"विभाजित कुञ्जीपाटी सक्षम गर्नुहोस्"</string>
+    <string name="cloud_sync_title" msgid="8579271074443847055">"Google किबोर्ड सिंक गर्नुहोस्"</string>
+    <string name="cloud_sync_summary" msgid="7684887161145650857">"सिंक सक्रिय गरिएको छ"</string>
+    <string name="cloud_sync_summary_disabled" msgid="4553338970382825796">"तपाईंको व्यक्तिगत शब्दकोषलाई यन्त्रहरूमा सिंक गर्नुहोस्"</string>
+    <string name="sync_now_title" msgid="3088838136743277721">"अहिले सिंक गर्नुहोस्"</string>
+    <string name="clear_sync_data_title" msgid="8582001557037069154">"क्लाउड डेटा मेटाउनुहोस्"</string>
+    <string name="clear_sync_data_summary" msgid="993477139012576584">"Google बाट तपाईँको सिंक गरिएको डाटा मेटाउँछ"</string>
+    <string name="clear_sync_data_confirmation" msgid="2811931135574727678">"तपाईँको सिंक गरिएको डेटालाई क्लाउडबाट मेटाइनेछ। के तपाईँ निश्चित हुनुहुन्छ?"</string>
+    <string name="clear_sync_data_ok" msgid="613104067705915132">"मेटाउनुहोस्"</string>
+    <string name="cloud_sync_cancel" msgid="5877481252150919037">"रद्द गर्नुहोस्"</string>
+    <string name="cloud_sync_opt_in_text" msgid="9176039655776298248">"तपाईँको व्यक्तिगत शब्दकोश सिंक गरेर Google सर्भरहरूमा जगेडा राखिने छ। शब्द आवृत्तिको तथ्याङ्क जानकारी हाम्रो उत्पादनहरू सुधार गर्न मद्दतका लागि संकलन हुन सक्छ। संग्रह र सबै जानकारीको प्रयोग  "<a href="https://www.google.com/policies/privacy">" Google को गोपनीयता नीति "</a>" अनुरूप हुने छ।"</string>
+    <string name="add_account_to_enable_sync" msgid="7836932571852055265">"कृपया यो सुविधा सक्षम गर्न यो यन्त्रमा एउटा Google खाता थप्नुहोस्"</string>
+    <string name="cloud_sync_summary_disabled_work_profile" msgid="1381770407303129164">"व्यापार खाताहरूको लागि Google Apps मार्फत यन्त्रको लागि सिंक उपलब्ध छैन"</string>
+    <string name="include_other_imes_in_language_switch_list" msgid="4533689960308565519">"अन्य इनपुट विधिमा स्विच गर्नुहोस्"</string>
+    <string name="include_other_imes_in_language_switch_list_summary" msgid="840637129103317635">"भाषा स्विच किले अन्य इनपुट विधि पनि समेट्छ"</string>
+    <string name="show_language_switch_key" msgid="5915478828318774384">"भाषा स्विच कुञ्जी"</string>
+    <string name="show_language_switch_key_summary" msgid="7343403647474265713">"जब बहुसङ्ख्यक इनपुट भाषाहरू सक्षम भएपछि देखाउनुहोस्"</string>
+    <string name="key_preview_popup_dismiss_delay" msgid="6213164897443068248">"कि पपअप खारेजी ढिलाइ"</string>
+    <string name="key_preview_popup_dismiss_no_delay" msgid="2096123151571458064">"ढिलाइ छैन"</string>
+    <string name="key_preview_popup_dismiss_default_delay" msgid="2166964333903906734">"पूर्वनिर्धारित"</string>
+    <string name="abbreviation_unit_milliseconds" msgid="8700286094028323363">"<xliff:g id="MILLISECONDS">%s</xliff:g> मिलिसेकेन्ड"</string>
+    <string name="settings_system_default" msgid="6268225104743331821">"पूर्वनिर्धारित प्रणाली"</string>
+    <string name="use_contacts_dict" msgid="4435317977804180815">"सम्पर्क नामहरू सुझाव गर्नुहोस्"</string>
+    <string name="use_contacts_dict_summary" msgid="6599983334507879959">"सुझाव र सुधारका लागि सम्पर्कबाट नामहरू प्रयोग गर्नुहोस्"</string>
+    <string name="use_personalized_dicts" msgid="5167396352105467626">"निजीकृत सुझावहरू"</string>
+    <string name="enable_metrics_logging" msgid="5506372337118822837">"<xliff:g id="APPLICATION_NAME">%s</xliff:g>सुधार गर्नुहोस्"</string>
+    <string name="use_double_space_period" msgid="8781529969425082860">"डबल-स्पेस पूर्णविराम"</string>
+    <string name="use_double_space_period_summary" msgid="6532892187247952799">"स्पेसबारमा डबल ट्याप गर्नाले पूर्णविरामपछि स्पेस राख्दछ"</string>
+    <string name="auto_cap" msgid="1719746674854628252">"स्वतः क्यापिटलाइजेसन"</string>
+    <string name="auto_cap_summary" msgid="7934452761022946874">"प्रत्येक वाक्यको पहिलो शब्द क्यापिटल गर्नुहोस्"</string>
+    <string name="edit_personal_dictionary" msgid="3996910038952940420">"व्यक्तिगत शब्दकोश"</string>
+    <string name="configure_dictionaries_title" msgid="4238652338556902049">"एड-अन शब्दकोश"</string>
+    <string name="main_dictionary" msgid="4798763781818361168">"मुख्य शब्दकोश"</string>
+    <string name="prefs_show_suggestions" msgid="8026799663445531637">"सुधार सुझावहरू देखाउने"</string>
+    <string name="prefs_show_suggestions_summary" msgid="1583132279498502825">"टाइप गर्ने बेलामा सुझाव शब्दहरू देखाउनुहोस्"</string>
+    <string name="prefs_block_potentially_offensive_title" msgid="5078480071057408934">"आपत्तिजनक शब्दहरूलाई रोक्नुहोस्"</string>
+    <string name="prefs_block_potentially_offensive_summary" msgid="2371835479734991364">"सम्भावित आपत्तिजनक शब्दहरू सुझाव नगर्नुहोस्"</string>
+    <string name="auto_correction" msgid="7630720885194996950">"स्वतः सुधार"</string>
+    <string name="auto_correction_summary" msgid="5625751551134658006">"गल्ती टाइप भएका शब्दहरूलाई स्पेसबार र पङ्चुएसनले स्वचालित रूपमा सच्याउँछन्।"</string>
+    <string name="auto_correction_threshold_mode_off" msgid="8470882665417944026">"बन्द"</string>
+    <string name="auto_correction_threshold_mode_modest" msgid="8788366690620799097">"सामान्य"</string>
+    <string name="auto_correction_threshold_mode_aggressive" msgid="7319007299148899623">"आक्रामक"</string>
+    <string name="auto_correction_threshold_mode_very_aggressive" msgid="1853309024129480416">"ज्यादै आक्रामक"</string>
+    <string name="bigram_prediction" msgid="1084449187723948550">"अर्को शब्द सुझाव"</string>
+    <string name="bigram_prediction_summary" msgid="3896362682751109677">"सुझावहरू निर्माण गर्न अघिल्लो शब्द प्रयोग गर्नुहोस्"</string>
+    <string name="gesture_input" msgid="826951152254563827">"इशारा टाइप गर्ने सक्षम पार्नुहोस्"</string>
+    <string name="gesture_input_summary" msgid="9180350639305731231">"अक्षर स्लाइड गरी शब्द इनपुट गर्नुहोस्"</string>
+    <string name="gesture_preview_trail" msgid="3802333369335722221">"इशारा ट्रेल देखाउनुहोस्"</string>
+    <string name="gesture_floating_preview_text" msgid="4443240334739381053">"गतिशील फ्लोटिङ पूर्वावलोकन"</string>
+    <string name="gesture_floating_preview_text_summary" msgid="4472696213996203533">"इशारा गर्दा सुझाव दिइएको शब्द हेर्नुहोस्"</string>
+    <string name="gesture_space_aware" msgid="2078291600664682496">"वाक्यांश इशारा"</string>
+    <string name="gesture_space_aware_summary" msgid="4371385818348528538">"इशाराको बखतमा स्पेस कुञ्जीमा ग्लाईडिंग द्वारा आगत खाली ठाउँहरू"</string>
+    <string name="voice_input" msgid="3583258583521397548">"आवाज इनपुट कुञ्जी"</string>
+    <string name="voice_input_disabled_summary" msgid="6323489602945135165">"कुनै पनि आवाज इनपुट विधिलाई सक्रिय गरिएको छैन। भाषा र इनपुट सम्बन्धी सेटिङहरूलाई जाँच गर्नुहोस्।"</string>
+    <string name="configure_input_method" msgid="373356270290742459">"इनपुट विधिहरू कन्फिगर गर्नुहोस्"</string>
+    <string name="language_selection_title" msgid="3666971864764478269">"भाषाहरू"</string>
+    <string name="help_and_feedback" msgid="5328219371839879161">"मद्दत र प्रतिक्रिया"</string>
+    <string name="select_language" msgid="5709487854987078367">"भाषाहरू"</string>
+    <string name="hint_add_to_dictionary" msgid="2645988432867033007">"सुरक्षित गर्न फेरि ट्याप गर्नुहोस्"</string>
+    <string name="hint_add_to_dictionary_without_word" msgid="6710206006427574423">"सुरक्षित गर्न यहाँ ट्याप गर्नुहोस्"</string>
+    <string name="has_dictionary" msgid="6071847973466625007">"उपलब्ध शब्दकोश"</string>
+    <string name="keyboard_layout" msgid="8451164783510487501">"किबोर्ड थिम"</string>
+    <string name="switch_accounts" msgid="3321216593719006162">"खाताहरू स्विच गर्नुहोस्"</string>
+    <string name="no_accounts_selected" msgid="2073821619103904330">"कुनै खाता चयन गरिएको छैन"</string>
+    <string name="account_selected" msgid="2846876462199625974">"हाल प्रयोग गर्दै <xliff:g id="EMAIL_ADDRESS">%1$s</xliff:g>"</string>
+    <string name="account_select_ok" msgid="9141195141763227797">"ठीक छ"</string>
+    <string name="account_select_cancel" msgid="5181012062618504340">"रद्द गर्नुहोस्"</string>
+    <string name="account_select_sign_out" msgid="3299651159390187933">"बाहिर निकल्नुहोस्"</string>
+    <string name="account_select_title" msgid="6279711684772922649">"प्रयोग गर्न खाता चयन गर्नुहोस्"</string>
+    <string name="subtype_en_GB" msgid="88170601942311355">"अंग्रेजी (युके)"</string>
+    <string name="subtype_en_US" msgid="6160452336634534239">"अंग्रेजी (युएस्)"</string>
+    <string name="subtype_es_US" msgid="5583145191430180200">"स्पेनिस (युएस्)"</string>
+    <string name="subtype_hi_ZZ" msgid="8860448146262798623">"हिङ्लिस"</string>
+    <string name="subtype_sr_ZZ" msgid="9059219552986034343">"सर्बियाई (ल्याटिन)"</string>
+    <string name="subtype_with_layout_en_GB" msgid="1931018968641592304">"अंग्रेजी (बेलायत) ( <xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g> )"</string>
+    <string name="subtype_with_layout_en_US" msgid="8809311287529805422">"अंग्रेजी (अमेरिका) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_es_US" msgid="510930471167541338">"स्पेनेली (अमेरिका) (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_hi_ZZ" msgid="6827402953860547044">"हिङ्लिस (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_sr_ZZ" msgid="2859024772719772407">"सर्बियाई (<xliff:g id="KEYBOARD_LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_generic_traditional" msgid="8584594350973800586">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (परम्परागत)"</string>
+    <string name="subtype_generic_compact" msgid="3353673321203202922">"<xliff:g id="LANGUAGE_NAME">%s</xliff:g> (संकुचित)"</string>
+    <string name="subtype_no_language" msgid="7137390094240139495">"कुनै भाषा होइन (वर्णमाला)"</string>
+    <string name="subtype_no_language_qwerty" msgid="244337630616742604">"वर्णमाला (QWERTY)"</string>
+    <string name="subtype_no_language_qwertz" msgid="443066912507547976">"वर्णमाला (QWERTZ)"</string>
+    <string name="subtype_no_language_azerty" msgid="8144348527575640087">"वर्णमाला (AZERTY)"</string>
+    <string name="subtype_no_language_dvorak" msgid="1564494667584718094">"वर्णमाला (Dvorak)"</string>
+    <string name="subtype_no_language_colemak" msgid="5837418400010302623">"वर्णमाला (Colemak)"</string>
+    <string name="subtype_no_language_pcqwerty" msgid="5354918232046200018">"वर्णमाला (PC)"</string>
+    <string name="subtype_emoji" msgid="7483586578074549196">"इमोजी"</string>
+    <string name="keyboard_theme" msgid="4909551808526178852">"किबोर्ड थिम"</string>
+    <string name="custom_input_styles_title" msgid="8429952441821251512">"आफू अनुकूल इनपुट शैली"</string>
+    <string name="add_style" msgid="6163126614514489951">"शैली थप्नुहोस्"</string>
+    <string name="add" msgid="8299699805688017798">"थप्नुहोस्"</string>
+    <string name="remove" msgid="4486081658752944606">"हटाउनुहोस्"</string>
+    <string name="save" msgid="7646738597196767214">"बचत गर्नुहोस्"</string>
+    <string name="subtype_locale" msgid="8576443440738143764">"भाषा"</string>
+    <string name="keyboard_layout_set" msgid="4309233698194565609">"लेआउट"</string>
+    <string name="custom_input_style_note_message" msgid="8826731320846363423">"तपाईँले प्रयोग गर्न सुरु गर्न अघि तपाईँको आफू अनुकूल इनपुट शैली सक्षम पारिनु पर्छ। के तपाईँ यसलाई अहिले सक्षम पार्न चाहनु हुन्छ?"</string>
+    <string name="enable" msgid="5031294444630523247">"सक्षम पार्नुहोस्"</string>
+    <string name="not_now" msgid="6172462888202790482">"अहिले होइन"</string>
+    <string name="custom_input_style_already_exists" msgid="8008728952215449707">"यस्तो इनपुट शैली पहिले नै अवस्थित छ: <xliff:g id="INPUT_STYLE_NAME">%s</xliff:g>"</string>
+    <string name="prefs_keypress_vibration_duration_settings" msgid="7918341459947439226">"कुञ्जी थिचाइ भाइब्रेसन अवधि"</string>
+    <string name="prefs_keypress_sound_volume_settings" msgid="6027007337036891623">"कुञ्जी थिचाइ आवाज भोल्युम"</string>
+    <string name="prefs_key_longpress_timeout_settings" msgid="6102240298932897873">"कुञ्जीको लामो थिचाइमा ढिलाइ"</string>
+    <string name="prefs_enable_emoji_alt_physical_key" msgid="5963640002335470112">"भौतिक किबोर्डको लागि इमोजी"</string>
+    <string name="prefs_enable_emoji_alt_physical_key_summary" msgid="5259484820941627827">"भौतिक Alt कुञ्जीले इमोजी प्यालेट देखाउँछ"</string>
+    <string name="button_default" msgid="3988017840431881491">"पूर्वनिर्धारित"</string>
+    <string name="setup_welcome_title" msgid="6112821709832031715">"तपाईँलाई स्वागत छ<xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_welcome_additional_description" msgid="8150252008545768953">"इशारा टाइप गर्नेसँग"</string>
+    <string name="setup_start_action" msgid="8936036460897347708">"सुरु गरौं"</string>
+    <string name="setup_next_action" msgid="371821437915144603">"अर्को चरण"</string>
+    <string name="setup_steps_title" msgid="6400373034871816182">"स्थापना गर्दै <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_step1_title" msgid="3147967630253462315">"सक्षम पार्नुहोस् <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_step1_instruction" msgid="4295448056733329661">"कृपया आफ्नो भाषा र इनपुट सम्बन्धी सेटिङहरूमा \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" अनुप्रयोगलाई जाँच गर्नुहोस्। यस कारबाहीले अनुप्रयोगलाई तपाईँको यन्त्रमा सञ्चालन हुन आधिकार प्रदान गर्नेछ।"</string>
+    <string name="setup_step1_finished_instruction" msgid="8701441895377434947">"तपाईँको भाषा र इनपुट सम्बन्धी सेटिङहरूमा <xliff:g id="APPLICATION_NAME">%s</xliff:g> लाई पहिले नै सक्रिय गरिएको छ, त्यसैले यो चरण सम्पन्न भइसकेको छ। अर्को चरणमा जानुहोस्!"</string>
+    <string name="setup_step1_action" msgid="4366513534999901728">"सेटिङहरूमा सक्षम पार्नुहोस्"</string>
+    <string name="setup_step2_title" msgid="6860725447906690594">"<xliff:g id="APPLICATION_NAME">%s</xliff:g>मा स्विच गर्नुहोस्"</string>
+    <string name="setup_step2_instruction" msgid="9141481964870023336">"त्यसपछि, \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" लाई तपाईँको सक्रिय पाठ इनपुट विधिका रूपमा चयन गर्नुहोस्।"</string>
+    <string name="setup_step2_action" msgid="1660330307159824337">"इनपुट विधि स्विच गर्नुहोस्"</string>
+    <string name="setup_step3_title" msgid="3154757183631490281">"बधाई छ, तपाईँले सेट पुरा गर्नुभयो!"</string>
+    <string name="setup_step3_instruction" msgid="8025981829605426000">"अब तपाईँ <xliff:g id="APPLICATION_NAME">%s</xliff:g>का साथ तपाईँका सम्पूर्ण मनपर्ने अनुप्रयोगहरू टाइप गर्न सक्नुहुन्छ।"</string>
+    <string name="setup_step3_action" msgid="600879797256942259">"थप भाषाहरू कन्फिगर गर्नुहोस्"</string>
+    <string name="setup_finish_action" msgid="276559243409465389">"समाप्त भयो"</string>
+    <string name="show_setup_wizard_icon" msgid="5008028590593710830">"अनुप्रयोग आइकन देखाउनुहोस्"</string>
+    <string name="show_setup_wizard_icon_summary" msgid="4119998322536880213">"लन्चरमा अनुप्रयोग आइकन देखाउनुहोस्"</string>
+    <string name="app_name" msgid="6320102637491234792">"शब्दकोश प्रदायक"</string>
+    <string name="dictionary_provider_name" msgid="3027315045397363079">"शब्दकोश प्रदायक"</string>
+    <string name="dictionary_service_name" msgid="6237472350693511448">"शब्दकोश सेवा"</string>
+    <string name="download_description" msgid="6014835283119198591">"शब्दकोश अद्यावधिक जानकारी"</string>
+    <string name="dictionary_settings_title" msgid="8091417676045693313">"एड-अन शब्दकोश"</string>
+    <string name="dictionary_install_over_metered_network_prompt" msgid="3587517870006332980">"उपलब्ध शब्दकोश"</string>
+    <string name="dictionary_settings_summary" msgid="5305694987799824349">"शब्दकोशहरूका लागि सेटिङहरू"</string>
+    <string name="user_dictionaries" msgid="3582332055892252845">"प्रयोगकर्ता शब्दकोशहरू"</string>
+    <string name="default_user_dict_pref_name" msgid="1625055720489280530">"प्रयोगकर्ता शब्दकोश"</string>
+    <string name="dictionary_available" msgid="4728975345815214218">"उपलब्ध शब्दकोश"</string>
+    <string name="dictionary_downloading" msgid="2982650524622620983">"हाल डाउनलोड गर्दै"</string>
+    <string name="dictionary_installed" msgid="8081558343559342962">"स्थापित"</string>
+    <string name="dictionary_disabled" msgid="8950383219564621762">"स्थापित, असक्षम पारिएको"</string>
+    <string name="cannot_connect_to_dict_service" msgid="9216933695765732398">"शब्दकोश सेवासँग जोड्न समस्या"</string>
+    <string name="no_dictionaries_available" msgid="8039920716566132611">"शब्दकोशहरू उपलब्ध छैनन्"</string>
+    <string name="check_for_updates_now" msgid="8087688440916388581">"पुनः ताजा गर्नुहोस्"</string>
+    <string name="last_update" msgid="730467549913588780">"पछिल्लो अद्यावधिक"</string>
+    <string name="message_updating" msgid="4457761393932375219">"अद्यावधिकको लागि जाँच गर्दै"</string>
+    <string name="message_loading" msgid="5638680861387748936">"लोड हुँदै..."</string>
+    <string name="main_dict_description" msgid="3072821352793492143">"मुख्य शब्दकोश"</string>
+    <string name="cancel" msgid="6830980399865683324">"रद्द गर्नुहोस्"</string>
+    <string name="go_to_settings" msgid="3876892339342569259">"सेटिङ्हरू"</string>
+    <string name="install_dict" msgid="180852772562189365">"स्थापना गर्नुहोस्"</string>
+    <string name="cancel_download_dict" msgid="7843340278507019303">"रद्द गर्नुहोस्"</string>
+    <string name="delete_dict" msgid="756853268088330054">"मेट्नुहोस्"</string>
+    <string name="should_download_over_metered_prompt" msgid="6737084685073734292">"तपाईँको मोबाइल यन्त्रमा चयन गरिएको भाषाको शब्दकोष उपलब्ध छ।&lt;br/&gt; आफ्नो टाइपिङ सम्बन्धी अनुभवलाई सुधार गर्नका लागि हामी तपाईँलाई <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> शब्दकोष &lt;b&gt;डाउनलोड गर्न&lt;/b&gt; सिफारिस गर्छौं।&lt;br/&gt; &lt;br/&gt; यसलाई 3G मार्फत डाउनलोड गर्न एक वा दुई मिनेट लाग्न सक्छ। तपाईँसँग &lt;b&gt;असीमित डेटा योजना&lt;/b&gt; छैन भने शुल्क लाग्न सक्छ।&lt;br/&gt; यदि तपाईँ आफूसँग कुन डेटा योजना छ भन्ने बारे निश्चित हुनुहुन्न भने हामी स्वचालित रूपमा डाउनलोड गर्नका लागि Wi-Fi जडान पत्ता लगाउन सिफारिस गर्दछौँ।<br/> <br/> जुक्ति: तपाईँ आफ्नो मोबाइल यन्त्रको &lt;b&gt;भाषा र इनपुट&lt;/b&gt; &lt;b&gt;सेटिङहरू&lt;/b&gt; को मेनुमा गएर शब्दकोषलाई डाउनलोड गर्न र हटाउन सक्नुहुन्छ।"</string>
+    <string name="download_over_metered" msgid="1643065851159409546">"(अब डाउनलोड गर्नुहोस्<xliff:g id="SIZE_IN_MEGABYTES">%1$.1f</xliff:g> MB)"</string>
+    <string name="do_not_download_over_metered" msgid="2176209579313941583">"वाइ-फाइको माध्ययमद्वार डाउनलोड गर्नुहोस्"</string>
+    <string name="dict_available_notification_title" msgid="4583842811218581658">"<xliff:g id="LANGUAGE_NAME">%1$s</xliff:g>को लागि एउटा शब्दकोश उपलब्ध छ"</string>
+    <string name="dict_available_notification_description" msgid="1075194169443163487">"समीक्षा गर्न थिच्नुहोस् र डाउनलोड गर्नुहोस्"</string>
+    <string name="toast_downloading_suggestions" msgid="6128155879830851739">"डाउनलोड गर्दै: <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g>को लागि सुझावहरू चाँडै नै तयार हुने छ।"</string>
+    <string name="version_text" msgid="2715354215568469385">"संस्करण <xliff:g id="VERSION_NUMBER">%1$s</xliff:g>"</string>
+    <string name="user_dict_settings_add_menu_title" msgid="1254195365689387076">"थप्नुहोस्"</string>
+    <string name="user_dict_settings_add_dialog_title" msgid="4096700390211748168">"शब्दकोशमा थप्नुहोस्"</string>
+    <string name="user_dict_settings_add_screen_title" msgid="5818914331629278758">"पदावली"</string>
+    <string name="user_dict_settings_add_dialog_more_options" msgid="5671682004887093112">"थप विकल्पहरू"</string>
+    <string name="user_dict_settings_add_dialog_less_options" msgid="2716586567241724126">"कम विकल्पहरू"</string>
+    <string name="user_dict_settings_add_dialog_confirm" msgid="4703129507388332950">"ठीक छ"</string>
+    <string name="user_dict_settings_add_word_option_name" msgid="6665558053408962865">"शब्द:"</string>
+    <string name="user_dict_settings_add_shortcut_option_name" msgid="3094731590655523777">"सर्टकट:"</string>
+    <string name="user_dict_settings_add_locale_option_name" msgid="4738643440987277705">"भाषा:"</string>
+    <string name="user_dict_settings_add_word_hint" msgid="4902434148985906707">"एउटा शब्द टाइप गर्नुहोस्"</string>
+    <string name="user_dict_settings_add_shortcut_hint" msgid="2265453012555060178">"वैकल्पिक सर्टकट"</string>
+    <string name="user_dict_settings_edit_dialog_title" msgid="3765774633869590352">"शब्द सम्पादन गर्नुहोस्"</string>
+    <string name="user_dict_settings_context_menu_edit_title" msgid="6812255903472456302">"सम्पादन गर्नुहोस्"</string>
+    <string name="user_dict_settings_context_menu_delete_title" msgid="8142932447689461181">"मेट्नुहोस्"</string>
+    <string name="user_dict_settings_empty_text" msgid="6889278304342592383">"तपाईँको प्रयोगकर्ता शब्दकोषमा कुनै पनि शब्दहरू छैनन्। शब्द थप्न थप्नुहोस् (+) बटनलाई ट्याप गर्नुहोस्।"</string>
+    <string name="user_dict_settings_all_languages" msgid="8276126583216298886">"सबै भाषाहरूका लागि"</string>
+    <string name="user_dict_settings_more_languages" msgid="7131268499685180461">"थप भाषाहरू..."</string>
+    <string name="user_dict_settings_delete" msgid="110413335187193859">"मेट्नुहोस्"</string>
+    <string name="user_dict_fast_scroll_alphabet" msgid="5431919401558285473">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="detail_theme_error_remove_theme_current">तपाईले प्रयोग गरिरहनु भएको विषयवस्तु मेट्न सक्नुहुन्न!</string>
+    <string name="pro_purchase_description">तपाइँ Google Play मा सदस्यता खण्ड मा कुनै पनि समय तपाइँको सदस्यता रद्द गर्न सक्नुहुन्छ। जब तपाइँ तपाइँको सदस्यता रद्द गर्नुहुन्छ, तपाइँ वर्तमान बिलिंग अवधिको अन्त्यमा सदस्यता को लागी पहुँच गुमाउनुहुनेछ।</string>
+    <string name="add_more_emojis_combos">अधिक EMOJIS थप्नुहोस्</string>
+    <string name="done">पूरा</string>
+    <string name="error_load_data_billing">कुनै कारणले सदस्यता जानकारी लोड त्रुटि, कृपया पुन: प्रयास गर्नुहोस्</string>
+    <string name="retry">पुन: प्रयास गर्नुहोस्</string>
+
+    <string name="activate_zomj_keyboard">Zomj किबोर्ड सक्रिय गर्नुहोस्</string>
+    <string name="step_1_activate">चरण 1. सक्रिय गर्नुहोस्</string>
+    <string name="step_2_select">चरण 2 चयन गर्नुहोस्</string>
+    <string name="activate_zomj_keyboard_to_enable_more_themes_and_emojis">* अधिक विषयवस्तु र EMOJIs सक्षम गर्न Zomj किबोर्ड सक्रिय गर्नुहोस्</string>
+    <string name="download_this_theme_to_apply">लागू गर्न यो विषयवस्तु डाउनलोड गर्नुहोस्</string>
+    <string name="download_this_font_to_apply">लागू गर्न यो फन्ट डाउनलोड गर्नुहोस्</string>
+    <string name="download">डाउनलोड गर्नुहोस्</string>
+
+    <string name="remove_all_ads">सबै विज्ञापन हटाउनुहोस्</string>
+    <string name="get">पुग्नु</string>
+    <string name="download_this_sticker_to_use">प्रयोग गर्न यो स्टीकर डाउनलोड गर्नुहोस्</string>
+    <string name="this_is_actually_amazing_keyboad">यो वास्तवमै अचम्मको कीबोर्ड हो!</string>
+    <string name="you_might_also_like">तपाईं जस्तो रूख हुन सक्नुहुन्छ</string>
+    <string name="try_your_new_theme">तपाईंको नयाँ विषयवस्तु प्रयास गर्नुहोस्</string>
+    <string name="please_enter_content">कृपया सामग्री प्रविष्ट गर्नुहोस्</string>
+    <string name="get_sticker">स्टिकर पाउनुहोस्</string>
+    <string name="illuminate_your_experience_with_our_zomj_keyboard">हाम्रो Zomj किबोर्ड संग आफ्नो अनुभव प्रकाशित!</string>
+    <string name="our_zomj_stickers_add_dynamic_hues">हाम्रो zomj स्टिकर गतिशील सन्तानहरू थप गर्दछ!</string>
+    <string name="continuee">जारी राख्नु</string>
+    <string name="pick_a_theme_you_like_and_get_started">तपाईलाई मनपर्ने र प्रयोगको विषयवस्तु छान्नुहोस्</string>
+    <string name="unique_theme">अद्वितीय विषयवस्तु</string>
+    <string name="current_theme">वर्तमान विषयवस्तु</string>
+    <string name="theme_led">उल्टो पद</string>
+    <string name="theme_color">थिम रंग</string>
+    <string name="read_external_dictionary_error">त्यहाँ एक त्रुटि थियो</string>
+
+</resources>

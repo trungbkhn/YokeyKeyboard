@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+**
+** Copyright 2013, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <com.android.inputmethod.keyboard.emoji.EmojiPalettesView
+        android:id="@+id/emoji_palettes_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/color_transparent"
+        android:orientation="vertical"
+        android:splitMotionEvents="false"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1">
+
+        <ImageView
+            android:id="@+id/imgOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ctlControl"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/viewControlBottom"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TabHost
+                android:id="@+id/emoji_category_tabhost"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/color_transparent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@null" />
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="0dip"
+                    android:layout_height="0dip">
+                    <!-- Empty placeholder that TabHost requires. But we don't use it to actually
+                         display anything. We monitor the tab changes and change the ViewPager.
+                         Similarly the ViewPager swipes are intercepted and passed to the TabHost. -->
+                    <View
+                        android:id="@+id/emoji_keyboard_dummy"
+                        android:layout_width="0dip"
+                        android:layout_height="0dip" />
+                </FrameLayout>
+            </TabHost>
+
+
+
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/emoji_keyboard_pager"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/color_transparent"
+                app:layout_constraintBottom_toTopOf="@id/emoji_category_page_id_view"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/emoji_category_tabhost" />
+
+            <com.tapbi.spark.yokey.ui.custom.view.CustomRecycleView
+                android:id="@+id/rcvEmojiFavourite"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:overScrollMode="never"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@id/emoji_keyboard_pager"
+                app:layout_constraintTop_toTopOf="@id/emoji_keyboard_pager" />
+
+            <TextView
+                android:id="@+id/tvNoFavourite"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_add_emoji"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:text="@string/add_more_emojis_combos"
+                android:textAllCaps="true"
+                android:textColor="#FFD600"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.android.inputmethod.keyboard.emoji.EmojiCategoryPageIndicatorView
+                android:id="@+id/emoji_category_page_id_view"
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/ll_emoji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:constraint_referenced_ids="rcvEmojiFavourite,emoji_category_tabhost,emoji_keyboard_pager,emoji_category_page_id_view" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_search_gif"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_black_gray_radius10"
+                android:drawableStart="@drawable/ic_search"
+                android:drawablePadding="@dimen/padding_normal"
+                android:gravity="center_vertical"
+                android:hint="@string/label_search_key"
+                android:imeOptions="actionDone"
+                android:paddingStart="@dimen/padding_normal"
+                android:paddingEnd="@dimen/padding_normal"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlSymmetry" />
+
+            <View
+                android:id="@+id/click_search"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/config_suggestions_strip_height"
+                app:layout_constraintBottom_toBottomOf="@id/et_search_gif"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/et_search_gif" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/rl_search_gif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:constraint_referenced_ids="et_search_gif,click_search" />
+
+
+            <!--            <androidx.recyclerview.widget.RecyclerView-->
+            <!--                android:id="@+id/rv_gif"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="0dp"-->
+            <!--                android:layout_marginTop="2dp"-->
+            <!--                android:layout_marginBottom="5dp"-->
+            <!--                app:layout_constraintBottom_toTopOf="@id/rv_category_gif"-->
+            <!--                app:layout_constraintHeight_percent="0.45"-->
+            <!--                app:layout_constraintTop_toBottomOf="@id/et_search_gif" />-->
+            <com.android.inputmethod.keyboard.viewGif.ViewGif
+                android:id="@+id/rv_gif"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="5dp"
+                android:paddingTop="4dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@id/rv_category_gif"
+                app:layout_constraintTop_toBottomOf="@id/et_search_gif" />
+
+            <ProgressBar
+                android:id="@+id/progressBarGif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:indeterminateTint="@android:color/holo_orange_dark"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@+id/rv_gif"
+                app:layout_constraintEnd_toEndOf="@+id/rv_gif"
+                app:layout_constraintStart_toStartOf="@+id/rv_gif"
+                app:layout_constraintTop_toTopOf="@+id/rv_gif" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/ctlDownloadGif"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@color/black_30"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@id/rv_gif"
+                app:layout_constraintEnd_toEndOf="@id/rv_gif"
+                app:layout_constraintStart_toStartOf="@+id/rv_gif"
+                app:layout_constraintTop_toTopOf="@id/rv_gif">
+
+                <ProgressBar
+                    android:id="@+id/progressDownloadGif"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgGiphy"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="1"
+                app:srcCompat="@drawable/ic_poweredby_giphy" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_category_gif"
+                android:layout_width="0dp"
+                android:layout_height="34dp"
+                android:layout_toEndOf="@id/imgGiphy"
+                android:paddingStart="@dimen/padding_small"
+                android:paddingEnd="@dimen/padding_small"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/imgGiphy"
+                app:layout_constraintVertical_bias="1" />
+
+            <TextView
+                android:id="@+id/txtNoDataSearchGif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_custom_toast_view_2"
+                android:padding="10dp"
+                android:text="@string/no_data"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/ll_gif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:constraint_referenced_ids="rl_search_gif,rv_category_gif,imgGiphy,rv_gif" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rclCategorySymbols"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:overScrollMode="never"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rclContentSymbols"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:overScrollMode="never"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rclCategorySymbols" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/groupSymbols"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:constraint_referenced_ids="rclCategorySymbols, rclContentSymbols" />
+
+
+            <ImageView
+                android:id="@+id/imgAddSticker"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="7dp"
+                android:src="@drawable/ic_plus"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rclTabSticker"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:overScrollMode="never"
+                app:layout_constraintEnd_toStartOf="@id/imgAddSticker"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rclStickerOnKeyboard"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:overScrollMode="never"
+                android:padding="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rclTabSticker" />
+
+            <TextView
+                android:id="@+id/tvNoRecentSticker"
+                style="@style/tab_text_color"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="#CB373737"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="@string/no_recent_sticker_yet"
+                android:textColor="@color/color_ffffff"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@id/rclStickerOnKeyboard"
+                app:layout_constraintEnd_toEndOf="@id/rclStickerOnKeyboard"
+                app:layout_constraintStart_toStartOf="@id/rclStickerOnKeyboard"
+                app:layout_constraintTop_toTopOf="@id/rclStickerOnKeyboard" />
+
+            <ImageView
+                android:id="@+id/imgNoRecentSticker"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="60dp"
+                android:src="@drawable/ic_emoji_keyboard"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@id/tvNoRecentSticker"
+                app:layout_constraintEnd_toEndOf="@id/tvNoRecentSticker"
+                app:layout_constraintStart_toStartOf="@id/tvNoRecentSticker"
+                app:layout_constraintTop_toTopOf="@id/tvNoRecentSticker" />
+
+
+            <TextView
+                android:id="@+id/txtAddSticker"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/bg_add_emoji"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/add_sticker"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@id/rclStickerOnKeyboard"
+                app:layout_constraintTop_toTopOf="@id/rclStickerOnKeyboard" />
+
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/llSticker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:constraint_referenced_ids="rclStickerOnKeyboard,imgNoRecentSticker,tvNoRecentSticker,rclTabSticker, imgAddSticker, txtAddSticker" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/viewControlBottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/config_suggestions_strip_height"
+            android:background="@color/color_CB919191"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <!-- TODO: Implement a KeyView and replace this. -->
+        <!-- Provide audio and haptic feedback by ourselves based on the keyboard settings.
+             We just need to ignore the system's audio and haptic feedback settings. -->
+        <ImageView
+            android:id="@+id/iv_keyboard_text"
+            android:layout_width="@dimen/config_suggestions_strip_height"
+            android:layout_height="@dimen/config_suggestions_strip_height"
+            android:padding="5dp"
+            android:src="@drawable/ic_keyboard_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/iv_emoji"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_emoji"
+            android:layout_width="@dimen/config_suggestions_strip_height"
+            android:layout_height="@dimen/config_suggestions_strip_height"
+            android:padding="5dp"
+            android:src="@drawable/ic_emoji_keyboardd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/iv_gif"
+            app:layout_constraintStart_toEndOf="@+id/iv_keyboard_text" />
+        <!-- TODO: Implement KeyView and replace this. -->
+        <!-- Provide audio and haptic feedback by ourselves based on the keyboard settings.
+             We just need to ignore the system's audio and haptic feedback settings. -->
+        <ImageView
+            android:id="@+id/iv_gif"
+            android:layout_width="@dimen/config_suggestions_strip_height"
+            android:layout_height="@dimen/config_suggestions_strip_height"
+            android:hapticFeedbackEnabled="false"
+            android:padding="5dp"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/ic_gif_keyboardd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/iv_symbols"
+            app:layout_constraintStart_toEndOf="@+id/iv_emoji" />
+
+        <ImageView
+            android:id="@+id/iv_symbols"
+            android:layout_width="@dimen/config_suggestions_strip_height"
+            android:layout_height="@dimen/config_suggestions_strip_height"
+            android:hapticFeedbackEnabled="false"
+            android:padding="5dp"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/ic_symbols_keyboard"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/iv_sticker"
+            app:layout_constraintStart_toEndOf="@+id/iv_gif" />
+
+        <ImageView
+            android:id="@+id/iv_sticker"
+            android:layout_width="@dimen/config_suggestions_strip_height"
+            android:layout_height="@dimen/config_suggestions_strip_height"
+            android:hapticFeedbackEnabled="false"
+            android:padding="5dp"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/ic_sticker_keyboard"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/iv_delete"
+            app:layout_constraintStart_toEndOf="@+id/iv_symbols" />
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="@dimen/config_suggestions_strip_height"
+            android:layout_height="@dimen/config_suggestions_strip_height"
+            android:hapticFeedbackEnabled="false"
+            android:padding="5dp"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/ic_delete_symbols"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_sticker" />
+
+        <TextView
+            android:id="@+id/txtNotSupportGif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_custom_toast_view"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/not_support_gif"
+            android:textColor="#000000"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+    </com.android.inputmethod.keyboard.emoji.EmojiPalettesView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

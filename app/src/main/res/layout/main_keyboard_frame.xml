@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+**
+** Copyright 2014, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!--<RelativeLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_gravity="bottom">-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="1">
+
+
+    <!-- To ensure that key preview popup is correctly placed when the current system locale is
+         one of RTL locales, layoutDirection="ltr" is needed in the SDK version 17+. -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_bg_gif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imgBackgroundKeyboard"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.android.inputmethod.latin.suggestions.SuggestionStripView
+            android:id="@+id/suggestion_strip_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/config_suggestions_strip_height"
+            android:gravity="center_vertical"
+            android:layoutDirection="ltr"
+            app:layout_constraintBottom_toTopOf="@id/keyboard_view" />
+
+        <!-- To ensure that key preview popup is correctly placed when the current system locale is
+             one of RTL locales, layoutDirection="ltr" is needed in the SDK version 17+. -->
+
+        <com.android.inputmethod.keyboard.MainKeyboardView
+            android:id="@+id/keyboard_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layoutDirection="ltr"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <com.tapbi.spark.yokey.ui.custom.view.ViewBgKeyKb
+            android:id="@+id/lyKey"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layoutDirection="ltr"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@id/keyboard_view"
+            app:layout_constraintTop_toTopOf="@id/keyboard_view" />
+
+
+        <!--layout search gif-->
+        <EditText
+            android:id="@+id/edt_search_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_black_gray_radius10"
+            android:hint="@string/label_search_key"
+            android:imeOptions="actionDone"
+            android:paddingStart="40dp"
+            android:paddingEnd="10sp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@id/keyboard_view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/space" />
+
+
+        <androidx.legacy.widget.Space
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/config_suggestions_strip_height"
+            app:layout_constraintBottom_toTopOf="@id/keyboard_view"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_back_search_gif"
+            android:layout_width="@dimen/config_suggestions_strip_height"
+            android:layout_height="@dimen/config_suggestions_strip_height"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_left"
+            app:layout_constraintBottom_toTopOf="@id/keyboard_view"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/layout_search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/config_suggestions_strip_height"
+            android:visibility="gone"
+            app:constraint_referenced_ids="space,edt_search_emoji,img_back_search_gif" />
+
+        <include
+            android:id="@+id/layout_setting_theme"
+            layout="@layout/layout_keyboard_setting_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/keyboard_view"
+            app:layout_constraintTop_toTopOf="@id/keyboard_view" />
+
+
+        <com.tapbi.spark.yokey.ui.custom.view.CopyPasteSelectionView
+            android:id="@+id/edit_selection_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="@id/suggestion_strip_view" />
+
+        <include
+            android:id="@+id/layoutClipboard"
+            layout="@layout/layout_clipboard"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="@id/suggestion_strip_view" />
+
+        <include
+            android:id="@+id/layoutFont"
+            layout="@layout/layout_all_font_on_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="@id/suggestion_strip_view" />
+
+        <include
+            android:id="@+id/layoutSticker"
+            layout="@layout/layout_sticker_on_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="@id/suggestion_strip_view" />
+
+        <View
+            android:id="@+id/vBgDragHeight"
+            android:layout_width="@dimen/size_0dp"
+            android:layout_height="@dimen/size_0"
+            android:background="@color/color_80000000"
+            android:clickable="true"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/suggestion_strip_view" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.android.inputmethod.keyboard.translate.ViewTranslate
+        android:id="@+id/viewTranslate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@id/layout_bg_gif"/>
+    <!--</RelativeLayout>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

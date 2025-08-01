@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:id="@+id/layout_keyboard_setting_menu_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollIndicators="none"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:padding="5dp">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline25"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.25" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline50"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline75"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.75" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_setting_theme"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:background="@drawable/bg_stroke_corner_4"
+                app:cardBackgroundColor="#00ffffff"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.tapbi.spark.yokey.ui.custom.view.blurBg.RealtimeBlurViewKB
+                    android:id="@+id/view_setting_theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/bg_stroke_corner_4"
+                    app:realtimeBlurRadius="20dp"
+                    app:realtimeOverlayColor="#66FFFFFF" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_setting_font"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:background="@drawable/bg_stroke_corner_4"
+                app:cardBackgroundColor="#00ffffff"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline50"
+                app:layout_constraintStart_toEndOf="@+id/guideline25"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.tapbi.spark.yokey.ui.custom.view.blurBg.RealtimeBlurViewKB
+                    android:id="@+id/view_setting_font"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/bg_stroke_corner_4"
+                    app:realtimeBlurRadius="20dp"
+                    app:realtimeOverlayColor="#66FFFFFF" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_setting_vibrate"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:background="@drawable/bg_stroke_corner_4"
+                app:cardBackgroundColor="#00ffffff"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline75"
+                app:layout_constraintStart_toEndOf="@+id/guideline50"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.tapbi.spark.yokey.ui.custom.view.blurBg.RealtimeBlurViewKB
+                    android:id="@+id/view_setting_vibrate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/bg_stroke_corner_4"
+                    app:realtimeBlurRadius="20dp"
+                    app:realtimeOverlayColor="#66FFFFFF" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_setting_sound"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:background="@drawable/bg_stroke_corner_4"
+                app:cardBackgroundColor="#00ffffff"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/guideline75"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.tapbi.spark.yokey.ui.custom.view.blurBg.RealtimeBlurViewKB
+                    android:id="@+id/view_setting_sound"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/bg_stroke_corner_4"
+                    app:realtimeBlurRadius="20dp"
+                    app:realtimeOverlayColor="#66FFFFFF" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_setting_language"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="3dp"
+                android:background="@drawable/bg_stroke_corner_4"
+                app:cardBackgroundColor="#00ffffff"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cv_setting_theme">
+
+                <com.tapbi.spark.yokey.ui.custom.view.blurBg.RealtimeBlurViewKB
+                    android:id="@+id/view_setting_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/bg_stroke_corner_4"
+                    app:realtimeBlurRadius="20dp"
+                    app:realtimeOverlayColor="#66FFFFFF" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_setting_correction"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="3dp"
+                android:background="@drawable/bg_stroke_corner_4"
+                app:cardBackgroundColor="#00ffffff"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline50"
+                app:layout_constraintStart_toEndOf="@id/guideline25"
+                app:layout_constraintTop_toBottomOf="@+id/cv_setting_theme">
+
+                <com.tapbi.spark.yokey.ui.custom.view.blurBg.RealtimeBlurViewKB
+                    android:id="@+id/view_setting_auto_correction"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/bg_stroke_corner_4"
+                    app:realtimeBlurRadius="20dp"
+                    app:realtimeOverlayColor="#66FFFFFF" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_setting_suggestion"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="3dp"
+                android:background="@drawable/bg_stroke_corner_4"
+                app:cardBackgroundColor="#00ffffff"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline75"
+                app:layout_constraintStart_toEndOf="@id/guideline50"
+                app:layout_constraintTop_toBottomOf="@+id/cv_setting_theme">
+
+                <com.tapbi.spark.yokey.ui.custom.view.blurBg.RealtimeBlurViewKB
+                    android:id="@+id/view_setting_suggestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/bg_stroke_corner_4"
+                    app:realtimeBlurRadius="20dp"
+                    app:realtimeOverlayColor="#66FFFFFF" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_setting_more"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="3dp"
+                android:background="@drawable/bg_stroke_corner_4"
+                app:cardBackgroundColor="#00ffffff"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/guideline75"
+                app:layout_constraintTop_toBottomOf="@+id/cv_setting_theme">
+
+                <com.tapbi.spark.yokey.ui.custom.view.blurBg.RealtimeBlurViewKB
+                    android:id="@+id/view_setting_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/bg_stroke_corner_4"
+                    app:realtimeBlurRadius="20dp"
+                    app:realtimeOverlayColor="#66FFFFFF" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_resize"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="3dp"
+                android:background="@drawable/bg_stroke_corner_4"
+                app:cardBackgroundColor="#00ffffff"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toStartOf="@id/guideline25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cv_setting_language">
+
+                <com.tapbi.spark.yokey.ui.custom.view.blurBg.RealtimeBlurViewKB
+                    android:id="@+id/view_resize"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="@drawable/bg_stroke_corner_4"
+                    app:realtimeBlurRadius="20dp"
+                    app:realtimeOverlayColor="#66FFFFFF" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_setting_theme"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_setting_theme"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="@string/text_tab_themes"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/cv_setting_theme"
+                app:layout_constraintLeft_toLeftOf="@id/cv_setting_theme"
+                app:layout_constraintRight_toRightOf="@id/cv_setting_theme"
+                app:layout_constraintTop_toTopOf="@id/cv_setting_theme" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_settting_font"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_setting_font"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="@string/fonts"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/cv_setting_font"
+                app:layout_constraintLeft_toLeftOf="@id/cv_setting_font"
+                app:layout_constraintRight_toRightOf="@id/cv_setting_font"
+                app:layout_constraintTop_toTopOf="@id/cv_setting_font" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_setting_vibrate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_setting_vibrate"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="@string/vibrate"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/cv_setting_vibrate"
+                app:layout_constraintLeft_toLeftOf="@id/cv_setting_vibrate"
+                app:layout_constraintRight_toRightOf="@id/cv_setting_vibrate"
+                app:layout_constraintTop_toTopOf="@id/cv_setting_vibrate" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_setting_sound"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_setting_sound"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="@string/sound"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/cv_setting_sound"
+                app:layout_constraintLeft_toLeftOf="@id/cv_setting_sound"
+                app:layout_constraintRight_toRightOf="@id/cv_setting_sound"
+                app:layout_constraintTop_toTopOf="@id/cv_setting_sound" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_setting_auto_correct"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_setting_auto_correction"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/automatic_ncorrection"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                app:layout_constraintBottom_toBottomOf="@id/cv_setting_correction"
+                app:layout_constraintLeft_toLeftOf="@id/cv_setting_correction"
+                app:layout_constraintRight_toRightOf="@id/cv_setting_correction"
+                app:layout_constraintTop_toTopOf="@id/cv_setting_correction" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_setting_language"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_setting_language"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/language"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/cv_setting_language"
+                app:layout_constraintLeft_toLeftOf="@id/cv_setting_language"
+                app:layout_constraintRight_toRightOf="@id/cv_setting_language"
+                app:layout_constraintTop_toTopOf="@id/cv_setting_language" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_setting_suggestion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12sp"
+                android:drawableTop="@drawable/ic_setting_suggestion"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                android:includeFontPadding="false"
+                android:text="@string/show_n_suggestions"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/cv_setting_suggestion"
+                app:layout_constraintLeft_toLeftOf="@id/cv_setting_suggestion"
+                app:layout_constraintRight_toRightOf="@id/cv_setting_suggestion"
+                app:layout_constraintTop_toTopOf="@id/cv_setting_suggestion" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_setting_more"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_setting_more"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="@string/more"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/cv_setting_more"
+                app:layout_constraintLeft_toLeftOf="@id/cv_setting_more"
+                app:layout_constraintRight_toRightOf="@id/cv_setting_more"
+                app:layout_constraintTop_toTopOf="@id/cv_setting_more" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_resize"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="3"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:includeFontPadding="false"
+                android:text="@string/change_size"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/cv_resize"
+                app:layout_constraintEnd_toEndOf="@id/cv_resize"
+                app:layout_constraintStart_toStartOf="@id/cv_resize"
+                app:layout_constraintTop_toTopOf="@id/cv_resize" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

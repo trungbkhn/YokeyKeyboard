@@ -1,0 +1,314 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:background="@color/colorWhite"
+        android:scrollbars="none">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:clipToPadding="false"
+            android:fillViewport="true"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light">
+
+                <ImageView
+                    android:id="@+id/img_premium"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_premium"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="#80000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/img_exit_premium"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:background="?android:selectableItemBackground"
+                    android:padding="10dp"
+                    android:src="@drawable/img_cancel_premium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/img_name_zomj"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/img_premium" />
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/v_premium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/bg_premium"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/title">
+
+                    <androidx.viewpager2.widget.ViewPager2
+                        android:id="@+id/vpShowInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@id/v_premium" />
+
+                    <com.tapbi.spark.yokey.ui.custom.view.CustomText
+                        android:id="@+id/money_uses"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="24dp"
+                        app:borderSize="1.5dp"
+                        app:color1="@color/color_4355FF"
+                        app:color2="@color/color_933DFE"
+                        app:color3="@color/color_FF35FD"
+                        app:color4="@color/color_FF8E61"
+                        app:color5="@color/color_FFE600"
+                        app:icShowBestOffer="false"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/vpShowInfo"
+                        app:marginEndTxtTop="10dp"
+                        app:marginStartTxt="0dp"
+                        app:nameText="@string/premium_subscription_permanently"
+                        app:radiusBorder="8dp"
+                        app:radiusCircle="10dp"
+                        app:sizeTexts="14sp"
+                        app:sizeTextsTop="12sp"
+                        app:strokeCircle="1.5dp" />
+
+                    <TextView
+                        android:id="@+id/txt_sale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="42dp"
+                        android:background="@drawable/bg_best_offer"
+                        android:fontFamily="@font/sf_pro"
+                        android:gravity="center"
+                        android:paddingStart="10dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="10dp"
+                        android:paddingBottom="2dp"
+                        android:text="@string/best_offer"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@id/money_uses" />
+
+                    <com.tapbi.spark.yokey.ui.custom.view.CustomText
+                        android:id="@+id/money_year"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="24dp"
+                        android:textStyle="bold"
+                        app:borderSize="1.5dp"
+                        app:color1="@color/color_4355FF"
+                        app:color2="@color/color_933DFE"
+                        app:color3="@color/color_FF35FD"
+                        app:color4="@color/color_FF8E61"
+                        app:color5="@color/color_FFE600"
+                        app:icShowBestOffer="false"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/money_uses"
+                        app:marginEndTxtTop="10dp"
+                        app:marginStartTxt="0dp"
+                        app:nameText="@string/premium_subscription_year"
+                        app:nameTextTop="Best Offer"
+                        app:radiusBorder="8dp"
+                        app:radiusCircle="10dp"
+                        app:sizeTexts="14sp"
+                        app:sizeTextsTop="12sp"
+                        app:strokeCircle="1.5dp" />
+
+                    <com.tapbi.spark.yokey.ui.custom.view.CustomText
+                        android:id="@+id/money_month"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="24dp"
+                        android:textStyle="bold"
+                        app:borderSize="1.5dp"
+                        app:color1="@color/color_4355FF"
+                        app:color2="@color/color_933DFE"
+                        app:color3="@color/color_FF35FD"
+                        app:color4="@color/color_FF8E61"
+                        app:color5="@color/color_FFE600"
+                        app:icShowBestOffer="false"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/money_year"
+                        app:marginEndTxtTop="10dp"
+                        app:marginStartTxt="0dp"
+                        app:nameText="@string/premium_subscription_month"
+                        app:radiusBorder="8dp"
+                        app:radiusCircle="10dp"
+                        app:sizeTexts="14sp"
+                        app:sizeTextsTop="12sp"
+                        app:strokeCircle="1.5dp" />
+
+                    <TextView
+                        android:id="@+id/btn_continue"
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
+                        android:layout_marginStart="63dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginEnd="63dp"
+                        android:background="@drawable/bg_accept"
+                        android:fontFamily="@font/inter_bold"
+                        android:gravity="center"
+                        android:text="@string/continue1"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        app:layout_constraintTop_toBottomOf="@id/money_month" />
+
+                    <TextView
+                        android:id="@+id/attention"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:fontFamily="@font/inter_medium"
+                        android:gravity="center"
+                        android:paddingStart="34dp"
+                        android:paddingEnd="34dp"
+                        android:text="@string/pro_purchase_description"
+                        android:textColor="#999999"
+                        android:textSize="10sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/btn_continue"
+                        tools:ignore="SmallSp" />
+
+                    <View
+                        android:id="@+id/viewCenter"
+                        android:layout_width="1dp"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@color/color_999999"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/attention" />
+
+                    <TextView
+                        android:id="@+id/tv_privacy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="7dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/privacy_policy"
+                        android:textColor="#999999"
+                        android:textSize="10sp"
+                        app:layout_constraintBottom_toBottomOf="@id/viewCenter"
+                        app:layout_constraintEnd_toStartOf="@id/viewCenter"
+                        app:layout_constraintTop_toTopOf="@id/viewCenter"
+                        tools:ignore="SmallSp" />
+
+                    <TextView
+                        android:id="@+id/tv_check_pro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/already_pro"
+                        android:textColor="#999999"
+                        android:textSize="10sp"
+                        app:layout_constraintBottom_toBottomOf="@id/viewCenter"
+                        app:layout_constraintStart_toEndOf="@id/viewCenter"
+                        app:layout_constraintTop_toTopOf="@id/viewCenter"
+                        tools:ignore="SmallSp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:id="@+id/bg_view_error"
+                        android:clickable="true"
+                        android:background="@color/white"
+                        app:layout_constraintTop_toTopOf="@id/money_uses"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_height="0dp"/>
+
+                    <TextView
+                        android:id="@+id/desciption_error"
+                        android:layout_width="0dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/color_555770"
+                        app:layout_constraintVertical_bias="0.3"
+                        android:textSize="17sp"
+                        app:layout_constraintTop_toTopOf="@id/money_uses"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:text="@string/error_load_data_billing" />
+                    <TextView
+                        android:id="@+id/btn_retry"
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
+                        android:layout_marginStart="63dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginEnd="63dp"
+                        android:background="@drawable/bg_accept"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center"
+                        android:text="@string/retry"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        app:layout_constraintTop_toBottomOf="@id/desciption_error" />
+                    <androidx.constraintlayout.widget.Group
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:id="@+id/view_error"
+                        app:constraint_referenced_ids="desciption_error,bg_view_error,btn_retry"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <View
+                    app:layout_constraintTop_toBottomOf="@id/v_premium"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_height="0dp"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

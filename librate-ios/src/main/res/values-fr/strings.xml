@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fantestarslibrary</string>
+    <string name="app_namee">Clavier Zomj</string>
+    <string name="title_dialog">ÉVALUER Lapos;APPLICATION</string>
+    <string name="content">Combien aimes-tu notre application?</string>
+    <string name="rate_now">Noter maintenant</string>
+    <string name="feedback">Retour</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Tap 5 étoiles pour évaluer le play Store.</string>
+    <string name="enjoying_zomj_keyboard">Profiter du clavier de Zomj?</string>
+    <string name="later">Plus tard</string>
+    <string name="please_rate_5_start" translatable="false">S\'il vous plaît évaluer 5 étoiles</string>
+</resources>

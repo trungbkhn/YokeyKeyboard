@@ -1,0 +1,85 @@
+{
+  "id": "100",
+  "name_keyboard": "Apple Dark",
+  "type_keyboard" : "color",
+  "font" : "fonts/segoeui.TTF",
+  
+  "background": {
+    "background_color" : "0xFF414244",
+    "background_image": "null",
+    "start_color": "0xFFFFFFFF",
+    "finish_color": "0xFFFFFFFF",
+    "degree": 90
+  },
+  
+
+  "key" : {
+
+    "text": {
+      "normal": "btn_key_text.9.png",
+      "pressed": "btn_key_text_pressed.9.png",
+      "text_color": "0xFFFFFFFF",
+      "text_color_pressed": "0xFFFFFFFF"
+    },
+    "number": {
+      "normal": "btn_key_number.9.png",
+      "pressed": "btn_key_number_pressed.9.png",
+      "text_color": "0xFFFFFFFF",
+      "text_color_pressed": "0xFFFFFFFF"
+    },
+    "special": {
+      "normal": "btn_key_special.9.png",
+      "pressed": "btn_key_special_pressed.9.png",
+      "text_color": "0xFFC6C7C7",
+      "text_color_pressed": "0xFF949598"
+    },
+    "led":{
+      "alpha": 55.0,
+      "colors": "-8176972;-189155;-217019",
+      "cross": 50.0,
+      "radius": 1.0,
+      "range": 50.0,
+      "speed": 40.0,
+      "stroke_width": 100.0,
+      "style": "style_fill",
+      "style_led": 1
+    }
+
+  },
+
+  "popup" : {
+
+    "preview" : {
+      "text_color": "0xFF4F5052",
+      "subkey_color": "0xFFFFFFFF",
+      "bg_image": "bg_key_popup.png",
+      "width": "70dp",
+      "height": "70dp"
+    },
+
+    "min_keyboard" : {
+      "bg_image": "bg_key_longpress.9.png",
+      "text_color": "0xFF888888",
+      "text_color_selected": "0xFF222222"
+    }
+  },
+
+  "menu_bar": {
+    "divider_color": "0xFF4E4F52",
+    "content_divider_color": "0xFF4E4F52",
+    "icon_color": "0xFFFFFFFF",
+    "icon_color_selected": "0xFF414244",
+    "icon_background_color_selected": "0xFFA8AAAF",
+    "text_color": "0xFFE8E8E8",
+    "text_color_highlighted": "0xFF51B7A0",
+    "content_text_Color": "0xFFE8E8E8",
+
+    "menu": {
+      "bg_color": "0xFF4A4B4D",
+      "bg_color_selected": "0xFF4A4B4D",
+      "text_color": "0xFFE0E0E0",
+      "text_color_selected": "0xFFE0E0E0"
+    }
+
+  }
+}

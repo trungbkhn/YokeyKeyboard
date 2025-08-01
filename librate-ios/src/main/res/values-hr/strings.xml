@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fivestarslanstvo</string>
+    <string name="app_namee">Zomj tipkovnica</string>
+    <string name="title_dialog">OCIJENI OVU APLIKACIJU</string>
+    <string name="content">Koliko volite našu aplikaciju?</string>
+    <string name="rate_now">Ocijeni sada</string>
+    <string name="feedback">Povratne informacije</string>
+    <string name="tap_5_star_to_rate_it_on_the_play_store">Dodirnite 5 zvjezdica da biste ga ocijenili na prodajnu trgovinu.</string>
+    <string name="enjoying_zomj_keyboard">Uživanje u Zomj tipkovnici?</string>
+    <string name="later">Kasnije</string>
+    <string name="please_rate_5_start" translatable="false">Molimo ocijenite 5 zvjezdica</string>
+</resources>
