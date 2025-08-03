@@ -20,7 +20,7 @@
 
 <resources
     >
-    <string name="spell_checker_service_name" msgid="1254221805440242662">"Kikagua-tahajia cha Zomj Keyboard Pro"</string>
-    <string name="english_ime_settings" msgid="5760361067176802794">"Mipangilio ya Kibodi ya Zomj Keyboard Pro"</string>
-    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Mipangilio ya Kikagua-tahajia cha Zomj Keyboard Pro"</string>
+    <string name="spell_checker_service_name" msgid="1254221805440242662">"Kikagua-tahajia cha Yokey Keyboard Pro"</string>
+    <string name="english_ime_settings" msgid="5760361067176802794">"Mipangilio ya Kibodi ya Yokey Keyboard Pro"</string>
+    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Mipangilio ya Kikagua-tahajia cha Yokey Keyboard Pro"</string>
 </resources>

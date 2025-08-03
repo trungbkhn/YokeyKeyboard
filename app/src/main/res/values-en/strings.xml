@@ -606,7 +606,7 @@ Tip: You can download and remove dictionaries by going to &lt;b>Languages&#160;&
     <string name="text_rate_5_star_for_rgb_keyboard" translatable="false">Rate App</string>
     <string name="text_policy_rgb_keyboard" translatable="false">Policy</string>
     <string name="text_more" translatable="false">More</string>
-    <string name="text_ledkey_for_life_beauty" translatable="false">Texting on Zomj Keyboard!</string>
+    <string name="text_ledkey_for_life_beauty" translatable="false">Texting on Yokey Keyboard!</string>
 
 
     <string name="app_name_emoji">New Emojis Keyboard 2021</string>
@@ -640,7 +640,7 @@ Tip: You can download and remove dictionaries by going to &lt;b>Languages&#160;&
     <string name="txt_animal">Animal</string>
     <string name="text_check_internet">Please check your internet connection and try again for get Themes!</string>
     <string name="text_check_internet_sticker">Please check your internet connection and try again for get Sticker!</string>
-    <string name="txt_splash">ZOMJ KEYBOARD</string>
+    <string name="txt_splash">Yokey Keyboard</string>
     <string name="txt_text_policy">I agree to the Terms of Use and Privacy Policy</string>
 
 
@@ -692,10 +692,10 @@ Tip: You can download and remove dictionaries by going to &lt;b>Languages&#160;&
     <string name="not_support_font">This font is not supported in your language</string>
     <string name="apply_themes_success">Apply themes success</string>
     <string name="let_s_get_started">Let’s Get Started</string>
-    <string name="thanks_for_choosing_zomj_keyboard_you_trust_is_very_important_to_us">Thanks for choosing Zomj keyboard you trust is very important to us</string>
+    <string name="thanks_for_choosing_zomj_keyboard_you_trust_is_very_important_to_us">Thanks for choosing Yokey Keyboard you trust is very important to us</string>
     <string name="choose_keyboard">Choose Keyboard</string>
     <string name="data_privacy">Data Privacy</string>
-    <string name="zomj_keyboard">Zomj Keyboard</string>
+    <string name="zomj_keyboard">Yokey Keyboard</string>
     <string name="never_collects_personal_data">NEVER collects personal data</string>
     <string name="such_as_password_credit_card_number_etc">such as password, credit card number etc...</string>
     <string name="how_do_we_protect_personal_data">How do we protect personal data?</string>

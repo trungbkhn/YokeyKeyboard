@@ -74,7 +74,7 @@
 
     <string name="text_more">Higit pa</string>
 
-    <string name="text_ledkey_for_life_beauty">Pag-text sa ZOMJ keyboard!</string>
+    <string name="text_ledkey_for_life_beauty">Pag-text sa Yokey Keyboard!</string>
 
     <string name="app_name_emoji">Bagong Emojis Keyboard 2021.</string>
 
@@ -128,7 +128,7 @@
 
     <string name="text_check_internet_sticker">Mangyaring suriin ang iyong koneksyon sa internet at subukang muli para makakuha ng sticker!</string>
 
-    <string name="txt_splash">ZOMJ Keyboard</string>
+    <string name="txt_splash">Yokey Keyboard</string>
 
     <string name="txt_text_policy">Sumasang-ayon ako sa Mga Tuntunin ng Paggamit at Patakaran sa Pagkapribado</string>
 
@@ -220,13 +220,13 @@
 
     <string name="let_s_get_started">Magsimula na tayo</string>
 
-    <string name="thanks_for_choosing_zomj_keyboard_you_trust_is_very_important_to_us">Salamat sa pagpili ng zomj keyboard na pinagkakatiwalaan mo ay napakahalaga sa amin</string>
+    <string name="thanks_for_choosing_zomj_keyboard_you_trust_is_very_important_to_us">Salamat sa pagpili ng Yokey Keyboard na pinagkakatiwalaan mo ay napakahalaga sa amin</string>
 
     <string name="choose_keyboard">Piliin ang Keyboard</string>
 
     <string name="data_privacy">Pagkalihim ng datos</string>
 
-    <string name="zomj_keyboard">ZOMJ Keyboard</string>
+    <string name="zomj_keyboard">Yokey Keyboard</string>
 
     <string name="never_collects_personal_data">Hindi kailanman nangongolekta ng personal na data</string>
 
@@ -568,10 +568,10 @@
     <string name="error_load_data_billing">Error sa pag-load ng impormasyon ng subscription sa ilang kadahilanan, pakisubukang muli</string>
     <string name="retry">Subukan muli</string>
 
-    <string name="activate_zomj_keyboard">Isaaktibo ang Zomj keyboard</string>
+    <string name="activate_zomj_keyboard">Isaaktibo ang Yokey Keyboard</string>
     <string name="step_1_activate">Hakbang 1. I -aktibo</string>
     <string name="step_2_select">Hakbang 2. Piliin</string>
-    <string name="activate_zomj_keyboard_to_enable_more_themes_and_emojis">*Buhayin ang Zomj keyboard upang paganahin ang higit pang mga tema at emojis</string>
+    <string name="activate_zomj_keyboard_to_enable_more_themes_and_emojis">*Buhayin ang Yokey Keyboard upang paganahin ang higit pang mga tema at emojis</string>
     <string name="download_this_theme_to_apply">I -download ang temang ito upang mailapat</string>
     <string name="download_this_font_to_apply">I -download ang font na ito upang mag -apply</string>
     <string name="download">I -download</string>
@@ -584,7 +584,7 @@
     <string name="try_your_new_theme">Subukan ang iyong bagong tema</string>
     <string name="please_enter_content">Mangyaring ipasok ang nilalaman</string>
     <string name="get_sticker">Kumuha ng sticker</string>
-    <string name="illuminate_your_experience_with_our_zomj_keyboard">Ipaliwanag ang iyong karanasan sa aming ZOMJ keyboard!</string>
+    <string name="illuminate_your_experience_with_our_zomj_keyboard">Ipaliwanag ang iyong karanasan sa aming Yokey Keyboard!</string>
     <string name="our_zomj_stickers_add_dynamic_hues">Ang aming mga sticker ng ZOMJ ay nagdaragdag ng mga dynamic na kulay!</string>
     <string name="continuee">Magpatuloy</string>
     <string name="pick_a_theme_you_like_and_get_started">Pumili ng isang tema na gusto mo at eksperimento</string>

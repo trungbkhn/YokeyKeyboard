@@ -21,7 +21,7 @@
 <resources
     >
 
-    <string name="spell_checker_service_name" msgid="1254221805440242662">"Iнструмент праверкi правапiсу для Zomj Keyboard Pro"</string>
-    <string name="english_ime_settings" msgid="5760361067176802794">"Налады клавіятуры Zomj Keyboard Pro"</string>
-    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Налады інструмента праверкі правапісу для Zomj Keyboard Pro"</string>
+    <string name="spell_checker_service_name" msgid="1254221805440242662">"Iнструмент праверкi правапiсу для Yokey Keyboard Pro"</string>
+    <string name="english_ime_settings" msgid="5760361067176802794">"Налады клавіятуры Yokey Keyboard Pro"</string>
+    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Налады інструмента праверкі правапісу для Yokey Keyboard Pro"</string>
 </resources>

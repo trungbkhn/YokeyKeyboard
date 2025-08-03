@@ -20,7 +20,7 @@
 
 <resources
     >
-    <string name="spell_checker_service_name" msgid="1254221805440242662">"Zomj Keyboard Pro वर्तनी परीक्षक "</string>
-    <string name="english_ime_settings" msgid="5760361067176802794">"Zomj Keyboard Pro कीबोर्ड सेटिंग"</string>
-    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Zomj Keyboard Pro वर्तनी परीक्षक सेटिंग"</string>
+    <string name="spell_checker_service_name" msgid="1254221805440242662">"Yokey Keyboard Pro वर्तनी परीक्षक "</string>
+    <string name="english_ime_settings" msgid="5760361067176802794">"Yokey Keyboard Pro कीबोर्ड सेटिंग"</string>
+    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Yokey Keyboard Pro वर्तनी परीक्षक सेटिंग"</string>
 </resources>

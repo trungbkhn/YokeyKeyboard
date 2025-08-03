@@ -20,7 +20,7 @@
 
 <resources
     >
-    <string name="spell_checker_service_name" msgid="1254221805440242662">"ໂຕກວດການສະກົດຄຳໃນ Zomj Keyboard"</string>
+    <string name="spell_checker_service_name" msgid="1254221805440242662">"ໂຕກວດການສະກົດຄຳໃນ Yokey Keyboard"</string>
     <string name="english_ime_settings" msgid="5760361067176802794">"ຕັ້ງຄ່າແປ້ນພິມ Zomj"</string>
-    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Zomj Keyboard Spell Checker Settings"</string>
+    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Yokey Keyboard Spell Checker Settings"</string>
 </resources>

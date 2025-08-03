@@ -20,7 +20,7 @@
 
 <resources
     >
-    <string name="spell_checker_service_name" msgid="1254221805440242662">"Zomj Keyboard Pro-oikoluku"</string>
-    <string name="english_ime_settings" msgid="5760361067176802794">"Zomj Zomj Keyboard Pro-näppäimistön asetukset"</string>
-    <string name="android_spell_checker_settings" msgid="6123949487832861885">" Zomj Keyboard Pro-oikoluvun asetukset"</string>
+    <string name="spell_checker_service_name" msgid="1254221805440242662">"Yokey Keyboard Pro-oikoluku"</string>
+    <string name="english_ime_settings" msgid="5760361067176802794">"Zomj Yokey Keyboard Pro-näppäimistön asetukset"</string>
+    <string name="android_spell_checker_settings" msgid="6123949487832861885">" Yokey Keyboard Pro-oikoluvun asetukset"</string>
 </resources>

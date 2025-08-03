@@ -128,7 +128,7 @@
 
     <string name="text_check_internet_sticker">Vennligst sjekk Internett-tilkoblingen din og prøv igjen for å få klistremerke!</string>
 
-    <string name="txt_splash">Zomj Keyboard</string>
+    <string name="txt_splash">Yokey Keyboard</string>
 
     <string name="txt_text_policy">Jeg godtar vilkårene for bruk og personvern</string>
 
@@ -226,7 +226,7 @@
 
     <string name="data_privacy">Data personvern</string>
 
-    <string name="zomj_keyboard">Zomj Keyboard</string>
+    <string name="zomj_keyboard">Yokey Keyboard</string>
 
     <string name="never_collects_personal_data">Aldri samler personlige data</string>
 

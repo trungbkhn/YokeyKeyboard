@@ -20,7 +20,7 @@
 
 <resources
     >
-    <string name="spell_checker_service_name" msgid="1254221805440242662">"Zomj Keyboard Pro Орфографияны Текшергич"</string>
+    <string name="spell_checker_service_name" msgid="1254221805440242662">"Yokey Keyboard Pro Орфографияны Текшергич"</string>
     <string name="english_ime_settings" msgid="5760361067176802794">"Android Баскычтоп жөндөөлөрү Zomj"</string>
-    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Zomj Keyboard Орфографияны текшергич жөндөөлөрү"</string>
+    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Yokey Keyboard Орфографияны текшергич жөндөөлөрү"</string>
 </resources>

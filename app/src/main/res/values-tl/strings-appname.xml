@@ -20,7 +20,7 @@
 
 <resources
     >
-    <string name="spell_checker_service_name" msgid="1254221805440242662">"Spell Checker ng Zomj Keyboard Pro"</string>
-    <string name="english_ime_settings" msgid="5760361067176802794">"Mga Setting Zomj Keyboard Pro"</string>
-    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Mga Setting ng Spell Checker ng Zomj Keyboard Pro"</string>
+    <string name="spell_checker_service_name" msgid="1254221805440242662">"Spell Checker ng Yokey Keyboard Pro"</string>
+    <string name="english_ime_settings" msgid="5760361067176802794">"Mga Setting Yokey Keyboard Pro"</string>
+    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Mga Setting ng Spell Checker ng Yokey Keyboard Pro"</string>
 </resources>

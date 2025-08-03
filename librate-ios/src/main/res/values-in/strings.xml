@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Fivestarslibrary</string>
-    <string name="app_namee">Zomj keyboard</string>
+    <string name="app_namee">Yokey Keyboard</string>
     <string name="title_dialog">NILAI APLIKASI INI</string>
     <string name="content">Berapa banyak yang Anda sukai dari aplikasi kami?</string>
     <string name="rate_now">Nilai sekarang</string>

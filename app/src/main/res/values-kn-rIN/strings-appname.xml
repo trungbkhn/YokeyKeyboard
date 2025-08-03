@@ -20,7 +20,7 @@
 
 <resources
     >
-    <string name="spell_checker_service_name" msgid="1254221805440242662">"Zomj Keyboard  ಕಾಗುಣಿತ ಪರೀಕ್ಷಕ "</string>
-    <string name="english_ime_settings" msgid="5760361067176802794">"Zomj Keyboard ಕೀಬೋರ್ಡ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
-    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Zomj Keyboard ಕಾಗುಣಿತ ಪರೀಕ್ಷಕ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
+    <string name="spell_checker_service_name" msgid="1254221805440242662">"Yokey Keyboard  ಕಾಗುಣಿತ ಪರೀಕ್ಷಕ "</string>
+    <string name="english_ime_settings" msgid="5760361067176802794">"Yokey Keyboard ಕೀಬೋರ್ಡ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
+    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Yokey Keyboard ಕಾಗುಣಿತ ಪರೀಕ್ಷಕ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
 </resources>

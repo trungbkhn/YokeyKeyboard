@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">FiverStarslibrary</string>
-    <string name="app_namee">Zomj Keyboard</string>
+    <string name="app_namee">Yokey Keyboard</string>
     <string name="title_dialog">ОЦІНІТЬ ЦЕЙ ДОДАТОК</string>
     <string name="content">Скільки ви любите нашу програму?</string>
     <string name="rate_now">Оцінити зараз</string>

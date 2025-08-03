@@ -20,7 +20,7 @@
 
 <resources
     >
-    <string name="spell_checker_service_name" msgid="1254221805440242662">"Correcteur orthographique Zomj Keyboard Pro"</string>
-    <string name="english_ime_settings" msgid="5760361067176802794">"Paramètres du clavier Zomj Keyboard Pro"</string>
-    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Paramètres du correcteur orthographique Zomj Keyboard Pro"</string>
+    <string name="spell_checker_service_name" msgid="1254221805440242662">"Correcteur orthographique Yokey Keyboard Pro"</string>
+    <string name="english_ime_settings" msgid="5760361067176802794">"Paramètres du clavier Yokey Keyboard Pro"</string>
+    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Paramètres du correcteur orthographique Yokey Keyboard Pro"</string>
 </resources>

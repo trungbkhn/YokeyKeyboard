@@ -20,7 +20,7 @@
 
 <resources
     >
-    <string name="spell_checker_service_name" msgid="1254221805440242662">"Android අක්ෂර වින්‍යාස පරීක්ෂක Zomj Keyboard Pro"</string>
+    <string name="spell_checker_service_name" msgid="1254221805440242662">"Android අක්ෂර වින්‍යාස පරීක්ෂක Yokey Keyboard Pro"</string>
     <string name="english_ime_settings" msgid="5760361067176802794">"Android යතුරු පුවරු සැකසීම් Zomj"</string>
-    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Android අක්ෂර වින්‍යාස පරීක්ෂක සැකසීම් Zomj Keyboard Pro"</string>
+    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Android අක්ෂර වින්‍යාස පරීක්ෂක සැකසීම් Yokey Keyboard Pro"</string>
 </resources>

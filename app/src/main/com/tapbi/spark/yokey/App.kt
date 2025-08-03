@@ -20,6 +20,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import com.android.inputmethod.accessibility.AccessibilityUtils
 import com.android.inputmethod.latin.AudioAndHapticFeedbackManager
 import com.android.inputmethod.latin.InputView
+import com.android.inputmethod.latin.settings.Settings
 import com.android.inputmethod.latin.utils.UncachedInputMethodManagerUtils
 import com.ironman.spark.billing.BillingManager
 import com.ironman.trueads.admob.ControlAds
@@ -440,7 +441,7 @@ class App : Application() {
 
     fun initConfigForKeyboard(){
         // Timber.d("ducNQ : onCreateddd: ");
-        com.android.inputmethod.latin.settings.Settings.init(this)
+        Settings.init(this)
         AccessibilityUtils.init(instance)
         AudioAndHapticFeedbackManager.init(instance)
 

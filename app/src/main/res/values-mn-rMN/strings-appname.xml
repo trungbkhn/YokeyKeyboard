@@ -21,6 +21,6 @@
 <resources
     >
     <string name="spell_checker_service_name" msgid="1254221805440242662">"Андройд Алдаа Шалгагч "</string>
-    <string name="english_ime_settings" msgid="5760361067176802794">"Андройд Гарын Тохиргоо Zomj Keyboard Pro"</string>
-    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Андройд Алдаа Шалгагчийн Тохиргоо Zomj Keyboard Pro"</string>
+    <string name="english_ime_settings" msgid="5760361067176802794">"Андройд Гарын Тохиргоо Yokey Keyboard Pro"</string>
+    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Андройд Алдаа Шалгагчийн Тохиргоо Yokey Keyboard Pro"</string>
 </resources>

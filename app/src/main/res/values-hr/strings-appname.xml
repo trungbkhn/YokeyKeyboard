@@ -20,7 +20,7 @@
 
 <resources
     >
-    <string name="spell_checker_service_name" msgid="1254221805440242662">"Zomj Keyboard Pro provjera pravopisa"</string>
-    <string name="english_ime_settings" msgid="5760361067176802794">"Postavke Zomj Keyboard Pro tipkovnice (AOSP)"</string>
-    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Postavke Zomj Keyboard Pro provjere pravopisa"</string>
+    <string name="spell_checker_service_name" msgid="1254221805440242662">"Yokey Keyboard Pro provjera pravopisa"</string>
+    <string name="english_ime_settings" msgid="5760361067176802794">"Postavke Yokey Keyboard Pro tipkovnice (AOSP)"</string>
+    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Postavke Yokey Keyboard Pro provjere pravopisa"</string>
 </resources>

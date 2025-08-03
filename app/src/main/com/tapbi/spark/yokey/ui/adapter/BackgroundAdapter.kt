@@ -23,7 +23,6 @@ import com.tapbi.spark.yokey.data.model.ItemBackground
 import com.tapbi.spark.yokey.databinding.ItemBackgroundBinding
 import com.tapbi.spark.yokey.interfaces.IResultDownBackground
 import com.tapbi.spark.objects.Background
-import com.tapbi.spark.yokey.ui.main.customize.CreateThemeFragment
 import com.tapbi.spark.yokey.util.CommonUtil
 import com.tapbi.spark.yokey.util.Constant
 import com.tapbi.spark.yokey.util.Constant.PATH_FILE_DOWNLOADED_BACKGROUND
@@ -218,26 +217,6 @@ class BackgroundAdapter(
                         holder.binding.statusDownload.visibility = View.GONE
                         holder.binding.spinKitDownloadBackround.visibility = View.VISIBLE
 
-
-                        if (!isDownload && listItemDownload.size == 0) {
-                            CreateThemeFragment.countDownloadBackground = 1
-                            downloadBackground(
-                                ItemBackground(
-                                    position,
-                                    background.linkBg,
-                                    background.idBg.toString()
-                                )
-                            )
-                        } else {
-                            listItemDownload.add(
-                                ItemBackground(
-                                    position,
-                                    background.linkBg,
-                                    background.idBg.toString()
-                                )
-                            )
-                            CreateThemeFragment.countDownloadBackground = listBackground.size
-                        }
                     }
                 } else if (holder.binding.statusDownload.visibility == View.GONE && holder.binding.spinKitDownloadBackround.visibility == View.GONE) {
                     App.instance.idBgCurrent = position + 1

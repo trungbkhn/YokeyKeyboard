@@ -20,7 +20,7 @@
 
 <resources
     >
-    <string name="spell_checker_service_name" msgid="1254221805440242662">"Проверувач на правопис на Android Zomj Keyboard Pro"</string>
+    <string name="spell_checker_service_name" msgid="1254221805440242662">"Проверувач на правопис на Android Yokey Keyboard Pro"</string>
     <string name="english_ime_settings" msgid="5760361067176802794">"Поставки на тастатура на Android Zomj"</string>
-    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Поставки за проверка на правопис на Zomj Keyboard Pro"</string>
+    <string name="android_spell_checker_settings" msgid="6123949487832861885">"Поставки за проверка на правопис на Yokey Keyboard Pro"</string>
 </resources>

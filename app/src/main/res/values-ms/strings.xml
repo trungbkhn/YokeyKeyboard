@@ -77,7 +77,7 @@
 
     <string name="text_more">Lebih lanjut</string>
 
-    <string name="text_ledkey_for_life_beauty">Teks pada ZOMJ Keyboard!</string>
+    <string name="text_ledkey_for_life_beauty">Teks pada Yokey Keyboard!</string>
 
     <string name="app_name_emoji">Emojis Keyboard baru 2021</string>
 
@@ -131,7 +131,7 @@
 
     <string name="text_check_internet_sticker">Sila semak sambungan internet anda dan cuba lagi untuk mendapatkan pelekat!</string>
 
-    <string name="txt_splash">ZOMJ Keyboard</string>
+    <string name="txt_splash">Yokey Keyboard</string>
 
     <string name="txt_text_policy">Saya bersetuju dengan Syarat Penggunaan dan Dasar Privasi</string>
 
@@ -230,7 +230,7 @@
 
     <string name="data_privacy">Privasi data</string>
 
-    <string name="zomj_keyboard">ZOMJ Keyboard</string>
+    <string name="zomj_keyboard">Yokey Keyboard</string>
 
     <string name="never_collects_personal_data">Tidak pernah mengumpul data peribadi</string>
 
