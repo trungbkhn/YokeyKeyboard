@@ -149,34 +149,6 @@ abstract class BaseBindingDialogFragment<B : ViewDataBinding, T : BaseViewModel>
 
     }
 
-    @SuppressLint("RestrictedApi")
-    fun changeScreen(idScreen : Int, typeTryKeyboard : Int){
-        var isCurrentScreenTryKeyboard = false
-        if (idScreen == R.id.tryKeyboardFragment) {
-            activity?.typeTryKeyboard = typeTryKeyboard
-//            val list = activity?.navControllers?.visibleEntries?.value
-            val list = activity?.navControllers?.currentBackStack?.value
-            if (list != null && list.size > 2) {
-                if (list[list.size - 2].destination.id == R.id.tryKeyboardFragment){
-                    isCurrentScreenTryKeyboard = true
-                }
-            }
-        }
-        handler.postDelayed({
-            if(isAdded && isActive){
-                dismiss()
-            }
-            if (!isCurrentScreenTryKeyboard) {
-                mainViewModel.mLiveEventScreen.postValue(MessageEvent(idScreen))
-            }else {
-                EventBus.getDefault().post(MessageEvent(Constant.EVENT_UPDATE_THEME_KEYBOARD))
-
-            }
-
-
-        }, 200)
-    }
-
     fun setLayoutImagePreview(wb: Int, hb: Int, image : ShapeableImageView) {
         val w = DisplayUtils.getScreenWidth() - DisplayUtils.dp2px(70f)
         val params = image.layoutParams as ConstraintLayout.LayoutParams

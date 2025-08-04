@@ -75,19 +75,6 @@
             android:label="@string/dictionary_service_name" />
 
         <activity
-            android:name=".ui.splash.SplashActivity"
-            android:exported="true"
-            android:label="@string/english_ime_name"
-            android:screenOrientation="portrait"
-            android:theme="@style/SplashTheme"
-            android:windowSoftInputMode="stateAlwaysHidden">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity
             android:name="com.android.inputmethod.latin.permissions.PermissionsActivity"
             android:exported="false"
             android:taskAffinity=""
@@ -128,11 +115,13 @@
             android:name="com.tapbi.spark.yokey.ui.main.MainActivity"
             android:exported="true"
             android:launchMode="singleTask"
+            android:label="@string/english_ime_name"
             android:screenOrientation="portrait"
             android:theme="@style/STYLE_APP"
             android:windowSoftInputMode="stateAlwaysHidden|adjustNothing">
             <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 

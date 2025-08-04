@@ -88,6 +88,10 @@ android {
             applicationId = 'vn.tapbi.testinappsubscription'
         }
     }
+    buildFeatures {
+        viewBinding = true
+        dataBinding = true
+    }
     namespace 'com.tapbi.spark.yokey'
     ndkVersion '26.1.10909125'
 
@@ -108,6 +112,9 @@ dependencies {
     implementation libraries.materialDesign
     implementation libraries.hilt
     implementation project(':indicator')
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.9.2'
+    implementation 'androidx.fragment:fragment-ktx:1.8.8'
     kapt libraries.hiltKpt
     annotationProcessor libraries.hiltAP
     implementation libraries.glide

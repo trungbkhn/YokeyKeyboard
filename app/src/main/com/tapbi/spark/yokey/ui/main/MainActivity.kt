@@ -56,14 +56,9 @@ import com.tapbi.spark.yokey.data.model.MessageEvent
 import com.tapbi.spark.yokey.data.model.ThemeObject
 import com.tapbi.spark.yokey.ui.base.BaseBindingActivity
 import com.tapbi.spark.yokey.ui.dialog.DialogPermission
-import com.tapbi.spark.yokey.ui.main.premium.PremiumFragment
 import com.tapbi.spark.yokey.util.CommonUtil
 import com.tapbi.spark.yokey.util.Constant
-import com.tapbi.spark.yokey.util.MySharePreferences
 import company.librate.RateDialog
-import org.greenrobot.eventbus.EventBus
-import org.greenrobot.eventbus.Subscribe
-import org.greenrobot.eventbus.ThreadMode
 import timber.log.Timber
 
 class MainActivity : BaseBindingActivity<MainActivityKtBinding, MainViewModel>(),
@@ -104,9 +99,8 @@ class MainActivity : BaseBindingActivity<MainActivityKtBinding, MainViewModel>()
         navHostFragment.apply {
             navControllers = this.navController
             navControllers.addOnDestinationChangedListener(OnDestinationChangedListener { controller: NavController?, destination: NavDestination?, arguments: Bundle? ->
-                if (destination != null && destination.id != R.id.premiumFragment && !App.instance!!.billingManager!!.isPremium) {
+                if (destination != null && !App.instance!!.billingManager!!.isPremium) {
                     showConsentLater = false
-                    initAdAndLoadAds()
                 }
             })
         }
@@ -121,10 +115,6 @@ class MainActivity : BaseBindingActivity<MainActivityKtBinding, MainViewModel>()
 
 
 
-    fun clearBackStack() {
-        navControllers.popBackStack(R.id.fragmentHome, false)
-    }
-
     @RequiresApi(Build.VERSION_CODES.M)
     @SuppressLint("CommitPrefEdits")
     override fun setupData() {
@@ -135,21 +125,6 @@ class MainActivity : BaseBindingActivity<MainActivityKtBinding, MainViewModel>()
             Handler(Looper.getMainLooper()).postDelayed({ viewModel!!.loadEmojiFromJson() }, 100)
             mPrefs!!.edit().putBoolean(CHECK_LOAD_UPDATE_NEW_PHASE7, true).apply()
         }
-        viewModel?.mLiveDataNextAfterAds?.observe(this, Observer {
-            it?.let {
-                val detailObject = viewModel?.mLiveDataDetailObject?.value
-                if (detailObject != null) {
-                    if (detailObject is Sticker) {
-                        changeStartScreen(R.id.detailStickerFragment, null)
-                    } else if (detailObject is ThemeObject) {
-                        changeStartScreen(R.id.detailThemeFragment, null)
-                    } else if (detailObject is ItemFont) {
-                        changeStartScreen(R.id.detailFontFragment, null)
-                    }
-                }
-                viewModel?.mLiveDataNextAfterAds?.postValue(null)
-            }
-        })
 
         viewModel?.mLiveEventScreen?.observe(this) {
             changeStartScreen(it.key, null)
@@ -162,7 +137,7 @@ class MainActivity : BaseBindingActivity<MainActivityKtBinding, MainViewModel>()
                     App.instance!!.billingManager!!.retryBillingServiceIfNeeded(this)
                 } else if (!App.instance!!.billingManager!!.isPremium && !admobInitialized
                 ) {
-                    initAdsConsentOutSidePremium()
+//                    initAdsConsentOutSidePremium()
                 }
             }
         }
@@ -226,78 +201,6 @@ class MainActivity : BaseBindingActivity<MainActivityKtBinding, MainViewModel>()
     }
 
     var countBackPress = 0;
-    override fun onBackPressed() {
-        App.instance.checkScreen = false
-        if (checkBackToHome()) {
-            val prefs = getSharedPreferences(packageName, MODE_PRIVATE)
-            if (!prefs.getBoolean(RateDialog.KEY_IS_RATE, false)) {
-                rateDialog =
-                    RateDialog(this@MainActivity, "", true, object : RateDialog.IListenerRate {
-                        override fun stateRate() {
-                            MySharePreferences.putBoolean(
-                                Constant.HIDE_RATE_APPS,
-                                true,
-                                this@MainActivity
-                            )
-                        }
-
-                        override fun resetCurrentPager() {
-                            // intent.putExtra(com.keyboard.zomj.util.Constant.KEY_OPEN_SCREEN, 0)
-                        }
-
-                    })
-                if (MySharePreferences.getBooleanValue(Constant.HIDE_RATE_APPS, this)) {
-                    showAdsBack(true)
-                } else {
-                    if (getCurrentInNavGraph() == R.id.fragmentHome) {
-                        countBackPress++
-                        if (countBackPress == 2) {
-                            finish()
-                            countBackPress = 0
-                        } else {
-                            rateDialog!!.show()
-                        }
-                    } else {
-                        changeStartScreen(R.id.fragmentHome, null)
-                    }
-
-                }
-            } else {
-                showAdsBack(false)
-            }
-        } else {
-            if (getCurrentInNavGraph() != R.id.createThemeFragment) {
-                changeStartScreen(R.id.fragmentHome, null)
-            } else {
-                super.onBackPressed()
-            }
-        }
-    }
-
-    fun showAdsBack(isFinish: Boolean) {
-        if (!App.instance!!.billingManager!!.isPremium && isLoadAdsNativeBack && getCurrentInNavGraph() == R.id.fragmentHome) {
-            if (binding?.rootLayout!!.findViewById<ConstraintLayout>(R.id.layout_ads_native_back).visibility ==
-                View.VISIBLE
-            ) {
-                binding?.rootLayout!!.findViewById<ConstraintLayout>(R.id.layout_ads_native_back).visibility =
-                    View.GONE
-            } else {
-                binding?.rootLayout!!.findViewById<ConstraintLayout>(R.id.layout_ads_native_back).visibility =
-                    View.VISIBLE
-            }
-        } else {
-            if (isFinish) {
-                finish()
-            } else {
-                if (getCurrentInNavGraph() == R.id.fragmentHome){
-                    finish()
-                }else {
-                    super.onBackPressed()
-                }
-            }
-
-        }
-    }
 
     fun getCurrentId(): Int {
         return navControllers.currentDestination!!.id
@@ -337,7 +240,6 @@ class MainActivity : BaseBindingActivity<MainActivityKtBinding, MainViewModel>()
 //            Timber.e(e)
 //        }
         App.activityResumed()
-        EventBus.getDefault().register(this)
         InterstitialAdIronSource.resumeInterstitialAdIronSource(this)
 
 
@@ -351,18 +253,7 @@ class MainActivity : BaseBindingActivity<MainActivityKtBinding, MainViewModel>()
         App.activityPaused()
 //        App.instance.mPrefs!!.edit()
 //            .putBoolean("hello", true).apply()
-        EventBus.getDefault().unregister(this)
         super.onPause()
-    }
-
-
-    @Subscribe(threadMode = ThreadMode.MAIN)
-    open fun onMessageEvent(messageEvent: MessageEvent) {
-        when (messageEvent.key) {
-            Constant.EVENT_SHOW_POLICY -> {
-                changeStartScreen(R.id.policyFragment,null)
-            }
-        }
     }
 
     fun purchaseBilling(billingModel: BillingModel?) {
@@ -398,27 +289,6 @@ class MainActivity : BaseBindingActivity<MainActivityKtBinding, MainViewModel>()
         viewModel!!.mLiveEventKeyboardShow.postValue(height)
     }
 
-    private fun checkBackToHome(): Boolean {
-        if (App.instance.getTypeEditing() == Constant.TYPE_EDIT_CUSTOMIZE) return false
-        if (navHostFragment.childFragmentManager.backStackEntryCount <= 0) {
-            return getCurrentInNavGraph() == R.id.fragmentHome
-        }
-        return true
-    }
-
-    private fun getCurrentInNavGraph(): Int {
-        try {
-            val currentDes = navControllers.currentDestination
-            return currentDes?.id ?: R.id.fragmentHome
-
-        } catch (e: java.lang.Exception) {
-            navHostFragment.apply {
-                navControllers = this.navController
-            }
-            val currentDes = navControllers.currentDestination
-            return currentDes?.id ?: R.id.fragmentHome
-        }
-    }
 
     fun changeStartScreen(idStart: Int, bundle: Bundle?) {
         if (graph == null) {
@@ -545,47 +415,20 @@ class MainActivity : BaseBindingActivity<MainActivityKtBinding, MainViewModel>()
 
 
 
-    fun showDialogPermission() {
-        if (CommonUtil.checkTime()) {
-            if (!UncachedInputMethodManagerUtils.isThisImeEnabled(this, App.instance.mImm)) {
-                if (dialogPermission == null) {
-                    dialogPermission = DialogPermission(this)
-                    dialogPermission?.setListenerPermission(this)
-                }
-                if (!isFinishing) {
-                    dialogPermission!!.show()
-                }
-            } else {
-                changeStartScreen(R.id.activateKeyboardFragment, null)
-            }
-        }
-    }
-
     override fun enabledView() {
 
     }
 
     override fun accept() {
-        dialogPermission?.dismiss()
-        changeStartScreen(R.id.activateKeyboardFragment, null)
     }
 
     override fun onWindowFocusChanged(hasFocus: Boolean) {
         super.onWindowFocusChanged(hasFocus)
         if (hasFocus) {
-            EventBus.getDefault().post(MessageEvent(Constant.ACTION_CHANGE_STATE_ACTIVATE_KEYBOARD))
+//            EventBus.getDefault().post(MessageEvent(Constant.ACTION_CHANGE_STATE_ACTIVATE_KEYBOARD))
         }
     }
 
-    fun initAdsConsentOutSidePremium() {
-        val current: Fragment? = getCurrentVisibleFragment()
-        if (current != null && current is PremiumFragment) {
-            showConsentLater = true
-        } else {
-            showConsentLater = false
-            initAdAndLoadAds()
-        }
-    }
 
     fun initAdAndLoadAds() {
         if (!admobInitialized) {

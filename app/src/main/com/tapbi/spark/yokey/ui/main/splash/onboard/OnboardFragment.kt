@@ -1,4 +1,4 @@
-package com.tapbi.spark.yokey.ui.splash.onboard
+package com.tapbi.spark.yokey.ui.main.splash.onboard
 
 import android.os.Bundle
 import android.view.View
@@ -6,7 +6,7 @@ import com.tapbi.spark.yokey.R
 import com.tapbi.spark.yokey.databinding.FragmentOnboardBinding
 
 import com.tapbi.spark.yokey.ui.base.BaseBindingFragment
-import com.tapbi.spark.yokey.ui.splash.SplashViewModel
+import com.tapbi.spark.yokey.ui.main.splash.SplashViewModel
 
 
 class OnboardFragment : BaseBindingFragment<FragmentOnboardBinding, SplashViewModel>() {

@@ -3,66 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_nav"
-    app:startDestination="@id/fragmentHome">
+    app:startDestination="@id/splashFragment">
 
     <fragment
-        android:id="@+id/fragmentHome"
-        android:name="com.tapbi.spark.yokey.ui.main.home.FragmentHome"
-        android:label="FragmentHome" >
-    </fragment>
-
+        android:id="@+id/homeFragment"
+        android:name="com.tapbi.spark.yokey.ui.main.home.HomeFragment"
+        android:label="HomeFragment" />
     <fragment
-        android:id="@+id/createThemeFragment"
-        android:name="com.tapbi.spark.yokey.ui.main.customize.CreateThemeFragment"
-        android:label="CreateThemeFragment" >
-    </fragment>
-
-    <dialog
-        android:id="@+id/premiumFragment"
-        android:name="com.tapbi.spark.yokey.ui.main.premium.PremiumFragment"
-        android:label="fragment_premium"
-        tools:layout="@layout/fragment_premium" >
-    </dialog>
+        android:id="@+id/onboardFragment"
+        android:name="com.tapbi.spark.yokey.ui.main.splash.onboard.OnboardFragment"
+        android:label="OnboardFragment" />
     <fragment
-        android:id="@+id/cropFragment"
-        android:name="com.tapbi.spark.yokey.ui.main.crop.CropFragment"
-        android:label="CropFragment" />
-    <fragment
-        android:id="@+id/keyboardLanguageFragment"
-        android:name="com.tapbi.spark.yokey.ui.main.home.kblanguage.KeyboardLanguageFragment"
-        android:label="KeyboardLanguageFragment" />
-    <fragment
-        android:id="@+id/languageFragment"
-        android:name="com.tapbi.spark.yokey.ui.main.language.LanguageFragment"
-        android:label="LanguageFragment" />
-    <fragment
-        android:id="@+id/policyFragment"
-        android:name="com.tapbi.spark.yokey.ui.main.home.policy.PolicyFragment"
-        android:label="PolicyFragment" />
-
-    <fragment
-        android:id="@+id/tryKeyboardFragment"
-        android:name="com.tapbi.spark.yokey.ui.main.trykeyboard.TryKeyboardFragment"
-        android:label="TryKeyboardFragment" />
-
-    <dialog
-        android:id="@+id/activateKeyboardFragment"
-        android:name="com.tapbi.spark.yokey.ui.main.activatekeyboard.ActivateKeyboardFragment"
-        android:label="ActivateKeyboardFragment"/>
-
-    <dialog
-        android:id="@+id/detailStickerFragment"
-        android:name="com.tapbi.spark.yokey.ui.main.detailsticker.DetailStickerFragment"
-        android:label="DetailStickerDialogFragment" />
-
-    <dialog
-        android:id="@+id/detailThemeFragment"
-        android:name="com.tapbi.spark.yokey.ui.main.detailtheme.DetailThemeFragment"
-        android:label="DetailThemeFragment" />
-    <dialog
-        android:id="@+id/detailFontFragment"
-        android:name="com.tapbi.spark.yokey.ui.main.detailfont.DetailFontFragment"
-        android:label="DetailFontFragment" />
-
-
+        android:id="@+id/splashFragment"
+        android:name="com.tapbi.spark.yokey.ui.main.splash.SplashFragment"
+        android:label="SplashFragment" />
 </navigation>

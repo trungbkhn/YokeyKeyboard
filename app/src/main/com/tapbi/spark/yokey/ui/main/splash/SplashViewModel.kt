@@ -1,4 +1,4 @@
-package com.tapbi.spark.yokey.ui.splash
+package com.tapbi.spark.yokey.ui.main.splash
 
 import android.annotation.SuppressLint
 import android.content.Context

@@ -153,7 +153,6 @@ import com.tapbi.spark.yokey.ui.custom.view.CopyPasteSelectionView;
 import com.tapbi.spark.yokey.ui.custom.view.DragChangeSizeHeightKbView;
 import com.tapbi.spark.yokey.ui.custom.view.blurBg.RealtimeBlurViewKB;
 import com.tapbi.spark.yokey.ui.main.MainActivity;
-import com.tapbi.spark.yokey.ui.splash.SplashActivity;
 import com.tapbi.spark.yokey.util.CommonUtil;
 import com.tapbi.spark.yokey.util.Constant;
 import com.tapbi.spark.yokey.util.DisplayUtils;
@@ -937,6 +936,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         return Character.isLetter(code);
     }
 
+    @SuppressLint({"UnspecifiedRegisterReceiverFlag", "WrongConstant"})
     @Override
     public void onCreate() {
         EventBus.getDefault().register(this);
@@ -1369,7 +1369,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
     }
 
     public void openSetting(int keyOpenScreen, boolean isAddFont) {
-        Intent intent = new Intent(App.getInstance(), SplashActivity.class);
+        Intent intent = new Intent(App.getInstance(), MainActivity.class);
 
         if (App.isActivityVisible()) {//|| isAddFont
             intent = new Intent(App.getInstance(), MainActivity.class);

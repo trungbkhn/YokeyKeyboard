@@ -15,6 +15,8 @@ import androidx.constraintlayout.widget.Group
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.NavOptions
+import androidx.navigation.fragment.findNavController
 import com.android.inputmethod.latin.InputView
 import com.android.inputmethod.latin.utils.UncachedInputMethodManagerUtils
 import com.google.android.ads.nativetemplates.OnDecorationAds
@@ -24,10 +26,12 @@ import com.ironman.spark.billing.PremiumLiveData
 import com.ironman.trueads.multiads.InterstitialAdsLiteListener
 import com.ironman.trueads.multiads.MultiAdsControl
 import com.tapbi.spark.yokey.App
+import com.tapbi.spark.yokey.R
 import com.tapbi.spark.yokey.data.model.theme.ThemeModel
 import com.tapbi.spark.yokey.interfaces.ActiveKeyboardListener
 import com.tapbi.spark.yokey.ui.main.MainActivity
 import com.tapbi.spark.yokey.ui.main.MainViewModel
+import com.tapbi.spark.yokey.util.Utils.showDialogPermission
 import timber.log.Timber
 
 
@@ -153,7 +157,7 @@ abstract class BaseBindingFragment<B : ViewDataBinding, T : BaseViewModel> :
                     object : ActiveKeyboardListener {
                         override fun active() {
                             if (checkDoubleClick() && isResumed) {
-                                (requireActivity() as MainActivity).showDialogPermission()
+                                showDialogPermission(requireContext())
                             }
                         }
 
@@ -183,6 +187,64 @@ abstract class BaseBindingFragment<B : ViewDataBinding, T : BaseViewModel> :
                 frameLayoutAds,
                 null, null, onDecorationAds)
         }
+    }
+
+    fun popBackStack() {
+        findNavController().popBackStack()
+    }
+
+    fun popBackStack(id: Int, isInclusive: Boolean) {
+        findNavController().popBackStack(id, isInclusive)
+    }
+
+    fun navigateScreenWithSlide(bundle: Bundle?, id: Int) {
+        val navBuilder = NavOptions.Builder()
+        navBuilder.setEnterAnim(R.anim.slide_in_right)
+            .setExitAnim(R.anim.slide_out_left)
+            .setPopEnterAnim(R.anim.slide_in_left)
+            .setPopExitAnim(R.anim.slide_out_right)
+        findNavController().navigate(id, bundle, navBuilder.build())
+    }
+
+    fun navigateScreen(bundle: Bundle?, id: Int) {
+        val navBuilder = NavOptions.Builder()
+        findNavController().navigate(id, bundle, navBuilder.build())
+    }
+
+    fun navigateScreenAndPopBackStackWithSlide(
+        bundle: Bundle? = null,
+        idNavigate: Int,
+        idPopBackStack: Int,
+        inclusive: Boolean = true
+    ) {
+        val navOptions = NavOptions.Builder()
+            .setEnterAnim(R.anim.slide_in_right)
+            .setExitAnim(R.anim.slide_out_left)
+            .setPopEnterAnim(R.anim.slide_in_left)
+            .setPopExitAnim(R.anim.slide_out_right)
+            .setPopUpTo(idPopBackStack, inclusive)
+            .build()
+        findNavController().navigate(idNavigate, bundle, navOptions)
+    }
+
+    fun navigateScreenAndPopBackStack(
+        bundle: Bundle? = null,
+        idNavigate: Int,
+        idPopBackStack: Int,
+        inclusive: Boolean = true
+    ) {
+//        val navOptions = NavOptions.Builder()
+//            .setEnterAnim(R.anim.slide_in_right)
+//            .setExitAnim(R.anim.slide_out_left)
+//            .setPopEnterAnim(R.anim.slide_in_left)
+//            .setPopExitAnim(R.anim.slide_out_right)
+//            .setPopUpTo(idPopBackStack, inclusive)
+//            .build()
+        val navOptions = NavOptions.Builder()
+            .setPopUpTo(idPopBackStack, inclusive)
+            .build()
+
+        findNavController().navigate(idNavigate, bundle, navOptions)
     }
 
 }
